@@ -14,17 +14,15 @@ import {blogListing} from '@/shared/constants/blogData';
 
 export default function BlogCard() {
  return (
-   <Container maxWidth="xl">
-     <div className="tp-home-4-service-title text-center mb-60">
-       <span className="tp-section-v_2-title-pre">
-         Latest Insights
-       </span>
-       <h3 className="tp-section-title">
-         Our Recent Blog Posts <br />
-         and Articles
-       </h3>
-     </div>
-   <Box sx={{py: 8, px: 2, }}>
+  <Container maxWidth="xl">
+   <div className="tp-home-4-service-title text-center mb-60">
+    <span className="tp-section-v_2-title-pre">Latest Insights</span>
+    <h3 className="tp-section-title">
+     Our Recent Blog Posts <br />
+     and Articles
+    </h3>
+   </div>
+   <Box sx={{py: 8, px: 2}}>
     <Grid container spacing={4} justifyContent="center">
      {blogListing.courses?.slice(0, 4).map((blog) => (
       <Box
@@ -32,8 +30,8 @@ export default function BlogCard() {
         border: '1px solid',
         borderColor: 'divider',
         borderRadius: 2,
-           p: 3,
-        background:"white",
+        p: 3,
+        background: 'white',
         height: '350px',
         width: {xs: '100%', sm: '48%'},
         display: 'flex',
@@ -77,7 +75,7 @@ export default function BlogCard() {
         variant="outlined"
         color="primary"
         component={Link}
-        href={`/blogDetail/${blog.id}`}
+        href={`/blogdetail/${blog.id}`}
         fullWidth
         sx={{mt: 'auto'}}
        >

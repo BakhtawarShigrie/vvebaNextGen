@@ -1,3 +1,333 @@
+
+
+  /*=============== VARIABLES CSS ===============*/
+  :root {
+      /*========== Colors ==========*/
+      --yellow-color: 52;
+      --green-color: 116;
+      --pink-color: 300;
+      --blue-color: 216;
+      --white-color: hsl(0, 0%, 100%);
+      --black-color: hsl(0, 0%, 0%);
+
+      /*========== Font and typography ==========*/
+      --body-font: "Montserrat Alternates", serif;
+      --biggest-font-size: 2rem;
+      --big-font-size: 1.5rem;
+      --normal-font-size: .938rem;
+      --small-font-size: .813rem;
+
+      /*========== Font weight ==========*/
+      --font-regular: 400;
+      --font-semi-bold: 600;
+      --font-bold: 700;
+  }
+
+  /*========== Responsive typography ==========*/
+  @media screen and (min-width: 1150px) {
+      :root {
+          --biggest-font-size: 48px;
+          --big-font-size: 40px;
+          --normal-font-size: 16px;
+          --small-font-size: 14px;
+      }
+  }
+
+  /*=============== BASE ===============*/
+  /* * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+  } */
+/* 
+  body {
+      font-family: var(--body-font);
+      background-color: #f0f0f0;
+  } */
+
+  a {
+      text-decoration: none;
+  }
+
+  img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+  }
+
+  /*=============== REUSABLE CSS CLASSES ===============*/
+  .containerCard {
+      max-width: 1120px;
+      margin-inline: 24px;
+      padding: 32px 0;
+  }
+
+  .card-yellow {
+      --hue: var(--yellow-color);
+  }
+
+  .card-green {
+      --hue: var(--green-color);
+  }
+
+  .card-pink {
+      --hue: var(--pink-color);
+  }
+
+  .card-blue {
+      --hue: var(--blue-color);
+  }
+
+  /*=============== CARD ===============*/
+  .card {
+      position: relative;
+  }
+
+  .card__bg, 
+  .card__blur {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+
+  .card__bg {
+      object-fit: cover;
+      object-position: center;
+  }
+
+  .card__blur {
+      backdrop-filter: blur(24px);
+  }
+
+  .card__container {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 32px;
+  }
+
+  .card__article {
+      position: relative;
+      border-radius: 32px;
+      overflow: hidden;
+      height: 400px;
+  }
+
+  .card__img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 32px;
+      transition: transform .4s;
+  }
+
+  .card__shadow {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(180deg, 
+                  hsla(0, 0%, 0%, 0) 70%, 
+                  hsl(0, 0%, 0%) 100%);
+  }
+
+  .card__data {
+      color: var(--white-color);
+      position: absolute;
+      left: 24px;
+      bottom: 32px;
+      z-index: 2;
+  }
+
+  .card__name {
+      font-size: var(--big-font-size);
+      margin-bottom: 4px;
+      color: #fff;
+  }
+
+  .card__profession {
+      display: block;
+      font-size: var(--small-font-size);
+      color: #fff;
+  }
+  
+  .card__clip {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      background-color: hsl(var(--hue), 90%, 50%);
+      box-shadow: 0 0 16px 4px hsl(var(--hue), 90%, 50%);
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      font-size: 24px;
+      color: var(--black-color);
+      z-index: 5;
+      cursor: pointer;
+      transition: transform .4s;
+  }
+
+  .card__article:hover .card__img {
+      transform: scale(1.1);
+  }
+
+  /*=============== CARD INFO ===============*/
+  .info {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: hsla(0, 0%, 0%, .1);
+      backdrop-filter: blur(12px);
+      padding: 48px 24px 24px;
+      color: var(--white-color);
+      clip-path: circle(8px at 88% 9%);
+      transition: clip-path .5s ease-in-out;
+      z-index: 3;
+  }
+
+  .info__name {
+      font-size: var(--biggest-font-size);
+      margin-bottom: 8px;
+      color: #fff;
+  }
+
+  .info__description {
+      font-size: var(--small-font-size);
+      margin-bottom: 16px;
+      color: #fff;
+  }
+
+  .info__button {
+      display: inline-flex;
+      background-color: hsl(var(--hue), 90%, 50%);
+      box-shadow: 0 0 12px hsl(var(--hue), 90%, 50%);
+      padding: 8px 12px;
+      border-radius: 8px;
+      color: var(--black-color);
+      font-size: var(--small-font-size);
+      font-weight: var(--font-semi-bold);
+      transition: box-shadow .4s;
+  }
+
+  .info__button:hover {
+      box-shadow: 0 0 20px hsl(var(--hue), 90%, 50%);
+  }
+
+  .info__social {
+      position: absolute;
+      left: 24px;
+      bottom: 24px;
+      display: flex;
+      column-gap: 8px;
+  }
+
+  .info__link {
+      background-color: hsl(var(--hue), 90%, 50%);
+      box-shadow: 0 0 12px hsl(var(--hue), 90%, 50%);
+      width: 32px;
+      height: 32px;
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+      font-size: 24px;
+      color: var(--black-color);
+      transition: transform .4s;
+  }
+
+  .info__link:hover {
+      transform: translateY(-4px);
+  }
+
+  /* Rotate icon */
+  .card__article:hover .card__clip {
+      transform: rotate(-45deg);
+  }
+
+  /* Clip path animation */
+  .info:hover,
+  .card__clip:hover ~ .info {
+      clip-path: circle(100%);
+  }
+
+  /*=============== BREAKPOINTS ===============*/
+  /* For small devices */
+  @media screen and (max-width: 320px) {
+      .containerCard {
+          margin-inline: 16px;
+      }
+
+      .card__container {
+          grid-template-columns: 1fr;
+      }
+
+      .info {
+          padding: 32px 16px;
+      }
+  }
+
+  /* For medium devices */
+  @media screen and (min-width: 576px) {
+      .card__container {
+          grid-template-columns: repeat(2, 1fr);
+      }
+  }
+
+  /* For large devices */
+  @media screen and (min-width: 992px) {
+      .card__container {
+          grid-template-columns: repeat(4, 1fr);
+      }
+  }
+
+  @media screen and (min-width: 1150px) {
+      .card {
+          height: 100vh;
+          display: grid;
+          place-content: center;
+      }
+      .card__container {
+          grid-template-columns: repeat(4, 260px);
+      }
+      .card__article, 
+      .card__img {
+          border-radius: 32px;
+      }
+      .card__data {
+          left: 24px;
+          bottom: 32px;
+      }
+      .card__profession {
+          font-size: var(--normal-font-size);
+      }
+      .card__clip {
+          top: 16px;
+          right: 16px;
+      }
+
+      .info {
+          padding: 48px 24px 24px;
+      }
+      .info__description, 
+      .info__button {
+          font-size: var(--normal-font-size);
+      }
+      .info__description {
+          margin-bottom: 24px;
+      }
+      .info__social {
+          left: 24px;
+          bottom: 24px;
+          column-gap: 8px;
+      }
+  }
+/* //////////// */
 body {
 margin: 0;
 padding: 0;

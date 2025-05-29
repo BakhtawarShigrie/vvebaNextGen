@@ -173,7 +173,7 @@ function BlogCard({blog}) {
     color="text.secondary"
     sx={{
      flexGrow: 1,
-     mb: 2, 
+     mb: 2,
      textAlign: 'center',
     }}
    >
@@ -186,7 +186,7 @@ function BlogCard({blog}) {
     variant="outlined"
     color="primary"
     component={Link}
-    href={`/blogDetail/${blog.id}`}
+    href={`/blogdetail/${blog.id}`}
     fullWidth
     sx={{mt: 'auto'}}
    >
