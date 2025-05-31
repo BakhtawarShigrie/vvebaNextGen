@@ -1,0 +1,151 @@
+
+.timeline-wrapper::-webkit-scrollbar {
+ display: none;
+}
+
+.timeline-wrapper {
+ position: relative;
+ max-width: 100vw;
+ height: 88vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+ overflow-x: auto;
+}
+
+.timeline {
+ position: absolute;
+ height: 1.92px;
+ padding: 0 64px;
+ background-color: #888;
+ list-style-type: none;
+
+ --scale: 1;
+ display: flex;
+}
+
+.timeline li {
+ position: relative;
+ width: 320px;
+}
+
+.timeline li::before,
+.timeline li::after,
+.timeline li .title,
+.data {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%) scale(var(--scale));
+ transition: 0.5s ease;
+}
+
+.timeline li::before {
+ content: '';
+ top: 16px;
+ display: inline-block;
+ width: 1.92px;
+ height: 16px;
+ background-color: #888;
+}
+.timeline li:nth-child(even)::before {
+ top: -16px;
+}
+
+.timeline li:hover::before {
+ background-color: #4000ff;
+}
+
+.timeline li::after {
+ content: attr(data-date);
+ top: -54.4px;
+}
+.timeline li:nth-child(odd)::after {
+ top: 54.4px;
+}
+
+.timeline li:hover::after,
+.timeline li .title {
+ color: #4000ff;
+}
+
+.timeline li .title {
+ top: 38.4px;
+ font: 600 17.6px 'poppins', sans-serif;
+ white-space: pre;
+ opacity: 0;
+}
+
+.timeline li:nth-child(odd) > .title {
+ top: -38.4px;
+}
+
+.timeline li:hover .title {
+ opacity: 1;
+}
+
+.data {
+ width: 20.8px;
+ height: 20.8px;
+ background-color: #888;
+ color: #fff;
+ border-radius: 50%;
+
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+
+ overflow: hidden;
+ transition: 0.3s ease;
+}
+
+.timeline li:hover .data {
+ background-color: #4000ff;
+ --scale: 1.2;
+ cursor: pointer;
+ z-index: 200;
+}
+
+.data.show {
+ width: 352px;
+ height: 352px;
+ border-radius: 16px;
+ padding: 16px;
+ background-image: linear-gradient(
+  45deg,
+  #4000ff,
+  rgb(255, 0, 255)
+ );
+ box-shadow: 0 1.6px 6.4px #0004;
+ z-index: 100;
+}
+
+.data h3 {
+ text-transform: capitalize;
+ margin-left: 20px;
+ color: #fafafa;
+}
+.data small {
+ margin-left: 20px;
+}
+
+.data p {
+ background-color: #fff3;
+ padding: 16px;
+ border-radius: 16px;
+ color: #fafafa;
+ line-height: normal;
+}
+
+.data.show p {
+ margin-left: 0;
+}
+
+.data .close {
+ align-self: flex-start;
+ background: linear-gradient(-90deg, #4000ff, rgb(255, 0, 255));
+ padding: 8px 12px;
+ border-radius: 32px;
+ font-size: 16px;
+}

@@ -10,6 +10,7 @@ import {HomeAreaTestimonial} from '@/shared/components/home/testimonial';
 import Slider from '@/shared/components/slider';
 import Carousel from '@/shared/components/sliderComponent';
 import Education from '@/shared/components/timeline/Education/Education';
+import Timeline from '@/shared/components/timeline/Timeline';
 import { sliderData } from '@/shared/constants/slidesData';
 import { Box } from '@mui/material';
 import { useEffect } from 'react';
@@ -28,9 +29,8 @@ export default function Home() {
      }, []);
  return (
   <main>
-         {/* <Slider slides={sliderData} /> */}
-    <Carousel />
-         
+   {/* <Slider slides={sliderData} /> */}
+   <Carousel />
    <Box
     id="courses-section"
     sx={{
@@ -64,7 +64,8 @@ export default function Home() {
    >
     <BlogCard />
    </Box>
-   <Education />
+   {/* <Education /> */}
+   <Timeline />
   </main>
  );
 }

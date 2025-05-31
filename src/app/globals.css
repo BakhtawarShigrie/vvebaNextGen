@@ -202,6 +202,7 @@
       font-size: var(--small-font-size);
       margin-bottom: 16px;
       color: #fff;
+      line-height: normal;
   }
 
   .info__button {
