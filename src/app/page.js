@@ -7,6 +7,7 @@ import {HeroSection} from '@/shared/components/home/hero';
 import {HomeProcessArea} from '@/shared/components/home/process';
 import {HomeAreaService} from '@/shared/components/home/service';
 import {HomeAreaTestimonial} from '@/shared/components/home/testimonial';
+import SeminarBookingForm from '@/shared/components/seminarBookingForm/SeminarBooking';
 import Slider from '@/shared/components/slider';
 import Carousel from '@/shared/components/sliderComponent';
 import Education from '@/shared/components/timeline/Education/Education';
@@ -65,7 +66,8 @@ export default function Home() {
     <BlogCard />
    </Box>
    {/* <Education /> */}
-   <Timeline />
+         <Timeline />
+         {/* <SeminarBookingForm /> */}
   </main>
  );
 }

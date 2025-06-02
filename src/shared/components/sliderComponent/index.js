@@ -2,6 +2,7 @@
 import React, {useState, useEffect, useRef} from 'react';
 import Image from 'next/image';
 import RippleButtonEffect from '../rippleButtonEffect';
+import {useRouter} from 'next/navigation';
 
 import {
     Box,
@@ -41,10 +42,13 @@ const FullScreenDialog = styled(Dialog)(({theme}) => ({
 }));
 
 const Carousel = () => {
+  const router = useRouter()
  const [items, setItems] = useState([
   {
    id: 1,
    image: '/assets/image/img1.jpg',
+   videoLink:
+    'https://www.youtube.com/embed/FUiu-cdu6mA?si=6ykPCneK0usCEYoH&amp;controls=0',
    author: 'LUNDEV',
    title: 'DESIGN SLIDER',
    topic: 'ANIMAL',
@@ -54,6 +58,8 @@ const Carousel = () => {
   {
    id: 2,
    image: '/assets/image/img2.jpg',
+   videoLink:
+    'https://www.youtube.com/embed/U-nlSTGY6hw?si=zsdECXzqwhtdHD7q&amp;controls=0',
    author: 'HUSNAIN',
    title: 'DESIGN SERVER',
    topic: 'ANIMAL',
@@ -63,6 +69,8 @@ const Carousel = () => {
   {
    id: 3,
    image: '/assets/image/img3.jpg',
+   videoLink:
+    'https://www.youtube.com/embed/FUiu-cdu6mA?si=6ykPCneK0usCEYoH&amp;controls=0',
    author: 'FAWAD',
    title: 'DESIGN APP',
    topic: 'ANIMAL',
@@ -72,6 +80,8 @@ const Carousel = () => {
   {
    id: 4,
    image: '/assets/image/img4.jpg',
+   videoLink:
+    'https://www.youtube.com/embed/FUiu-cdu6mA?si=6ykPCneK0usCEYoH&amp;controls=0',
    author: 'BAKHTAWAR',
    title: 'DESIGN GRAPHICS',
    topic: 'ANIMAL',
@@ -185,15 +195,13 @@ const Carousel = () => {
        <div className="des">{item.description}</div>
        <div className="buttons">
         <RippleButtonEffect />
-        <button className="ripple-button">SEE MORE</button>
+        <button className="ripple-button" onClick={() => router.push('/seminar')}>
+         Book Seminar
+        </button>
         {/* <button className="ripple-button">Demo Video</button> */}
         <button
          className="ripple-button"
-         onClick={() =>
-          handleVideoDialog(
-           'https://www.youtube.com/embed/FUiu-cdu6mA?si=6ykPCneK0usCEYoH&amp;controls=0'
-          )
-         }
+         onClick={() => handleVideoDialog(item.videoLink)}
         >
          Demo Video
         </button>
