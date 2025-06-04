@@ -33,21 +33,6 @@ export async function POST(req) {
   });
 
   await user.save();
-
-  
-
-  const mailOptions = {
-   from: process.env.EMAIL_USER,
-   to: email,
-   subject: 'Verify Your Email',
-   html: `
-        <div>
-          <h2>Email Verification</h2>
-          <p>Your OTP code is: <strong>${otp}</strong></p>
-          <p>This code will expire in 15 minutes.</p>
-        </div>
-      `,
-  };
   sendOTPEmail(email, otp);
 
   return NextResponse.json(
