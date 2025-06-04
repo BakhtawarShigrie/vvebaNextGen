@@ -208,7 +208,7 @@ export default function Seminar() {
  };
 
  return (
-  <Container maxWidth="md" sx={{mt: 4}}>
+  <Container maxWidth="md" sx={{mt: 4, mb:6}}>
    <Paper elevation={3} sx={{p: 4}}>
     <Typography variant="h4" gutterBottom>
      Seminar Booking
@@ -232,7 +232,7 @@ export default function Seminar() {
     )}
 
     <form onSubmit={handleSubmit}>
-     <Grid container spacing={3}>
+     <Grid container spacing={3} >
       <Grid item xs={12} md={6}>
        <TextField
         inputProps={{style: style}}
@@ -342,8 +342,9 @@ export default function Seminar() {
             return (
              <TableRow key={slot}>
               <TableCell>{slot}</TableCell>
-              <TableCell>
-               {available} seats available (of {seminar?.maxCapacity || 100})
+                <TableCell>
+                  Press to Co
+               {/* {available} seats available (of {seminar?.maxCapacity || 100}) */}
               </TableCell>
               <TableCell>
                <Button
