@@ -1,8 +1,7 @@
 'use client';
 
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import {useRouter} from 'next/navigation';
-
 import {
  Container,
  Typography,
@@ -10,9 +9,12 @@ import {
  Button,
  Box,
  Alert,
+ InputAdornment,
+ IconButton,
 } from '@mui/material';
+import {Visibility, VisibilityOff} from '@mui/icons-material';
 import Link from 'next/link';
-import { useAuth } from '@/app/context/AuthContext';
+import {useAuth} from '@/app/context/AuthContext';
 
 export default function Login() {
  const router = useRouter();
@@ -21,25 +23,80 @@ export default function Login() {
   email: '',
   password: '',
  });
+ const [showPassword, setShowPassword] = useState(false);
+ const [errors, setErrors] = useState({
+  email: '',
+  password: '',
+ });
  const [error, setError] = useState('');
  const [loading, setLoading] = useState(false);
+ const [isFormValid, setIsFormValid] = useState(false);
 
  const handleChange = (e) => {
+  const {name, value} = e.target;
   setFormData({
    ...formData,
-   [e.target.name]: e.target.value,
+   [name]: value,
   });
+
+  // Validate on change
+  validateField(name, value);
  };
+
+ const validateField = (name, value) => {
+  let error = '';
+
+  switch (name) {
+   case 'email':
+    if (!value.trim()) {
+     error = 'Email is required';
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) {
+     error = 'Please enter a valid email';
+    }
+    break;
+   case 'password':
+    if (!value) {
+     error = 'Password is required';
+    } else if (value.length > 8) {
+     error = 'Password must be 8 characters or less';
+    }
+    break;
+   default:
+    break;
+  }
+
+  setErrors((prev) => ({
+   ...prev,
+   [name]: error,
+  }));
+ };
+
+ // Check if form is valid
+ useEffect(() => {
+  const isValid =
+   formData.email && formData.password && !errors.email && !errors.password;
+  setIsFormValid(isValid);
+ }, [formData, errors]);
+
  const style = {
   height: '22.5px',
   border: 'none',
  };
+
  const handleSubmit = async (e) => {
   e.preventDefault();
   setError('');
   setLoading(true);
-  
-     
+
+  // Validate all fields before submission
+  Object.keys(formData).forEach((field) => {
+   validateField(field, formData[field]);
+  });
+
+  if (!isFormValid) {
+   setLoading(false);
+   return;
+  }
 
   try {
    const response = await fetch('/api/auth/login', {
@@ -56,16 +113,15 @@ export default function Login() {
     throw new Error(data.message || 'Login failed');
    }
 
-      login(data.user, data.token);
-      
-      const { role } = data.user;
+   login(data.user, data.token);
 
-      if (role == 'user') {
-          router.push('/seminar');
-      } else {
-          router.push('/dashboard');
-      }
+   const {role} = data.user;
 
+   if (role == 'user') {
+    router.push('/seminar');
+   } else {
+    router.push('/dashboard');
+   }
   } catch (err) {
    setError(err.message);
    setLoading(false);
@@ -95,24 +151,37 @@ export default function Login() {
       name="email"
       value={formData.email}
       onChange={handleChange}
+      error={!!errors.email}
+      helperText={errors.email}
       required
      />
      <TextField
       fullWidth
       inputProps={{style: style}}
       margin="normal"
-      label="Password"
-      type="password"
+      label="Password (max 8 characters)"
+      type={showPassword ? 'text' : 'password'}
       name="password"
       value={formData.password}
       onChange={handleChange}
+      error={!!errors.password}
+      helperText={errors.password}
       required
+      InputProps={{
+       endAdornment: (
+        <InputAdornment position="end">
+         <IconButton onClick={() => setShowPassword(!showPassword)} edge="end">
+          {showPassword ? <VisibilityOff /> : <Visibility />}
+         </IconButton>
+        </InputAdornment>
+       ),
+      }}
      />
      <Button
       type="submit"
       variant="contained"
       fullWidth
-      disabled={loading}
+      disabled={loading || !isFormValid}
       sx={{mt: 3, mb: 2}}
      >
       {loading ? 'Logging in...' : 'Login'}
