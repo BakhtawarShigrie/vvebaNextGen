@@ -1,6 +1,7 @@
 'use client';
 import {useState, useEffect} from 'react';
-import {useRouter} from 'next/navigation';
+import { useRouter } from 'next/navigation';
+import {useAuth} from '@/app/context/AuthContext';
 import {
  Box,
  Typography,
@@ -23,25 +24,8 @@ import {AdapterDateFns} from '@mui/x-date-pickers/AdapterDateFns';
 import {LocalizationProvider} from '@mui/x-date-pickers/LocalizationProvider';
 import {format} from 'date-fns';
 
-const checkAdminSession = async () => {
- try {
-  const res = await fetch('/api/admin/session', {
-   credentials: 'include', // Important for cookies
-  });
-
-  if (!res.ok) {
-   throw new Error('Session check failed');
-  }
-
-  const data = await res.json();
-  return data.success;
- } catch (error) {
-  console.error('Session check error:', error);
-  return false;
- }
-};
-
 export default function AdminDashboard() {
+const {user, logout} = useAuth();
  const router = useRouter();
  const [bookings, setBookings] = useState([]);
  const [loading, setLoading] = useState(true);
@@ -54,19 +38,7 @@ export default function AdminDashboard() {
  });
 
  useEffect(() => {
-  const checkAuth = async () => {
-   try {
-    const res = await fetch('/api/admin/session');
-    const data = await res.json();
-    if (!data.success) {
-     router.push('/admin/login');
-    }
-   } catch (err) {
-    router.push('/admin/login');
-   }
-  };
 
-  checkAuth();
   fetchBookings();
  }, [pagination.page, pagination.limit, dateFilter]);
 
@@ -74,7 +46,7 @@ export default function AdminDashboard() {
   try {
    setLoading(true);
 
-   let url = `/api/admin?page=${pagination.page + 1}&limit=${pagination.limit}`;
+   let url = `/api/auth?page=${pagination.page + 1}&limit=${pagination.limit}`;
    if (dateFilter) {
     url += `&date=${dateFilter.toISOString()}`;
    }
@@ -110,14 +82,7 @@ export default function AdminDashboard() {
   }));
  };
 
- const handleLogout = async () => {
-  try {
-   await fetch('/api/admin/logout', {method: 'POST'});
-   router.push('/admin/login');
-  } catch (err) {
-   console.error('Logout error:', err);
-  }
- };
+
 
  return (
   <LocalizationProvider dateAdapter={AdapterDateFns}>
@@ -132,7 +97,7 @@ export default function AdminDashboard() {
       }}
      >
       <Typography variant="h4">Seminar Bookings</Typography>
-      <Button variant="contained" color="error" onClick={handleLogout}>
+      <Button variant="contained" color="error" onClick={logout}>
        Logout
       </Button>
      </Box>
@@ -214,3 +179,62 @@ export default function AdminDashboard() {
   </LocalizationProvider>
  );
 }
+
+
+
+// 'use client';
+
+// import {useAuth} from '@/app/context/AuthContext';
+// import {
+//  Container,
+//  Typography,
+//  Button,
+//  Box,
+//  Card,
+//  CardContent,
+// } from '@mui/material';
+
+// export default function Dashboard() {
+//  const {user, logout} = useAuth();
+
+//  return (
+//   <Container maxWidth="md">
+//    <Box
+//     sx={{
+//      mt: 4,
+//      display: 'flex',
+//      justifyContent: 'space-between',
+//      alignItems: 'center',
+//     }}
+//    >
+//     <Typography variant="h4">Dashboard</Typography>
+//     <Button variant="contained" color="error" onClick={logout}>
+//      Logout
+//     </Button>
+//    </Box>
+
+//    <Card sx={{mt: 4}}>
+//     <CardContent>
+//      <Typography variant="h5" gutterBottom>
+//       Welcome, {user?.name}!
+//      </Typography>
+//      <Typography variant="body1">Email: {user?.email}</Typography>
+//      <Typography variant="body1" sx={{mt: 2}}>
+//       Role: {user?.role}
+//      </Typography>
+
+//      {user?.role === 'admin' && (
+//       <Box sx={{mt: 4}}>
+//        <Typography variant="h6" color="primary">
+//         Admin Panel
+//        </Typography>
+//        <Typography variant="body1" sx={{mt: 2}}>
+//         This content is only visible to admin users.
+//        </Typography>
+//       </Box>
+//      )}
+//     </CardContent>
+//    </Card>
+//   </Container>
+//  );
+// }

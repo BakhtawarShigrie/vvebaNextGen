@@ -1,34 +1,10 @@
 import dbConnect from '@/lib/dbConnect';
-
 import Booking from '@/models/Booking';
 import {NextResponse} from 'next/server';
-import {jwtVerify} from 'jose';
-import { cookies } from 'next/headers';
 
 export async function GET(request) {
  try {
   await dbConnect();
-
-  // Check admin authentication
-  const token = cookies().get('admin_token')?.value;
-  if (!token) {
-   return NextResponse.json(
-    {success: false, message: 'Unauthorized'},
-    {status: 401}
-   );
-  }
-
-  // Verify JWT and check admin role
-  const secret = new TextEncoder().encode(process.env.JWT_SECRET);
-  const {payload} = await jwtVerify(token, secret);
-
-  if (payload.role !== 'admin') {
-   return NextResponse.json(
-    {success: false, message: 'Admin access required'},
-    {status: 403}
-   );
-  }
-
   // Get query parameters for filtering
   const {searchParams} = new URL(request.url);
   const date = searchParams.get('date');

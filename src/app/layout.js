@@ -12,6 +12,7 @@ import './globals.css';
 import Script from 'next/script';
 import {Header} from '@/shared/components/layout/header';
 import { Footer } from '@/shared/components/layout/footer';
+import { AuthProvider } from './context/AuthContext';
 
 const inter = Inter({subsets: ['latin']});
 
@@ -22,28 +23,30 @@ export const metadata = {
 
 export default function RootLayout({children}) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <Header />
-        {children}
-        <Footer />
-      </body>
-      <Script async defer src="/assets/js/vendor/jquery.js" />
-      <Script async defer src="/assets/js/vendor/waypoints.js" />
-      <Script async defer src="/assets/js/bootstrap-bundle.js" />
-      <Script async defer src="/assets/js/meanmenu.js" />
-      <Script async defer src="/assets/js/swiper-bundle.js" />
-      <Script async defer src="/assets/js/slick.js" />
-      <Script async defer src="/assets/js/range-slider.js" />
-      <Script async defer src="/assets/js/magnific-popup.js" />
-      <Script async defer src="/assets/js/nice-select.js" />
-      <Script async defer src="/assets/js/purecounter.js" />
-      <Script async defer src="/assets/js/countdown.js" />
-      <Script async defer src="/assets/js/wow.js" />
-      <Script async defer src="/assets/js/isotope-pkgd.js" />
-      <Script async defer src="/assets/js/imagesloaded-pkgd.js" />
-      <Script async defer src="/assets/js/ajax-form.js" />
-      <Script async defer src="/assets/js/main.js" />
-    </html>
+   <html lang="en">
+    <body className={inter.className}>
+     <AuthProvider>
+      <Header />
+      {children}
+      <Footer />
+     </AuthProvider>
+    </body>
+    <Script async defer src="/assets/js/vendor/jquery.js" />
+    <Script async defer src="/assets/js/vendor/waypoints.js" />
+    <Script async defer src="/assets/js/bootstrap-bundle.js" />
+    <Script async defer src="/assets/js/meanmenu.js" />
+    <Script async defer src="/assets/js/swiper-bundle.js" />
+    <Script async defer src="/assets/js/slick.js" />
+    <Script async defer src="/assets/js/range-slider.js" />
+    <Script async defer src="/assets/js/magnific-popup.js" />
+    <Script async defer src="/assets/js/nice-select.js" />
+    <Script async defer src="/assets/js/purecounter.js" />
+    <Script async defer src="/assets/js/countdown.js" />
+    <Script async defer src="/assets/js/wow.js" />
+    <Script async defer src="/assets/js/isotope-pkgd.js" />
+    <Script async defer src="/assets/js/imagesloaded-pkgd.js" />
+    <Script async defer src="/assets/js/ajax-form.js" />
+    <Script async defer src="/assets/js/main.js" />
+   </html>
   );
 }

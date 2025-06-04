@@ -1,62 +1,65 @@
-
-
+import {sendOTPEmail} from '@/lib/emailService';
+import {NextResponse} from 'next/server';
 import dbConnect from '@/lib/dbConnect';
 import User from '@/models/User';
-import {SignJWT} from 'jose';
-import {cookies} from 'next/headers';
+import {v4 as uuidv4} from 'uuid';
 
-await dbConnect();
-export async function POST(request) {
-    const reqBody = await request.json();
-
+// Enable only POST method
+export async function POST(req) {
  try {
-  const {name, email, phone, cnic, password} = reqBody;
+  await dbConnect();
 
-  // Check if user exists
-  const existingUser = await User.findOne({$or: [{email}, {cnic}]});
+  const body = await req.json();
+  const {name, email, password, role = 'user'} = body;
+
+  // Check if user already exists
+  const existingUser = await User.findOne({email});
   if (existingUser) {
-   return Response.json(
-    {
-     success: false,
-     message: 'User already exists with this email or CNIC',
-    },
-    {status: 400}
-   );
+   return NextResponse.json({message: 'User already exists'}, {status: 400});
   }
 
-  // Create new user
-  const user = new User({name, email, phone, cnic, password});
+  // Generate OTP
+  const otp = uuidv4().substring(0, 6);
+  const otpExpires = new Date(Date.now() + 15 * 60 * 1000); // 15 minutes
+
+  // Create user
+  const user = new User({
+   name,
+   email,
+   password,
+   role,
+   otp,
+   otpExpires,
+  });
+
   await user.save();
 
-  // Create token
-  const secret = new TextEncoder().encode(process.env.JWT_SECRET);
-  const token = await new SignJWT({id: user._id})
-   .setProtectedHeader({alg: 'HS256'})
-   .setExpirationTime('30d')
-   .sign(secret);
+  
 
-  // Set cookie
-  cookies().set('token', token, {
-   httpOnly: true,
-   secure: process.env.NODE_ENV === 'production',
-   maxAge: 30 * 24 * 60 * 60,
-   sameSite: 'strict',
-   path: '/',
-  });
+  const mailOptions = {
+   from: process.env.EMAIL_USER,
+   to: email,
+   subject: 'Verify Your Email',
+   html: `
+        <div>
+          <h2>Email Verification</h2>
+          <p>Your OTP code is: <strong>${otp}</strong></p>
+          <p>This code will expire in 15 minutes.</p>
+        </div>
+      `,
+  };
+  sendOTPEmail(email, otp);
 
-  return Response.json({
-   success: true,
-   user: {
-    id: user._id,
-    name: user.name,
-    email: user.email,
-    role: user.role,
+  return NextResponse.json(
+   {
+    message:
+     'User registered successfully. Please check your email for verification.',
+    userId: user._id,
    },
-  });
- } catch (error) {
-  return Response.json(
-   {success: false, message: 'Server error'},
-   {status: 500}
+   {status: 201}
   );
+ } catch (error) {
+  console.error(error);
+  return NextResponse.json({message: 'Server error'}, {status: 500});
  }
 }

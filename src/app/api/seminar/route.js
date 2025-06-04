@@ -2,27 +2,13 @@ import dbConnect from '@/lib/dbConnect';
 import Seminar from '@/models/Seminar';
 import Booking from '@/models/Booking';
 import mongoose from 'mongoose';
-import {jwtVerify} from 'jose';
-import {cookies} from 'next/headers';
 import {NextResponse} from 'next/server';
 
 await dbConnect();
 
+// Get seminars for the next 30 days
 export async function GET() {
-
  try {
-  const token = cookies().get('token')?.value;
-  if (!token) {
-   return NextResponse.json(
-    {success: false, message: 'Unauthorized'},
-    {status: 401}
-   );
-  }
-
-  const secret = new TextEncoder().encode(process.env.JWT_SECRET);
-  await jwtVerify(token, secret);
-
-  // Get seminars for next 30 days
   const startDate = new Date();
   const endDate = new Date();
   endDate.setDate(startDate.getDate() + 30);
@@ -33,6 +19,7 @@ export async function GET() {
 
   return NextResponse.json({success: true, data: seminars});
  } catch (error) {
+  console.error('GET error:', error);
   return NextResponse.json(
    {success: false, message: 'Server error'},
    {status: 500}
@@ -40,78 +27,41 @@ export async function GET() {
  }
 }
 
+// Book a seminar
 export async function POST(request) {
  try {
   await dbConnect();
 
-  // Authentication check
-  const token = cookies().get('token')?.value;
-  if (!token) {
-   return NextResponse.json(
-    {success: false, message: 'Unauthorized'},
-    {status: 401}
-   );
-  }
-
-  // Verify JWT
-  const secret = new TextEncoder().encode(process.env.JWT_SECRET);
-  const {payload} = await jwtVerify(token, secret);
-
-  // Convert payload.id to proper ObjectId
-  let userId;
-  try {
-   // Handle both string and buffer cases
-   if (typeof payload.id === 'string') {
-    userId = new mongoose.Types.ObjectId(payload.id);
-   } else if (payload.id?.buffer) {
-    userId = new mongoose.Types.ObjectId(
-     Buffer.from(Object.values(payload.id.buffer))
-    );
-   } else {
-    throw new Error('Invalid user ID format');
-   }
-  } catch (error) {
-   return NextResponse.json(
-    {success: false, message: 'Invalid user ID format'},
-    {status: 400}
-   );
-  }
-
-  // Parse request body
   const body = await request.json();
-  if (!body.date || !body.timeSlot) {
+  const {userId, date, timeSlot} = body;
+
+  if (!userId || !date || !timeSlot) {
    return NextResponse.json(
-    {success: false, message: 'Missing date or timeSlot'},
+    {success: false, message: 'Missing userId, date, or timeSlot'},
     {status: 400}
    );
   }
 
-  // Start transaction
   const session = await mongoose.startSession();
   session.startTransaction();
 
   try {
-   // Check if seminar exists or create new one
-   let seminar = await Seminar.findOne(
-    {date: new Date(body.date), timeSlot: body.timeSlot},
-    null,
-    {session}
-   );
+   // Check or create seminar
+   let seminar = await Seminar.findOne({date: new Date(date), timeSlot}, null, {
+    session,
+   });
 
    if (!seminar) {
     seminar = new Seminar({
-     date: new Date(body.date),
-     timeSlot: body.timeSlot,
+     date: new Date(date),
+     timeSlot,
     });
     await seminar.save({session});
    }
 
-   // Check if user already booked
+   // Already booked?
    const existingBooking = await Booking.findOne(
-    {
-     user: userId,
-     seminar: seminar._id,
-    },
+    {user: userId, seminar: seminar._id},
     null,
     {session}
    );
@@ -124,7 +74,7 @@ export async function POST(request) {
     );
    }
 
-   // Check capacity
+   // Check seminar capacity
    if (seminar.attendees.length >= seminar.maxCapacity) {
     await session.abortTransaction();
     return NextResponse.json(
@@ -140,7 +90,6 @@ export async function POST(request) {
    });
    await booking.save({session});
 
-   // Add user to seminar attendees
    seminar.attendees.push(userId);
    await seminar.save({session});
 

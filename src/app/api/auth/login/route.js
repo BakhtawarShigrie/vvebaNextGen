@@ -1,58 +1,51 @@
-
+import {NextResponse} from 'next/server';
 import dbConnect from '@/lib/dbConnect';
 import User from '@/models/User';
-import {SignJWT} from 'jose';
-import {cookies} from 'next/headers';
+import jwt from 'jsonwebtoken';
 
-export async function POST(request) {
- await dbConnect();
-
+export async function POST(req) {
  try {
-  const {email, password} = await request.json();
+  await dbConnect();
+
+  const {email, password} = await req.json();
 
   const user = await User.findOne({email});
   if (!user) {
-   return Response.json(
-    {success: false, message: 'Invalid credentials'},
-    {status: 401}
-   );
+   return NextResponse.json({message: 'Invalid credentials'}, {status: 401});
   }
 
   const isMatch = await user.comparePassword(password);
   if (!isMatch) {
-   return Response.json(
-    {success: false, message: 'Invalid credentials'},
+   return NextResponse.json({message: 'Invalid credentials'}, {status: 401});
+  }
+
+  if (!user.isVerified) {
+   return NextResponse.json(
+    {message: 'Please verify your email first'},
     {status: 401}
    );
   }
 
-  const secret = new TextEncoder().encode(process.env.JWT_SECRET);
-  const token = await new SignJWT({id: user._id})
-   .setProtectedHeader({alg: 'HS256'})
-   .setExpirationTime('30d')
-   .sign(secret);
-
-  cookies().set('token', token, {
-   httpOnly: true,
-   secure: process.env.NODE_ENV === 'production',
-   maxAge: 30 * 24 * 60 * 60,
-   sameSite: 'strict',
-   path: '/',
-  });
-
-  return Response.json({
-   success: true,
-   user: {
-    id: user._id,
-    name: user.name,
-    email: user.email,
-    role: user.role,
-   },
-  });
- } catch (error) {
-  return Response.json(
-   {success: false, message: 'Server error'},
-   {status: 500}
+  const token = jwt.sign(
+   {userId: user._id, role: user.role},
+   process.env.JWT_SECRET,
+   {expiresIn: '1d'}
   );
+
+  return NextResponse.json(
+   {
+    token,
+    user: {
+     id: user._id,
+     name: user.name,
+     email: user.email,
+     role: user.role,
+    },
+   },
+   {status: 200}
+  );
+ } catch (error) {
+  console.error(error);
+  return NextResponse.json({message: 'Server error'}, {status: 500});
  }
 }
