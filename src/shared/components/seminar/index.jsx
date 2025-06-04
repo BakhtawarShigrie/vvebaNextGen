@@ -1,30 +1,26 @@
 'use client';
 import {useState, useEffect} from 'react';
+import {format, isTuesday, isThursday, isSaturday, addDays} from 'date-fns';
+import {useRouter} from 'next/navigation';
 import {
+ Alert,
  TextField,
  Button,
- Container,
- Typography,
- Paper,
- Grid,
- Alert,
  Table,
  TableBody,
  TableCell,
  TableContainer,
  TableHead,
  TableRow,
+ Typography,
+ Paper,
+ Box,
+ Container,
 } from '@mui/material';
 import {AdapterDateFns} from '@mui/x-date-pickers/AdapterDateFns';
 import {LocalizationProvider, DatePicker} from '@mui/x-date-pickers';
-import {format, isTuesday, isThursday, isSaturday, addDays} from 'date-fns';
-import {useRouter} from 'next/navigation';
 
 export default function Seminar() {
- const style = {
-  height: '22.5px',
-  border: 'none',
- };
  const router = useRouter();
  const [formData, setFormData] = useState({
   name: '',
@@ -34,6 +30,10 @@ export default function Seminar() {
   date: null,
   slot: '',
  });
+ const style = {
+  height: '22.5px',
+  border: 'none',
+ };
  const [errors, setErrors] = useState({});
  const [availableDates, setAvailableDates] = useState([]);
  const [availableSlots, setAvailableSlots] = useState([]);
@@ -41,17 +41,14 @@ export default function Seminar() {
  const [success, setSuccess] = useState(false);
  const [capacityReached, setCapacityReached] = useState(false);
  const [seminars, setSeminars] = useState([]);
-  const [isFormValid, setIsFormValid] = useState(false);
-  const [userId, setUserId] = useState(null);
+ const [isFormValid, setIsFormValid] = useState(false);
+ const [userId, setUserId] = useState(null);
 
-  useEffect(() => {
-   const getUser = localStorage.getItem('user');
-    const { id, name, email } = JSON.parse(getUser)
-    setUserId(id)
-    // console.log(name , email);
-  }, []);
-
- 
+ useEffect(() => {
+  const getUser = localStorage.getItem('user');
+  const {id, name, email} = JSON.parse(getUser);
+  setUserId(id);
+ }, []);
 
  // Fetch seminars
  useEffect(() => {
@@ -208,7 +205,7 @@ export default function Seminar() {
  };
 
  return (
-  <Container maxWidth="md" sx={{mt: 4, mb:6}}>
+  <Container maxWidth="md" sx={{mt: 4, mb: 6}}>
    <Paper elevation={3} sx={{p: 4}}>
     <Typography variant="h4" gutterBottom>
      Seminar Booking
@@ -216,7 +213,6 @@ export default function Seminar() {
 
     <Typography variant="body1" gutterBottom sx={{mb: 3}}>
      Seminars are held every Tuesday, Thursday, and Saturday from 2PM to 5PM.
-     Each seminar has a maximum capacity of 100 attendees.
     </Typography>
 
     {capacityReached && (
@@ -232,8 +228,8 @@ export default function Seminar() {
     )}
 
     <form onSubmit={handleSubmit}>
-     <Grid container spacing={3} >
-      <Grid item xs={12} md={6}>
+     <div className="row mb-3">
+      <div className="col-md-6 mb-3">
        <TextField
         inputProps={{style: style}}
         fullWidth
@@ -245,9 +241,9 @@ export default function Seminar() {
         helperText={errors.name}
         required
        />
-      </Grid>
+      </div>
 
-      <Grid item xs={12} md={6}>
+      <div className="col-md-6 mb-3">
        <TextField
         fullWidth
         inputProps={{style: style}}
@@ -260,23 +256,11 @@ export default function Seminar() {
         helperText={errors.email}
         required
        />
-      </Grid>
+      </div>
+     </div>
 
-      <Grid item xs={12} md={6}>
-       <TextField
-        inputProps={{style: style}}
-        fullWidth
-        label="Phone Number"
-        name="phone"
-        value={formData.phone}
-        onChange={(e) => handleChange('phone', e.target.value)}
-        error={!!errors.phone}
-        helperText={errors.phone}
-        required
-       />
-      </Grid>
-
-      <Grid item xs={12} md={6}>
+     <div className="row mb-3">
+      <div className="col-md-6 mb-3">
        <TextField
         inputProps={{style: style}}
         fullWidth
@@ -288,9 +272,25 @@ export default function Seminar() {
         helperText={errors.cnic}
         required
        />
-      </Grid>
+      </div>
 
-      <Grid item xs={12} md={6}>
+      <div className="col-md-6 mb-3">
+       <TextField
+        inputProps={{style: style}}
+        fullWidth
+        label="Phone Number"
+        name="phone"
+        value={formData.phone}
+        onChange={(e) => handleChange('phone', e.target.value)}
+        error={!!errors.phone}
+        helperText={errors.phone}
+        required
+       />
+      </div>
+     </div>
+
+     <div className="row mb-4">
+      <div className="col-md-4">
        <LocalizationProvider dateAdapter={AdapterDateFns}>
         <DatePicker
          label="Select Date"
@@ -310,73 +310,74 @@ export default function Seminar() {
          )}
         />
        </LocalizationProvider>
-      </Grid>
+      </div>
 
-      {formData.date && (
-       <Grid item xs={12}>
-        <Typography variant="h6" gutterBottom>
-         Available Time Slots
-        </Typography>
+      <div className="col-md-8">
+       {/* Availability Section */}
+       {formData.date && (
+        <Box>
+         <Typography variant="h6" gutterBottom>
+          Available Time Slots
+         </Typography>
 
-        <TableContainer component={Paper} sx={{mb: 3}}>
-         <Table>
-          <TableHead>
-           <TableRow>
-            <TableCell>Time Slot</TableCell>
-            <TableCell>Availability</TableCell>
-            <TableCell>Action</TableCell>
-           </TableRow>
-          </TableHead>
-          <TableBody>
-           {availableSlots.map((slot) => {
-            const dateKey = format(formData.date, 'yyyy-MM-dd');
-            const seminar = seminars.find(
-             (s) =>
-              format(s.date, 'yyyy-MM-dd') === dateKey && s.timeSlot === slot
-            );
+         <TableContainer component={Paper}>
+          <Table>
+           <TableHead>
+            <TableRow>
+             <TableCell>Time Slot</TableCell>
+             <TableCell></TableCell>
+             <TableCell>Action</TableCell>
+            </TableRow>
+           </TableHead>
+           <TableBody>
+            {availableSlots.map((slot) => {
+             const dateKey = format(formData.date, 'yyyy-MM-dd');
+             const seminar = seminars.find(
+              (s) =>
+               format(s.date, 'yyyy-MM-dd') === dateKey && s.timeSlot === slot
+             );
 
-            const available = seminar
-             ? seminar.maxCapacity - seminar.attendees.length
-             : 100;
+             const available = seminar
+              ? seminar.maxCapacity - seminar.attendees.length
+              : 100;
 
-            return (
-             <TableRow key={slot}>
-              <TableCell>{slot}</TableCell>
-                <TableCell>
-                  Press to Co
-               {/* {available} seats available (of {seminar?.maxCapacity || 100}) */}
-              </TableCell>
-              <TableCell>
-               <Button
-                variant={formData.slot === slot ? 'contained' : 'outlined'}
-                onClick={() => {
-                 setFormData((prev) => ({...prev, slot}));
-                }}
-                disabled={available <= 0}
-               >
-                {available <= 0 ? 'Fully Booked' : 'Select'}
-               </Button>
-              </TableCell>
-             </TableRow>
-            );
-           })}
-          </TableBody>
-         </Table>
-        </TableContainer>
-       </Grid>
-      )}
+             return (
+              <TableRow key={slot}>
+               <TableCell>{slot}</TableCell>
+               <TableCell style={{color:"green"}}>Press to Confirm </TableCell>
+               <TableCell>
+                <Button
+                 variant={formData.slot === slot ? 'contained' : 'outlined'}
+                 onClick={() => {
+                  setFormData((prev) => ({...prev, slot}));
+                 }}
+                 disabled={available <= 0}
+                >
+                 {available <= 0 ? 'Fully Booked' : 'confirm'}
+                </Button>
+               </TableCell>
+              </TableRow>
+             );
+            })}
+           </TableBody>
+          </Table>
+         </TableContainer>
+        </Box>
+       )}
+      </div>
+     </div>
 
-      <Grid item xs={12}>
-       <Button
-        type="submit"
-        variant="contained"
-        size="large"
-        disabled={isSubmitting || !isFormValid}
-       >
-        {isSubmitting ? 'Submitting...' : 'Book Seminar'}
-       </Button>
-      </Grid>
-     </Grid>
+     <Box sx={{mt: 3, mb: 3}}>
+      <Button
+       type="submit"
+       variant="contained"
+       size="large"
+       disabled={isSubmitting || !isFormValid}
+       fullWidth
+      >
+       {isSubmitting ? 'Submitting...' : 'Book Seminar'}
+      </Button>
+     </Box>
     </form>
    </Paper>
   </Container>
