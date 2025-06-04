@@ -13,7 +13,8 @@ export const HomeAreaAbout = () => {
         backgroundSize: 'cover',
         position: 'relative',
         zIndex: 1,
-        padding: '100px 0'
+        padding: '100px 0',
+        height: "120vh"
       }}
     >
       {/* Overlay for better text readability */}

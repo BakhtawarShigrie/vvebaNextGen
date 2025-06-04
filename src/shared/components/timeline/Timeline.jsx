@@ -1,10 +1,10 @@
 'use client';
 import {useState} from 'react';
-
 import '@/app/css/style.css';
 import RippleButtonEffect from '../rippleButtonEffect';
+
 export default function Timeline() {
- const [activeEvent, setActiveEvent] = useState(null);
+ const [activeEvents, setActiveEvents] = useState([]);
 
  const events = [
   {
@@ -45,7 +45,9 @@ export default function Timeline() {
  ];
 
  const toggleEvent = (index) => {
-  setActiveEvent(activeEvent === index ? null : index);
+  setActiveEvents((prev) =>
+   prev.includes(index) ? prev.filter((i) => i !== index) : [...prev, index]
+  );
  };
 
  const handleMouseMove = (e) => {
@@ -60,10 +62,10 @@ export default function Timeline() {
  };
 
  return (
-  <section style={{padding:"60px 0"}}>
-   <div className="tp-home-4-service-title text-center" style={{marginBottom: "-40px"}}>
-    <span className="tp-section-v_2-title-pre">My Learning Journey</span>
-    <h3 className="tp-section-title">Key milestones and Timeline</h3>
+  <section className="timeline-section">
+   <div className="timeline-header text-center">
+    <span className="timeline-subtitle">My Learning Journey</span>
+    <h3 className="timeline-title">Key milestones and Timeline</h3>
    </div>
    <div className="timeline-wrapper" onMouseMove={handleMouseMove}>
     <ul className="timeline">
@@ -71,14 +73,22 @@ export default function Timeline() {
       <li key={index} data-date={event.date}>
        <span className="title">{event.title}</span>
        <div
-        className={`data ${activeEvent === index ? 'show' : ''}`}
+        className={`data ${activeEvents.includes(index) ? 'show' : ''}`}
         onClick={() => toggleEvent(index)}
        >
         <h3>{event.heading}</h3>
         <small>{event.date}</small>
         <p>{event.description}</p>
         <RippleButtonEffect />
-        <button className="close ripple-button ">Click To Close</button>
+        <button
+         className="close ripple-button"
+         onClick={(e) => {
+          e.stopPropagation();
+          toggleEvent(index);
+         }}
+        >
+         Click To Close
+        </button>
        </div>
       </li>
      ))}

@@ -143,9 +143,48 @@
 }
 
 .data .close {
- align-self: flex-start;
- background: linear-gradient(-90deg, #4000ff, rgb(255, 0, 255));
- padding: 8px 12px;
- border-radius: 32px;
- font-size: 16px;
+    align-self: flex-start;
+    background: linear-gradient(-90deg, #4000ff, rgb(255, 0, 255));
+    padding: 8px 12px;
+    border-radius: 32px;
+    font-size: 16px;
 }
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .data h3 {
+        text-transform: capitalize;
+        margin-left: 20px;
+        font-size: 24px;
+        color: #fafafa;
+       }
+       .data small {
+        margin-left: 20px;
+       }
+       .data p {
+        font-size: 12px;
+       }
+
+       .data.show {
+        width: 300px;
+        height: 300px;
+        border-radius: 16px;
+        padding: 16px;
+        background-image: linear-gradient(
+         45deg,
+         #4000ff,
+         rgb(255, 0, 255)
+        );
+        box-shadow: 0 1.6px 6.4px #0004;
+        z-index: 100;
+       }
+       .data .close {
+        align-self: flex-start;
+        background: linear-gradient(-90deg, #4000ff, rgb(255, 0, 255));
+        padding: 4px 8px;
+        border-radius: 32px;
+        font-size: 13px;
+    }
+  }
