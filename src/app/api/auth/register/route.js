@@ -10,7 +10,7 @@ export async function POST(req) {
   await dbConnect();
 
   const body = await req.json();
-  const {name, email, password, role = 'user'} = body;
+  const {name, email, password, phone, cnic, role = 'user'} = body;
 
   // Check if user already exists
   const existingUser = await User.findOne({email});
@@ -27,6 +27,8 @@ export async function POST(req) {
    name,
    email,
    password,
+   phone,
+   cnic,
    role,
    otp,
    otpExpires,

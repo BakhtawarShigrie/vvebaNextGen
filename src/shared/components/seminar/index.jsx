@@ -46,8 +46,14 @@ export default function Seminar() {
 
  useEffect(() => {
   const getUser = localStorage.getItem('user');
-  const {id, name, email} = JSON.parse(getUser);
-  setUserId(id);
+  const {id, name, email,phone,cnic} = JSON.parse(getUser);
+   setUserId(id);
+   setFormData({
+    name,
+    email,
+    phone,
+    cnic,
+   });
  }, []);
 
  // Fetch seminars

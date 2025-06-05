@@ -39,6 +39,8 @@ export async function POST(req) {
      id: user._id,
      name: user.name,
      email: user.email,
+     phone: user.phone,
+     cnic: user.cnic,
      role: user.role,
     },
    },

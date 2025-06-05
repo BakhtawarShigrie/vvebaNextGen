@@ -20,12 +20,16 @@ export default function Register() {
  const [formData, setFormData] = useState({
   name: '',
   email: '',
+  phone: '',
+  cnic: '',
   password: '',
   confirmPassword: '',
  });
  const [errors, setErrors] = useState({
   name: '',
   email: '',
+  phone: '',
+  cnic: '',
   password: '',
   confirmPassword: '',
  });
@@ -66,6 +70,23 @@ export default function Register() {
      error = 'Please enter a valid email';
     }
     break;
+
+   case 'phone':
+    if (!value.trim()) {
+     error = 'Phone number is required';
+    } else if (!/^\d{11}$/.test(value)) {
+     error = 'Phone must be 11 digits';
+    }
+    break;
+
+   case 'cnic':
+    if (!value.trim()) {
+     error = 'CNIC is required';
+    } else if (!/^\d{13}$/.test(value)) {
+     error = 'CNIC must be 13 digits';
+    }
+    break;
+
    case 'password':
     if (!value) {
      error = 'Password is required';
@@ -107,10 +128,14 @@ export default function Register() {
   const isValid =
    formData.name &&
    formData.email &&
+   formData.phone &&
+   formData.cnic &&
    formData.password &&
    formData.confirmPassword &&
    !errors.name &&
    !errors.email &&
+   !errors.phone &&
+   !errors.cnic &&
    !errors.password &&
    !errors.confirmPassword &&
    formData.password === formData.confirmPassword;
@@ -143,7 +168,9 @@ export default function Register() {
     body: JSON.stringify({
      name: formData.name,
      email: formData.email,
-     password: formData.password,
+      password: formData.password,
+      phone: formData.phone,
+     cnic: formData.cnic,
      role: 'user', // Default role since we removed the selection
     }),
    });
@@ -210,31 +237,69 @@ export default function Register() {
 
     {!showOtpForm ? (
      <form onSubmit={handleSubmit}>
-      <TextField
-       fullWidth
-       inputProps={{style: style}}
-       margin="normal"
-       label="Name"
-       name="name"
-       value={formData.name}
-       onChange={handleChange}
-       error={!!errors.name}
-       helperText={errors.name}
-       required
-      />
-      <TextField
-       fullWidth
-       inputProps={{style: style}}
-       margin="normal"
-       label="Email"
-       type="email"
-       name="email"
-       value={formData.email}
-       onChange={handleChange}
-       error={!!errors.email}
-       helperText={errors.email}
-       required
-      />
+      <div className="row mb-2">
+       <div className="col-md-6 mb-2">
+        <TextField
+         fullWidth
+         inputProps={{style: style}}
+         margin="normal"
+         label="Name"
+         name="name"
+         value={formData.name}
+         onChange={handleChange}
+         error={!!errors.name}
+         helperText={errors.name}
+         required
+        />
+       </div>
+
+       <div className="col-md-6 mb-2">
+        <TextField
+         fullWidth
+         inputProps={{style: style}}
+         margin="normal"
+         label="Email"
+         type="email"
+         name="email"
+         value={formData.email}
+         onChange={handleChange}
+         error={!!errors.email}
+         helperText={errors.email}
+         required
+        />
+       </div>
+             
+      </div>
+           
+      <div className="row mb-2">
+       <div className="col-md-6 mb-4">
+        <TextField
+         inputProps={{style: style}}
+         fullWidth
+         label="CNIC Number"
+         name="cnic"
+         value={formData.cnic}
+         onChange={handleChange}
+         error={!!errors.cnic}
+         helperText={errors.cnic}
+         required
+        />
+       </div>
+
+       <div className="col-md-6 mb-2">
+        <TextField
+         inputProps={{style: style}}
+         fullWidth
+         label="Phone Number"
+         name="phone"
+         value={formData.phone}
+         onChange={handleChange}
+         error={!!errors.phone}
+         helperText={errors.phone}
+         required
+        />
+       </div>
+      </div>
       <TextField
        fullWidth
        inputProps={{style: style}}

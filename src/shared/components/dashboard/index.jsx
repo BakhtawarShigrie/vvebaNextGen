@@ -156,7 +156,7 @@ const {user, logout} = useAuth();
               : 'N/A'}
             </TableCell>
             <TableCell>{booking.seminar?.timeSlot || 'N/A'}</TableCell>
-            <TableCell>{format(new Date(booking.createdAt), 'PPPp')}</TableCell>
+            <TableCell>{format(new Date(booking.createdAt), 'PPP')}</TableCell>
            </TableRow>
           ))}
          </TableBody>
