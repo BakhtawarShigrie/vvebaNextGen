@@ -11,6 +11,7 @@ import {
  Alert,
  InputAdornment,
  IconButton,
+ Paper,
 } from '@mui/material';
 import Link from 'next/link';
 import {Visibility, VisibilityOff} from '@mui/icons-material';
@@ -219,159 +220,163 @@ export default function Register() {
 
  return (
   <Container maxWidth="sm">
-   <Box sx={{mt: 8, mb: 4}}>
-    <Typography variant="h4" component="h1" gutterBottom>
-     Register
-    </Typography>
+   <Paper sx={{p: 2, mb: 2}}>
+    <Box sx={{mt: 4, mb: 4}}>
+     <Typography variant="h4" component="h1" gutterBottom>
+      Register
+     </Typography>
 
-    {error && (
-     <Alert severity="error" sx={{mb: 2}}>
-      {error}
-     </Alert>
-    )}
-    {success && (
-     <Alert severity="success" sx={{mb: 2}}>
-      {success}
-     </Alert>
-    )}
+     {error && (
+      <Alert severity="error" sx={{mb: 2}}>
+       {error}
+      </Alert>
+     )}
+     {success && (
+      <Alert severity="success" sx={{mb: 2}}>
+       {success}
+      </Alert>
+     )}
 
-    {!showOtpForm ? (
-     <form onSubmit={handleSubmit}>
-      <div className="row mb-2">
-       <div className="col-md-6 mb-2">
-        <TextField
-         fullWidth
-         inputProps={{style: style}}
-         margin="normal"
-         label="Name"
-         name="name"
-         value={formData.name}
-         onChange={handleChange}
-         error={!!errors.name}
-         helperText={errors.name}
-         required
-        />
+     {!showOtpForm ? (
+      <form onSubmit={handleSubmit}>
+       <div className="row mb-2">
+        <div className="col-md-6 mb-2">
+         <TextField
+          fullWidth
+          inputProps={{style: style}}
+          margin="normal"
+          label="Name"
+          name="name"
+          value={formData.name}
+          onChange={handleChange}
+          error={!!errors.name}
+          helperText={errors.name}
+          required
+         />
+        </div>
+
+        <div className="col-md-6 mb-2">
+         <TextField
+          fullWidth
+          inputProps={{style: style}}
+          margin="normal"
+          label="Email"
+          type="email"
+          name="email"
+          value={formData.email}
+          onChange={handleChange}
+          error={!!errors.email}
+          helperText={errors.email}
+          required
+         />
+        </div>
        </div>
 
-       <div className="col-md-6 mb-2">
-        <TextField
-         fullWidth
-         inputProps={{style: style}}
-         margin="normal"
-         label="Email"
-         type="email"
-         name="email"
-         value={formData.email}
-         onChange={handleChange}
-         error={!!errors.email}
-         helperText={errors.email}
-         required
-        />
-       </div>
-             
-      </div>
-           
-      <div className="row mb-2">
-       <div className="col-md-6 mb-4">
-        <TextField
-         inputProps={{style: style}}
-         fullWidth
-         label="CNIC Number"
-         name="cnic"
-         value={formData.cnic}
-         onChange={handleChange}
-         error={!!errors.cnic}
-         helperText={errors.cnic}
-         required
-        />
-       </div>
+       <div className="row mb-2">
+        <div className="col-md-6 mb-4">
+         <TextField
+          inputProps={{style: style}}
+          fullWidth
+          label="CNIC Number"
+          name="cnic"
+          value={formData.cnic}
+          onChange={handleChange}
+          error={!!errors.cnic}
+          helperText={errors.cnic}
+          required
+         />
+        </div>
 
-       <div className="col-md-6 mb-2">
-        <TextField
-         inputProps={{style: style}}
-         fullWidth
-         label="Phone Number"
-         name="phone"
-         value={formData.phone}
-         onChange={handleChange}
-         error={!!errors.phone}
-         helperText={errors.phone}
-         required
-        />
+        <div className="col-md-6 mb-2">
+         <TextField
+          inputProps={{style: style}}
+          fullWidth
+          label="Phone Number"
+          name="phone"
+          value={formData.phone}
+          onChange={handleChange}
+          error={!!errors.phone}
+          helperText={errors.phone}
+          required
+         />
+        </div>
        </div>
-      </div>
-      <TextField
-       fullWidth
-       inputProps={{style: style}}
-       margin="normal"
-       label="Password (max 8 characters)"
-       type={showPassword ? 'text' : 'password'}
-       name="password"
-       value={formData.password}
-       onChange={handleChange}
-       error={!!errors.password}
-       helperText={errors.password}
-       required
-       InputProps={{
-        endAdornment: (
-         <InputAdornment position="end">
-          <IconButton onClick={() => setShowPassword(!showPassword)} edge="end">
-           {showPassword ? <VisibilityOff /> : <Visibility />}
-          </IconButton>
-         </InputAdornment>
-        ),
-       }}
-      />
-      <TextField
-       fullWidth
-       inputProps={{style: style}}
-       margin="normal"
-       label="Confirm Password"
-       type={showPassword ? 'text' : 'password'}
-       name="confirmPassword"
-       value={formData.confirmPassword}
-       onChange={handleChange}
-       error={!!errors.confirmPassword}
-       helperText={errors.confirmPassword}
-       required
-      />
-      <Button
-       type="submit"
-       variant="contained"
-       fullWidth
-       sx={{mt: 3, mb: 2}}
-       disabled={!isFormValid}
-      >
-       Register
-      </Button>
-      <Typography>
-       Already have an account? <Link href="/login">Login</Link>
-      </Typography>
-     </form>
-    ) : (
-     <form onSubmit={handleVerify}>
-      <Typography variant="h6" gutterBottom>
-       Verify Your Email
-      </Typography>
-      <Typography paragraph>
-       We've sent an OTP to your email. Please enter it below.
-      </Typography>
-      <TextField
-       fullWidth
-       inputProps={{style: style}}
-       margin="normal"
-       label="OTP Code"
-       name="otp"
-       value={otp}
-       onChange={(e) => setOtp(e.target.value)}
-       required
-      />
-      <Button type="submit" variant="contained" fullWidth sx={{mt: 3, mb: 2}}>
-       Verify
-      </Button>
-     </form>
-    )}
-   </Box>
+       <TextField
+        fullWidth
+        inputProps={{style: style}}
+        margin="normal"
+        label="Password (max 8 characters)"
+        type={showPassword ? 'text' : 'password'}
+        name="password"
+        value={formData.password}
+        onChange={handleChange}
+        error={!!errors.password}
+        helperText={errors.password}
+        required
+        InputProps={{
+         endAdornment: (
+          <InputAdornment position="end">
+           <IconButton
+            onClick={() => setShowPassword(!showPassword)}
+            edge="end"
+           >
+            {showPassword ? <VisibilityOff /> : <Visibility />}
+           </IconButton>
+          </InputAdornment>
+         ),
+        }}
+       />
+       <TextField
+        fullWidth
+        inputProps={{style: style}}
+        margin="normal"
+        label="Confirm Password"
+        type={showPassword ? 'text' : 'password'}
+        name="confirmPassword"
+        value={formData.confirmPassword}
+        onChange={handleChange}
+        error={!!errors.confirmPassword}
+        helperText={errors.confirmPassword}
+        required
+       />
+       <Button
+        type="submit"
+        variant="contained"
+        fullWidth
+        sx={{mt: 3, mb: 2}}
+        disabled={!isFormValid}
+       >
+        Register
+       </Button>
+       <Typography>
+        Already have an account? <Link href="/login">Login</Link>
+       </Typography>
+      </form>
+     ) : (
+      <form onSubmit={handleVerify}>
+       <Typography variant="h6" gutterBottom>
+        Verify Your Email
+       </Typography>
+       <Typography paragraph>
+        We've sent an OTP to your email. Please enter it below.
+       </Typography>
+       <TextField
+        fullWidth
+        inputProps={{style: style}}
+        margin="normal"
+        label="OTP Code"
+        name="otp"
+        value={otp}
+        onChange={(e) => setOtp(e.target.value)}
+        required
+       />
+       <Button type="submit" variant="contained" fullWidth sx={{mt: 3, mb: 2}}>
+        Verify
+       </Button>
+      </form>
+     )}
+    </Box>
+   </Paper>
   </Container>
  );
 }

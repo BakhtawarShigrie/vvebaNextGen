@@ -11,6 +11,7 @@ import {
  Alert,
  InputAdornment,
  IconButton,
+ Paper,
 } from '@mui/material';
 import {Visibility, VisibilityOff} from '@mui/icons-material';
 import Link from 'next/link';
@@ -130,67 +131,69 @@ export default function Login() {
 
  return (
   <Container maxWidth="sm">
-   <Box sx={{mt: 8, mb: 4}}>
-    <Typography variant="h4" component="h1" gutterBottom>
-     Login
-    </Typography>
-
-    {error && (
-     <Alert severity="error" sx={{mb: 2}}>
-      {error}
-     </Alert>
-    )}
-
-    <form onSubmit={handleSubmit}>
-     <TextField
-      fullWidth
-      inputProps={{style: style}}
-      margin="normal"
-      label="Email"
-      type="email"
-      name="email"
-      value={formData.email}
-      onChange={handleChange}
-      error={!!errors.email}
-      helperText={errors.email}
-      required
-     />
-     <TextField
-      fullWidth
-      inputProps={{style: style}}
-      margin="normal"
-      label="Password (max 8 characters)"
-      type={showPassword ? 'text' : 'password'}
-      name="password"
-      value={formData.password}
-      onChange={handleChange}
-      error={!!errors.password}
-      helperText={errors.password}
-      required
-      InputProps={{
-       endAdornment: (
-        <InputAdornment position="end">
-         <IconButton onClick={() => setShowPassword(!showPassword)} edge="end">
-          {showPassword ? <VisibilityOff /> : <Visibility />}
-         </IconButton>
-        </InputAdornment>
-       ),
-      }}
-     />
-     <Button
-      type="submit"
-      variant="contained"
-      fullWidth
-      disabled={loading || !isFormValid}
-      sx={{mt: 3, mb: 2}}
-     >
-      {loading ? 'Logging in...' : 'Login'}
-     </Button>
-     <Typography>
-      Don't have an account? <Link href="/register">Register</Link>
+     <Paper sx={{ p:2 , mb:2}}>
+    <Box sx={{mt: 4, mb: 4}}>
+     <Typography variant="h4" component="h1" gutterBottom>
+      Login
      </Typography>
-    </form>
-   </Box>
+
+     {error && (
+      <Alert severity="error" sx={{mb: 2}}>
+       {error}
+      </Alert>
+     )}
+
+     <form onSubmit={handleSubmit}>
+      <TextField
+       fullWidth
+       inputProps={{style: style}}
+       margin="normal"
+       label="Email"
+       type="email"
+       name="email"
+       value={formData.email}
+       onChange={handleChange}
+       error={!!errors.email}
+       helperText={errors.email}
+       required
+      />
+      <TextField
+       fullWidth
+       inputProps={{style: style}}
+       margin="normal"
+       label="Password (max 8 characters)"
+       type={showPassword ? 'text' : 'password'}
+       name="password"
+       value={formData.password}
+       onChange={handleChange}
+       error={!!errors.password}
+       helperText={errors.password}
+       required
+       InputProps={{
+        endAdornment: (
+         <InputAdornment position="end">
+          <IconButton onClick={() => setShowPassword(!showPassword)} edge="end">
+           {showPassword ? <VisibilityOff /> : <Visibility />}
+          </IconButton>
+         </InputAdornment>
+        ),
+       }}
+      />
+      <Button
+       type="submit"
+       variant="contained"
+       fullWidth
+       disabled={loading || !isFormValid}
+       sx={{mt: 3, mb: 2}}
+      >
+       {loading ? 'Logging in...' : 'Login'}
+      </Button>
+      <Typography>
+       Don't have an account? <Link href="/register">Register</Link>
+      </Typography>
+     </form>
+    </Box>
+   </Paper>
   </Container>
  );
 }
