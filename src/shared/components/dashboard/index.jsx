@@ -97,25 +97,22 @@ const {user, logout} = useAuth();
       }}
      >
       <Typography variant="h4">Seminar Bookings</Typography>
-      <Button variant="contained" color="error" onClick={logout}>
-       Logout
-      </Button>
-     </Box>
 
-     <Box sx={{display: 'flex', gap: 2, mb: 3}}>
-      <DatePicker
-       label="Filter by date"
-       value={dateFilter}
-       onChange={(newValue) => setDateFilter(newValue)}
-       renderInput={(params) => <TextField {...params} />}
-      />
-      <Button
-       variant="outlined"
-       onClick={() => setDateFilter(null)}
-       disabled={!dateFilter}
-      >
-       Clear Filter
-      </Button>
+      <Box sx={{display: 'flex', gap: 2, mb: 3}}>
+       <DatePicker
+        label="Filter by date"
+        value={dateFilter}
+        onChange={(newValue) => setDateFilter(newValue)}
+        renderInput={(params) => <TextField {...params} />}
+       />
+       <Button
+        variant="outlined"
+        onClick={() => setDateFilter(null)}
+        disabled={!dateFilter}
+       >
+        Clear Filter
+       </Button>
+      </Box>
      </Box>
 
      {error && (
