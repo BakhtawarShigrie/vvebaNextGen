@@ -35,7 +35,7 @@ export function AuthProvider({children}) {
   localStorage.removeItem('token');
   setUser(null);
   setToken(null);
-  router.replace('/');
+  router.push('/');
  };
 
  const isAuthenticated = () => {
