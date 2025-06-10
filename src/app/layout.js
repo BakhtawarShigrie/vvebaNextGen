@@ -14,6 +14,7 @@ import {Header} from '@/shared/components/layout/header';
 import {Footer} from '@/shared/components/layout/footer';
 import {AuthProvider} from './context/AuthContext';
 import GoogleAnalytics from '@/shared/components/GoogleAnalytics';
+import ChatlingWidget from '@/shared/components/ChatlingWidget';
 
 /*
 <!-- Google tag (gtag.js) -->
@@ -45,6 +46,7 @@ export default function RootLayout({children}) {
      <Footer />
     </AuthProvider>
     <GoogleAnalytics />
+    <ChatlingWidget />
    </body>
    <Script async defer src="/assets/js/vendor/jquery.js" />
    <Script async defer src="/assets/js/vendor/waypoints.js" />

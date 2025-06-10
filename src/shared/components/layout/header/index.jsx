@@ -5,6 +5,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
+import LoginIcon from '@mui/icons-material/Login';
+import LogoutIcon from '@mui/icons-material/Logout';
 
 export const Header = () => {
     const router = useRouter();
@@ -27,6 +29,7 @@ export const Header = () => {
         { label: 'BootCamp Curriculum', action: () => router.push('/contact') },
         { label: 'Course Details', action: () => router.push('/contact') },
         { label: 'About Us', action: () => router.push('/contact') },
+        { label: 'Contact Us', action: () => router.push('/contact') },
         { label: 'Contact Us', action: () => router.push('/contact') },
     ];
 
@@ -51,7 +54,7 @@ export const Header = () => {
                     >
                         {/* Logo */}
                         <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                            <a href="/home">
+                            <a href="/">
                                 <Box
                                     sx={{
                                         position: 'relative',
@@ -117,7 +120,7 @@ export const Header = () => {
                                 marginBottom: 2,
                             }}
                         >
-                            <a href="/home">
+                            <a href="/">
                                 <Box
                                     sx={{
                                         position: 'relative',
