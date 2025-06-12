@@ -55,7 +55,7 @@ export const HomeAreaService = () => {
    <img src={'assets/img/img-bg.png'} alt={'image'} className="card__bg" />
    <div class="card__blur"></div>
 
-   <div className="card__container containerCard">
+   <div className="card__container containerCard" style={{margin: '100px 25px'}}>
     {cards.map((card) => (
      <article key={card.id} className={`card__article card-${card.color}`}>
       <img src={card.image} alt={card.name} className="card__img" />

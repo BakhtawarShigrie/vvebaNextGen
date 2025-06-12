@@ -639,6 +639,14 @@ html, body {
   .carousel .list .item .content .title{
       font-size: 30px;
   }
+  .carousel .list .item .buttons{
+    display: grid;
+    grid-template-columns: repeat(1, 150px);
+    gap: 5px;
+  }
+  .carousel .list .item .buttons button{
+    height: 40px;
+  }
 }
 
 

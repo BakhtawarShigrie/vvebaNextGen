@@ -14,7 +14,7 @@ export const HomeAreaAbout = () => {
         position: 'relative',
         zIndex: 1,
         padding: '100px 0',
-        height: "120vh"
+        height: "100%"
       }}
     >
       {/* Overlay for better text readability */}
@@ -67,7 +67,7 @@ export const HomeAreaAbout = () => {
                   <i className="fal fa-quote-right"></i>
                 </span>
               </div>
-              <div className="tp-about-4-cta d-flex justify-content-center mt-60 mb-120 align-items-center align-items-sm-start">
+              <div className="tp-about-4-cta d-flex justify-content-center mt-60 mb-10 align-items-center align-items-sm-start">
                 <div className="tp-hero-btn mr-30 hero-btn-4">
                   <Link className="tp-btn" href="about">
                     discover more{' '}
@@ -81,7 +81,7 @@ export const HomeAreaAbout = () => {
                   <div className="tp-hero-about-4-cta-contact pl-15">
                     <a href="tel:0923041699991" style={{ color: '#fff' }}>
                       <span>Call for help</span>
-                      <h4>092 304 1699991</h4>
+                      <h4 style={{ color: '#fff' }} >092 304 1699991</h4>
                     </a>
                   </div>
                 </div>
