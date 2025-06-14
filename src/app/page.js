@@ -53,7 +53,7 @@ export default function Home() {
    </Box>
    <HomeAreaAbout />
    <PayScale />
-   {/* <FreelancePlatform /> */}
+   <FreelancePlatform />
    <HomeAreaService />
    {/* <HomeFeatureArea /> */}
    {/* <HomeAreaTestimonial /> */}
