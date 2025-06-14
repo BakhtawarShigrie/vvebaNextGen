@@ -1,9 +1,11 @@
-"use client"
+'use client';
 import BlogCard from '@/shared/components/blogCard';
 import CourseSelector from '@/shared/components/courses';
 import {HomeAreaAbout} from '@/shared/components/home/about';
 import {HomeFeatureArea} from '@/shared/components/home/features';
+import FreelancePlatform from '@/shared/components/home/freelancing';
 import {HeroSection} from '@/shared/components/home/hero';
+import PayScale from '@/shared/components/home/payscale';
 import {HomeProcessArea} from '@/shared/components/home/process';
 import {HomeAreaService} from '@/shared/components/home/service';
 import {HomeAreaTestimonial} from '@/shared/components/home/testimonial';
@@ -12,22 +14,22 @@ import Slider from '@/shared/components/slider';
 import Carousel from '@/shared/components/sliderComponent';
 import Education from '@/shared/components/timeline/Education/Education';
 import Timeline from '@/shared/components/timeline/Timeline';
-import { sliderData } from '@/shared/constants/slidesData';
-import { Box } from '@mui/material';
-import { useEffect } from 'react';
+import {sliderData} from '@/shared/constants/slidesData';
+import {Box} from '@mui/material';
+import {useEffect} from 'react';
 
 export default function Home() {
-     useEffect(() => {
-      if (window.location.hash === '#courses-section') {
-       const element = document.getElementById('courses-section');
-       if (element) {
-        // Small timeout to ensure page is loaded
-        setTimeout(() => {
-         element.scrollIntoView({behavior: 'smooth'});
-        }, 100);
-       }
-      }
-     }, []);
+ useEffect(() => {
+  if (window.location.hash === '#courses-section') {
+   const element = document.getElementById('courses-section');
+   if (element) {
+    // Small timeout to ensure page is loaded
+    setTimeout(() => {
+     element.scrollIntoView({behavior: 'smooth'});
+    }, 100);
+   }
+  }
+ }, []);
  return (
   <main>
    {/* <Slider slides={sliderData} /> */}
@@ -50,6 +52,8 @@ export default function Home() {
     <CourseSelector />
    </Box>
    <HomeAreaAbout />
+   <PayScale />
+   {/* <FreelancePlatform /> */}
    <HomeAreaService />
    {/* <HomeFeatureArea /> */}
    {/* <HomeAreaTestimonial /> */}
@@ -66,8 +70,8 @@ export default function Home() {
     <BlogCard />
    </Box>
    {/* <Education /> */}
-         <Timeline />
-         {/* <SeminarBookingForm /> */}
+   <Timeline />
+   {/* <SeminarBookingForm /> */}
   </main>
  );
 }
