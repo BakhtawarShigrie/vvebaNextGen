@@ -319,32 +319,33 @@ export default function TechStackDashboard() {
     const platformData = {
      'UPWORK.com': {
       shortDescription:
-       'On Upwork, Jamstack developers build fast, secure, and scalable websites using modern tools like Firebase and headless CMS. They specialize in creating static sites powered by APIs, delivering excellent performance and smooth user experiences. Clients on Upwork can hire these experts for projects requiring optimized, easy-to-maintain web solutions that load quickly and are highly secure, making Jamstack a popular choice for modern web development.',
-      imagePath1: '/assets/image/freelancing/jamStack-upwork1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-upwork2.png',
+       'Next.js specialists on Upwork build fast, SEO-friendly React applications with server-side rendering and static site generation. They develop scalable, dynamic websites and web apps, optimizing performance and user experience. Their skills include API integration, routing, and deployment on platforms like Vercel and AWS, helping clients deliver modern, efficient web solutions.',
+      imagePath1: '/assets/image/freelancing/next-upwork1.png',
+      imagePath2: '/assets/image/freelancing/next-upwork2.png',
      },
      'FIVERR.com': {
       shortDescription:
-       'Fiverr offers a variety of Jamstack developers who specialize in creating fast, secure, and scalable websites using modern tools like Gatsby, Next.js, and headless CMS. These freelancers provide services such as building static sites, API integrations, and performance optimization. Clients can choose from different packages based on their needs and budget, ensuring flexible options for projects of all sizes with reliable delivery and quality results.',
-      imagePath1: '/assets/image/freelancing/jamStack-fiverr1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-fiverr2.png',
+       'A Next.js specialist on Fiverr delivers high-performance, SEO-friendly web solutions using modern React-based development. They build responsive landing pages, static or dynamic websites, and handle API integration and deployment. Offering clear package options and fast delivery, they serve startups and businesses seeking scalable, efficient, and user-focused web applications.',
+      imagePath1: '/assets/image/freelancing/next-fiverr1.png',
+      imagePath2: '/assets/image/freelancing/next-fiverr2.png',
      },
      'FREELANCER.com': {
       shortDescription:
-       'JAMstack developers on Freelancer specialize in building ultra-fast, secure, and scalable websites using modern static site generators and headless CMS solutions. They expertly integrate APIs and third-party services to enhance functionality, optimize for SEO and performance, and deploy on advanced platforms like Netlify or Vercel. Perfect for businesses and startups seeking cost-effective, high-converting digital solutions that fuel growth and revenue.',
-      imagePath1: '/assets/image/freelancing/jamStack-freelancer1.png',
+       'Next.js specialists on Freelancer build fast, dynamic, and SEO-optimized websites using React-based architecture. They handle tasks like static site generation, server-side rendering, API integration, and responsive design. Clients hire them for projects ranging from landing pages to full-scale web apps, valuing their ability to deliver scalable, efficient, and modern digital solutions.',
+      imagePath1: '/assets/image/freelancing/next-freelancer1.png',
      },
      'PEOPLEPERHOUR.com': {
       shortDescription:
-       'Junior JAMstack Developers on PeoplePerHour typically earn $25–$50 per hour or $15,000–$40,000 annually for freelance projects. Beginners focus on static site development, basic API integrations, and CMS setups (like Sanity or Strapi). Their rates depend on skills in Gatsby, Next.js, or Hugo, along with deployment platforms (Netlify/Vercel). Clients hiring juniors often seek budget-friendly solutions for blogs, small business sites, or landing pages.  Pro JAMstack Developers command $60–$120+ per hour or $70,000–$120,000+ per year due to advanced expertise. They handle complex headless architectures, performance optimization, serverless functions (Lambda/Edge), and e-commerce integrations (Snipcart, Shopify). Top earners specialize in scalable enterprise solutions, real-time data apps, or CI/CD automation. Clients pay premiums for pros who boost SEO, security (JWT/OAuth), and conversion rates while reducing hosting costs.',
-      // imagePath1: 'https://i0.wp.com/sunrisedaycamp.org/wp-content/uploads/2020/10/placeholder.png?ssl=1',
-      // imagePath2: '/assets/image/freelancing/frontend-peopleperhour2.png',
+       'Next.js developers on PeoplePerHour are in steady demand, with opportunities ranging from quick one-off tasks to full-time roles in complex applications. Freelancers offer services such as building landing pages, integrating APIs, and developing full-stack applications using Next.js. Rates vary based on experience and project complexity, with some freelancers offering services starting at $15 per hour.',
+
+      imagePath1: '/assets/image/freelancing/next-peopleperhour1.png',
+      imagePath2: '/assets/image/freelancing/next-peopleperhour2.png',
      },
      'GURU.com': {
       shortDescription:
-       'JAMstack developers on Guru.com build fast, secure, and scalable websites using modern static site generators and headless CMS. They integrate APIs, optimize for SEO and performance, and deploy on platforms like Netlify and Vercel. Ideal for businesses seeking cost-effective, high-performing web solutions that boost growth and user experience.',
-      imagePath1: '/assets/image/freelancing/jamStack-guru1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-guru2.png',
+       'Next.js developers on Guru.com offer services like building SEO-friendly, high-performance web apps using React. They handle landing pages, API integrations, and full-stack solutions. Clients seek scalable and modern websites. Beginners may start with lower rates to build credibility, while experienced developers charge premium rates for complex projects. Guru.com provides solid freelance opportunities for all skill levels.',
+      imagePath1: '/assets/image/freelancing/next-guru1.png',
+      imagePath2: '/assets/image/freelancing/next-guru2.png',
      },
     };
 
@@ -376,32 +377,32 @@ export default function TechStackDashboard() {
     const platformData = {
      'UPWORK.com': {
       shortDescription:
-       'On Upwork, Jamstack developers build fast, secure, and scalable websites using modern tools like Firebase and headless CMS. They specialize in creating static sites powered by APIs, delivering excellent performance and smooth user experiences. Clients on Upwork can hire these experts for projects requiring optimized, easy-to-maintain web solutions that load quickly and are highly secure, making Jamstack a popular choice for modern web development.',
-      imagePath1: '/assets/image/freelancing/jamStack-upwork1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-upwork2.png',
+       'React Native developers on Upwork work remotely on varied projects like app development, bug fixes, and feature additions. They handle multiple clients, often across different time zones, requiring good communication and time management. Success relies on a strong portfolio, positive reviews, and clear proposals. Upwork’s tools for milestone payments and dispute resolution help ensure secure and professional collaborations in a competitive freelance market.',
+      imagePath1: '/assets/image/freelancing/reactN-upwork1.png',
+      imagePath2: '/assets/image/freelancing/reactN-upwork2.png',
      },
      'FIVERR.com': {
       shortDescription:
-       'Fiverr offers a variety of Jamstack developers who specialize in creating fast, secure, and scalable websites using modern tools like Gatsby, Next.js, and headless CMS. These freelancers provide services such as building static sites, API integrations, and performance optimization. Clients can choose from different packages based on their needs and budget, ensuring flexible options for projects of all sizes with reliable delivery and quality results.',
-      imagePath1: '/assets/image/freelancing/jamStack-fiverr1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-fiverr2.png',
+       'React Native developers on Fiverr face high competition with many offering services from bug fixes to full app development. Prices range from $20 for small tasks to $2000+ for complex apps. New sellers often offer lower rates to build reviews. Clients expect quality and quick delivery. Success requires good portfolios, niche gigs, and clear communication. Fiverr’s milestone system protects both buyers and sellers.',
+      imagePath1: '/assets/image/freelancing/reactN-fiverr1.png',
+      imagePath2: '/assets/image/freelancing/reactN-fiverr2.png',
      },
      'FREELANCER.com': {
       shortDescription:
-       'JAMstack developers on Freelancer specialize in building ultra-fast, secure, and scalable websites using modern static site generators and headless CMS solutions. They expertly integrate APIs and third-party services to enhance functionality, optimize for SEO and performance, and deploy on advanced platforms like Netlify or Vercel. Perfect for businesses and startups seeking cost-effective, high-converting digital solutions that fuel growth and revenue.',
-      imagePath1: '/assets/image/freelancing/jamStack-freelancer1.png',
+       'React Native developers on Freelancer face strong global competition with varied skill levels. Projects range from small bug fixes $50+ to full apps $1000+. Clients expect timely delivery and clear communication. New freelancers often bid low to build reputation. Success depends on strong portfolios, good reviews, and bidding smartly. Freelancer’s milestone system ensures secure payments for both parties.',
+      imagePath1: '/assets/image/freelancing/reactN-freelancer1.png',
      },
      'PEOPLEPERHOUR.com': {
       shortDescription:
-       'Junior JAMstack Developers on PeoplePerHour typically earn $25–$50 per hour or $15,000–$40,000 annually for freelance projects. Beginners focus on static site development, basic API integrations, and CMS setups (like Sanity or Strapi). Their rates depend on skills in Gatsby, Next.js, or Hugo, along with deployment platforms (Netlify/Vercel). Clients hiring juniors often seek budget-friendly solutions for blogs, small business sites, or landing pages.  Pro JAMstack Developers command $60–$120+ per hour or $70,000–$120,000+ per year due to advanced expertise. They handle complex headless architectures, performance optimization, serverless functions (Lambda/Edge), and e-commerce integrations (Snipcart, Shopify). Top earners specialize in scalable enterprise solutions, real-time data apps, or CI/CD automation. Clients pay premiums for pros who boost SEO, security (JWT/OAuth), and conversion rates while reducing hosting costs.',
-      // imagePath1: 'https://i0.wp.com/sunrisedaycamp.org/wp-content/uploads/2020/10/placeholder.png?ssl=1',
-      // imagePath2: '/assets/image/freelancing/frontend-peopleperhour2.png',
+       'React Native developers on PeoplePerHour face moderate competition with a mix of beginners and experienced freelancers. Projects range from simple bug fixes to full app development. Rates typically start at $15/hour for beginners and go up to $70+/hour for experts. Clients expect timely delivery and clear communication. Success depends on a strong profile, good reviews, and competitive pricing. Milestone payments protect both parties.',
+      imagePath1: '/assets/image/freelancing/reactN-peopleperhour1.png',
+      imagePath2: '/assets/image/freelancing/reactN-peopleperhour2.png',
      },
      'GURU.com': {
       shortDescription:
-       'JAMstack developers on Guru.com build fast, secure, and scalable websites using modern static site generators and headless CMS. They integrate APIs, optimize for SEO and performance, and deploy on platforms like Netlify and Vercel. Ideal for businesses seeking cost-effective, high-performing web solutions that boost growth and user experience.',
-      imagePath1: '/assets/image/freelancing/jamStack-guru1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-guru2.png',
+       'React Native developers on Guru.com offer services ranging from bug fixes to full app development. The platform hosts a mix of beginners and experienced professionals. Clients look for clear communication, timely delivery, and clean code. Developers with strong portfolios, positive reviews, and niche expertise stand out. Guru’s SafePay system provides secure project payments and builds trust between clients and freelancers.',
+      imagePath1: '/assets/image/freelancing/reactN-guru1.png',
+      imagePath2: '/assets/image/freelancing/reactN-guru2.png',
      },
     };
 
