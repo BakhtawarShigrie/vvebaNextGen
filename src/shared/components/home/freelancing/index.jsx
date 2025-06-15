@@ -262,32 +262,32 @@ export default function TechStackDashboard() {
     const platformData = {
      'UPWORK.com': {
       shortDescription:
-       'On Upwork, Jamstack developers build fast, secure, and scalable websites using modern tools like Firebase and headless CMS. They specialize in creating static sites powered by APIs, delivering excellent performance and smooth user experiences. Clients on Upwork can hire these experts for projects requiring optimized, easy-to-maintain web solutions that load quickly and are highly secure, making Jamstack a popular choice for modern web development.',
-      imagePath1: '/assets/image/freelancing/jamStack-upwork1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-upwork2.png',
+       'MERN stack developers on Upwork build full-stack web applications using MongoDB, Express.js, React, and Node.js. They create dynamic, scalable, and responsive apps tailored to client needs, integrating APIs and ensuring optimal performance. Ideal for startups and businesses looking for modern, maintainable solutions that enhance user experience and drive growth.',
+      imagePath1: '/assets/image/freelancing/mern-upwork1.png',
+      imagePath2: '/assets/image/freelancing/mern-upwork2.png',
      },
      'FIVERR.com': {
       shortDescription:
-       'Fiverr offers a variety of Jamstack developers who specialize in creating fast, secure, and scalable websites using modern tools like Gatsby, Next.js, and headless CMS. These freelancers provide services such as building static sites, API integrations, and performance optimization. Clients can choose from different packages based on their needs and budget, ensuring flexible options for projects of all sizes with reliable delivery and quality results.',
-      imagePath1: '/assets/image/freelancing/jamStack-fiverr1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-fiverr2.png',
+       'MERN stack developers on Fiverr specialize in building complete web applications using MongoDB, Express.js, React, and Node.js. They develop secure, fast, and scalable solutions tailored to each client’s needs. From crafting sleekuser interfaces to building powerful backend APIs and managing databases, they deliver end-to-end services ideal for startups, e-commerce stores, portfolios, and custom business platforms.',
+      imagePath1: '/assets/image/freelancing/mern-fiverr1.png',
+      imagePath2: '/assets/image/freelancing/mern-fiverr2.png',
      },
      'FREELANCER.com': {
       shortDescription:
-       'JAMstack developers on Freelancer specialize in building ultra-fast, secure, and scalable websites using modern static site generators and headless CMS solutions. They expertly integrate APIs and third-party services to enhance functionality, optimize for SEO and performance, and deploy on advanced platforms like Netlify or Vercel. Perfect for businesses and startups seeking cost-effective, high-converting digital solutions that fuel growth and revenue.',
-      imagePath1: '/assets/image/freelancing/jamStack-freelancer1.png',
+       'MERN stack developers on Freelancer.com enjoy flexible work conditions, choosing their own hours, rates, and projects. They bid on jobs ranging from small bug fixes to full-stack app development. Success depends on strong portfolios, client communication, and competitive pricing. With growing demand for JavaScript-based solutions, MERNdevelopers often find steady, well-paying opportunities—especially with positive reviews and consistent delivery.',
+      imagePath1: '/assets/image/freelancing/mern-freelancer1.png',
      },
      'PEOPLEPERHOUR.com': {
       shortDescription:
-       'Junior JAMstack Developers on PeoplePerHour typically earn $25–$50 per hour or $15,000–$40,000 annually for freelance projects. Beginners focus on static site development, basic API integrations, and CMS setups (like Sanity or Strapi). Their rates depend on skills in Gatsby, Next.js, or Hugo, along with deployment platforms (Netlify/Vercel). Clients hiring juniors often seek budget-friendly solutions for blogs, small business sites, or landing pages.  Pro JAMstack Developers command $60–$120+ per hour or $70,000–$120,000+ per year due to advanced expertise. They handle complex headless architectures, performance optimization, serverless functions (Lambda/Edge), and e-commerce integrations (Snipcart, Shopify). Top earners specialize in scalable enterprise solutions, real-time data apps, or CI/CD automation. Clients pay premiums for pros who boost SEO, security (JWT/OAuth), and conversion rates while reducing hosting costs.',
-      // imagePath1: 'https://i0.wp.com/sunrisedaycamp.org/wp-content/uploads/2020/10/placeholder.png?ssl=1',
-      // imagePath2: '/assets/image/freelancing/frontend-peopleperhour2.png',
+       'PeoplePerHour features MERN stack developers skilled in MongoDB, Express.js, React, and Node.js for building full-stack web applications. These developers handle everything from frontend interfaces to backend APIs, offering scalable and dynamic solutions. Clients can review freelancer profiles, ratings, and portfolios to hire professionals for projects of various sizes, ensuring quality work delivered on time.',
+      imagePath1: '/assets/image/freelancing/mern-peopleperhour1.png',
+      imagePath2: '/assets/image/freelancing/mern-peopleperhour2.png',
      },
      'GURU.com': {
       shortDescription:
-       'JAMstack developers on Guru.com build fast, secure, and scalable websites using modern static site generators and headless CMS. They integrate APIs, optimize for SEO and performance, and deploy on platforms like Netlify and Vercel. Ideal for businesses seeking cost-effective, high-performing web solutions that boost growth and user experience.',
-      imagePath1: '/assets/image/freelancing/jamStack-guru1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-guru2.png',
+       'On Guru.com, MERN stack developers charge $40 to $150 per hour based on experience and project complexity. Beginners start around $20 per hour, while experts earn higher rates. Fixed-price projects can exceed $1,000 depending on scope. Skilled developers with strong portfolios and good reviews can secure well-paying jobs and grow their freelance careers on the platform.',
+      imagePath1: '/assets/image/freelancing/mern-guru1.png',
+      imagePath2: '/assets/image/freelancing/mern-guru2.png',
      },
     };
 
