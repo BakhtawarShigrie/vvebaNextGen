@@ -197,7 +197,7 @@ export default function TechStackDashboard() {
     'UPWORK.com',
     'FIVERR.com',
     'FREELANCER.com',
-    'PEOPLEPERHOUR.com',
+    // 'PEOPLEPERHOUR.com',
     'GURU.com',
    ],
    content: (platform) => {
@@ -220,12 +220,10 @@ export default function TechStackDashboard() {
        'JAMstack developers on Freelancer specialize in building ultra-fast, secure, and scalable websites using modern static site generators and headless CMS solutions. They expertly integrate APIs and third-party services to enhance functionality, optimize for SEO and performance, and deploy on advanced platforms like Netlify or Vercel. Perfect for businesses and startups seeking cost-effective, high-converting digital solutions that fuel growth and revenue.',
       imagePath1: '/assets/image/freelancing/jamStack-freelancer1.png',
      },
-     'PEOPLEPERHOUR.com': {
-      shortDescription:
-       'Junior JAMstack Developers on PeoplePerHour typically earn $25–$50 per hour or $15,000–$40,000 annually for freelance projects. Beginners focus on static site development, basic API integrations, and CMS setups (like Sanity or Strapi). Their rates depend on skills in Gatsby, Next.js, or Hugo, along with deployment platforms (Netlify/Vercel). Clients hiring juniors often seek budget-friendly solutions for blogs, small business sites, or landing pages.  Pro JAMstack Developers command $60–$120+ per hour or $70,000–$120,000+ per year due to advanced expertise. They handle complex headless architectures, performance optimization, serverless functions (Lambda/Edge), and e-commerce integrations (Snipcart, Shopify). Top earners specialize in scalable enterprise solutions, real-time data apps, or CI/CD automation. Clients pay premiums for pros who boost SEO, security (JWT/OAuth), and conversion rates while reducing hosting costs.',
-      // imagePath1: 'https://i0.wp.com/sunrisedaycamp.org/wp-content/uploads/2020/10/placeholder.png?ssl=1',
-      // imagePath2: '/assets/image/freelancing/frontend-peopleperhour2.png',
-     },
+    //  'PEOPLEPERHOUR.com': {
+    //   shortDescription: 'Not Included',
+    //   imagePath1: '/assets/image/freelancing/images-placeholder.png',
+    //  },
      'GURU.com': {
       shortDescription:
        'JAMstack developers on Guru.com build fast, secure, and scalable websites using modern static site generators and headless CMS. They integrate APIs, optimize for SEO and performance, and deploy on platforms like Netlify and Vercel. Ideal for businesses seeking cost-effective, high-performing web solutions that boost growth and user experience.',
@@ -434,32 +432,32 @@ export default function TechStackDashboard() {
     const platformData = {
      'UPWORK.com': {
       shortDescription:
-       'On Upwork, Jamstack developers build fast, secure, and scalable websites using modern tools like Firebase and headless CMS. They specialize in creating static sites powered by APIs, delivering excellent performance and smooth user experiences. Clients on Upwork can hire these experts for projects requiring optimized, easy-to-maintain web solutions that load quickly and are highly secure, making Jamstack a popular choice for modern web development.',
-      imagePath1: '/assets/image/freelancing/jamStack-upwork1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-upwork2.png',
+       'A DevOps Engineer bridges the gap between development and operations, ensuring smooth code deployment, automation, and system reliability. They manage CI/CD pipelines, monitor infrastructure, and optimize performance. Skilled in tools like Docker, Kubernetes, Jenkins, and cloud platforms, DevOps engineers enhance collaboration, speed up releases, and maintain system stability across development lifecycles.',
+      imagePath1: '/assets/image/freelancing/devOpps-upwork1.png',
+      imagePath2: '/assets/image/freelancing/devOpps-upwork2.png',
      },
      'FIVERR.com': {
       shortDescription:
-       'Fiverr offers a variety of Jamstack developers who specialize in creating fast, secure, and scalable websites using modern tools like Gatsby, Next.js, and headless CMS. These freelancers provide services such as building static sites, API integrations, and performance optimization. Clients can choose from different packages based on their needs and budget, ensuring flexible options for projects of all sizes with reliable delivery and quality results.',
-      imagePath1: '/assets/image/freelancing/jamStack-fiverr1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-fiverr2.png',
+       'DevOps services on Fiverr include CI/CD setup, Dockerization, cloud deployment, Kubernetes, and server automation. Freelancers offer tiered packages, making it easy for clients to choose based on needs. DevOps gigs range from basic setups to full-scale infrastructure management. With clear scopes and fast delivery, Fiverr is a growing platform for DevOps professionals to offer targeted, efficient solutions to startups and businesses.',
+      imagePath1: '/assets/image/freelancing/devOpps-fiverr1.png',
+      imagePath2: '/assets/image/freelancing/devOpps-fiverr2.png',
      },
      'FREELANCER.com': {
       shortDescription:
-       'JAMstack developers on Freelancer specialize in building ultra-fast, secure, and scalable websites using modern static site generators and headless CMS solutions. They expertly integrate APIs and third-party services to enhance functionality, optimize for SEO and performance, and deploy on advanced platforms like Netlify or Vercel. Perfect for businesses and startups seeking cost-effective, high-converting digital solutions that fuel growth and revenue.',
-      imagePath1: '/assets/image/freelancing/jamStack-freelancer1.png',
+       'Beginner DevOps engineers on Freelancer typically charge between $20 to $30 per hour, depending on their skills and project complexity. They often begin with smaller tasks such as setting up CI/CD pipelines, configuring cloud servers, writing basic automation scripts, or deploying simple applications. Early success depends on submitting strong proposals, delivering work promptly, and maintaining clear communication with clients. Positive reviews enhance profile visibility and build client trust. As they gain experience and develop a solid reputation, beginners can gradually increase their hourly rates, attract more advanced projects, and steadily expand their freelance career and earnings over time, establishing themselves as reliable professionals in the field.',
+      imagePath1: '/assets/image/freelancing/devOpps-freelancer1.png',
      },
      'PEOPLEPERHOUR.com': {
       shortDescription:
-       'Junior JAMstack Developers on PeoplePerHour typically earn $25–$50 per hour or $15,000–$40,000 annually for freelance projects. Beginners focus on static site development, basic API integrations, and CMS setups (like Sanity or Strapi). Their rates depend on skills in Gatsby, Next.js, or Hugo, along with deployment platforms (Netlify/Vercel). Clients hiring juniors often seek budget-friendly solutions for blogs, small business sites, or landing pages.  Pro JAMstack Developers command $60–$120+ per hour or $70,000–$120,000+ per year due to advanced expertise. They handle complex headless architectures, performance optimization, serverless functions (Lambda/Edge), and e-commerce integrations (Snipcart, Shopify). Top earners specialize in scalable enterprise solutions, real-time data apps, or CI/CD automation. Clients pay premiums for pros who boost SEO, security (JWT/OAuth), and conversion rates while reducing hosting costs.',
-      // imagePath1: 'https://i0.wp.com/sunrisedaycamp.org/wp-content/uploads/2020/10/placeholder.png?ssl=1',
-      // imagePath2: '/assets/image/freelancing/frontend-peopleperhour2.png',
+       'DevOps engineers on PeoplePerHour offer services like CI/CD setup, cloud infrastructure management, automation scripting, and containerization with Docker or Kubernetes. Clients post projects, and freelancers bid competitively. The platform suits both short and long-term work, allowing DevOps professionals to build reputations, showcase skills, and grow through diverse projects. Reliable communication and timely delivery help secure repeat clients.',
+      imagePath1: '/assets/image/freelancing/devOpps-peopleperhour1.png',
+      imagePath2: '/assets/image/freelancing/devOpps-peopleperhour2.png',
      },
      'GURU.com': {
       shortDescription:
-       'JAMstack developers on Guru.com build fast, secure, and scalable websites using modern static site generators and headless CMS. They integrate APIs, optimize for SEO and performance, and deploy on platforms like Netlify and Vercel. Ideal for businesses seeking cost-effective, high-performing web solutions that boost growth and user experience.',
-      imagePath1: '/assets/image/freelancing/jamStack-guru1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-guru2.png',
+       'On Guru.com, DevOps engineers offer services like CI/CD pipeline setup, cloud infrastructure management, automation, containerization, and system monitoring. They bid on projects that range from short-term tasks to longterm contracts. The platform enables freelancers to showcase their skills, build strong portfolios, and connect with clients globally. Success is driven by clear communication, timely delivery, and positive feedback, helping DevOps professionals steadily grow their freelance careers.',
+      imagePath1: '/assets/image/freelancing/devOpps-guru1.png',
+      imagePath2: '/assets/image/freelancing/devOpps-guru2.png',
      },
     };
 
@@ -469,13 +467,14 @@ export default function TechStackDashboard() {
       {
        shortDescription: platformData[platform].shortDescription,
        heading: 'About DevOps Engineer ',
-       image1: platformData[platform].imagePath1, // Moved image links here
-       image2: platformData[platform].imagePath2, // Moved image links here
+       image1: platformData[platform].imagePath1,
+       image2: platformData[platform].imagePath2,
       },
      ],
     };
    },
   },
+
   'Salesforce Specialist': {
    color: 'linear-gradient(-90deg,rgb(107, 120, 198), #192D9D )',
    tabs: [
@@ -490,32 +489,32 @@ export default function TechStackDashboard() {
     const platformData = {
      'UPWORK.com': {
       shortDescription:
-       'On Upwork, Jamstack developers build fast, secure, and scalable websites using modern tools like Firebase and headless CMS. They specialize in creating static sites powered by APIs, delivering excellent performance and smooth user experiences. Clients on Upwork can hire these experts for projects requiring optimized, easy-to-maintain web solutions that load quickly and are highly secure, making Jamstack a popular choice for modern web development.',
-      imagePath1: '/assets/image/freelancing/jamStack-upwork1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-upwork2.png',
+       'Salesforce specialists on Upwork provide CRM customization, workflow automation, data migration, and third-party integrations. They help businesses optimize Salesforce for sales and service needs. Freelancers bid on projects of varying sizes. Success relies on expertise, clear communication, and positive reviews, helping specialists build strong client relationships and grow their freelance careers.',
+      imagePath1: '/assets/image/freelancing/salesforse-upwork1.png',
+      imagePath2: '/assets/image/freelancing/salesforse-upwork2.png',
      },
      'FIVERR.com': {
       shortDescription:
-       'Fiverr offers a variety of Jamstack developers who specialize in creating fast, secure, and scalable websites using modern tools like Gatsby, Next.js, and headless CMS. These freelancers provide services such as building static sites, API integrations, and performance optimization. Clients can choose from different packages based on their needs and budget, ensuring flexible options for projects of all sizes with reliable delivery and quality results.',
-      imagePath1: '/assets/image/freelancing/jamStack-fiverr1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-fiverr2.png',
+       'Salesforce specialists on Fiverr provide CRM customization, workflow automation, data migration, and integrations. They help optimize sales, marketing, and customer service processes. Freelancers offer packages from small fixes to full implementations. Positive reviews and clear communication help them attract clients and grow their freelance presence on the platform.',
+      imagePath1: '/assets/image/freelancing/salesforse-fiverr1.png',
+      imagePath2: '/assets/image/freelancing/salesforse-fiverr2.png',
      },
      'FREELANCER.com': {
       shortDescription:
-       'JAMstack developers on Freelancer specialize in building ultra-fast, secure, and scalable websites using modern static site generators and headless CMS solutions. They expertly integrate APIs and third-party services to enhance functionality, optimize for SEO and performance, and deploy on advanced platforms like Netlify or Vercel. Perfect for businesses and startups seeking cost-effective, high-converting digital solutions that fuel growth and revenue.',
-      imagePath1: '/assets/image/freelancing/jamStack-freelancer1.png',
+       'Salesforce specialists on Freelancer offer services like CRM customization, workflow automation, data migration, and third-party integrations. They bid on projects ranging from small tasks to full-scale implementations. Success depends on technical skills, clear communication, and positive client feedback, helping specialists build reputation and secure more projects to grow their freelance careers steadily.',
+      imagePath1: '/assets/image/freelancing/salesforce-freelancer1.png',
      },
      'PEOPLEPERHOUR.com': {
       shortDescription:
-       'Junior JAMstack Developers on PeoplePerHour typically earn $25–$50 per hour or $15,000–$40,000 annually for freelance projects. Beginners focus on static site development, basic API integrations, and CMS setups (like Sanity or Strapi). Their rates depend on skills in Gatsby, Next.js, or Hugo, along with deployment platforms (Netlify/Vercel). Clients hiring juniors often seek budget-friendly solutions for blogs, small business sites, or landing pages.  Pro JAMstack Developers command $60–$120+ per hour or $70,000–$120,000+ per year due to advanced expertise. They handle complex headless architectures, performance optimization, serverless functions (Lambda/Edge), and e-commerce integrations (Snipcart, Shopify). Top earners specialize in scalable enterprise solutions, real-time data apps, or CI/CD automation. Clients pay premiums for pros who boost SEO, security (JWT/OAuth), and conversion rates while reducing hosting costs.',
-      // imagePath1: 'https://i0.wp.com/sunrisedaycamp.org/wp-content/uploads/2020/10/placeholder.png?ssl=1',
-      // imagePath2: '/assets/image/freelancing/frontend-peopleperhour2.png',
+       'Beginner Salesforce specialists on PeoplePerHour typically earn $15–$35 per hour, handling basic CRM customization and simple automation tasks. Advanced specialists charge $50–$120+ per hour, managing complex customizations, data migrations, and integrations. Success depends on skills, communication, and positive reviews, which help freelancers attract clients and grow their earnings steadily on the platform.',
+      imagePath1: '/assets/image/freelancing/salesforce-peopleperhour1.png',
+      imagePath2: '/assets/image/freelancing/salesforce-peopleperhour2.png',
      },
      'GURU.com': {
       shortDescription:
-       'JAMstack developers on Guru.com build fast, secure, and scalable websites using modern static site generators and headless CMS. They integrate APIs, optimize for SEO and performance, and deploy on platforms like Netlify and Vercel. Ideal for businesses seeking cost-effective, high-performing web solutions that boost growth and user experience.',
-      imagePath1: '/assets/image/freelancing/jamStack-guru1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-guru2.png',
+       'Salesforce specialists on Guru.com offer services like CRM customization, workflow automation, data migration, and third-party integrations. They help businesses optimize sales, marketing, and customer service processes using Salesforce. Freelancers bid on projects of varying sizes, from small fixes to full implementations. Strong communication and positive reviews help specialists build trust and grow their freelance careers steadily on Guru.com',
+      imagePath1: '/assets/image/freelancing/salesforce-guru1.png',
+      imagePath2: '/assets/image/freelancing/salesforce-guru2.png',
      },
     };
 
@@ -525,8 +524,8 @@ export default function TechStackDashboard() {
       {
        shortDescription: platformData[platform].shortDescription,
        heading: 'About Salesforce Specialist ',
-       image1: platformData[platform].imagePath1, // Moved image links here
-       image2: platformData[platform].imagePath2, // Moved image links here
+       image1: platformData[platform].imagePath1,
+       image2: platformData[platform].imagePath2,
       },
      ],
     };
@@ -546,32 +545,32 @@ export default function TechStackDashboard() {
     const platformData = {
      'UPWORK.com': {
       shortDescription:
-       'On Upwork, Jamstack developers build fast, secure, and scalable websites using modern tools like Firebase and headless CMS. They specialize in creating static sites powered by APIs, delivering excellent performance and smooth user experiences. Clients on Upwork can hire these experts for projects requiring optimized, easy-to-maintain web solutions that load quickly and are highly secure, making Jamstack a popular choice for modern web development.',
-      imagePath1: '/assets/image/freelancing/jamStack-upwork1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-upwork2.png',
+       'Microservices developers on Upwork design and build scalable, modular applications using microservices architecture. They work with tools like Docker, Kubernetes, and REST APIs, focusing on independent deployment and efficient service communication. Clients value skills in system design, API development, and optimization. Clear communication and timely delivery help freelancers build strong reputations and secure ongoing projects.',
+      imagePath1: '/assets/image/freelancing/microservices-upwork1.png',
+      imagePath2: '/assets/image/freelancing/microservices-upwork2.png',
      },
      'FIVERR.com': {
       shortDescription:
-       'Fiverr offers a variety of Jamstack developers who specialize in creating fast, secure, and scalable websites using modern tools like Gatsby, Next.js, and headless CMS. These freelancers provide services such as building static sites, API integrations, and performance optimization. Clients can choose from different packages based on their needs and budget, ensuring flexible options for projects of all sizes with reliable delivery and quality results.',
-      imagePath1: '/assets/image/freelancing/jamStack-fiverr1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-fiverr2.png',
+       'Microservices developers on Fiverr specialize in designing, developing, and deploying scalable applications using microservices architecture. They use tools like Docker, Kubernetes, and REST APIs to create modular, independently deployable services. Clients look for expertise in system design, API integration, and cloud deployment. Strong communication and timely delivery help freelancers build solid reputations and attract repeat business on Fiverr.',
+      imagePath1: '/assets/image/freelancing/microservices-fiverr1.png',
+      imagePath2: '/assets/image/freelancing/microservices-fiverr2.png',
      },
      'FREELANCER.com': {
       shortDescription:
-       'JAMstack developers on Freelancer specialize in building ultra-fast, secure, and scalable websites using modern static site generators and headless CMS solutions. They expertly integrate APIs and third-party services to enhance functionality, optimize for SEO and performance, and deploy on advanced platforms like Netlify or Vercel. Perfect for businesses and startups seeking cost-effective, high-converting digital solutions that fuel growth and revenue.',
-      imagePath1: '/assets/image/freelancing/jamStack-freelancer1.png',
+       'Microservices developers on Freelancer focus on designing and building scalable, modular applications using microservices architecture. They utilize tools like Docker, Kubernetes, and REST APIs to develop independently deployable services that enhance system flexibility and performance. Clients value expertise in API development, system integration, and cloud deployment. Effective communication and dependable delivery help freelancers establish strong reputations and secure ongoing work on Freelancer.',
+      imagePath1: '/assets/image/freelancing/microservices-freelancer1.png',
      },
      'PEOPLEPERHOUR.com': {
       shortDescription:
-       'Junior JAMstack Developers on PeoplePerHour typically earn $25–$50 per hour or $15,000–$40,000 annually for freelance projects. Beginners focus on static site development, basic API integrations, and CMS setups (like Sanity or Strapi). Their rates depend on skills in Gatsby, Next.js, or Hugo, along with deployment platforms (Netlify/Vercel). Clients hiring juniors often seek budget-friendly solutions for blogs, small business sites, or landing pages.  Pro JAMstack Developers command $60–$120+ per hour or $70,000–$120,000+ per year due to advanced expertise. They handle complex headless architectures, performance optimization, serverless functions (Lambda/Edge), and e-commerce integrations (Snipcart, Shopify). Top earners specialize in scalable enterprise solutions, real-time data apps, or CI/CD automation. Clients pay premiums for pros who boost SEO, security (JWT/OAuth), and conversion rates while reducing hosting costs.',
-      // imagePath1: 'https://i0.wp.com/sunrisedaycamp.org/wp-content/uploads/2020/10/placeholder.png?ssl=1',
-      // imagePath2: '/assets/image/freelancing/frontend-peopleperhour2.png',
+       'Microservices developers on PeoplePerHour offer services like designing and deploying scalable applications using modular, independent services. They work with tools such as Docker, Kubernetes, and REST APIs to build robust systems. Clients on the platform seek developers who can efficiently integrate services, improve system performance, and handle cloud-based deployments. Clear communication and on-time delivery help developers succeed and gain repeat clients.',
+      imagePath1: '/assets/image/freelancing/microservices-peopleperhour1.png',
+      imagePath2: '/assets/image/freelancing/microservices-peopleperhour2.png',
      },
      'GURU.com': {
       shortDescription:
-       'JAMstack developers on Guru.com build fast, secure, and scalable websites using modern static site generators and headless CMS. They integrate APIs, optimize for SEO and performance, and deploy on platforms like Netlify and Vercel. Ideal for businesses seeking cost-effective, high-performing web solutions that boost growth and user experience.',
-      imagePath1: '/assets/image/freelancing/jamStack-guru1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-guru2.png',
+       'Microservices developers on Guru specialize in building modular, scalable applications by breaking systems into independent services. They often use technologies like Docker, Kubernetes, and RESTful APIs, along with cloud platforms such as AWS or Azure. Clients on Guru look for developers who can improve performance, simplify maintenance, and support agile development. Strong portfolios, clear communication, and timely delivery help developers build long-term client relationships.',
+      imagePath1: '/assets/image/freelancing/microservices-guru1.png',
+      imagePath2: '/assets/image/freelancing/microservices-guru2.png',
      },
     };
 
@@ -603,32 +602,32 @@ export default function TechStackDashboard() {
     const platformData = {
      'UPWORK.com': {
       shortDescription:
-       'On Upwork, Jamstack developers build fast, secure, and scalable websites using modern tools like Firebase and headless CMS. They specialize in creating static sites powered by APIs, delivering excellent performance and smooth user experiences. Clients on Upwork can hire these experts for projects requiring optimized, easy-to-maintain web solutions that load quickly and are highly secure, making Jamstack a popular choice for modern web development.',
-      imagePath1: '/assets/image/freelancing/jamStack-upwork1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-upwork2.png',
+       'Blockchain developers on Upwork offer services like smart contract development, DApp creation, tokenomics design, and blockchain integration using platforms such as Ethereum, Solana, Polygon, or Binance Smart Chain. Clients range from startups launching crypto products to enterprises exploring decentralized solutions. Success on Upwork depends on expertise, security practices, portfolio strength, and client communication.',
+      imagePath1: '/assets/image/freelancing/blockchain-upwork1.png',
+      imagePath2: '/assets/image/freelancing/blockchain-upwork2.png',
      },
      'FIVERR.com': {
       shortDescription:
-       'Fiverr offers a variety of Jamstack developers who specialize in creating fast, secure, and scalable websites using modern tools like Gatsby, Next.js, and headless CMS. These freelancers provide services such as building static sites, API integrations, and performance optimization. Clients can choose from different packages based on their needs and budget, ensuring flexible options for projects of all sizes with reliable delivery and quality results.',
-      imagePath1: '/assets/image/freelancing/jamStack-fiverr1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-fiverr2.png',
+       'Blockchain development on Fiverr involves creating smart contracts, decentralized applications (DApps), NFT projects, and blockchain integrations. Freelancers offer services across various platforms like Ethereum, Binance Smart Chain, and Solana. Clients range from startups to individuals seeking to launch tokens or NFTs. Success depends on technical expertise, clear communication, and delivering secure, efficient code. Fiverr’s gig-based model allows developers to showcase specific blockchain skills and attract clients worldwide.',
+      imagePath1: '/assets/image/freelancing/blockchain-fiverr1.png',
+      imagePath2: '/assets/image/freelancing/blockchain-fiverr2.png',
      },
      'FREELANCER.com': {
       shortDescription:
-       'JAMstack developers on Freelancer specialize in building ultra-fast, secure, and scalable websites using modern static site generators and headless CMS solutions. They expertly integrate APIs and third-party services to enhance functionality, optimize for SEO and performance, and deploy on advanced platforms like Netlify or Vercel. Perfect for businesses and startups seeking cost-effective, high-converting digital solutions that fuel growth and revenue.',
-      imagePath1: '/assets/image/freelancing/jamStack-freelancer1.png',
+       'Blockchain developers on Freelancer offer services like smart contract development, DApp creation, token launches, and blockchain integration on platforms like Ethereum and Binance Smart Chain. Clients range from startups to NFT creators. Success depends on strong technical skills, secure coding, clear communication, and positive reviews. Freelancers can bid on projects or offer fixed-price gigs to build their reputation and attract clients worldwide.',
+      imagePath1: '/assets/image/freelancing/blockchain-freelancer1.png',
      },
      'PEOPLEPERHOUR.com': {
       shortDescription:
-       'Junior JAMstack Developers on PeoplePerHour typically earn $25–$50 per hour or $15,000–$40,000 annually for freelance projects. Beginners focus on static site development, basic API integrations, and CMS setups (like Sanity or Strapi). Their rates depend on skills in Gatsby, Next.js, or Hugo, along with deployment platforms (Netlify/Vercel). Clients hiring juniors often seek budget-friendly solutions for blogs, small business sites, or landing pages.  Pro JAMstack Developers command $60–$120+ per hour or $70,000–$120,000+ per year due to advanced expertise. They handle complex headless architectures, performance optimization, serverless functions (Lambda/Edge), and e-commerce integrations (Snipcart, Shopify). Top earners specialize in scalable enterprise solutions, real-time data apps, or CI/CD automation. Clients pay premiums for pros who boost SEO, security (JWT/OAuth), and conversion rates while reducing hosting costs.',
-      // imagePath1: 'https://i0.wp.com/sunrisedaycamp.org/wp-content/uploads/2020/10/placeholder.png?ssl=1',
-      // imagePath2: '/assets/image/freelancing/frontend-peopleperhour2.png',
+       'Blockchain developers on PeoplePerHour offer services like smart contract creation, DApp development, token launches, and blockchain integration on platforms such as Ethereum and Binance Smart Chain. Clients range from startups to NFT creators. Success depends on technical skills, clear communication, and positive reviews. A strong portfolio helps attract repeat clients and higher-paying projects globally.',
+      imagePath1: '/assets/image/freelancing/blockchain-peopleperhour1.png',
+      imagePath2: '/assets/image/freelancing/blockchain-peopleperhour2.png',
      },
      'GURU.com': {
       shortDescription:
-       'JAMstack developers on Guru.com build fast, secure, and scalable websites using modern static site generators and headless CMS. They integrate APIs, optimize for SEO and performance, and deploy on platforms like Netlify and Vercel. Ideal for businesses seeking cost-effective, high-performing web solutions that boost growth and user experience.',
-      imagePath1: '/assets/image/freelancing/jamStack-guru1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-guru2.png',
+       'Blockchain developers on Guru.com offer services such as smart contract development, token creation, DApp building, and blockchain integration across networks like Ethereum and Binance Smart Chain. Clients range from startups to enterprises seeking secure and scalable blockchain solutions. Developers gain success through strong portfolios, client trust, and timely, professional project delivery.',
+      imagePath1: '/assets/image/freelancing/blockchain-guru1.png',
+      imagePath2: '/assets/image/freelancing/blockchain-guru2.png',
      },
     };
 
@@ -660,32 +659,32 @@ export default function TechStackDashboard() {
     const platformData = {
      'UPWORK.com': {
       shortDescription:
-       'On Upwork, Jamstack developers build fast, secure, and scalable websites using modern tools like Firebase and headless CMS. They specialize in creating static sites powered by APIs, delivering excellent performance and smooth user experiences. Clients on Upwork can hire these experts for projects requiring optimized, easy-to-maintain web solutions that load quickly and are highly secure, making Jamstack a popular choice for modern web development.',
-      imagePath1: '/assets/image/freelancing/jamStack-upwork1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-upwork2.png',
+       'Data scientists on Upwork provide services like data analysis, machine learning, predictive modeling, and visualization. They use tools such as Python, R, and SQL to help clients gain insights and make data-driven decisions. Serving industries like finance, health, and e-commerce, successful freelancers build strong profiles through skillful delivery, clear communication, and reliable results.',
+      imagePath1: '/assets/image/freelancing/dataScientist-upwork1.png',
+      imagePath2: '/assets/image/freelancing/dataScientist-upwork2.png',
      },
      'FIVERR.com': {
       shortDescription:
-       'Fiverr offers a variety of Jamstack developers who specialize in creating fast, secure, and scalable websites using modern tools like Gatsby, Next.js, and headless CMS. These freelancers provide services such as building static sites, API integrations, and performance optimization. Clients can choose from different packages based on their needs and budget, ensuring flexible options for projects of all sizes with reliable delivery and quality results.',
-      imagePath1: '/assets/image/freelancing/jamStack-fiverr1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-fiverr2.png',
+       'Data scientists on Fiverr offer services like data analysis, machine learning, and visualization using tools like Python,R, and Excel. Clients range from small startups to larger firms. Gigs are usually sold in packages—basic to premium—based on complexity. Success depends on delivering quality work, clear gig descriptions, and gaining positive reviews to attract more clients.',
+      imagePath1: '/assets/image/freelancing/dataScientist-fiverr1.png',
+      imagePath2: '/assets/image/freelancing/dataScientist-fiverr2.png',
      },
      'FREELANCER.com': {
       shortDescription:
-       'JAMstack developers on Freelancer specialize in building ultra-fast, secure, and scalable websites using modern static site generators and headless CMS solutions. They expertly integrate APIs and third-party services to enhance functionality, optimize for SEO and performance, and deploy on advanced platforms like Netlify or Vercel. Perfect for businesses and startups seeking cost-effective, high-converting digital solutions that fuel growth and revenue.',
-      imagePath1: '/assets/image/freelancing/jamStack-freelancer1.png',
+       'Data scientists on Freelancer provide services such as data cleaning, predictive modeling, machine learning, and data visualization. They use tools like Python, R, SQL, and Tableau. Projects vary from small analyses to full-scale AI solutions. Success depends on strong proposals, timely delivery, and client satisfaction. Reviews and portfolio strength help secure higher-value projects over time.',
+      imagePath1: '/assets/image/freelancing/dataScientist-freelancer1.png',
      },
      'PEOPLEPERHOUR.com': {
       shortDescription:
-       'Junior JAMstack Developers on PeoplePerHour typically earn $25–$50 per hour or $15,000–$40,000 annually for freelance projects. Beginners focus on static site development, basic API integrations, and CMS setups (like Sanity or Strapi). Their rates depend on skills in Gatsby, Next.js, or Hugo, along with deployment platforms (Netlify/Vercel). Clients hiring juniors often seek budget-friendly solutions for blogs, small business sites, or landing pages.  Pro JAMstack Developers command $60–$120+ per hour or $70,000–$120,000+ per year due to advanced expertise. They handle complex headless architectures, performance optimization, serverless functions (Lambda/Edge), and e-commerce integrations (Snipcart, Shopify). Top earners specialize in scalable enterprise solutions, real-time data apps, or CI/CD automation. Clients pay premiums for pros who boost SEO, security (JWT/OAuth), and conversion rates while reducing hosting costs.',
-      // imagePath1: 'https://i0.wp.com/sunrisedaycamp.org/wp-content/uploads/2020/10/placeholder.png?ssl=1',
-      // imagePath2: '/assets/image/freelancing/frontend-peopleperhour2.png',
+       'Data scientist success on peoplePerHour.com depends on experience, skillset, project complexity, and profile quality. Strong client reviews, a well-detailed portfolio, and consistent, timely delivery significantly improve visibility. Proficiency in tools like Python, R, SQL, and frameworks such as TensorFlow or Scikit-learn boosts credibility. Specializing in niches like AI, NLP, or big data can further enhance opportunities.',
+
+      imagePath1: '/assets/image/freelancing/dataScientist-peopleperhour1.png',
      },
      'GURU.com': {
       shortDescription:
-       'JAMstack developers on Guru.com build fast, secure, and scalable websites using modern static site generators and headless CMS. They integrate APIs, optimize for SEO and performance, and deploy on platforms like Netlify and Vercel. Ideal for businesses seeking cost-effective, high-performing web solutions that boost growth and user experience.',
-      imagePath1: '/assets/image/freelancing/jamStack-guru1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-guru2.png',
+       'Data scientist success on Guru.com depends on experience, skillset, project complexity, and profile quality. Strong client reviews, a well-detailed portfolio, and consistent, timely delivery significantly improve visibility. Proficiency in tools like Python, R, SQL, and frameworks such as TensorFlow or Scikit-learn boosts credibility. Specializing in niches like AI, NLP, or big data can further enhance opportunities.',
+      imagePath1: '/assets/image/freelancing/dataScientist-guru1.png',
+      imagePath2: '/assets/image/freelancing/dataScientist-guru2.png',
      },
     };
 
@@ -717,32 +716,34 @@ export default function TechStackDashboard() {
     const platformData = {
      'UPWORK.com': {
       shortDescription:
-       'On Upwork, Jamstack developers build fast, secure, and scalable websites using modern tools like Firebase and headless CMS. They specialize in creating static sites powered by APIs, delivering excellent performance and smooth user experiences. Clients on Upwork can hire these experts for projects requiring optimized, easy-to-maintain web solutions that load quickly and are highly secure, making Jamstack a popular choice for modern web development.',
-      imagePath1: '/assets/image/freelancing/jamStack-upwork1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-upwork2.png',
+       'Machine learning engineers on Upwork design, build, and deploy ML models for various applications. They typically work with Python, TensorFlow, PyTorch, and data processing tools. Success depends on strong coding skills, problemsolving ability, and clear communication. Rates vary widely, influenced by experience, project complexity, and client reviews. High-rated engineers often secure long-term contracts and premium projects.',
+      imagePath1: '/assets/image/freelancing/machineLearning-upwork1.png',
+      imagePath2: '/assets/image/freelancing/machineLearning-upwork2.png',
      },
      'FIVERR.com': {
       shortDescription:
-       'Fiverr offers a variety of Jamstack developers who specialize in creating fast, secure, and scalable websites using modern tools like Gatsby, Next.js, and headless CMS. These freelancers provide services such as building static sites, API integrations, and performance optimization. Clients can choose from different packages based on their needs and budget, ensuring flexible options for projects of all sizes with reliable delivery and quality results.',
-      imagePath1: '/assets/image/freelancing/jamStack-fiverr1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-fiverr2.png',
+       'Machine learning engineers on Fiverr provide services like model building, data preprocessing, and AI consulting using tools like Python and TensorFlow. Success depends on clear gig descriptions, strong portfolios, and positive client reviews. Fiverr’s fixed-price gigs attract clients seeking specific tasks. Experienced engineers with high ratings can charge premium prices and secure repeat business for complex projects.',
+      imagePath1: '/assets/image/freelancing/machineLearning-fiverr1.png',
+      imagePath2: '/assets/image/freelancing/machineLearning-fiverr2.png',
      },
      'FREELANCER.com': {
       shortDescription:
-       'JAMstack developers on Freelancer specialize in building ultra-fast, secure, and scalable websites using modern static site generators and headless CMS solutions. They expertly integrate APIs and third-party services to enhance functionality, optimize for SEO and performance, and deploy on advanced platforms like Netlify or Vercel. Perfect for businesses and startups seeking cost-effective, high-converting digital solutions that fuel growth and revenue.',
-      imagePath1: '/assets/image/freelancing/jamStack-freelancer1.png',
+       'Machine learning engineers on Freelancer.com create and deploy ML models, perform data preprocessing, and develop AI solutions using tools like Python and TensorFlow. Success relies on having a strong profile, positive client reviews, and effective communication. Rates vary based on experience and project complexity. Skilled engineers with proven expertise often win higher-paying jobs and long-term contracts by delivering reliable, high-quality work.',
+      imagePath1: '/assets/image/freelancing/machineLearning-freelancer1.png',
      },
      'PEOPLEPERHOUR.com': {
       shortDescription:
-       'Junior JAMstack Developers on PeoplePerHour typically earn $25–$50 per hour or $15,000–$40,000 annually for freelance projects. Beginners focus on static site development, basic API integrations, and CMS setups (like Sanity or Strapi). Their rates depend on skills in Gatsby, Next.js, or Hugo, along with deployment platforms (Netlify/Vercel). Clients hiring juniors often seek budget-friendly solutions for blogs, small business sites, or landing pages.  Pro JAMstack Developers command $60–$120+ per hour or $70,000–$120,000+ per year due to advanced expertise. They handle complex headless architectures, performance optimization, serverless functions (Lambda/Edge), and e-commerce integrations (Snipcart, Shopify). Top earners specialize in scalable enterprise solutions, real-time data apps, or CI/CD automation. Clients pay premiums for pros who boost SEO, security (JWT/OAuth), and conversion rates while reducing hosting costs.',
-      // imagePath1: 'https://i0.wp.com/sunrisedaycamp.org/wp-content/uploads/2020/10/placeholder.png?ssl=1',
-      // imagePath2: '/assets/image/freelancing/frontend-peopleperhour2.png',
+       'Machine learning engineers on PeoplePerHour build and deploy ML models, handle data preprocessing, and create AI solutions using tools like Python and TensorFlow. Success depends on a strong profile, clear communication, and positive client reviews. Rates vary by experience and project complexity. Skilled engineers with proven expertise often secure higher-paying jobs and long-term contracts through consistent quality work and reliability.',
+      imagePath1:
+       '/assets/image/freelancing/machineLearning-peopleperhour1.png',
+      imagePath2:
+       '/assets/image/freelancing/machineLearning-peopleperhour2.png',
      },
      'GURU.com': {
       shortDescription:
-       'JAMstack developers on Guru.com build fast, secure, and scalable websites using modern static site generators and headless CMS. They integrate APIs, optimize for SEO and performance, and deploy on platforms like Netlify and Vercel. Ideal for businesses seeking cost-effective, high-performing web solutions that boost growth and user experience.',
-      imagePath1: '/assets/image/freelancing/jamStack-guru1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-guru2.png',
+       'Machine learning engineers on Guru.com design, develop, and deploy ML models, working with tools like Python, TensorFlow, and PyTorch. Success depends on a strong profile, clear communication, and positive client feedback. Rates vary based on experience and project complexity. Experienced engineers with proven skills often secure highpaying projects and long-term contracts by delivering reliable, quality solutions that meet client needs.',
+      imagePath1: '/assets/image/freelancing/machineLearning-guru1.png',
+      imagePath2: '/assets/image/freelancing/machineLearning-guru2.png',
      },
     };
 
@@ -766,7 +767,7 @@ export default function TechStackDashboard() {
     'UPWORK.com',
     'FIVERR.com',
     'FREELANCER.com',
-    'PEOPLEPERHOUR.com',
+    // 'PEOPLEPERHOUR.com',
     'GURU.com',
    ],
    content: (platform) => {
@@ -774,32 +775,30 @@ export default function TechStackDashboard() {
     const platformData = {
      'UPWORK.com': {
       shortDescription:
-       'On Upwork, Jamstack developers build fast, secure, and scalable websites using modern tools like Firebase and headless CMS. They specialize in creating static sites powered by APIs, delivering excellent performance and smooth user experiences. Clients on Upwork can hire these experts for projects requiring optimized, easy-to-maintain web solutions that load quickly and are highly secure, making Jamstack a popular choice for modern web development.',
-      imagePath1: '/assets/image/freelancing/jamStack-upwork1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-upwork2.png',
+       'AI engineers on Upwork design, develop, and deploy artificial intelligence models and systems using tools like Python, TensorFlow, and PyTorch. Success relies on strong technical skills, clear communication, and positive client reviews. Rates vary with experience and project complexity. Skilled AI engineers often secure high-paying contracts by delivering innovative, reliable solutions that meet client needs across industries.',
+      imagePath1: '/assets/image/freelancing/AI-upwork1.png',
+      imagePath2: '/assets/image/freelancing/AI-upwork2.png',
      },
      'FIVERR.com': {
       shortDescription:
-       'Fiverr offers a variety of Jamstack developers who specialize in creating fast, secure, and scalable websites using modern tools like Gatsby, Next.js, and headless CMS. These freelancers provide services such as building static sites, API integrations, and performance optimization. Clients can choose from different packages based on their needs and budget, ensuring flexible options for projects of all sizes with reliable delivery and quality results.',
-      imagePath1: '/assets/image/freelancing/jamStack-fiverr1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-fiverr2.png',
+       'AI engineers on Fiverr offer services like building and deploying AI models, data preprocessing, and custom AI solutions using tools such as Python, TensorFlow, and PyTorch. Success depends on clear gig descriptions, strong portfolios, and positive client reviews. Fiverr’s fixed-price gigs attract clients seeking specific tasks. Experienced engineers with high ratings often command premium prices and secure repeat clients for complex projects.',
+      imagePath1: '/assets/image/freelancing/AI-fiverr1.png',
+      imagePath2: '/assets/image/freelancing/AI-fiverr2.png',
      },
      'FREELANCER.com': {
       shortDescription:
-       'JAMstack developers on Freelancer specialize in building ultra-fast, secure, and scalable websites using modern static site generators and headless CMS solutions. They expertly integrate APIs and third-party services to enhance functionality, optimize for SEO and performance, and deploy on advanced platforms like Netlify or Vercel. Perfect for businesses and startups seeking cost-effective, high-converting digital solutions that fuel growth and revenue.',
-      imagePath1: '/assets/image/freelancing/jamStack-freelancer1.png',
+       'AI engineers on Freelancer.com develop and deploy AI models, handle data preprocessing, and create custom AI solutions using tools like Python, TensorFlow, and PyTorch. Success depends on a strong profile, clear communication, and positive client reviews. Rates vary by experience and project complexity. Skilled engineers with proven expertise often secure higher-paying projects and long-term contracts through reliable, high-quality work.',
+      imagePath1: '/assets/image/freelancing/AI-freelancer1.png',
      },
-     'PEOPLEPERHOUR.com': {
-      shortDescription:
-       'Junior JAMstack Developers on PeoplePerHour typically earn $25–$50 per hour or $15,000–$40,000 annually for freelance projects. Beginners focus on static site development, basic API integrations, and CMS setups (like Sanity or Strapi). Their rates depend on skills in Gatsby, Next.js, or Hugo, along with deployment platforms (Netlify/Vercel). Clients hiring juniors often seek budget-friendly solutions for blogs, small business sites, or landing pages.  Pro JAMstack Developers command $60–$120+ per hour or $70,000–$120,000+ per year due to advanced expertise. They handle complex headless architectures, performance optimization, serverless functions (Lambda/Edge), and e-commerce integrations (Snipcart, Shopify). Top earners specialize in scalable enterprise solutions, real-time data apps, or CI/CD automation. Clients pay premiums for pros who boost SEO, security (JWT/OAuth), and conversion rates while reducing hosting costs.',
-      // imagePath1: 'https://i0.wp.com/sunrisedaycamp.org/wp-content/uploads/2020/10/placeholder.png?ssl=1',
-      // imagePath2: '/assets/image/freelancing/frontend-peopleperhour2.png',
-     },
+    //  'PEOPLEPERHOUR.com': {
+    //   shortDescription: 'NOT Included',
+    //   imagePath1: '/assets/image/freelancing/images-placeholder.png',
+    //  },
      'GURU.com': {
       shortDescription:
-       'JAMstack developers on Guru.com build fast, secure, and scalable websites using modern static site generators and headless CMS. They integrate APIs, optimize for SEO and performance, and deploy on platforms like Netlify and Vercel. Ideal for businesses seeking cost-effective, high-performing web solutions that boost growth and user experience.',
-      imagePath1: '/assets/image/freelancing/jamStack-guru1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-guru2.png',
+       'AI engineers on Guru.com design, develop, and deploy AI models and systems using tools like Python, TensorFlow, and PyTorch. Success depends on a strong profile, clear communication, and positive client feedback. Rates vary by experience and project complexity. Skilled AI engineers with proven expertise often secure high-paying projects and long-term contracts by delivering reliable, innovative solutions tailored to client needs.',
+      imagePath1: '/assets/image/freelancing/AI-guru1.png',
+      imagePath2: '/assets/image/freelancing/AI-guru2.png',
      },
     };
 
@@ -815,8 +814,8 @@ export default function TechStackDashboard() {
      ],
     };
    },
-  },
-
+   },
+  
   'Certified Ethical Hacker (CEH v13)': {
    color: 'linear-gradient(-90deg,rgb(233, 185, 90),rgb(231, 156, 5) )',
    tabs: [
@@ -831,32 +830,31 @@ export default function TechStackDashboard() {
     const platformData = {
      'UPWORK.com': {
       shortDescription:
-       'On Upwork, Jamstack developers build fast, secure, and scalable websites using modern tools like Firebase and headless CMS. They specialize in creating static sites powered by APIs, delivering excellent performance and smooth user experiences. Clients on Upwork can hire these experts for projects requiring optimized, easy-to-maintain web solutions that load quickly and are highly secure, making Jamstack a popular choice for modern web development.',
-      imagePath1: '/assets/image/freelancing/jamStack-upwork1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-upwork2.png',
+       'Certified Ethical Hackers (CEH) on Upwork specialize in identifying and fixing security vulnerabilities in systems and networks. They use tools and techniques to perform penetration testing, vulnerability assessments, and security audits. Success depends on strong technical skills, certifications, clear communication, and positive client feedback. CEHs with proven expertise often secure high-paying, trusted cybersecurity projects and long-term contracts.',
+      imagePath1: '/assets/image/freelancing/CEH-upwork1.png',
+      imagePath2: '/assets/image/freelancing/CEH-upwork2.png',
      },
      'FIVERR.com': {
       shortDescription:
-       'Fiverr offers a variety of Jamstack developers who specialize in creating fast, secure, and scalable websites using modern tools like Gatsby, Next.js, and headless CMS. These freelancers provide services such as building static sites, API integrations, and performance optimization. Clients can choose from different packages based on their needs and budget, ensuring flexible options for projects of all sizes with reliable delivery and quality results.',
-      imagePath1: '/assets/image/freelancing/jamStack-fiverr1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-fiverr2.png',
+       'Certified Ethical Hackers (CEH) on Fiverr offer services like penetration testing, vulnerability assessments, and security audits to help clients protect their systems. They use industry-standard tools and techniques to identify security flaws. Success depends on clear gig descriptions, strong portfolios, and positive client reviews. Experienced CEHs with high ratings often command premium prices and secure repeat clients for advanced cybersecurity projects.',
+      imagePath1: '/assets/image/freelancing/CEH-fiverr1.png',
+      imagePath2: '/assets/image/freelancing/CEH-fiverr2.png',
      },
      'FREELANCER.com': {
       shortDescription:
-       'JAMstack developers on Freelancer specialize in building ultra-fast, secure, and scalable websites using modern static site generators and headless CMS solutions. They expertly integrate APIs and third-party services to enhance functionality, optimize for SEO and performance, and deploy on advanced platforms like Netlify or Vercel. Perfect for businesses and startups seeking cost-effective, high-converting digital solutions that fuel growth and revenue.',
-      imagePath1: '/assets/image/freelancing/jamStack-freelancer1.png',
+         'Certified Ethical Hackers (CEH) on Freelancer.com perform penetration testing, vulnerability assessments, and security audits to identify and fix system weaknesses. They use industry tools and techniques to help clients improve cybersecurity. Success depends on a strong profile, clear communication, and positive client feedback. Experienced CEHs often secure high-paying projects and long-term contracts by delivering reliable, thorough security solutions.',
+      imagePath1: '/assets/image/freelancing/CEH-freelancer1.png',
      },
      'PEOPLEPERHOUR.com': {
-      shortDescription:
-       'Junior JAMstack Developers on PeoplePerHour typically earn $25–$50 per hour or $15,000–$40,000 annually for freelance projects. Beginners focus on static site development, basic API integrations, and CMS setups (like Sanity or Strapi). Their rates depend on skills in Gatsby, Next.js, or Hugo, along with deployment platforms (Netlify/Vercel). Clients hiring juniors often seek budget-friendly solutions for blogs, small business sites, or landing pages.  Pro JAMstack Developers command $60–$120+ per hour or $70,000–$120,000+ per year due to advanced expertise. They handle complex headless architectures, performance optimization, serverless functions (Lambda/Edge), and e-commerce integrations (Snipcart, Shopify). Top earners specialize in scalable enterprise solutions, real-time data apps, or CI/CD automation. Clients pay premiums for pros who boost SEO, security (JWT/OAuth), and conversion rates while reducing hosting costs.',
-      // imagePath1: 'https://i0.wp.com/sunrisedaycamp.org/wp-content/uploads/2020/10/placeholder.png?ssl=1',
-      // imagePath2: '/assets/image/freelancing/frontend-peopleperhour2.png',
+      shortDescription: 'Certified Ethical Hackers (CEH) on PeoplePerHour specialize in identifying and fixing security vulnerabilities through penetration testing, vulnerability assessments, and security audits. They use industry tools and techniques to help clients strengthen cybersecurity. Success depends on strong profiles, clear communication, and positive reviews. Experienced CEHs often secure high-paying, trusted cybersecurity projects and repeat clients on the platform.',
+      imagePath1: '/assets/image/freelancing/CEH-peopleperhour1.png',
+      imagePath2: '/assets/image/freelancing/CEH-peopleperhour2.png',
      },
      'GURU.com': {
       shortDescription:
-       'JAMstack developers on Guru.com build fast, secure, and scalable websites using modern static site generators and headless CMS. They integrate APIs, optimize for SEO and performance, and deploy on platforms like Netlify and Vercel. Ideal for businesses seeking cost-effective, high-performing web solutions that boost growth and user experience.',
-      imagePath1: '/assets/image/freelancing/jamStack-guru1.png',
-      imagePath2: '/assets/image/freelancing/jamStack-guru2.png',
+       'Certified Ethical Hackers (CEH) on Guru.com perform penetration testing, vulnerability assessments, and security audits to identify and fix system weaknesses. They use industry tools and techniques to improve client cybersecurity. Success depends on a strong profile, clear communication, and positive reviews. Experienced CEHs often secure high-paying projects and long-term contracts by delivering reliable, thorough security solutions.',
+      imagePath1: '/assets/image/freelancing/CEH-guru1.png',
+      imagePath2: '/assets/image/freelancing/CEH-guru2.png',
      },
     };
 
@@ -866,8 +864,8 @@ export default function TechStackDashboard() {
       {
        shortDescription: platformData[platform].shortDescription,
        heading: 'About Certified Ethical Hacker (CEH v13) ',
-       image1: platformData[platform].imagePath1, // Moved image links here
-       image2: platformData[platform].imagePath2, // Moved image links here
+       image1: platformData[platform].imagePath1,
+       image2: platformData[platform].imagePath2, 
       },
      ],
     };
@@ -987,6 +985,7 @@ export default function TechStackDashboard() {
 
              {row.image1 && (
               <Image
+               loading="lazy"
                src={row.image1}
                alt="Freelance Guru"
                width={1000}
@@ -997,9 +996,10 @@ export default function TechStackDashboard() {
 
              {row.image2 && (
               <Image
+               loading="lazy"
                src={row.image2}
                alt="Freelance Guru"
-               width={1000}
+               width={600}
                height={300}
               />
              )}
