@@ -26,6 +26,9 @@ export default function BlogCard() {
     <Grid container spacing={4} justifyContent="center">
      {blogListing.courses?.slice(0, 4).map((blog) => (
       <Box
+       className="row wow fadeInUp"
+       data-wow-duration=".6s"
+       data-wow-delay=".6s"
        sx={{
         border: '1px solid',
         borderColor: 'divider',

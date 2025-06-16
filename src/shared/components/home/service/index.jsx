@@ -50,69 +50,83 @@ export const HomeAreaService = () => {
   },
  ];
 
- return (
-  <section className="card">
-   <img src={'assets/img/img-bg.png'} alt={'image'} className="card__bg" />
-   <div class="card__blur"></div>
+  return (
+   <>
+    <div className="tp-home-4-service-title text-center mt-60">
+     <span className="tp-section-v_2-title-pre">Latest Insights</span>
+     <h3 className="tp-section-title">Top Services</h3>
+    </div>
 
-   <div className="card__container containerCard" style={{margin: '100px 25px'}}>
-    {cards.map((card) => (
-     <article key={card.id} className={`card__article card-${card.color}`}>
-      <img src={card.image} alt={card.name} className="card__img" />
-      <div className="card__shadow"></div>
+    <section className="card">
+     <img src={'assets/img/img-bg.png'} alt={'image'} className="card__bg" />
+     <div class="card__blur"></div>
 
-      <div className="card__data">
-       <h2 className="card__name">{card.name}</h2>
-       <span className="card__profession">{card.profession}</span>
-      </div>
+     <div
+      className="card__container containerCard"
+      style={{margin: '100px 25px'}}
+     >
+      {cards.map((card) => (
+       <article
+        key={card.id}
+        className={`card__article card-${card.color} wow fadeInUp`}
+        data-wow-duration={`.${card.id}s`}
+        data-wow-delay={`.${card.id}s`}
+       >
+        <img src={card.image} alt={card.name} className="card__img" />
+        <div className="card__shadow"></div>
 
-      <div className="card__clip">
-       <RiMenu4Line />
-      </div>
+        <div className="card__data">
+         <h2 className="card__name">{card.name}</h2>
+         <span className="card__profession">{card.profession}</span>
+        </div>
 
-      <div className="info">
-       <div className="info__data">
-        <h2 className="info__name">{card.name}</h2>
-        <p className="info__description">{card.description}</p>
-        <a href="#" className="info__button">
-         Follow Me
-        </a>
-       </div>
+        <div className="card__clip">
+         <RiMenu4Line />
+        </div>
 
-       <div className="info__social">
-        <a
-         href="https://www.facebook.com/"
-         target="_blank"
-         rel="noopener noreferrer"
-         className="info__link"
-        >
-         <RiFacebookCircleLine />
-        </a>
-        <a
-         href="https://www.instagram.com/"
-         target="_blank"
-         rel="noopener noreferrer"
-         className="info__link"
-        >
-         <RiInstagramLine />
-        </a>
-        <a
-         href="https://twitter.com/"
-         target="_blank"
-         rel="noopener noreferrer"
-         className="info__link"
-        >
-         <RiTwitterXLine />
-        </a>
-       </div>
-      </div>
-     </article>
-    ))}
-   </div>
-  </section>
- );
+        <div className="info">
+         <div className="info__data">
+          <h2 className="info__name">{card.name}</h2>
+          <p className="info__description">{card.description}</p>
+          <a href="#" className="info__button">
+           Follow Me
+          </a>
+         </div>
+
+         <div className="info__social">
+          <a
+           href="https://www.facebook.com/"
+           target="_blank"
+           rel="noopener noreferrer"
+           className="info__link"
+          >
+           <RiFacebookCircleLine />
+          </a>
+          <a
+           href="https://www.instagram.com/"
+           target="_blank"
+           rel="noopener noreferrer"
+           className="info__link"
+          >
+           <RiInstagramLine />
+          </a>
+          <a
+           href="https://twitter.com/"
+           target="_blank"
+           rel="noopener noreferrer"
+           className="info__link"
+          >
+           <RiTwitterXLine />
+          </a>
+         </div>
+        </div>
+       </article>
+      ))}
+     </div>
+    </section>
+   </>
+  );
 };
-
 
 //   return (
 //     <section className="tp-home-4-service-area pb-40 p-relative">

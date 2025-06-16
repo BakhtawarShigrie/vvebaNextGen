@@ -999,7 +999,7 @@ export default function TechStackDashboard() {
                loading="lazy"
                src={row.image2}
                alt="Freelance Guru"
-               width={600}
+               width={1000}
                height={300}
               />
              )}

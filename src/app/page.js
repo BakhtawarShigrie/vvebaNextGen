@@ -5,6 +5,7 @@ import {HomeAreaAbout} from '@/shared/components/home/about';
 import {HomeFeatureArea} from '@/shared/components/home/features';
 import FreelancePlatform from '@/shared/components/home/freelancing';
 import {HeroSection} from '@/shared/components/home/hero';
+import TechStackJobs from '@/shared/components/home/jobs';
 import PayScale from '@/shared/components/home/payscale';
 import {HomeProcessArea} from '@/shared/components/home/process';
 import {HomeAreaService} from '@/shared/components/home/service';
@@ -54,6 +55,7 @@ export default function Home() {
    <HomeAreaAbout />
    <PayScale />
    <FreelancePlatform />
+   <TechStackJobs />
    <HomeAreaService />
    {/* <HomeFeatureArea /> */}
    {/* <HomeAreaTestimonial /> */}

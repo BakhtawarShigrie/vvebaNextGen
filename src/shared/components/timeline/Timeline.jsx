@@ -4,7 +4,7 @@ import '@/app/css/style.css';
 import RippleButtonEffect from '../rippleButtonEffect';
 
 export default function Timeline() {
- const [activeEvents, setActiveEvents] = useState([]);
+ const [activeEvents, setActiveEvents] = useState([2]);
 
  const events = [
   {
