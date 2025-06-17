@@ -2,6 +2,7 @@
 import BlogCard from '@/shared/components/blogCard';
 import CourseSelector from '@/shared/components/courses';
 import {HomeAreaAbout} from '@/shared/components/home/about';
+import BootcampsStacks from '@/shared/components/home/bootcamps';
 import {HomeFeatureArea} from '@/shared/components/home/features';
 import FreelancePlatform from '@/shared/components/home/freelancing';
 import {HeroSection} from '@/shared/components/home/hero';
@@ -73,7 +74,8 @@ export default function Home() {
    </Box>
    {/* <Education /> */}
    <Timeline />
-   {/* <SeminarBookingForm /> */}
+         {/* <SeminarBookingForm /> */}
+         <BootcampsStacks />
   </main>
  );
 }
