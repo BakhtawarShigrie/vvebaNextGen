@@ -582,7 +582,7 @@ export default function BootcampsStacks() {
     <div className="col-md-3">
      <Paper elevation={2} className="p-2 h-100">
       <Typography variant="h6" className="mb-2 fw-bold">
-       Tech Stacks
+       Globel BootCamps
       </Typography>
       <List dense>
        {Object.keys(sidebarItems).map((item) => (
