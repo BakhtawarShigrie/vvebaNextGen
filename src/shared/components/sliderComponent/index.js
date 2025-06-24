@@ -1,15 +1,14 @@
 'use client';
 import React, {useState, useEffect, useRef} from 'react';
 import Image from 'next/image';
-import RippleButtonEffect from '../rippleButtonEffect';
 import {useRouter} from 'next/navigation';
 
 import {
-    Box,
+ Box,
  Dialog,
  DialogContent,
  IconButton,
- useMediaQuery,
+ Button,
  useTheme,
 } from '@mui/material';
 import {styled} from '@mui/material/styles';
@@ -30,7 +29,7 @@ const FullScreenDialog = styled(Dialog)(({theme}) => ({
   height: '100%',
   maxWidth: 'none',
   maxHeight: 'none',
-  borderRadius: 0, // Remove rounded corners for true fullscreen
+  borderRadius: 0,
   transition: theme.transitions.create(['transform', 'opacity'], {
    easing: theme.transitions.easing.easeInOut,
    duration: theme.transitions.duration.enteringScreen,
@@ -42,56 +41,88 @@ const FullScreenDialog = styled(Dialog)(({theme}) => ({
 }));
 
 const Carousel = () => {
-  const router = useRouter()
- const [items, setItems] = useState([
+ const router = useRouter();
+ const [items] = useState([
   {
-   id: 1,
-   image: '/assets/image/img1.jpg',
+   id: 0,
+   image: '/assets/image/18.jpg',
    videoLink:
     'https://www.youtube.com/embed/FUiu-cdu6mA?si=6ykPCneK0usCEYoH&amp;controls=0',
    author: 'LUNDEV',
-   title: 'DESIGN SLIDER',
+   title: 'DESIGN SL',
    topic: 'ANIMAL',
-   description:
-    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?',
+   description: [
+    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi.',
+    'Rem magnam nesciunt minima placeat, itaque eum neque officiis unde.',
+    'Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde.',
+    'Ut, exercitationem eum aperiam illo illum laudantium?',
+   ],
   },
   {
-   id: 2,
-   image: '/assets/image/img2.jpg',
+   id: 1,
+   image: '/assets/image/11.jpg',
    videoLink:
     'https://www.youtube.com/embed/U-nlSTGY6hw?si=zsdECXzqwhtdHD7q&amp;controls=0',
    author: 'HUSNAIN',
    title: 'DESIGN SERVER',
    topic: 'ANIMAL',
-   description:
-    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?',
+   description: [
+    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi.',
+    'Rem magnam nesciunt minima placeat, itaque eum neque officiis unde.',
+    'Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde.',
+    'Ut, exercitationem eum aperiam illo illum laudantium?',
+   ],
   },
   {
-   id: 3,
-   image: '/assets/image/img3.jpg',
+   id: 2,
+   image: '/assets/image/12.jpg',
    videoLink:
     'https://www.youtube.com/embed/FUiu-cdu6mA?si=6ykPCneK0usCEYoH&amp;controls=0',
    author: 'FAWAD',
    title: 'DESIGN APP',
    topic: 'ANIMAL',
-   description:
-    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?',
+   description: [
+    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi.',
+    'Rem magnam nesciunt minima placeat, itaque eum neque officiis unde.',
+    'Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde.',
+    'Ut, exercitationem eum aperiam illo illum laudantium?',
+   ],
   },
   {
-   id: 4,
-   image: '/assets/image/img4.jpg',
+   id: 3,
+   image: '/assets/image/05.jpg',
    videoLink:
     'https://www.youtube.com/embed/FUiu-cdu6mA?si=6ykPCneK0usCEYoH&amp;controls=0',
    author: 'BAKHTAWAR',
    title: 'DESIGN GRAPHICS',
    topic: 'ANIMAL',
-   description:
-    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?',
+   description: [
+    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi.',
+    'Rem magnam nesciunt minima placeat, itaque eum neque officiis unde.',
+    'Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde.',
+    'Ut, exercitationem eum aperiam illo illum laudantium?',
+   ],
+  },
+  {
+   id: 4,
+   image: '/assets/image/13.jpg',
+   videoLink:
+    'https://www.youtube.com/embed/FUiu-cdu6mA?si=6ykPCneK0usCEYoH&amp;controls=0',
+   author: 'Akeel',
+   title: 'DESIGN GRAPHICS',
+   topic: 'ANIMAL',
+   description: [
+    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi.',
+    'Rem magnam nesciunt minima placeat, itaque eum neque officiis unde.',
+    'Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde.',
+    'Ut, exercitationem eum aperiam illo illum laudantium?',
+   ],
   },
  ]);
 
  const [isNext, setIsNext] = useState(false);
  const [isPrev, setIsPrev] = useState(false);
+ const [activeIndex, setActiveIndex] = useState(0);
  const carouselRef = useRef(null);
  const sliderRef = useRef(null);
  const thumbnailBorderRef = useRef(null);
@@ -101,76 +132,97 @@ const Carousel = () => {
  const timeRunning = 3000;
  const timeAutoNext = 7000;
 
- const showSlider = (type) => {
-  if (!sliderRef.current || !thumbnailBorderRef.current || !carouselRef.current)
-   return;
+ const handleThumbnailClick = (clickedIndex) => {
+  if (!sliderRef.current || !thumbnailBorderRef.current) return;
 
   const sliderItems = Array.from(sliderRef.current.children);
   const thumbnailItems = Array.from(thumbnailBorderRef.current.children);
+  const total = sliderItems.length;
 
-  if (type === 'next') {
-   // Move first item to end
-   const firstSliderItem = sliderItems[0];
-   const firstThumbnailItem = thumbnailItems[0];
+  if (clickedIndex === activeIndex) return;
 
-   sliderRef.current.appendChild(firstSliderItem);
-   thumbnailBorderRef.current.appendChild(firstThumbnailItem);
+  const nextSteps = (clickedIndex - activeIndex + total) % total;
+  const prevSteps = (activeIndex - clickedIndex + total) % total;
+
+  if (nextSteps <= prevSteps) {
+   for (let i = 0; i < nextSteps; i++) {
+    const firstSlider = sliderItems[0];
+    const firstThumbnail = thumbnailItems[0];
+    sliderRef.current.appendChild(firstSlider);
+    thumbnailBorderRef.current.appendChild(firstThumbnail);
+   }
    setIsNext(true);
   } else {
-   // Move last item to beginning
-   const lastSliderItem = sliderItems[sliderItems.length - 1];
-   const lastThumbnailItem = thumbnailItems[thumbnailItems.length - 1];
-
-   sliderRef.current.prepend(lastSliderItem);
-   thumbnailBorderRef.current.prepend(lastThumbnailItem);
-   setIsPrev(true);
+   for (let i = 0; i < prevSteps; i++) {
+    const lastSlider = sliderItems[sliderItems.length - 1];
+    const lastThumbnail = thumbnailItems[thumbnailItems.length - 1];
+    sliderRef.current.prepend(lastSlider);
+    thumbnailBorderRef.current.prepend(lastThumbnail);
+   }
+   setIsNext(false);
   }
 
-  // Clear existing timeouts
-  if (timeRunningRef.current) clearTimeout(timeRunningRef.current);
-  if (runNextAutoRef.current) clearTimeout(runNextAutoRef.current);
-
-  // Remove animation classes after delay
+  setActiveIndex(clickedIndex);
+  clearTimeouts();
   timeRunningRef.current = setTimeout(() => {
    setIsNext(false);
-   setIsPrev(false);
   }, timeRunning);
+  resetAutoRotation();
+ };
 
-  // Auto-advance to next slide
+ const clearTimeouts = () => {
+  if (timeRunningRef.current) clearTimeout(timeRunningRef.current);
+  if (runNextAutoRef.current) clearTimeout(runNextAutoRef.current);
+ };
+
+ const resetAutoRotation = () => {
+  clearTimeouts();
   runNextAutoRef.current = setTimeout(() => {
-   showSlider('next');
+   showNextSlide();
   }, timeAutoNext);
  };
 
- // Initialize auto-rotation
- useEffect(() => {
-  runNextAutoRef.current = setTimeout(() => {
-   showSlider('next');
-  }, timeAutoNext);
+ const showNextSlide = () => {
+  if (!sliderRef.current || !thumbnailBorderRef.current) return;
 
-  return () => {
-   if (timeRunningRef.current) clearTimeout(timeRunningRef.current);
-   if (runNextAutoRef.current) clearTimeout(runNextAutoRef.current);
-  };
+  const sliderItems = Array.from(sliderRef.current.children);
+  const thumbnailItems = Array.from(thumbnailBorderRef.current.children);
+  const firstSliderItem = sliderItems[0];
+  const firstThumbnailItem = thumbnailItems[0];
+
+  sliderRef.current.appendChild(firstSliderItem);
+  thumbnailBorderRef.current.appendChild(firstThumbnailItem);
+  setIsNext(true);
+  setActiveIndex((prev) => (prev + 1) % items.length);
+
+  clearTimeouts();
+  timeRunningRef.current = setTimeout(() => {
+   setIsNext(false);
+  }, timeRunning);
+  resetAutoRotation();
+ };
+
+ useEffect(() => {
+  resetAutoRotation();
+  return () => clearTimeouts();
  }, []);
 
-    //  // Add state for video dialog
+ //  // Add state for video dialog
 
-    const [dialogOpen, setdialogOpen] = useState(false);
-    const [currentVideo, setCurrentVideo] = useState('');
+ const [dialogOpen, setdialogOpen] = useState(false);
+ const [currentVideo, setCurrentVideo] = useState('');
 
-    const handleVideoDialog = (videoLink) => {
-        setdialogOpen(true);
-        setCurrentVideo(videoLink);
-    };
-    
-    const handleDialogClose = () => {
-        setdialogOpen(false);
-        setCurrentVideo('');
-    };
+ const handleVideoDialog = (videoLink) => {
+  setdialogOpen(true);
+  setCurrentVideo(videoLink);
+ };
+
+ const handleDialogClose = () => {
+  setdialogOpen(false);
+  setCurrentVideo('');
+ };
 
  const theme = useTheme();
-
 
  return (
   <div
@@ -180,7 +232,7 @@ const Carousel = () => {
    {/* Main list */}
    <div ref={sliderRef} className="list">
     {items.map((item) => (
-     <div key={item.id} className="item">
+     <div key={item.id} className="item" data-id={item.id}>
       <Image
        src={item.image}
        alt={item.title}
@@ -192,19 +244,42 @@ const Carousel = () => {
        <div className="author">{item.author}</div>
        <div className="title">{item.title}</div>
        <div className="topic">{item.topic}</div>
-       <div className="des">{item.description}</div>
+       <ul className="des">
+        {item.description.map((desc, index) => (
+         <li key={index}>{desc}</li>
+        ))}
+       </ul>
        <div className="buttons">
-        <RippleButtonEffect />
-        <button className="ripple-button" onClick={() => router.push('/seminar')}>
+        <Button
+         sx={{
+          boxShadow: 'none',
+          borderRadius: '50px',
+          backgroundColor: '#e92e3e',
+          '&:hover': {
+           backgroundColor: '#363f46',
+           color: '#ffffff',
+          },
+         }}
+         variant="contained"
+         onClick={() => router.push('/seminar')}
+        >
          Book Seminar
-        </button>
-        {/* <button className="ripple-button">Demo Video</button> */}
-        <button
-         className="ripple-button"
+        </Button>
+        <Button
+         sx={{
+          boxShadow: 'none',
+          borderRadius: '50px',
+          backgroundColor: '#e92e3e',
+          '&:hover': {
+           backgroundColor: '#363f46',
+           color: '#ffffff',
+          },
+         }}
+         variant="contained"
          onClick={() => handleVideoDialog(item.videoLink)}
         >
          Demo Video
-        </button>
+        </Button>
        </div>
       </div>
      </div>
@@ -213,13 +288,11 @@ const Carousel = () => {
 
    {/* Thumbnail navigation */}
    <div ref={thumbnailBorderRef} className="thumbnail">
-    {items.map((item) => (
+    {items.map((item, index) => (
      <div
       key={item.id}
-      className="item"
-      onClick={() => {
-       // Optional: Implement direct thumbnail click navigation if needed
-      }}
+      className={`item ${index === activeIndex ? 'active' : ''}`}
+      onClick={() => handleThumbnailClick(index)}
      >
       <Image
        src={item.image}
@@ -229,21 +302,11 @@ const Carousel = () => {
        className="thumbnail-image"
       />
       <div className="content">
-       <div className="title">Name Slider</div>
-       <div className="description">Description</div>
+       <div className="title">{item.author}</div>
+       <div className="description">{item.title}</div>
       </div>
      </div>
     ))}
-   </div>
-
-   {/* Navigation arrows */}
-   <div className="arrows">
-    <button id="prev" onClick={() => showSlider('prev')}>
-     ‹
-    </button>
-    <button id="next" onClick={() => showSlider('next')}>
-     ›
-    </button>
    </div>
 
    {/* Time indicator */}
@@ -305,4 +368,3 @@ const Carousel = () => {
 };
 
 export default Carousel;
-

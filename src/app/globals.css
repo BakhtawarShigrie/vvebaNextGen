@@ -3,7 +3,8 @@
   /*=============== VARIABLES CSS ===============*/
   :root {
       /*========== Colors ==========*/
-      --yellow-color: 52;
+      --yellow-color: 354;
+      --red-color: 52;   
       --green-color: 116;
       --pink-color: 300;
       --blue-color: 216;
@@ -26,10 +27,10 @@
   /*========== Responsive typography ==========*/
   @media screen and (min-width: 1150px) {
       :root {
-          --biggest-font-size: 48px;
-          --big-font-size: 40px;
-          --normal-font-size: 16px;
-          --small-font-size: 14px;
+          --biggest-font-size: 36px;
+          --big-font-size: 30px;
+          --normal-font-size: 14px;
+          --small-font-size: 12px;
       }
   }
 
@@ -61,6 +62,9 @@
       margin-inline: 24px;
       padding: 32px 0;
   }
+  .card-red {
+    background-color: var(--red-color);
+  }
 
   .card-yellow {
       --hue: var(--yellow-color);
@@ -81,25 +85,10 @@
   /*=============== CARD ===============*/
   .card {
       position: relative;
+      background: #363f46;
+      
   }
 
-  .card__bg, 
-  .card__blur {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-  }
-
-  .card__bg {
-      object-fit: cover;
-      object-position: center;
-  }
-
-  .card__blur {
-      backdrop-filter: blur(24px);
-  }
 
   .card__container {
       position: relative;
@@ -159,14 +148,14 @@
       top: 16px;
       right: 16px;
       background-color: hsl(var(--hue), 90%, 50%);
-      box-shadow: 0 0 16px 4px hsl(var(--hue), 90%, 50%);
+      /* box-shadow: 0 0 16px 4px hsl(var(--hue), 90%, 50%); */
       width: 32px;
       height: 32px;
       border-radius: 50%;
       display: grid;
       place-items: center;
       font-size: 24px;
-      color: var(--black-color);
+      color: var(--white-color);
       z-index: 5;
       cursor: pointer;
       transition: transform .4s;
@@ -211,7 +200,7 @@
       box-shadow: 0 0 12px hsl(var(--hue), 90%, 50%);
       padding: 8px 12px;
       border-radius: 8px;
-      color: var(--black-color);
+      color: var(--white-color);
       font-size: var(--small-font-size);
       font-weight: var(--font-semi-bold);
       transition: box-shadow .4s;
@@ -238,7 +227,7 @@
       display: grid;
       place-items: center;
       font-size: 24px;
-      color: var(--black-color);
+      color: var(--white-color);
       transition: transform .4s;
   }
 
@@ -368,7 +357,7 @@ html, body {
   position: absolute;
   inset: 0 0 0 0;
 }
-.carousel .list .item img{
+.carousel .list .item .carousel-image{
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -385,6 +374,15 @@ html, body {
   color: #fff;
   text-shadow: 0 5px 10px #0004;
 }
+.des {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.des li {
+  margin-bottom: 5px;
+  list-style-type: disc;
+}
 .carousel .list .item .author{
   font-weight: bold;
   letter-spacing: 10px;
@@ -396,8 +394,9 @@ html, body {
   line-height: 1.3em;
 }
 .carousel .list .item .topic{
-  color: #f1683a;
+  color: #e92e3e;
 }
+
 .carousel .list .item .buttons{
   display: grid;
   grid-template-columns: repeat(2, 150px);
@@ -406,10 +405,11 @@ html, body {
   margin-top: 20px;
 }
 /* add button */
-.carousel .list .item .buttons button{
+/* .carousel .list .item .buttons button{
   cursor: pointer;
   border: none;
   border-radius: 30px;
+  background-color: #e85a19;
   background: linear-gradient(-90deg, #f5ce62, #e85a19);
   color: #eee;
   letter-spacing: 3px;
@@ -418,7 +418,8 @@ html, body {
 }
 .carousel .list .item .buttons button:nth-child(2){
   background: linear-gradient(90deg, #0162c8, #55e7fc);
-}
+  background-color: #0162c8;
+} */
 
 /* thumbail */
 .thumbnail{
@@ -436,6 +437,43 @@ html, body {
   flex-shrink: 0;
   position: relative;
 }
+
+/* add current index open */
+/* Add these styles to your CSS */
+.carousel.animating .list {
+  transition: transform 0.5s ease;
+}
+
+.thumbnail .item.active {
+  border: 2px solid #e92e3e;
+  border-radius: 20px;
+  position: relative;
+}
+
+.thumbnail .item.active::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  background: #e92e3e;
+  border-radius: 50%;
+}
+
+.thumbnail .item {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+}
+
+.thumbnail .item:hover, 
+.thumbnail .item.active {
+  opacity: 1;
+  transform: scale(1.05);
+}
+/* end */
 .thumbnail .item img{
   width: 100%;
   height: 100%;
@@ -451,9 +489,12 @@ html, body {
 }
 .thumbnail .item .content .title{
   font-weight: 500;
+  font-size: var(--font-bold);
 }
 .thumbnail .item .content .description{
   font-weight: 300;
+  font-size: var(--font-regular);
+  line-height: normal;
 }
 /* arrows */
 .arrows{
@@ -570,7 +611,7 @@ html, body {
   z-index: 1000;
   width: 0%;
   height: 3px;
-  background-color: #f1683a;
+  background-color: #e92e3e;
   left: 0;
   top: 0;
 }
