@@ -63,9 +63,7 @@ export const HomeAreaAbout = () => {
                   {' '}
                   Turning ideas into tangible digital realities{' '}
                 </h4>
-                <span>
-                  <i className="fal fa-quote-right"></i>
-                </span>
+            
               </div>
               <div className="tp-about-4-cta d-flex justify-content-center mt-60 mb-10 align-items-center align-items-sm-start">
                 <div className="tp-hero-btn mr-30 hero-btn-4">

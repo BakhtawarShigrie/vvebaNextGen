@@ -49,13 +49,13 @@ const Carousel = () => {
    videoLink:
     'https://www.youtube.com/embed/FUiu-cdu6mA?si=6ykPCneK0usCEYoH&amp;controls=0',
    author: 'LUNDEV',
-   title: 'DESIGN SL',
-   topic: 'ANIMAL',
+   title: 'Frontend Developer',
+   topic: '$500 Per Month',
    description: [
-    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi.',
-    'Rem magnam nesciunt minima placeat, itaque eum neque officiis unde.',
-    'Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde.',
-    'Ut, exercitationem eum aperiam illo illum laudantium?',
+    'We train you and ensure a job placement at VVEBA Pvt. Ltd.',
+    'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
+    'Appointments Required for Entry',
+    'Eligibility: Intermediate or equivalent',
    ],
   },
   {
@@ -64,13 +64,13 @@ const Carousel = () => {
    videoLink:
     'https://www.youtube.com/embed/U-nlSTGY6hw?si=zsdECXzqwhtdHD7q&amp;controls=0',
    author: 'HUSNAIN',
-   title: 'DESIGN SERVER',
-   topic: 'ANIMAL',
+   title: 'Full-Stack Developer',
+   topic: '$1000 Per Month',
    description: [
-    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi.',
-    'Rem magnam nesciunt minima placeat, itaque eum neque officiis unde.',
-    'Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde.',
-    'Ut, exercitationem eum aperiam illo illum laudantium?',
+    'We train you and ensure a job placement at VVEBA Pvt. Ltd.',
+    'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
+    'Appointments Required for Entry',
+    'Eligibility: Intermediate or equivalent',
    ],
   },
   {
@@ -79,13 +79,13 @@ const Carousel = () => {
    videoLink:
     'https://www.youtube.com/embed/FUiu-cdu6mA?si=6ykPCneK0usCEYoH&amp;controls=0',
    author: 'FAWAD',
-   title: 'DESIGN APP',
-   topic: 'ANIMAL',
+   title: 'DevOPS Consultant',
+   topic: '$1500 Per Month',
    description: [
-    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi.',
-    'Rem magnam nesciunt minima placeat, itaque eum neque officiis unde.',
-    'Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde.',
-    'Ut, exercitationem eum aperiam illo illum laudantium?',
+    'We train you and ensure a job placement at VVEBA Pvt. Ltd.',
+    'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
+    'Appointments Required for Entry',
+    'Eligibility: Intermediate or equivalent',
    ],
   },
   {
@@ -94,13 +94,13 @@ const Carousel = () => {
    videoLink:
     'https://www.youtube.com/embed/FUiu-cdu6mA?si=6ykPCneK0usCEYoH&amp;controls=0',
    author: 'BAKHTAWAR',
-   title: 'DESIGN GRAPHICS',
-   topic: 'ANIMAL',
+   title: 'Salesforce Consultant',
+   topic: '$2000 Per Month',
    description: [
-    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi.',
-    'Rem magnam nesciunt minima placeat, itaque eum neque officiis unde.',
-    'Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde.',
-    'Ut, exercitationem eum aperiam illo illum laudantium?',
+    'We train you and ensure a job placement at VVEBA Pvt. Ltd.',
+    'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
+    'Appointments Required for Entry',
+    'Eligibility: Intermediate or equivalent',
    ],
   },
   {
@@ -109,13 +109,13 @@ const Carousel = () => {
    videoLink:
     'https://www.youtube.com/embed/FUiu-cdu6mA?si=6ykPCneK0usCEYoH&amp;controls=0',
    author: 'Akeel',
-   title: 'DESIGN GRAPHICS',
-   topic: 'ANIMAL',
+   title: 'Blockchain Consultant',
+   topic: '$1000 Per Month',
    description: [
-    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi.',
-    'Rem magnam nesciunt minima placeat, itaque eum neque officiis unde.',
-    'Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde.',
-    'Ut, exercitationem eum aperiam illo illum laudantium?',
+    'We train you and ensure a job placement at VVEBA Pvt. Ltd.',
+    'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
+    'Appointments Required for Entry',
+    'Eligibility: Intermediate or equivalent',
    ],
   },
  ]);
@@ -246,9 +246,21 @@ const Carousel = () => {
        <div className="topic">{item.topic}</div>
        <ul className="des">
         {item.description.map((desc, index) => (
-         <li key={index}>{desc}</li>
+         <li key={index}>
+          {desc.includes('+92 319 7167168') ? (
+           <>
+            {desc.split('+92 319 7167168')[0]}
+            <span style={{color: '#e92e3e', fontWeight: 'bold'}}>
+             +92 319 7167168
+            </span>
+           </>
+          ) : (
+           desc
+          )}
+         </li>
         ))}
        </ul>
+
        <div className="buttons">
         <Button
          sx={{
@@ -291,7 +303,7 @@ const Carousel = () => {
     {items.map((item, index) => (
      <div
       key={item.id}
-      className={`item ${index === activeIndex ? 'active' : ''}`}
+      className={`item`}
       onClick={() => handleThumbnailClick(index)}
      >
       <Image
@@ -302,8 +314,8 @@ const Carousel = () => {
        className="thumbnail-image"
       />
       <div className="content">
-       <div className="title">{item.author}</div>
-       <div className="description">{item.title}</div>
+       <div className="title">{item.title}</div>
+       <div className="description">{item.topic}</div>
       </div>
      </div>
     ))}

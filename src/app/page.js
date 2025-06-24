@@ -37,7 +37,7 @@ export default function Home() {
   <main>
    {/* <Slider slides={sliderData} /> */}
    <Carousel />
-   <Box
+   {/* <Box
     id="courses-section"
     sx={{
      display: 'flex',
@@ -52,8 +52,8 @@ export default function Home() {
     <div className="tp-hero-4-title-wrapper ">
      <h2 className="tp-hero-title ">Course Details</h2>
     </div>
+   </Box> */}
     <CourseSelector />
-   </Box>
    <HomeAreaAbout />
    <PayScale />
    <FreelancePlatform />

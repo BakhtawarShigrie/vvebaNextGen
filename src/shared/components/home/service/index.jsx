@@ -8,7 +8,9 @@ import {
  Avatar,
  Typography,
  Stack,
+ IconButton,
 } from '@mui/material';
+import CloseIcon from '@mui/icons-material/Close';
 import {
  RiMenu4Line,
  RiFacebookCircleLine,
@@ -113,7 +115,7 @@ export const HomeAreaService = () => {
        <div className="info">
         <div className="info__data">
          <h2 className="info__name">{card.name}</h2>
-         <p className="info__description">{card.shortDescription}</p>
+         <p className="info__description" style={{color:"#fff"}}>{card.shortDescription}</p>
          <button onClick={() => handleOpen(card)} className="info__button">
           READ MORE
          </button>
@@ -173,9 +175,19 @@ export const HomeAreaService = () => {
      </DialogContentText>
     </DialogContent>
     <DialogActions>
-     <Button onClick={handleClose} color="primary">
-      Close
-     </Button>
+     <IconButton
+      aria-label="close"
+      onClick={handleClose}
+      sx={{
+       position: 'absolute',
+       right: 8,
+       top: 8,
+       color: (theme) => theme.palette.grey[900],
+       zIndex: 1,
+      }}
+     >
+      <CloseIcon />
+     </IconButton>
     </DialogActions>
    </Dialog>
   </>

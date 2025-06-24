@@ -4,7 +4,7 @@ export const CoursesData = {
    id: 'web-development',
    title: 'Web Development',
    content: 'Web Development course content.',
-   color: 'linear-gradient(-90deg, #e10d19,rgb(232, 145, 149))',
+   color: 'rgba(54, 63, 70, 0.5)',
    navigation: [
     {
      id: 'detail',
@@ -1488,8 +1488,7 @@ export const CoursesData = {
    id: 'Front-End',
    title: 'Front-End',
    content: 'Front-End course content.',
-   color: 'linear-gradient(-90deg, #6929C5,rgb(194, 173, 223))',
-
+   color: 'rgba(54, 63, 70, 0.5)',
    navigation: [
     {
      id: 'detail',
@@ -1678,8 +1677,7 @@ export const CoursesData = {
    id: 'Jam-Stack',
    title: 'Jam-Stack',
    content: 'Jam-Stack course content.',
-   color: 'linear-gradient(-90deg, #2B5E5E,rgb(110, 187, 187))',
-
+   color: 'rgba(54, 63, 70, 0.5)',
    navigation: [
     {
      id: 'detail',
@@ -1868,8 +1866,7 @@ export const CoursesData = {
    id: 'MERN',
    title: 'MERN',
    content: 'MERN course content.',
-   color: 'linear-gradient(-90deg, #4B93E9,rgb(135, 179, 232))',
-
+   color: 'rgba(54, 63, 70, 0.5)',
    navigation: [
     {
      id: 'detail',
@@ -2058,8 +2055,7 @@ export const CoursesData = {
    id: 'Next.js',
    title: 'Next.js',
    content: 'Next.js course content.',
-   color: 'linear-gradient(-90deg, #9F1D53,rgb(206, 122, 157))',
-
+   color: 'rgba(54, 63, 70, 0.5)',
    navigation: [
     {
      id: 'detail',
@@ -2248,8 +2244,7 @@ export const CoursesData = {
    id: 'React Native',
    title: 'React Native',
    content: 'React Native course content.',
-   color: 'linear-gradient(-90deg, #E74B54,rgb(225, 173, 176))',
-   navigation: [
+   color: 'rgba(54, 63, 70, 0.5)',   navigation: [
     {
      id: 'detail',
      title: 'Detail',
@@ -2437,8 +2432,7 @@ export const CoursesData = {
    id: 'DevOps',
    title: 'DevOps',
    content: 'DevOps course content.',
-   color: 'linear-gradient(-90deg, #520A09,rgb(183, 121, 120))',
-   navigation: [
+   color: 'rgba(54, 63, 70, 0.5)',   navigation: [
     {
      id: 'detail',
      title: 'Detail',
@@ -2626,8 +2620,7 @@ export const CoursesData = {
    id: 'Salesforce',
    title: 'Salesforce',
    content: 'Salesforce course content.',
-   color: 'linear-gradient(-90deg, #3B7F39,rgb(144, 200, 143))',
-   navigation: [
+   color: 'rgba(54, 63, 70, 0.5)',   navigation: [
     {
      id: 'detail',
      title: 'Detail',
@@ -2815,8 +2808,7 @@ export const CoursesData = {
    id: 'Microservices',
    title: 'Microservices',
    content: 'Microservices course content.',
-   color: 'linear-gradient(-90deg,rgb(107, 120, 198), #192D9D )',
-   navigation: [
+   color: 'rgba(54, 63, 70, 0.5)',   navigation: [
     {
      id: 'detail',
      title: 'Detail',
@@ -3004,8 +2996,7 @@ export const CoursesData = {
    id: 'Blockchain',
    title: 'Blockchain',
    content: 'Blockchain course content.',
-   color: 'linear-gradient(-90deg,rgb(218, 124, 215),rgb(226, 131, 175) )',
-   navigation: [
+   color: 'rgba(54, 63, 70, 0.5)',   navigation: [
     {
      id: 'detail',
      title: 'Detail',
@@ -3193,8 +3184,7 @@ export const CoursesData = {
    id: 'Data Science',
    title: 'Data Science',
    content: 'Data Science course content.',
-   color: 'linear-gradient(-90deg, #B2850D,rgb(232, 207, 139))',
-   navigation: [
+   color: 'rgba(54, 63, 70, 0.5)',   navigation: [
     {
      id: 'detail',
      title: 'Detail',
@@ -3382,8 +3372,7 @@ export const CoursesData = {
    id: 'Machine Learning',
    title: 'Machine Learning',
    content: 'Machine Learning course content.',
-   color: 'linear-gradient(-90deg,rgb(182, 120, 93), #8A3814 )',
-   navigation: [
+   color: 'rgba(54, 63, 70, 0.5)',   navigation: [
     {
      id: 'detail',
      title: 'Detail',
@@ -3571,8 +3560,7 @@ export const CoursesData = {
    id: 'AI',
    title: 'AI',
    content: 'AI course content.',
-   color: 'linear-gradient(-90deg, #A66EFF,rgb(217, 193, 255))',
-   navigation: [
+   color: 'rgba(54, 63, 70, 0.5)',   navigation: [
     {
      id: 'detail',
      title: 'Detail',
@@ -3760,8 +3748,7 @@ export const CoursesData = {
    id: 'CEH V13',
    title: 'CEH V13',
    content: 'CEH V13 course content.',
-   color: 'linear-gradient(-90deg, #3B7D7A,rgb(158, 201, 199) )',
-   navigation: [
+   color: 'rgba(54, 63, 70, 0.5)',   navigation: [
     {
      id: 'detail',
      title: 'Detail',

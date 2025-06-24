@@ -190,7 +190,7 @@
   .info__description {
       font-size: var(--small-font-size);
       margin-bottom: 16px;
-      color: #fff;
+      color: #b11616;
       line-height: normal;
   }
 
@@ -366,22 +366,24 @@ html, body {
   position: absolute;
   top: 20%;
   width: 1140px;
-  max-width: 80%;
+  max-width: 90%;
   left: 50%;
   transform: translateX(-50%);
-  padding-right: 30%;
+  padding-right: 15%;
   box-sizing: border-box;
   color: #fff;
-  text-shadow: 0 5px 10px #0004;
+ 
 }
-.des {
+ .des {
   padding-left: 20px;
-  margin: 10px 0;
+  margin: 20px 0 0 0;
 }
 
-.des li {
+ .des li {
   margin-bottom: 5px;
   list-style-type: disc;
+  font-weight: 500;
+  font-size: var(--font-bold);
 }
 .carousel .list .item .author{
   font-weight: bold;
@@ -393,6 +395,9 @@ html, body {
   font-weight: bold;
   line-height: 1.3em;
 }
+
+
+
 .carousel .list .item .topic{
   color: #e92e3e;
 }
@@ -402,7 +407,7 @@ html, body {
   grid-template-columns: repeat(2, 150px);
   grid-template-rows: 40px;
   gap: 10px;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 /* add button */
 /* .carousel .list .item .buttons button{
@@ -481,18 +486,21 @@ html, body {
   border-radius: 20px;
 }
 .thumbnail .item .content{
-  color: #fff;
+  
   position: absolute;
   bottom: 10px;
   left: 10px;
   right: 10px;
 }
 .thumbnail .item .content .title{
+  color: #fff;
   font-weight: 500;
-  font-size: var(--font-bold);
+  font-size: var(--font-semi-bold);
+  line-height: normal;
 }
 .thumbnail .item .content .description{
-  font-weight: 300;
+  color: #e92e3e;
+  font-weight: 500;
   font-size: var(--font-regular);
   line-height: normal;
 }
@@ -673,22 +681,26 @@ html, body {
       opacity: 0;
   }
 }
-@media screen and (max-width: 678px) {
+@media screen and (max-width: 768px) {
   .carousel .list .item .content{
       padding-right: 0;
   }
   .carousel .list .item .content .title{
       font-size: 30px;
   }
+  .carousel .list .item .content .topic{
+      font-size: 4em;
+  }
   .carousel .list .item .buttons{
     display: grid;
     grid-template-columns: repeat(1, 150px);
-    gap: 5px;
+    gap: 15px;
   }
   .carousel .list .item .buttons button{
     height: 40px;
   }
 }
+
 
 
 /* ripple-effects */
