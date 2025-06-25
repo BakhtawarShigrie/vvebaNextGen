@@ -29,7 +29,7 @@ const FullScreenDialog = styled(Dialog)(({theme}) => ({
   height: '100%',
   maxWidth: 'none',
   maxHeight: 'none',
-  borderRadius: 0,
+  borderRadius: 0, // Remove rounded corners for true fullscreen
   transition: theme.transitions.create(['transform', 'opacity'], {
    easing: theme.transitions.easing.easeInOut,
    duration: theme.transitions.duration.enteringScreen,
@@ -45,7 +45,7 @@ const Carousel = () => {
  const [items] = useState([
   {
    id: 0,
-   image: '/assets/image/18.jpg',
+   image: '/assets/image/01.jpg',
    videoLink:
     'https://www.youtube.com/embed/FUiu-cdu6mA?si=6ykPCneK0usCEYoH&amp;controls=0',
    author: 'LUNDEV',
@@ -60,7 +60,7 @@ const Carousel = () => {
   },
   {
    id: 1,
-   image: '/assets/image/11.jpg',
+   image: '/assets/image/02.jpg',
    videoLink:
     'https://www.youtube.com/embed/U-nlSTGY6hw?si=zsdECXzqwhtdHD7q&amp;controls=0',
    author: 'HUSNAIN',
@@ -75,7 +75,7 @@ const Carousel = () => {
   },
   {
    id: 2,
-   image: '/assets/image/12.jpg',
+   image: '/assets/image/03.jpg',
    videoLink:
     'https://www.youtube.com/embed/FUiu-cdu6mA?si=6ykPCneK0usCEYoH&amp;controls=0',
    author: 'FAWAD',
@@ -90,7 +90,7 @@ const Carousel = () => {
   },
   {
    id: 3,
-   image: '/assets/image/05.jpg',
+   image: '/assets/image/04.jpg',
    videoLink:
     'https://www.youtube.com/embed/FUiu-cdu6mA?si=6ykPCneK0usCEYoH&amp;controls=0',
    author: 'BAKHTAWAR',
@@ -105,7 +105,7 @@ const Carousel = () => {
   },
   {
    id: 4,
-   image: '/assets/image/13.jpg',
+   image: '/assets/image/05.jpg',
    videoLink:
     'https://www.youtube.com/embed/FUiu-cdu6mA?si=6ykPCneK0usCEYoH&amp;controls=0',
    author: 'Akeel',
@@ -122,7 +122,6 @@ const Carousel = () => {
 
  const [isNext, setIsNext] = useState(false);
  const [isPrev, setIsPrev] = useState(false);
- const [activeIndex, setActiveIndex] = useState(0);
  const carouselRef = useRef(null);
  const sliderRef = useRef(null);
  const thumbnailBorderRef = useRef(null);
@@ -132,80 +131,89 @@ const Carousel = () => {
  const timeRunning = 3000;
  const timeAutoNext = 7000;
 
- const handleThumbnailClick = (clickedIndex) => {
-  if (!sliderRef.current || !thumbnailBorderRef.current) return;
+ const showSlider = (type) => {
+  if (!sliderRef.current || !thumbnailBorderRef.current || !carouselRef.current)
+   return;
 
   const sliderItems = Array.from(sliderRef.current.children);
   const thumbnailItems = Array.from(thumbnailBorderRef.current.children);
-  const total = sliderItems.length;
 
-  if (clickedIndex === activeIndex) return;
+  if (type === 'next') {
+   // Move first item to end
+   const firstSliderItem = sliderItems[0];
+   const firstThumbnailItem = thumbnailItems[0];
 
-  const nextSteps = (clickedIndex - activeIndex + total) % total;
-  const prevSteps = (activeIndex - clickedIndex + total) % total;
-
-  if (nextSteps <= prevSteps) {
-   for (let i = 0; i < nextSteps; i++) {
-    const firstSlider = sliderItems[0];
-    const firstThumbnail = thumbnailItems[0];
-    sliderRef.current.appendChild(firstSlider);
-    thumbnailBorderRef.current.appendChild(firstThumbnail);
-   }
+   sliderRef.current.appendChild(firstSliderItem);
+   thumbnailBorderRef.current.appendChild(firstThumbnailItem);
    setIsNext(true);
   } else {
-   for (let i = 0; i < prevSteps; i++) {
-    const lastSlider = sliderItems[sliderItems.length - 1];
-    const lastThumbnail = thumbnailItems[thumbnailItems.length - 1];
-    sliderRef.current.prepend(lastSlider);
-    thumbnailBorderRef.current.prepend(lastThumbnail);
-   }
-   setIsNext(false);
+   // Move last item to beginning
+   const lastSliderItem = sliderItems[sliderItems.length - 1];
+   const lastThumbnailItem = thumbnailItems[thumbnailItems.length - 1];
+
+   sliderRef.current.prepend(lastSliderItem);
+   thumbnailBorderRef.current.prepend(lastThumbnailItem);
+   setIsPrev(true);
   }
 
-  setActiveIndex(clickedIndex);
-  clearTimeouts();
-  timeRunningRef.current = setTimeout(() => {
-   setIsNext(false);
-  }, timeRunning);
-  resetAutoRotation();
- };
-
- const clearTimeouts = () => {
+  // Clear existing timeouts
   if (timeRunningRef.current) clearTimeout(timeRunningRef.current);
   if (runNextAutoRef.current) clearTimeout(runNextAutoRef.current);
- };
 
- const resetAutoRotation = () => {
-  clearTimeouts();
+  // Remove animation classes after delay
+  timeRunningRef.current = setTimeout(() => {
+   setIsNext(false);
+   setIsPrev(false);
+  }, timeRunning);
+
+  // Auto-advance to next slide
   runNextAutoRef.current = setTimeout(() => {
-   showNextSlide();
+   showSlider('next');
   }, timeAutoNext);
  };
 
- const showNextSlide = () => {
-  if (!sliderRef.current || !thumbnailBorderRef.current) return;
+ // Initialize auto-rotation
+ useEffect(() => {
+  runNextAutoRef.current = setTimeout(() => {
+   showSlider('next');
+  }, timeAutoNext);
 
-  const sliderItems = Array.from(sliderRef.current.children);
-  const thumbnailItems = Array.from(thumbnailBorderRef.current.children);
-  const firstSliderItem = sliderItems[0];
-  const firstThumbnailItem = thumbnailItems[0];
+  return () => {
+   if (timeRunningRef.current) clearTimeout(timeRunningRef.current);
+   if (runNextAutoRef.current) clearTimeout(runNextAutoRef.current);
+  };
+ }, []);
 
-  sliderRef.current.appendChild(firstSliderItem);
-  thumbnailBorderRef.current.appendChild(firstThumbnailItem);
+ // Implement direct thumbnail click navigation
+ const thumbnailNavigation = (e) => {
+  const clickedEl = e.currentTarget;
+
+  const thumbs = Array.from(thumbnailBorderRef.current.children);
+  const currentIndex = thumbs.findIndex((el) => el === clickedEl);
+
+  if (currentIndex === -1) return;
+
+  // Rotate slider and thumbnails to bring clicked index to front
+  for (let i = 0; i < currentIndex; i++) {
+   sliderRef.current.appendChild(sliderRef.current.children[0]);
+   thumbnailBorderRef.current.appendChild(
+    thumbnailBorderRef.current.children[0]
+   );
+  }
+
   setIsNext(true);
-  setActiveIndex((prev) => (prev + 1) % items.length);
 
-  clearTimeouts();
+  if (timeRunningRef.current) clearTimeout(timeRunningRef.current);
+  if (runNextAutoRef.current) clearTimeout(runNextAutoRef.current);
+
   timeRunningRef.current = setTimeout(() => {
    setIsNext(false);
   }, timeRunning);
-  resetAutoRotation();
- };
 
- useEffect(() => {
-  resetAutoRotation();
-  return () => clearTimeouts();
- }, []);
+  runNextAutoRef.current = setTimeout(() => {
+   showSlider('next');
+  }, timeAutoNext);
+ };
 
  //  // Add state for video dialog
 
@@ -232,7 +240,7 @@ const Carousel = () => {
    {/* Main list */}
    <div ref={sliderRef} className="list">
     {items.map((item) => (
-     <div key={item.id} className="item" data-id={item.id}>
+     <div key={item.id} className="item">
       <Image
        src={item.image}
        alt={item.title}
@@ -246,21 +254,9 @@ const Carousel = () => {
        <div className="topic">{item.topic}</div>
        <ul className="des">
         {item.description.map((desc, index) => (
-         <li key={index}>
-          {desc.includes('+92 319 7167168') ? (
-           <>
-            {desc.split('+92 319 7167168')[0]}
-            <span style={{color: '#e92e3e', fontWeight: 'bold'}}>
-             +92 319 7167168
-            </span>
-           </>
-          ) : (
-           desc
-          )}
-         </li>
+         <li key={index}>{desc}</li>
         ))}
        </ul>
-
        <div className="buttons">
         <Button
          sx={{
@@ -301,11 +297,7 @@ const Carousel = () => {
    {/* Thumbnail navigation */}
    <div ref={thumbnailBorderRef} className="thumbnail">
     {items.map((item, index) => (
-     <div
-      key={item.id}
-      className={`item`}
-      onClick={() => handleThumbnailClick(index)}
-     >
+     <div key={item.id} className="item" onClick={thumbnailNavigation}>
       <Image
        src={item.image}
        alt={item.title}
@@ -319,6 +311,16 @@ const Carousel = () => {
       </div>
      </div>
     ))}
+   </div>
+
+   {/* Navigation arrows */}
+   <div className="arrows">
+    <button id="prev" onClick={() => showSlider('prev')}>
+     ‹
+    </button>
+    <button id="next" onClick={() => showSlider('next')}>
+     ›
+    </button>
    </div>
 
    {/* Time indicator */}
