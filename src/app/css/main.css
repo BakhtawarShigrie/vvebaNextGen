@@ -1243,7 +1243,7 @@ div.demo img {
   padding: 17px 50px;
   letter-spacing: 0.8px;
   color: var(--tp-common-white);
-  background: var(--tp-gradient-primary);
+  background-color: #e92e3e;
   overflow: hidden;
   -webkit-transition: all 0.3s 0s ease-out;
   -moz-transition: all 0.3s 0s ease-out;

@@ -112,7 +112,7 @@ const CourseSelector = () => {
       sx={{
             width: { xs: '100%', sm: 'auto',},
             mb: { xs: 1, sm: 0 },
-       ml: {md:2},
+      //  ml: {md:2},
        display: 'flex',
        justifyContent: 'center',
       }}
@@ -123,7 +123,7 @@ const CourseSelector = () => {
         justifyContent: 'space-between', // This will push icon to the end
         textTransform: 'none',
         whiteSpace: 'nowrap',
-        minWidth: {xs: '100%', sm: '175px'}, // Set minimum width based on "Web Development"
+        minWidth: {xs: '100%', sm: '200px' }, // Set minimum width based on "Web Development"
         width: 'fit-content', // Only take needed space
         maxWidth: {xs: '100%', sm: 'none'}, // Remove max-width restriction on sm+
         borderColor: 'none',
@@ -146,7 +146,8 @@ const CourseSelector = () => {
          overflow: 'hidden',
          textOverflow: 'ellipsis',
          maxWidth: 'calc(100% - 32px)', // Reserve space for icon
-         display: 'inline-block',
+          display: 'inline-block',
+         paddingLeft:"8px"
         }}
        >
         {selectedCourse.title}
