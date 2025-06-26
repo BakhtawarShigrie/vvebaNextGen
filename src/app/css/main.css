@@ -3794,6 +3794,7 @@ div.demo img {
   line-height: 1;
   letter-spacing: -1.92px;
   margin-bottom: 30px;
+  color: #e92e3e;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
@@ -3803,6 +3804,7 @@ div.demo img {
   (max-width: 575px) {
   .tp-section-title br {
     display: none;
+    
   }
 }
 
@@ -7924,7 +7926,7 @@ a.ui-button:active {
   height: 100%;
   width: 100%;
   border-radius: 5px;
-  background: var(--tp-gradient-primary);
+  background: #e92e3e;
   -webkit-transition: all 0.3s 0s ease-out;
   -moz-transition: all 0.3s 0s ease-out;
   -ms-transition: all 0.3s 0s ease-out;
@@ -8003,7 +8005,7 @@ a.ui-button:active {
   font-size: 20px;
   font-weight: 900;
   color: var(--tp-common-white);
-  background: var(--tp-gradient-primary);
+  background: #e92e3e;
 }
 
 .tp-footer-widget-contact-content a {
@@ -8039,7 +8041,7 @@ a.ui-button:active {
   width: 60px;
   line-height: 50px;
   text-align: center;
-  background: var(--tp-gradient-primary);
+  background: #e92e3e;
   font-weight: 900;
   font-size: 16px;
   color: var(--tp-common-white);
@@ -13892,10 +13894,8 @@ a.ui-button:active {
   letter-spacing: 1px;
   display: inline-block;
   text-transform: uppercase;
-  background: linear-gradient(90deg, #e92e3e 0%, #e92e3e 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #363f46;
+  /* background: linear-gradient(90deg, #363f46 0%, #363f46 100%); */
 }
 
 .feature-4-item-1 {

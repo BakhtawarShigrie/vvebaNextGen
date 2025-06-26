@@ -38,11 +38,15 @@ export const HomeAreaAbout = () => {
          data-wow-duration="1s"
          data-wow-delay=".3s"
         >
-         <span className="tp-section-v_2-title-pre">ABOUT US</span>
-         <h3 className="tp-section-title">
-          Providing advanced tech <br />
-          solutions for startups and <br /> diverse enterprises.
-         </h3>
+         <div className="tp-home-4-service-title text-center mt-10">
+          <span className="tp-section-v_2-title-pre" style={{color: " #ffffff"}}>
+           ABOUT US
+          </span>
+          <h3 className="tp-section-title">
+           Providing advanced tech solutions for startups and diverse
+           enterprises.
+          </h3>
+         </div>
         </div>
         <p
          className="wow fadeInDown text-center"

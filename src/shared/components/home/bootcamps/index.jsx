@@ -592,10 +592,14 @@ export default function BootcampsStacks() {
           onClick={() => handleSidebarItemClick(item)}
           sx={{
            borderRadius: 1,
+           color: '#363f46',
            '&.Mui-selected': {
-            background: sidebarItems[item]?.color || sidebarItems.color,
-            borderLeft: '4px solid #701DF0',
+            backgroundColor: 'rgba(54, 63, 70, 0.5)',
+            borderLeft: '4px solid #e92e3e',
             color: 'white !important',
+            '&:hover': {
+             backgroundColor: 'rgba(54, 63, 70, 0.8)', // Light on hover when selected
+            },
            },
           }}
          >
@@ -609,9 +613,9 @@ export default function BootcampsStacks() {
 
     {/* Main Content Column - Bootstrap Grid */}
     <div className="col-md-9">
-     <Paper elevation={3} className="p-2 h-100">
+     <Paper elevation={1} className="p-0 h-100">
       {/* Tabs */}
-      <Box sx={{borderBottom: 1, borderColor: 'divider'}} className="mb-3">
+      <Box className="mb-3">
        <Tabs
         value={activeTab}
         onChange={handleTabChange}
@@ -620,17 +624,19 @@ export default function BootcampsStacks() {
         aria-label="country tabs"
         sx={{
          '& .MuiTab-root': {
+          color: 'black',
           margin: '0 4px',
           borderRadius: '8px 8px 0 0',
          },
          '& .Mui-selected': {
-          background:
-           sidebarItems[activeSidebarItem]?.color || sidebarItems.color,
+          background: 'rgba(54, 63, 70, 0.5)', //  background for selected tab
           color: 'white !important',
          },
          '& .MuiTabs-indicator': {
-          backgroundColor: '#701DF0',
+          backgroundColor: ' #e92e3e', // Hide the default indicator
          },
+         backgroundColor: 'rgba(54, 63, 70, 0.1)', //tabs nav background color
+         padding: '7px 7px 0px 7px',
         }}
        >
         {sidebarItems[activeSidebarItem].tabs.map((tab, index) => (
@@ -651,7 +657,11 @@ export default function BootcampsStacks() {
        id={`tabpanel-${activeTab}`}
        aria-labelledby={`tab-${activeTab}`}
       >
-       <Typography variant="h5" gutterBottom className="mb-3">
+       <Typography
+               variant="h4"
+               gutterBottom
+               sx={{fontWeight: 'bold', marginBottom: '20px', marginLeft: '20px'}}
+              >
         {
          sidebarItems[activeSidebarItem].content(
           sidebarItems[activeSidebarItem].tabs[activeTab]
@@ -661,7 +671,7 @@ export default function BootcampsStacks() {
 
        <TableContainer component={Paper} elevation={2}>
         <Table aria-label="tech stack metrics">
-         <Box className="p-2">
+         <Box className="p-4">
           {sidebarItems[activeSidebarItem]
            .content(sidebarItems[activeSidebarItem].tabs[activeTab])
            .data.map((row, index) => (

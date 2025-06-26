@@ -102,7 +102,7 @@ const CourseSelector = () => {
       padding: '7px 5px',
       overflow: 'hidden',
       display: 'flex',
-      gap: 6,
+      gap: {sm:6 , xs:0},
       flexDirection: {xs: 'column', sm: 'row'}, // Only column on extra small
       alignItems: {xs: 'stretch', sm: 'center'}, // Stretch on mobile
      }}

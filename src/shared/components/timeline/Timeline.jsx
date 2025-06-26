@@ -1,7 +1,7 @@
 'use client';
 import {useState} from 'react';
 import '@/app/css/style.css';
-import RippleButtonEffect from '../rippleButtonEffect';
+
 
 export default function Timeline() {
  const [activeEvents, setActiveEvents] = useState([2]);
@@ -63,9 +63,9 @@ export default function Timeline() {
 
  return (
   <section className="timeline-section">
-   <div className="timeline-header text-center">
-    <span className="timeline-subtitle">My Learning Journey</span>
-    <h3 className="timeline-title">Key milestones and Timeline</h3>
+   <div className="tp-home-4-service-title text-center mt-60">
+    <span className="tp-section-v_2-title-pre">My Learning Journey</span>
+    <h3 className="tp-section-title">Key milestones and Timeline </h3>
    </div>
    <div className="timeline-wrapper" onMouseMove={handleMouseMove}>
     <ul className="timeline">
@@ -79,16 +79,15 @@ export default function Timeline() {
         <h3>{event.heading}</h3>
         <small>{event.date}</small>
         <p>{event.description}</p>
-        <RippleButtonEffect />
-        <button
-         className="close ripple-button"
+        {/* <button
+         className="close"
          onClick={(e) => {
           e.stopPropagation();
           toggleEvent(index);
          }}
         >
          Click To Close
-        </button>
+        </button> */}
        </div>
       </li>
      ))}

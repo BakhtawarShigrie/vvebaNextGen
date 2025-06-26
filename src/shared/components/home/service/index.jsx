@@ -17,6 +17,7 @@ import {
  RiInstagramLine,
  RiTwitterXLine,
 } from 'react-icons/ri';
+import { color } from 'framer-motion';
 
 export const HomeAreaService = () => {
  const cards = [
@@ -81,10 +82,10 @@ export const HomeAreaService = () => {
 
  return (
   <>
-   <section className="card">
+   <div className="card">
     <div className="tp-home-4-service-title text-center mt-100">
-     <span className="tp-section-v_2-title-pre">Latest Insights</span>
-     <h3 className="tp-section-title mb-0" style={{color: '#fff'}}>
+    <span className="tp-section-v_2-title-pre" style={{color:" #ffffff"}}>Latest Insights</span>
+     <h3 className="tp-section-title mb-0">
       Top Tier Certifications
      </h3>
     </div>
@@ -115,7 +116,9 @@ export const HomeAreaService = () => {
        <div className="info">
         <div className="info__data">
          <h2 className="info__name">{card.name}</h2>
-         <p className="info__description" style={{color:"#fff"}}>{card.shortDescription}</p>
+         <p className="info__description" style={{color: '#fff'}}>
+          {card.shortDescription}
+         </p>
          <button onClick={() => handleOpen(card)} className="info__button">
           READ MORE
          </button>
@@ -151,7 +154,7 @@ export const HomeAreaService = () => {
       </article>
      ))}
     </div>
-   </section>
+   </div>
 
    {/* MUI Dialog */}
    <Dialog open={open} onClose={handleClose} fullWidth maxWidth="md">

@@ -12,6 +12,7 @@ import {
 import Link from 'next/link';
 import {useState} from 'react';
 import {blogListing} from '@/shared/constants/blogData';
+import Image from 'next/image';
 
 export default function BlogDetailsPage({params}) {
  const blogId = params?.id;
@@ -24,10 +25,11 @@ export default function BlogDetailsPage({params}) {
  }
 
  return (
-  <Container maxWidth="lg" sx={{py: 25}}>
-   <Box sx={{textAlign: 'center'}}>
-    <h1>Blog Details Section</h1> 
-   </Box>
+  <Container maxWidth="lg" sx={{pb: 25}}>
+   <div className="tp-home-4-service-title text-center mt-60">
+    <span className="tp-section-v_2-title-pre">Latest Insights</span>
+    <h3 className="tp-section-title">Blog Details Section</h3>
+   </div>
 
    <Box sx={{mb: 6}}>
     <Typography
@@ -36,7 +38,7 @@ export default function BlogDetailsPage({params}) {
      gutterBottom
      sx={{
       fontWeight: 'bold',
-      color: 'primary.main',
+      color: '#363f46',
       textAlign: {xs: 'center', sm: 'left'},
       fontSize: {xs: '2rem', sm: '2.5rem', md: '3rem'},
      }}
@@ -55,7 +57,7 @@ export default function BlogDetailsPage({params}) {
      {blog.description}
     </Typography>
 
-    <Divider sx={{my: 3}} />
+    <Divider  sx={{my: 3}} />
 
     <Box
      sx={{
@@ -68,10 +70,17 @@ export default function BlogDetailsPage({params}) {
     >
      <Button
       variant="contained"
-      color="primary"
+      sx={{
+       px: 4,
+       backgroundColor: '#363f46', // default background
+       color: '#fff !important', // default text
+       '&:hover': {
+        backgroundColor: '#e92e3e', // hover background
+        color: '#ffffff', // hover text
+       },
+      }}
       component={Link}
-      href="/courses"
-      sx={{px: 4}}
+      href="/"
      >
       Back to Blogs
      </Button>
@@ -99,18 +108,10 @@ function RelatedBlogs({currentBlogId}) {
 
  return (
   <Box sx={{mt: 6, textAlign: 'center'}}>
-   <Typography
-    variant="h4"
-    component="h2"
-    gutterBottom
-    sx={{
-     fontWeight: 'bold',
-     mb: 4,
-     fontSize: {xs: '1.5rem', sm: '2rem'},
-    }}
-   >
-    Others Latest Blogs
-   </Typography>
+   <div className="tp-home-4-service-title text-center mt-60">
+    <span className="tp-section-v_2-title-pre">Latest Insights</span>
+    <h3 className="tp-section-title">Others Latest Blogs</h3>
+   </div>
 
    <Grid container spacing={4} justifyContent="center">
     {paginatedBlogs.map((blog) => (
@@ -126,8 +127,21 @@ function RelatedBlogs({currentBlogId}) {
       count={totalPages}
       page={page}
       onChange={(_, value) => setPage(value)}
-      color="primary"
       shape="rounded"
+      sx={{
+       '& .MuiPaginationItem-root': {
+        color: '#363f46', // text color of inactive items
+        borderColor: '#e92e3e',
+       },
+       '& .Mui-selected': {
+        backgroundColor: '#e92e3e !important',
+        color: '#fff !important',
+        borderColor: '#e92e3e !important',
+       },
+       '& .MuiPaginationItem-root:hover': {
+        backgroundColor: '#f1f2f2', // light transparent red on hover
+       },
+      }}
      />
     </Box>
    )}
@@ -142,6 +156,7 @@ function BlogCard({blog}) {
     border: '1px solid',
     borderColor: 'divider',
     borderRadius: 2,
+    background: '#f1f2f2',
     p: 3,
     height: '100%',
     width: {xs: '100%', sm: '350px'},
@@ -159,6 +174,7 @@ function BlogCard({blog}) {
    <Typography
     variant="h6"
     component="h3"
+    color="#e92e3e"
     sx={{
      fontWeight: 'bold',
      mb: 2,
@@ -167,6 +183,14 @@ function BlogCard({blog}) {
    >
     {blog.title}
    </Typography>
+
+   <Image
+    src={blog.image}
+    alt="Blog image"
+    width={200}
+    height={100}
+    style={{marginBottom: '16px'}}
+   />
 
    <Typography
     variant="body2"
@@ -183,12 +207,18 @@ function BlogCard({blog}) {
    </Typography>
 
    <Button
-    variant="outlined"
-    color="primary"
+    variant="contained"
+    sx={{
+     backgroundColor: '#363f46', // default background
+     color: 'white', // default text
+     '&:hover': {
+      backgroundColor: '#e92e3e', // hover background
+      color: '#ffffff', // hover text
+     },
+    }}
     component={Link}
     href={`/blogdetail/${blog.id}`}
     fullWidth
-    sx={{mt: 'auto'}}
    >
     Read More
    </Button>

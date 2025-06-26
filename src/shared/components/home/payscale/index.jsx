@@ -21,8 +21,8 @@ export default function TechStackDashboard() {
 
  // Data structure for sidebar items and their associated tab content
     const sidebarItems = {
-      'Web Development': {
-      color: 'linear-gradient(-90deg, #e10d19,rgb(232, 145, 149))',
+     'Web Development': {
+      color: 'rgba(54, 63, 70, 0.5)',
       tabs: [
        'United States',
        'United Kingdom',
@@ -736,8 +736,8 @@ export default function TechStackDashboard() {
        };
       },
      },
-        'AI Engineer': {
-         color: 'linear-gradient(-90deg, #3B7D7A,rgb(158, 201, 199) )',
+     'AI Engineer': {
+      color: 'linear-gradient(-90deg, #3B7D7A,rgb(158, 201, 199) )',
       tabs: [
        'United States',
        'United Kingdom',
@@ -791,8 +791,8 @@ export default function TechStackDashboard() {
        };
       },
      },
-        'Certified Ethical Hacker (CEH v13)': {
-         color: 'linear-gradient(-90deg,rgb(233, 185, 90),rgb(231, 156, 5) )',
+     'Certified Ethical Hacker (CEH v13)': {
+      color: 'linear-gradient(-90deg,rgb(233, 185, 90),rgb(231, 156, 5) )',
       tabs: [
        'United States',
        'United Kingdom',
@@ -879,16 +879,19 @@ export default function TechStackDashboard() {
           onClick={() => handleSidebarItemClick(item)}
           sx={{
            borderRadius: 1,
+           color: '#363f46',
            '&.Mui-selected': {
-            background: sidebarItems[item]?.color || sidebarItems.color,
-            borderLeft: '4px solid #701DF0',
+            backgroundColor: 'rgba(54, 63, 70, 0.5)',
+            borderLeft: '4px solid #e92e3e',
             color: 'white !important',
+            '&:hover': {
+             backgroundColor: 'rgba(54, 63, 70, 0.8)', // Light on hover when selected
+            },
            },
           }}
          >
           <ListItemText primary={item} />
          </ListItemButton>
-         {console.log('Ttems', item.color)}
         </ListItem>
        ))}
       </List>
@@ -897,9 +900,9 @@ export default function TechStackDashboard() {
 
     {/* Main Content Column - Bootstrap Grid */}
     <div className="col-md-9">
-     <Paper elevation={3} className="p-2 h-100">
+     <Paper elevation={1}  className="p-0 h-100">
       {/* Tabs */}
-      <Box sx={{borderBottom: 1, borderColor: 'divider'}} className="mb-3">
+      <Box className="mb-3">
        <Tabs
         value={activeTab}
         onChange={handleTabChange}
@@ -908,18 +911,19 @@ export default function TechStackDashboard() {
         aria-label="country tabs"
         sx={{
          '& .MuiTab-root': {
-          //   backgroundColor: '#f5f5f5', // Light gray background
+          color: 'black',
           margin: '0 4px',
           borderRadius: '8px 8px 0 0',
          },
          '& .Mui-selected': {
-          background:
-           sidebarItems[activeSidebarItem]?.color || sidebarItems.color, //  background for selected tab
+          background: 'rgba(54, 63, 70, 0.5)', //  background for selected tab
           color: 'white !important',
          },
          '& .MuiTabs-indicator': {
-            backgroundColor: '#701DF0', // Hide the default indicator
+          backgroundColor: ' #e92e3e', // Hide the default indicator
          },
+         backgroundColor: 'rgba(54, 63, 70, 0.1)', //tabs nav background color
+         padding: '7px 7px 0px 7px',
         }}
        >
         {sidebarItems[activeSidebarItem].tabs.map((tab, index) => (
@@ -940,7 +944,11 @@ export default function TechStackDashboard() {
        id={`tabpanel-${activeTab}`}
        aria-labelledby={`tab-${activeTab}`}
       >
-       <Typography variant="h5" gutterBottom className="mb-3">
+       <Typography
+        variant="h4"
+        gutterBottom
+        sx={{fontWeight: 'bold', marginBottom: '20px', marginLeft: '20px'}}
+       >
         {
          sidebarItems[activeSidebarItem].content(
           sidebarItems[activeSidebarItem].tabs[activeTab]
@@ -950,7 +958,7 @@ export default function TechStackDashboard() {
 
        <TableContainer component={Paper} elevation={2}>
         <Table aria-label="tech stack metrics">
-         <Box className="p-2">
+         <Box className="p-4">
           {sidebarItems[activeSidebarItem]
            .content(sidebarItems[activeSidebarItem].tabs[activeTab])
            .data.map((row, index) => (

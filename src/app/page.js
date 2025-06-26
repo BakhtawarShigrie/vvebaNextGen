@@ -62,7 +62,7 @@ export default function Home() {
    {/* <HomeFeatureArea /> */}
    {/* <HomeAreaTestimonial /> */}
    <HomeProcessArea />
-   <Box
+   {/* <Box
     className="tp-home-4-service-area"
     sx={{
      padding: {
@@ -71,8 +71,8 @@ export default function Home() {
      },
     }}
    >
+   </Box> */}
     <BlogCard />
-   </Box>
    {/* <Education /> */}
    <Timeline />
    {/* <SeminarBookingForm /> */}

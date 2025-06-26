@@ -54,7 +54,7 @@
 }
 
 .timeline li:hover::before {
- background-color: #4000ff;
+ background-color: #e92e3e;
 }
 
 .timeline li::after {
@@ -67,7 +67,7 @@
 
 .timeline li:hover::after,
 .timeline li .title {
- color: #4000ff;
+ color: #e92e3e;
 }
 
 .timeline li .title {
@@ -101,7 +101,7 @@
 }
 
 .timeline li:hover .data {
- background-color: #4000ff;
+ background-color: #e92e3e;
  --scale: 1.2;
  cursor: pointer;
  z-index: 200;
@@ -112,11 +112,7 @@
  height: 352px;
  border-radius: 16px;
  padding: 16px;
- background-image: linear-gradient(
-  45deg,
-  #4000ff,
-  rgb(255, 0, 255)
- );
+ background-color: #363f46;
  box-shadow: 0 1.6px 6.4px #0004;
  z-index: 100;
 }
@@ -172,11 +168,7 @@
         height: 300px;
         border-radius: 16px;
         padding: 16px;
-        background-image: linear-gradient(
-         45deg,
-         #4000ff,
-         rgb(255, 0, 255)
-        );
+        background-color: #363f46;
         box-shadow: 0 1.6px 6.4px #0004;
         z-index: 100;
        }
