@@ -13,20 +13,20 @@ export async function POST(request) {
     }
 
     const transporter = nodemailer.createTransport({
-      host: 'smtp.gmail.com',
-      port: 587,
-      secure: false,
-      auth: {
-        user: process.env.GMAIL_USER,
-        pass: process.env.GMAIL_PASS,
-      },
+     host: 'smtp.gmail.com',
+     port: 587,
+     secure: false,
+     auth: {
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASS,
+     },
     });
 
     await transporter.verify();
 
     const mailOptions = {
-      from: process.env.GMAIL_USER,
-      to: process.env.GMAIL_USER,
+      from: process.env.EMAIL_USER,
+      to: process.env.EMAIL_USER,
       html: `
     <div style="font-family: 'Helvetica Neue', Arial, sans-serif; color: #333; background-color: #f4f4f4; padding: 20px;">
       <div style="max-width: 600px; margin: 0 auto; background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">

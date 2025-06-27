@@ -4,7 +4,7 @@ import {useRouter} from 'next/navigation';
 export const PageBreadcrumb = ({title, paths}) => {
   const router = useRouter();
   return (
-    <section className="breadcrumb__area pt-100 pb-110 mt-170 p-relative z-index-1 fix">
+    <section className="breadcrumb__area  pt-100 pb-110 mt-25 p-relative z-index-1 fix">
       <div className="breadcrumb__bg"></div>
       <div className="container">
         <div className="row align-items-center">

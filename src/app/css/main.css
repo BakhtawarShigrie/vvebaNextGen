@@ -3351,7 +3351,7 @@ div.demo img {
 }
 
 .breadcrumb__area {
-  background-color: #112046;
+  background-color: #363f46;
 }
 /*----------------------------------------*/
 /*  2.11 Breadcrumb
@@ -3365,13 +3365,13 @@ div.demo img {
 @media only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 575px) {
   .breadcrumb__area {
-    padding-top: 250px;
+    padding-top: 100px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .breadcrumb__area {
-    padding-top: 220px;
+    padding-top: 100px;
   }
 }
 
@@ -13542,7 +13542,7 @@ a.ui-button:active {
 }
 
 .tp-home-4-hero-text {
-  max-width: 700px;
+  max-width: auto;
 }
 
 .tp-hero-4-btn-round .tp-btn-transparent-round {
@@ -14700,3 +14700,36 @@ a.ui-button:active {
   background-color: white;
   color: black;
 }
+
+
+
+@media only screen and (min-width: 350px) and (max-width: 766px) {
+ .sm-pr {
+  padding-right: 20px !important;
+ }
+ .sm-pl {
+  padding-left: 20px !important;
+ } 
+}
+
+@media only screen and (min-width: 350px) and (max-width: 766px) {
+  .sm-mr {
+   margin-right: 0px !important;
+  }
+  .sm-ml {
+   margin-left: 0px !important;
+  } 
+  .about-pb{
+    padding-bottom: 15px;
+   }
+   .about-icons-boder {
+    border-right: none
+   }
+  
+ }
+
+ .about-icons-boder {
+  border-right: 3px solid #e92e3e;
+ }
+
+ 
