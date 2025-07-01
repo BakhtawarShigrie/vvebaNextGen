@@ -105,18 +105,46 @@ export const About = () => {
    <div class="container text-center shadow p-3   mb-100 bg-white rounded-4">
     <div class="row">
      <div class="col-sm-12 col-md-3 col-lg-3 about-icons-boder">
+      {/* <img
+       src="/assets/svg/stacks-tech-01.svg"
+       className="mx-auto d-block mb-5"
+       alt="Mission Icon"
+       width="50"
+       height="50"
+      />{' '} */}
       <div class="fw-bold fs-3 pb-5">14</div>
       <div className="about-pb">Tech Stacks</div>
      </div>
      <div class="col-sm-12 col-md-3 col-lg-3 about-icons-boder">
+      {/* <img
+       src="/assets/svg/certificates-cropped.svg"
+       className="mx-auto d-block mb-5"
+       alt="Mission Icon"
+       width="50"
+       height="50"
+      />{' '} */}
       <div class="fw-bold fs-3 pb-5">4</div>
       <div className="about-pb">Certifications</div>
      </div>
      <div class="col-sm-12 col-md-3 col-lg-3 about-icons-boder">
+      {/* <img
+       src="/assets/svg/hours-01.svg"
+       className="mx-auto d-block mb-5"
+       alt="Mission Icon"
+       width="50"
+       height="50"
+      />{' '} */}
       <div class="fw-bold fs-3 pb-5">10,000</div>
       <div className="about-pb">Hours</div>
      </div>
      <div class="col-sm-12 col-md-3 col-lg-3">
+      {/* <img
+       src="/assets/svg/years-01.svg"
+       className="mx-auto d-block mb-5"
+       alt="Mission Icon"
+       width="50"
+       height="50"
+      />{' '} */}
       <div class="fw-bold fs-3 pb-5">7</div>
       <div className="about-pb">Years</div>
      </div>
@@ -128,13 +156,16 @@ export const About = () => {
     <div className="row text-center mb-5 ">
      <div className="col-md-6 ">
       <div className=" mr-40 sm-mr">
-       <Image
-        src="/assets/img/img-1.png"
-        alt="Muhammad Sharif"
-        width={300}
-        height={350}
-        className="rounded mx-auto d-block"
-       />
+       <div style={{clipPath: 'polygon(0 0, 100% 0%, 100% 100%, 0 77%)'}}>
+        <Image
+         src="/assets/Muhammad_Sharif.jpg"
+         alt="Muhammad Sharif"
+         width={500}
+         height={350}
+         loading="lazy"
+         className="rounded mx-auto d-block"
+        />
+       </div>
        <div
         className="text-white py-2 mt-4 fw-bold"
         style={{backgroundColor: '#e92e3e', lineHeight: '20px'}}
@@ -146,13 +177,16 @@ export const About = () => {
      </div>
      <div className="col-md-6">
       <div className="ml-40 sm-ml">
-       <Image
-        src="/assets/img/img-1.png"
-        alt="Shahid Khalid"
-        width={300}
-        height={350}
-        className="rounded mx-auto d-block"
-       />
+       <div style={{clipPath: 'polygon(0 0, 100% 0%, 100% 100%, 0 77%)'}}>
+        <Image
+         src="/assets/Shahid_Khalid.jpg"
+         alt="Shahid Khalid"
+         width={500}
+         height={350}
+         loading="lazy"
+         className="rounded mx-auto d-block"
+        />
+       </div>
        <div
         className="text-white py-2 mt-4 fw-bold"
         style={{backgroundColor: '#e92e3e', lineHeight: '20px'}}
@@ -169,7 +203,14 @@ export const About = () => {
      <div className="col-md-6">
       <div className="mr-40 sm-mr">
        <h4 className="text-danger fw-bold d-flex align-items-center gap-2">
-        <i className="bi bi-bullseye"></i> MISSION
+        <img
+         src="/assets/svg/mission-01.svg"
+         className="mr-10"
+         alt="Mission Icon"
+         width="40"
+         height="40"
+        />{' '}
+        MISSION
        </h4>
        <p className="text-secondary mt-3" style={{textAlign: 'justify'}}>
         We aim to bring $450 billion annually into Pakistan’s economy by tapping
@@ -190,7 +231,14 @@ export const About = () => {
      <div className="col-md-6">
       <div className="ml-40 sm-ml">
        <h4 className="text-danger fw-bold d-flex align-items-center gap-2">
-        <i className="bi bi-eye"></i> VISION
+        <img
+         src="/assets/svg/vision.svg"
+         className="mr-10"
+         alt="Vison Icon"
+         width="40"
+         height="40"
+        />{' '}
+        VISION
        </h4>
        <p className="text-secondary mt-3" style={{textAlign: 'justify'}}>
         We aim to bring $450 billion annually into Pakistan’s economy by tapping
@@ -210,47 +258,7 @@ export const About = () => {
      </div>
     </div>
    </div>
-
-   {/* <center>
-       <div class="fw-bold fs-4 pb-40 pt-60 ">
-        <h2>Team SoftX.</h2>
-       </div>
-      </center> */}
-   {/* data */}
-   {/* <div className="container py-5">
-       <div className="row">
-        {teamMembers.map((member, index) => (
-         <div key={index} className="col-md-4 col-lg-3 mb-70">
-          <div className=" text-center align-items-center">
-           <Image
-            src={member.img}
-            alt={member.name}
-            width={200}
-            height={200}
-            className=""
-           />
-           <div className="card-body">
-            <h5 className="card-title">{member.name}</h5>
-            <p className="card-text">{member.role}</p>
-           </div>
-          </div>
-         </div>
-        ))}
-       </div>
-      </div> */}
   </section>
  );
 };
 
-/*
-
-<div className=" text-center align-items-center">
-       <Image
-        src="/assets/img/img-1.png"
-        alt="owr"
-        width={500}
-        height={500}
-        className=""
-       />
-      </div>
-*/

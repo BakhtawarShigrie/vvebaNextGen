@@ -14712,7 +14712,7 @@ a.ui-button:active {
  } 
 }
 
-@media only screen and (min-width: 350px) and (max-width: 766px) {
+@media only screen and (min-width: 320px) and (max-width: 766px) {
   .sm-mr {
    margin-right: 0px !important;
   }
@@ -14723,13 +14723,33 @@ a.ui-button:active {
     padding-bottom: 15px;
    }
    .about-icons-boder {
-    border-right: none
+    border-right: none !important; 
    }
-  
+   .process-icon-circle{
+    width: 80px !important;
+}
+.process-right-radius {
+  margin-right: 0px !important;
+}
  }
 
  .about-icons-boder {
   border-right: 3px solid #e92e3e;
  }
 
- 
+ .process-right-radius {
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  background-color: #f1f2f2;
+  margin-bottom: 15px;
+  margin-right: 50px;
+}
+
+.process-icon-circle{
+    /* border: 2px solid #e92e3e; */
+    border-radius: 50%;
+    width: 12%;
+    height: auto,
+}
