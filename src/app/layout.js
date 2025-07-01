@@ -15,19 +15,8 @@ import {Footer} from '@/shared/components/layout/footer';
 import {AuthProvider} from './context/AuthContext';
 import GoogleAnalytics from '@/shared/components/GoogleAnalytics';
 import ChatlingWidget from '@/shared/components/ChatlingWidget';
+import GTM from '@/shared/components/GTM';
 
-/*
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FPK0K5H36S"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-FPK0K5H36S');
-</script>
-
-*/
 const inter = Inter({subsets: ['latin']});
 
 export const metadata = {
@@ -40,12 +29,13 @@ export default function RootLayout({children}) {
   <html lang="en">
    <body className={inter.className}>
     {/* AuthProvider */}
+    <GTM />
     <AuthProvider>
      <Header />
      {children}
      <Footer />
     </AuthProvider>
-    <GoogleAnalytics />
+    {/* <GoogleAnalytics /> */}
     <ChatlingWidget />
    </body>
    <Script async defer src="/assets/js/vendor/jquery.js" />
