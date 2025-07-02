@@ -14728,6 +14728,9 @@ a.ui-button:active {
    .process-icon-circle{
     width: 80px !important;
 }
+.mb-sm-50{
+  margin-bottom: 50px !important;
+}
 .process-right-radius {
   margin-right: 0px !important;
 }

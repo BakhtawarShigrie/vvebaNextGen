@@ -154,7 +154,7 @@ export const About = () => {
    <div className="container">
     {/* Top Row with Chairmen */}
     <div className="row text-center mb-5 ">
-     <div className="col-md-6 ">
+     <div className="col-md-6 mb-sm-50">
       <div className=" mr-40 sm-mr">
        <div style={{clipPath: 'polygon(0 0, 100% 0%, 100% 100%, 0 77%)'}}>
         <Image
@@ -179,7 +179,7 @@ export const About = () => {
       <div className="ml-40 sm-ml">
        <div style={{clipPath: 'polygon(0 0, 100% 0%, 100% 100%, 0 77%)'}}>
         <Image
-         src="/assets/Shahid_Khalid.jpg"
+         src="/assets/Shahid_Khalid2.jpg"
          alt="Shahid Khalid"
          width={500}
          height={350}
