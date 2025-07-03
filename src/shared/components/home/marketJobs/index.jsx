@@ -6513,37 +6513,590 @@ export default function TechStackJobsMarket() {
     'GLASSDOOR.com',
     'INDEED.com',
    ],
-   content: (platform) => {
-    // platform-specific data
-    const platformData = {
-     'ROZEE.pk': {
-      imagePath1: '/assets/image/jobs/salesforce-rozee-1.png',
-      imagePath2: '/assets/image/jobs/salesforce-rozee-2.png',
-     },
-     'CAREERJET.com': {
-      imagePath1: '/assets/image/jobs/salesforce-career-1.png',
-     },
-     'SIMPLYHIRED.com': {
-      imagePath1: '/assets/image/jobs/salesforce-simplyHired-1.png',
-     },
-     'GLASSDOOR.com': {
-      imagePath1: '/assets/image/jobs/salesforce-glassdoor-1.png',
-     },
-     'INDEED.com': {
-      imagePath1: '/assets/image/jobs/salesforce-indeed-1.png',
-     },
+   content: (country) => {
+    const countryData = {
+     'ROZEE.pk': [
+      {
+        title: 'Salesforce Consultant – Enterprise Cloud Solutions & Customization',
+        location: 'Karachi, Pakistan',
+        postedDate: '2025-07-02',
+        salary: 'PKR 595,000/Month',
+        description:
+          "We are hiring a Salesforce Consultant to lead high-scale CRM customizations, drive cloud transitions, and work alongside full stack and DevOps teams for B2B clients.",
+        responsibilities: [
+          'Design and configure Salesforce Sales and Service Cloud environments.',
+          'Implement scalable CI/CD for automated updates.',
+          'Integrate custom Apex solutions with third-party APIs.',
+          'Mentor internal teams on Lightning development best practices.'
+        ],
+        requirements: [
+          '6+ years of Salesforce consulting and platform optimization.',
+          'Previously built GitOps CI/CD workflows for cloud-based products.',
+          'Led full stack Next.js and backend integration with CRM tools.',
+          'Worked closely with DevOps to deploy automated Salesforce updates.'
+        ],
+        skills: [
+          'html', 'css', 'ajax', 'Sales Cloud', 'Service Cloud', 'Marketing Cloud', 'Business Analysis', 'Project Management',
+          'Client Relationship Management', 'MVC', 'data structures', 'tailwind', 'MUI', 'google app script', 'Customization',
+          'Apex Programming', 'Lightning', 'OOP', 'responsive websites'
+        ]
+      },
+      {
+        title: 'Salesforce Consultant – Full Stack CRM Integration Specialist',
+        location: 'Islamabad, Pakistan',
+        postedDate: '2025-07-02',
+        salary: 'PKR 550,000/Month',
+        description:
+          "Join a growing cloud tech firm delivering custom Salesforce modules and full-stack integrations with Next.js and Node.js apps for global retailers.",
+        responsibilities: [
+          'Integrate CRM with React/Next.js-based frontend portals.',
+          'Configure Lightning components and Apex triggers.',
+          'Collaborate with DevOps for staging deployments.',
+          'Implement advanced automation in Service Cloud flows.'
+        ],
+        requirements: [
+          '6+ years in Salesforce custom platform development.',
+          'Built scalable APIs with Node.js and Express.',
+          'Previously optimized CI/CD pipelines in DevOps role.',
+          'Experience with full stack JavaScript applications.'
+        ],
+        skills: [
+          'html', 'css', 'Business analysis', 'Marketing Cloud', 'Service Cloud', 'data structures',
+          'flexibility', 'MVC', 'Customizations', 'ajax', 'tensorflow.js', 'google app script',
+          'MUI', 'OOP', 'Apex Programming', 'Lightning', 'Client Relationship Management', 'responsive websites', 'tailwind'
+        ]
+      },
+      {
+        title: 'Senior Salesforce Consultant – Cloud Strategy & Technical Delivery',
+        location: 'Faisalabad, Pakistan',
+        postedDate: '2025-07-02',
+        salary: 'PKR 585,000/Month',
+        description:
+          "Seeking a Salesforce Consultant to lead complex CRM migrations, advise on cloud-first architecture, and integrate DevOps automation into Salesforce workflows.",
+        responsibilities: [
+          'Lead Salesforce to Marketing Cloud transition projects.',
+          'Develop custom workflows and automation in Apex.',
+          'Align Salesforce roadmap with business and IT objectives.',
+          'Partner with full stack and DevOps engineers for deployment support.'
+        ],
+        requirements: [
+          '6+ years in CRM solutions and platform architecture.',
+          'Deployed frontend components in Next.js alongside CRM integration.',
+          'Experience with DevOps CI/CD tools and backend data pipelines.',
+          'Built dynamic user journeys in Salesforce Marketing Cloud.'
+        ],
+        skills: [
+          'html', 'css', 'JavaScript', 'Sales Cloud', 'Service Cloud', 'ajax', 'MVC',
+          'Project Management', 'Business Analysis', 'machine learning', 'tailwind', 'Customization',
+          'google app script', 'socket.io', 'Apex Programming', 'Lightning', 'responsive websites',
+          'data analysis', 'bootstraps', 'express'
+        ]
+      },
+      {
+        title: 'Salesforce CRM Consultant – Custom Development & Deployment',
+        location: 'Rawalpindi, Pakistan',
+        postedDate: '2025-07-02',
+        salary: 'PKR 560,000/Month',
+        description:
+          "Deliver Salesforce solutions across Sales, Service, and Marketing Cloud platforms. You'll collaborate with product, DevOps, and frontend teams for smooth releases.",
+        responsibilities: [
+          'Configure and maintain custom Salesforce Lightning apps.',
+          'Implement CI/CD deployment strategies with DevOps.',
+          'Collaborate with Next.js and Node.js developers.',
+          'Manage change sets, metadata migration, and release cycles.'
+        ],
+        requirements: [
+          '6+ years in Salesforce configuration and customization.',
+          'Experience integrating full stack web platforms with CRM.',
+          'Deployed via GitHub Actions and cloud infra tools.',
+          'Handled performance monitoring and testing in previous DevOps projects.'
+        ],
+        skills: [
+          'html', 'css', 'Marketing Cloud', 'Service Cloud', 'Client Relationship Management', 'ajax', 'Configuration', 'Customization',
+          'google app script', 'flexibility', 'tailwind', 'OOP', 'Apex Programming', 'Lightning', 'MVC', 'data structures', 'MUI',
+          'dom', 'data management', 'socket.io'
+        ]
+      },
+      {
+        title: 'Salesforce Consultant – Enterprise Solutions & Lightning Expertise',
+        location: 'Multan, Pakistan',
+        postedDate: '2025-07-02',
+        salary: 'PKR 600,000/Month',
+        description:
+          "We're hiring an experienced Salesforce Consultant to manage end-to-end CRM development, Lightning UI, and DevOps-integrated deployment processes for enterprise accounts.",
+        responsibilities: [
+          'Develop reusable Apex classes and Lightning Web Components.',
+          'Lead CRM migration and data governance strategy.',
+          'Integrate Node.js APIs with Salesforce for real-time sync.',
+          'Manage CI/CD pipelines and version control.'
+        ],
+        requirements: [
+          '6+ years in Salesforce customization and integration.',
+          'Previously worked on DevOps-driven CI/CD pipelines.',
+          'Handled CRM rollout for full stack app with Express/React.',
+          'Conducted training on Lightning and Salesforce best practices.'
+        ],
+        skills: [
+          'html', 'css', 'Business Analysis', 'ajax', 'Sales Cloud', 'Service Cloud', 'data management',
+          'Data analysis', 'MUI', 'google app script', 'OOP', 'MVC', 'bootstrap', 'Customization', 'express',
+          'Apex Programming', 'Lightning', 'responsive websites', 'prototype', 'critical rendering'
+        ]
+      }
+     ],
+      'CAREERJET.com' :[   
+        {
+          title: 'Salesforce Consultant – Full Stack CRM Ops & Cloud Integration',
+          location: 'Chicago, IL, USA',
+          postedDate: '2025-07-02',
+          salary: '$2,045/Month',
+          description:
+            "Deliver high-performance Salesforce configurations, Lightning UI enhancements, and API integrations in a modern CI/CD environment with full stack collaboration.",
+          responsibilities: [
+            'Architect and implement scalable Salesforce solutions.',
+            'Build bridges between frontend apps and Salesforce APIs.',
+            'Deploy Lightning components with automated testing.',
+            'Implement DevOps workflows for metadata and release cycles.'
+          ],
+          requirements: [
+            '6+ years of experience in Salesforce customization.',
+            'Built release workflows using Git, Bitbucket, or GitHub.',
+            'Integrated data services with MongoDB and Service Cloud.',
+            'Supported hybrid stacks involving Node.js and CRM.'
+          ],
+          skills: [
+            'html', 'css', 'dom', 'Marketing Cloud', 'Sales Cloud', 'Project Management', 'data analysis', 'tailwind', 'Business Analysis',
+            'express', 'Customization', 'Data management', 'MUI', 'ajax', 'OOP', 'responsive websites', 'Apex Programming', 'Lightning',
+            'google app script', 'Configuration'
+          ]
+        },
+        {
+          title: 'Salesforce Platform Consultant – Marketing Automation & Cloud Scaling',
+          location: 'Seattle, WA, USA',
+          postedDate: '2025-07-02',
+          salary: '$2,020/Month',
+          description:
+            "Join a digital product team transforming multi-region Salesforce operations with full stack application interfaces and continuous DevOps integration.",
+          responsibilities: [
+            'Develop advanced Lightning Components with reusable logic.',
+            'Coordinate with backend Express teams for CRM-linked APIs.',
+            'Maintain version-controlled DevOps pipelines with GitHub Actions.',
+            'Design user-centric Salesforce UIs integrated with external services.'
+          ],
+          requirements: [
+            '6+ years in Salesforce development and Lightning UI.',
+            'Managed Salesforce/Next.js integration at scale.',
+            'Supported multiple sandbox environments in CI/CD pipelines.',
+            'Collaborated with frontend engineers and QA for performance testing.'
+          ],
+          skills: [
+            'html', 'css', 'Sales Cloud', 'Service Cloud', 'data analysis', 'ajax', 'Business Analysis', 'Project Management',
+            'Marketing Cloud', 'Customization', 'tensorflow.js', 'express', 'OOP', 'Configuration', 'Client Relationship Management',
+            'Apex Programming', 'Lightning', 'prototype', 'critical rendering', 'responsive websites'
+          ]
+        },
+        {
+          title: 'Salesforce Cloud Consultant – Data-Driven CRM Transformation',
+          location: 'New York, NY, USA',
+          postedDate: '2025-07-02',
+          salary: '$2,060/Month',
+          description:
+            "We are hiring a Salesforce Cloud Consultant to lead cross-departmental CRM transformation strategies with deep integration into DevOps and full stack web services.",
+          responsibilities: [
+            'Develop Apex classes for scalable workflows.',
+            'Integrate Salesforce with frontend portals using REST APIs.',
+            'Streamline business processes with Lightning flows.',
+            'Participate in DevOps automation and Git-based deployments.'
+          ],
+          requirements: [
+            '6+ years of experience in Salesforce CRM customization.',
+            'Worked in full stack projects involving MongoDB and Express.',
+            'Supported CI/CD rollouts in cloud-based ecosystems.',
+            'Led Salesforce migration from legacy tools.'
+          ],
+          skills: [
+            'html', 'css', 'tailwind', 'Sales Cloud', 'Service Cloud', 'Business analysis', 'MVC', 'Data management', 'Continuous Learning',
+            'Marketing Cloud', 'google app script', 'ajax', 'data structures', 'Customization', 'OOP', 'Apex Programming',
+            'Lightning', 'socket.io', 'prototype', 'bootstraps'
+          ]
+        },
+        {
+          title: 'Senior Salesforce Consultant – Lightning UX & Custom CRM Solutions',
+          location: 'San Francisco, CA, USA',
+          postedDate: '2025-07-02',
+          salary: '$2,100/Month',
+          description:
+            "Join a Fortune 500 tech firm as a Salesforce Consultant focused on delivering enterprise CRM solutions integrated with complex front and backend services.",
+          responsibilities: [
+            'Lead full Salesforce solution lifecycle: discovery, configuration, testing.',
+            'Work with Node.js teams to sync API-based data flows.',
+            'Customize Sales Cloud and Marketing Cloud with business logic.',
+            'Implement DevOps-driven change sets and metadata migration.'
+          ],
+          requirements: [
+            '6+ years in Salesforce implementation.',
+            'Previously contributed to DevOps-first environments.',
+            'Built CI/CD workflows for Node/React/CRM hybrid stacks.',
+            'Managed complex metadata and security controls.'
+          ],
+          skills: [
+            'html', 'css', 'Business Analysis', 'javascript', 'MVC', 'ajax', 'tailwind', 'google app script', 'Client Relationship Management',
+            'Customization', 'Sales Cloud', 'Service Cloud', 'data analysis', 'MUI', 'OOP', 'Apex Programming', 'Lightning',
+            'Configuration', 'critical rendering', 'machine learning'
+          ]
+        },
+      {
+        title: 'Salesforce Consultant – Enterprise CRM & Integration Specialist',
+        location: 'Austin, TX, USA',
+        postedDate: '2025-07-02',
+        salary: '$2,090/Month',
+        description:
+          "We’re seeking a seasoned Salesforce Consultant to lead integrations with full stack platforms, automate workflows, and enhance customer lifecycle visibility through CRM intelligence.",
+        responsibilities: [
+          'Design and implement Salesforce architecture across cloud platforms.',
+          'Collaborate with DevOps to establish CI/CD pipelines for custom Apex modules.',
+          'Integrate React-based frontend portals with CRM logic.',
+          'Manage Lightning components and drive Marketing Cloud adoption.'
+        ],
+        requirements: [
+          '6+ years of Salesforce customization and automation.',
+          'Experience with GitOps and infrastructure automation in DevOps roles.',
+          'Hands-on involvement in full stack deployments using Next.js.',
+          'Built CRM dashboards and configured dynamic workflows.'
+        ],
+        skills: [
+          'html', 'css', 'dom', 'ajax', 'Business Analysis', 'Sales Cloud', 'Service Cloud', 'tailwind', 'Project Management',
+          'Marketing Cloud', 'data structures', 'OOP', 'responsive websites', 'Customization', 'express', 'google app script',
+          'Apex Programming', 'Lightning', 'Data management', 'prototype'
+        ]
+      },
+     ],
+      'SIMPLYHIRED.com': [
+     
+        {
+          title: 'Platform DevOps Engineer – Hybrid Cloud Apps',
+          location: 'Oslo, Norway',
+          postedDate: '2025-07-02',
+          salary: '$1,495/Month',
+          description:
+            "Build and manage hybrid cloud platforms supporting frontend and backend services. Ensure reliability and security for distributed microservices pipelines.",
+          responsibilities: [
+            'Deploy React/Next.js platforms in hybrid environments.',
+            'Manage CI/CD with GitLab and Jenkins.',
+            'Maintain infrastructure and secret management.',
+            'Establish logging and recovery automation.'
+          ],
+          requirements: [
+            '4–5 years in DevOps with hybrid cloud exposure.',
+            'Fluency with GitOps and Infrastructure as Code.',
+            'Experience supporting Node.js, MongoDB, and React stacks.',
+            'Comfortable working in ISO-compliant environments.'
+          ],
+          skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'bootstraps', 'socket.io', 'MVC', 'google app script']
+        },
+        {
+          title: 'DevOps & CI/CD Engineer – Microservices & Full Stack',
+          location: 'Dubai, UAE',
+          postedDate: '2025-07-02',
+          salary: '$1,525/Month',
+          description:
+            "Deliver scalable DevOps solutions for a high-traffic media platform. Work with frontend and backend devs to automate microservices across environments.",
+          responsibilities: [
+            'Orchestrate deployments using Kubernetes.',
+            'Maintain build/release automation pipelines.',
+            'Enable high availability and rollback capabilities.',
+            'Monitor systems and address real-time failures.'
+          ],
+          requirements: [
+            '5+ years DevOps or cloud engineering experience.',
+            'Hands-on with containers, load balancers, and CI tools.',
+            'Agile workflow and sprint planning familiarity.',
+            'Strong full stack integration awareness.'
+          ],
+          skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'OOP', 'responsive websites', 'data structures', 'prototype']
+        },
+        {
+          title: 'Senior DevOps Engineer – ML Pipelines & WebOps',
+          location: 'Sydney, Australia',
+          postedDate: '2025-07-02',
+          salary: '$1,510/Month',
+          description:
+            "Work with ML engineers and frontend devs to deploy machine learning models inside React-based web apps. Build pipelines that automate and optimize release processes.",
+          responsibilities: [
+            'Deploy containerized ML services to production.',
+            'Collaborate with web teams for integration.',
+            'Set up observability tools (Prometheus, Grafana).',
+            'Manage high-load infrastructure environments.'
+          ],
+          requirements: [
+            '4+ years in DevOps with ML/AI exposure.',
+            'Experience with Python APIs and Node.js microservices.',
+            'Infrastructure knowledge for model delivery.',
+            'Kubernetes and workflow orchestration required.'
+          ],
+          skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'tensorflow.js', 'google app script', 'OOP', 'critical rendering']
+        },
+        {
+          title: 'Full Stack DevOps Specialist – SaaS Systems Delivery',
+          location: 'Toronto, Canada',
+          postedDate: '2025-07-02',
+          salary: '$1,485/Month',
+          description:
+            "Be part of a product-focused SaaS company. Automate builds and deployments while ensuring resilient infrastructure supporting full stack JavaScript environments.",
+          responsibilities: [
+            'Automate builds and zero-downtime deployments.',
+            'Configure staging and production CI/CD.',
+            'Implement alerting and disaster recovery processes.',
+            'Optimize backend release workflows.'
+          ],
+          requirements: [
+            '5+ years DevOps/Infrastructure experience.',
+            'Docker, Kubernetes, and Helm expertise.',
+            'Experience deploying Node.js and Next.js apps.',
+            'Solid Linux, Git, and scripting background.'
+          ],
+          skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'ajax', 'express', 'google app script', 'MVC']
+        },
+      {
+        title: 'DevOps Engineer – Infrastructure Automation & CI/CD',
+        location: 'Berlin, Germany',
+        postedDate: '2025-07-02',
+        salary: '$1,500/Month',
+        description:
+          "Join our European cloud ops team to streamline deployments using GitHub Actions, Terraform, and container orchestration. Deliver scalable React/Next.js systems globally.",
+        responsibilities: [
+          'Design, automate, and manage cloud infrastructure.',
+          'Implement scalable CI/CD workflows.',
+          'Optimize deployment strategies for full stack apps.',
+          'Collaborate with frontend/backend teams for smooth releases.'
+        ],
+        requirements: [
+          '4+ years in DevOps with CI/CD experience.',
+          'Strong command of cloud platforms like AWS or GCP.',
+          'Experience with microservices and Docker.',
+          'Proficient in scripting, Git, and monitoring tools.'
+        ],
+        skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'data structures', 'MUI', 'responsive websites', 'socket.io']
+      }
+     ],
+     'GLASSDOOR.com': [
+      {
+        title: 'Cloud DevOps Engineer – Full Stack Delivery & Automation',
+        location: 'Barcelona, Spain',
+        postedDate: '2025-07-02',
+        salary: '$1,505/Month',
+        description:
+          "We're hiring a DevOps engineer to manage scalable deployments and CI pipelines for our React, Next.js, and Node.js stack across European clients.",
+        responsibilities: [
+          'Create and maintain GitOps deployment pipelines.',
+          'Automate provisioning using Terraform.',
+          'Integrate DevOps with full stack teams.',
+          'Ensure monitoring, logging, and backup plans.'
+        ],
+        requirements: [
+          '4+ years DevOps experience with JavaScript stacks.',
+          'Experience with IaC, CI/CD tools, and GitHub Actions.',
+          'Comfort with multi-region cloud environments.',
+          'Strong scripting and system-level debugging skills.'
+        ],
+        skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'express', 'OOP', 'critical rendering', 'data structures']
+      },
+      {
+        title: 'DevOps & Site Reliability Engineer – High Uptime Environments',
+        location: 'Tokyo, Japan',
+        postedDate: '2025-07-02',
+        salary: '$1,530/Month',
+        description:
+          "Seeking an SRE-focused DevOps engineer to support high uptime React and Node.js deployments. You'll optimize systems for performance, redundancy, and reliability.",
+        responsibilities: [
+          'Deploy scalable containerized apps via Kubernetes.',
+          'Implement performance monitoring and auto-healing systems.',
+          'Support uptime for production services.',
+          'Enable blue/green and canary deployments.'
+        ],
+        requirements: [
+          '5+ years of SRE/DevOps experience.',
+          'Knowledge of uptime metrics, load balancing, and rollback.',
+          'Proficient in React/Node.js DevOps support.',
+          'Strong command over Unix/Linux systems.'
+        ],
+        skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'machine learning', 'ajax', 'google app script', 'socket.io']
+      },
+      {
+        title: 'Full Stack DevOps Engineer – Product Pipeline Optimization',
+        location: 'Amsterdam, Netherlands',
+        postedDate: '2025-07-02',
+        salary: '$1,485/Month',
+        description:
+          "You’ll work across cloud deployments and developer tooling to improve code-to-cloud pipelines for a high-growth software product used by global retailers.",
+        responsibilities: [
+          'Automate CI/CD pipelines for product release.',
+          'Build and deploy frontend/backend services.',
+          'Set up dynamic infrastructure using IaC.',
+          'Collaborate on performance benchmarking.'
+        ],
+        requirements: [
+          '4+ years DevOps experience in full stack environment.',
+          'Comfortable with AWS, Docker, and GitHub Workflows.',
+          'Proficiency in JS-based app stack deployments.',
+          'Familiar with monitoring dashboards.'
+        ],
+        skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'responsive websites', 'OOP', 'bootstraps', 'MVC']
+      },
+      {
+        title: 'Lead DevOps Engineer – Kubernetes & CI/CD Systems',
+        location: 'Auckland, New Zealand',
+        postedDate: '2025-07-02',
+        salary: '$1,500/Month',
+        description:
+          "We’re seeking a senior DevOps professional to lead pipeline, container, and deployment processes across modern React and API-based web apps.",
+        responsibilities: [
+          'Architect deployment systems for frontend/backend codebases.',
+          'Implement IaC and GitOps workflows.',
+          'Oversee CI/CD process design and testing.',
+          'Collaborate with full stack engineers to optimize delivery.'
+        ],
+        requirements: [
+          '5+ years DevOps or cloud automation experience.',
+          'Expertise in container orchestration (Docker, K8s).',
+          'Able to manage complex release environments.',
+          'Strong Node.js pipeline integration.'
+        ],
+        skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'ajax', 'express', 'socket.io', 'data structures', 'MVC']
+      },
+      {
+        title: 'Cloud Infrastructure & DevOps Engineer – Distributed Systems',
+        location: 'Zurich, Switzerland',
+        postedDate: '2025-07-02',
+        salary: '$1,490/Month',
+        description:
+          "Join our infrastructure division managing cloud-based deployment systems, monitoring layers, and JavaScript stack performance improvements across platforms.",
+        responsibilities: [
+          'Develop cross-region deployment pipelines.',
+          'Establish scalable, fault-tolerant cloud solutions.',
+          'Support React/Next.js app rollouts globally.',
+          'Implement custom automation scripts.'
+        ],
+        requirements: [
+          '5 years DevOps/cloud operations experience.',
+          'Fluency in infrastructure tooling (Terraform, Ansible).',
+          'Strong experience with JavaScript-based deployments.',
+          'Comfortable in regulated, multi-tenant environments.'
+        ],
+        skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'data structures', 'MUI', 'OOP', 'prototype']
+      }
+     ],
+      'INDEED.com': [
+        {
+          title: 'DevOps Engineer – Full Stack Platform Orchestration',
+          location: 'Copenhagen, Denmark',
+          postedDate: '2025-07-02',
+          salary: '$1,495/Month',
+          description:
+            "Join a distributed engineering team to manage containerized deployment, CI/CD automation, and end-to-end DevOps for Node and React-based applications.",
+          responsibilities: [
+            'Work with developers to streamline builds.',
+            'Build secure pipelines for microservices.',
+            'Deploy infrastructure via IaC and CI.',
+            'Monitor production systems and perform tuning.'
+          ],
+          requirements: [
+            '4+ years in cloud ops and DevOps roles.',
+            'Familiarity with React + Node.js stack automation.',
+            'Experience building pipelines in enterprise environments.',
+            'Scripting in Bash, Python, or Node required.'
+          ],
+          skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'OOP', 'bootstraps', 'data structures', 'MVC']
+        },
+        {
+          title: 'DevOps Engineer – High-Speed Deployment Systems',
+          location: 'Warsaw, Poland',
+          postedDate: '2025-07-02',
+          salary: '$1,520/Month',
+          description:
+            "Join a fintech product team where you'll own pipeline architecture for our critical deployments. Ensure React and Node updates are shipped fast and reliably.",
+          responsibilities: [
+            'Maintain automated test and release systems.',
+            'Monitor system health and load under pressure.',
+            'Coordinate regional and global deployment pipelines.',
+            'Optimize rollback and patching procedures.'
+          ],
+          requirements: [
+            '4–5 years DevOps with JS app deployment.',
+            'Hands-on with CI/CD platforms like CircleCI or GitHub Actions.',
+            'Experience with React/Next.js builds and CDN routing.',
+            'Capable in performance stress testing.'
+          ],
+          skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'ajax', 'MUI', 'socket.io', 'google app script']
+        },
+        {
+          title: 'Global DevOps Specialist – Full Stack Automation',
+          location: 'Cape Town, South Africa',
+          postedDate: '2025-07-02',
+          salary: '$1,485/Month',
+          description:
+            "Help us scale our multi-country frontend/backend stack with robust automation pipelines and efficient delivery practices using modern DevOps workflows.",
+          responsibilities: [
+            'Automate staging-to-production flow.',
+            'Work closely with backend API and frontend teams.',
+            'Implement rollout control and rollback logic.',
+            'Maintain secure access and permissions.'
+          ],
+          requirements: [
+            '4+ years in automation/devops roles.',
+            'Full stack JS deployment knowledge essential.',
+            'Versioning and rollback experience.',
+            'Cloud services and Git expertise required.'
+          ],
+          skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'google app script', 'data structures', 'prototype', 'bootstraps']
+        },
+        {
+          title: 'Next.js DevOps Architect – Performance & Pipeline Engineer',
+          location: 'Singapore',
+          postedDate: '2025-07-02',
+          salary: '$1,525/Month',
+          description:
+            "Lead full stack delivery ops and performance pipelines for our enterprise-grade Next.js applications across finance and healthcare clients.",
+          responsibilities: [
+            'Monitor app performance across deployments.',
+            'Maintain infrastructure compliance and audits.',
+            'Support server-side rendering workflows (Next.js).',
+            'Build secure deployment environments with CI tools.'
+          ],
+          requirements: [
+            '5+ years DevOps/infra experience.',
+            'Comfort with performance engineering tools.',
+            'Experience integrating full stack JS deployments.',
+            'Security-focused DevOps mindset.'
+          ],
+          skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'socket.io', 'MVC', 'ajax', 'OOP']
+        },
+      {
+        title: 'DevOps Engineer – SaaS Platform & Scalable Architecture',
+        location: 'Lisbon, Portugal',
+        postedDate: '2025-07-02',
+        salary: '$1,515/Month',
+        description:
+          "Work on high-availability SaaS delivery using Next.js frontend and Node.js backend stacks. Help scale infrastructure to support growing customer base.",
+        responsibilities: [
+          'Build Docker-based release pipelines.',
+          'Ensure 99.99% uptime for web services.',
+          'Collaborate with engineers on feature rollouts.',
+          'Manage cost-efficient deployment strategies.'
+        ],
+        requirements: [
+          '4+ years in DevOps and cloud deployments.',
+          'Knowledge of frontend and backend ops processes.',
+          'Understanding of cost optimization tools.',
+          'Comfortable in fast-paced product environments.'
+        ],
+        skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'critical rendering', 'express', 'google app script', 'responsive websites']
+      }
+     ],
     };
 
     return {
-     title: `Salesforce Specialist in ${platform}`,
-     data: [
-      {
-       shortDescription: platformData[platform].shortDescription,
-       heading: 'About Salesforce Specialist ',
-       image1: platformData[platform].imagePath1,
-       image2: platformData[platform].imagePath2,
-      },
-     ],
+     title: `Salesforce Specialist Jobs in ${country}`,
+     data: countryData[country],
     };
    },
   },

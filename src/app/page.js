@@ -77,7 +77,7 @@ export default function Home() {
    <Timeline />
    {/* <SeminarBookingForm /> */}
    <BootcampsStacks />
-   <TechStackJobsMarket />
+   {/* <TechStackJobsMarket /> */}
   </main>
  );
 }
