@@ -1587,6 +1587,39 @@ export default function TechStackJobsMarket() {
        softwareHouse: 'Systems Limited',
       },
       {
+       title: 'Frontend Developer – Modular UI & Components',
+       location: 'Peshawar, Pakistan',
+       postedDate: '2025-06-28',
+       salary: '₨80,000/Month',
+       description:
+        "Join our Peshawar team to help build scalable web components with Tailwind and React. You'll work across responsive layouts, reusable modules, and logic-based interface flows.",
+       responsibilities: [
+        'Design pixel-perfect UIs using Tailwind and React.',
+        'Manage state with hooks and component props.',
+        'Connect with API endpoints and render interactive elements.',
+        'Collaborate on reusable UI logic and pattern libraries.',
+       ],
+       requirements: [
+        '1 to 1.5 years of experience in frontend web apps.',
+        'Strong CSS architecture and layout structuring skills.',
+        'Comfortable using component libraries like MUI or Bootstrap.',
+        'Knowledge of performance bottlenecks and rendering optimization.',
+       ],
+       skills: [
+        'tailwind',
+        'react',
+        'html',
+        'css',
+        'javascript',
+        'next.js',
+        'bootstraps',
+        'dom',
+        'responsive websites',
+        'functions behind the scene',
+       ],
+       softwareHouse: 'VentureDive',
+      },
+      {
        title: 'Frontend React Developer',
        location: 'Islamabad, Pakistan',
        postedDate: '2025-07-01',
@@ -1619,39 +1652,7 @@ export default function TechStackJobsMarket() {
        ],
        softwareHouse: 'Techlogix',
       },
-      {
-       title: 'Frontend Developer – UI with ML Features',
-       location: 'Karachi, Pakistan',
-       postedDate: '2025-06-30',
-       salary: '₨90,000/Month',
-       description:
-        "We're hiring a frontend developer excited to integrate machine learning models directly into web UIs. You'll be developing intuitive interfaces with Tailwind, React, and TensorFlow.js.",
-       responsibilities: [
-        'Create React components and integrate ML-driven logic.',
-        'Use Tailwind and MUI to style scalable interfaces.',
-        'Implement dynamic views with data from TensorFlow.js.',
-        'Write clean, modular code and follow MVC structure.',
-       ],
-       requirements: [
-        '1.5 years of experience with modern JS tools.',
-        'Basic understanding of machine learning frontend usage.',
-        'Familiar with MUI and advanced Tailwind utilities.',
-        'Experience working with design systems and wireframes.',
-       ],
-       skills: [
-        'javascript',
-        'react',
-        'html',
-        'css',
-        'tailwind',
-        'next.js',
-        'tensorflow.js',
-        'machine learning',
-        'MVC',
-        'critical rendering',
-       ],
-       softwareHouse: '10Pearls',
-      },
+
       {
        title: 'React Frontend Developer – Real-Time UI',
        location: 'Multan, Pakistan',
@@ -1717,6 +1718,39 @@ export default function TechStackJobsMarket() {
         'functions behind the scene',
        ],
        softwareHouse: 'VentureDive',
+      },
+      {
+       title: 'Frontend Developer – UI with ML Features',
+       location: 'Karachi, Pakistan',
+       postedDate: '2025-06-30',
+       salary: '₨90,000/Month',
+       description:
+        "We're hiring a frontend developer excited to integrate machine learning models directly into web UIs. You'll be developing intuitive interfaces with Tailwind, React, and TensorFlow.js.",
+       responsibilities: [
+        'Create React components and integrate ML-driven logic.',
+        'Use Tailwind and MUI to style scalable interfaces.',
+        'Implement dynamic views with data from TensorFlow.js.',
+        'Write clean, modular code and follow MVC structure.',
+       ],
+       requirements: [
+        '1.5 years of experience with modern JS tools.',
+        'Basic understanding of machine learning frontend usage.',
+        'Familiar with MUI and advanced Tailwind utilities.',
+        'Experience working with design systems and wireframes.',
+       ],
+       skills: [
+        'javascript',
+        'react',
+        'html',
+        'css',
+        'tailwind',
+        'next.js',
+        'tensorflow.js',
+        'machine learning',
+        'MVC',
+        'critical rendering',
+       ],
+       softwareHouse: '10Pearls',
       },
      ],
      'CAREERJET.com': [
@@ -2408,563 +2442,809 @@ export default function TechStackJobsMarket() {
     const countryData = {
      'ROZEE.pk': [
       {
-        title: 'Jamstack Developer – Supabase & Next.js',
-        location: 'Lahore, Pakistan',
-        postedDate: '2025-07-02',
-        salary: '₨105,000/Month',
-        description:
-          "Join our frontend-first engineering team to create Jamstack web apps powered by Supabase and React. You'll work on rapid prototyping, dynamic APIs, and frontend logic tied to real-time databases.",
-        responsibilities: [
-          'Build modern Jamstack apps with Next.js and Supabase.',
-          'Design frontend UI with Tailwind and dynamic components.',
-          'Integrate auth and real-time data sync from Supabase.',
-          'Write scalable API interactions and database queries.'
-        ],
-        requirements: [
-          '2 years of experience in frontend or Jamstack architecture.',
-          'Experience with Supabase, React, and SSR/ISR logic.',
-          'Familiarity with SQL-based BaaS and RESTful endpoints.',
-          'Ability to design responsive and clean layouts.'
-        ],
-        skills: ['html', 'tailwind', 'react', 'supabase', 'next.js', 'css', 'javascript', 'api integration', 'authentication', 'OOP'],
-        softwareHouse: 'Techverx'
+       title: 'Jamstack Developer – Appwrite + React',
+       location: 'Peshawar, Pakistan',
+       postedDate: '2025-06-29',
+       salary: '₨100,000/Month',
+       description:
+        'Looking for a Jamstack developer experienced in working with Appwrite, React, and Next.js. Build secure, scalable apps with BaaS features like file storage, user auth, and serverless functions.',
+       responsibilities: [
+        'Develop UI components integrated with Appwrite backend.',
+        'Set up user auth, databases, and file storage systems.',
+        'Work with REST APIs and Appwrite SDKs.',
+        'Collaborate on project planning and responsive layout design.',
+       ],
+       requirements: [
+        '2 years of frontend or Jamstack development.',
+        'Experience with Appwrite services and SDK usage.',
+        'Good understanding of frontend and backend handshakes.',
+        'Capable of deploying serverless and secure features.',
+       ],
+       skills: [
+        'appwrite',
+        'html',
+        'react',
+        'next.js',
+        'tailwind',
+        'javascript',
+        'authentication',
+        'OOP',
+        'css',
+        'api integration',
+       ],
+       softwareHouse: 'ArhamSoft',
       },
       {
-        title: 'Firebase Developer – Realtime Apps & SSR',
-        location: 'Islamabad, Pakistan',
-        postedDate: '2025-07-01',
-        salary: '₨108,000/Month',
-        description:
-          "Looking for a frontend-focused Firebase developer to build real-time applications with Next.js and Firestore. If you enjoy BaaS services and want to build scalable products—this is your role.",
-        responsibilities: [
-          'Develop dynamic views with Next.js and Firebase.',
-          'Use Firestore for real-time updates and auth.',
-          'Write server-side logic using Firebase Functions.',
-          'Design pixel-perfect UI using Tailwind CSS.'
-        ],
-        requirements: [
-          '1 year experience working with Firebase and frontend tools.',
-          'Understanding of real-time syncing and serverless triggers.',
-          'Experience building auth flows and role-based dashboards.',
-          'Solid grasp of frontend component structure.'
-        ],
-        skills: ['firebase', 'tailwind', 'react', 'next.js', 'javascript', 'html', 'css', 'functions behind the scene', 'SSR', 'authentication'],
-        softwareHouse: 'Tkxel'
+       title: 'Jamstack Developer – Supabase & Next.js',
+       location: 'Lahore, Pakistan',
+       postedDate: '2025-07-02',
+       salary: '₨105,000/Month',
+       description:
+        "Join our frontend-first engineering team to create Jamstack web apps powered by Supabase and React. You'll work on rapid prototyping, dynamic APIs, and frontend logic tied to real-time databases.",
+       responsibilities: [
+        'Build modern Jamstack apps with Next.js and Supabase.',
+        'Design frontend UI with Tailwind and dynamic components.',
+        'Integrate auth and real-time data sync from Supabase.',
+        'Write scalable API interactions and database queries.',
+       ],
+       requirements: [
+        '2 years of experience in frontend or Jamstack architecture.',
+        'Experience with Supabase, React, and SSR/ISR logic.',
+        'Familiarity with SQL-based BaaS and RESTful endpoints.',
+        'Ability to design responsive and clean layouts.',
+       ],
+       skills: [
+        'html',
+        'tailwind',
+        'react',
+        'supabase',
+        'next.js',
+        'css',
+        'javascript',
+        'api integration',
+        'authentication',
+        'OOP',
+       ],
+       softwareHouse: 'Techverx',
       },
       {
-        title: 'Sanity.io Developer – Content API Integrations',
-        location: 'Karachi, Pakistan',
-        postedDate: '2025-07-01',
-        salary: '₨110,000/Month',
-        description:
-          "Join our CMS-driven team to build content-rich applications using Sanity.io, React, and Next.js. Perfect for a developer who loves structured content, live previews, and scalable UI.",
-        responsibilities: [
-          'Integrate Sanity APIs with Next.js frontends.',
-          'Create reusable components to display dynamic content.',
-          'Implement live preview and client-side routing.',
-          'Collaborate with content creators and designers.'
-        ],
-        requirements: [
-          '2 years frontend experience, preferably with CMS integration.',
-          'Hands-on with GROQ queries and Sanity schemas.',
-          'Experience building blog, portfolio, or content sites.',
-          'Familiarity with Tailwind and structured content models.'
-        ],
-        skills: ['sanity.io', 'next.js', 'react', 'javascript', 'html', 'tailwind', 'webhooks', 'api integration', 'css'],
-        softwareHouse: 'NorthBay Solutions'
+       title: 'Firebase Developer – Realtime Apps & SSR',
+       location: 'Islamabad, Pakistan',
+       postedDate: '2025-07-01',
+       salary: '₨108,000/Month',
+       description:
+        'Looking for a frontend-focused Firebase developer to build real-time applications with Next.js and Firestore. If you enjoy BaaS services and want to build scalable products—this is your role.',
+       responsibilities: [
+        'Develop dynamic views with Next.js and Firebase.',
+        'Use Firestore for real-time updates and auth.',
+        'Write server-side logic using Firebase Functions.',
+        'Design pixel-perfect UI using Tailwind CSS.',
+       ],
+       requirements: [
+        '1 year experience working with Firebase and frontend tools.',
+        'Understanding of real-time syncing and serverless triggers.',
+        'Experience building auth flows and role-based dashboards.',
+        'Solid grasp of frontend component structure.',
+       ],
+       skills: [
+        'firebase',
+        'tailwind',
+        'react',
+        'next.js',
+        'javascript',
+        'html',
+        'css',
+        'functions behind the scene',
+        'SSR',
+        'authentication',
+       ],
+       softwareHouse: 'Tkxel',
+      },
+
+      {
+       title: 'Strapi + React Developer – Headless CMS Apps',
+       location: 'Faisalabad, Pakistan',
+       postedDate: '2025-06-30',
+       salary: '₨102,000/Month',
+       description:
+        "We're building modern headless CMS experiences using Strapi and React. Join us to work on e-commerce frontends, product catalogs, and backend API integration via REST & GraphQL.",
+       responsibilities: [
+        'Connect React-based UIs with Strapi APIs.',
+        'Design reusable layouts with Next.js and Tailwind.',
+        'Use GraphQL and REST for dynamic content loading.',
+        'Maintain admin interface and structured content.',
+       ],
+       requirements: [
+        '1 year of experience with Strapi or any headless CMS.',
+        'Basic understanding of GraphQL and REST API integration.',
+        'Ability to build mobile-first interfaces.',
+        'Good command of frontend styling and logic.',
+       ],
+       skills: [
+        'strapi',
+        'next.js',
+        'react',
+        'html',
+        'css',
+        'tailwind',
+        'graphql',
+        'api integration',
+        'javascript',
+        'responsive websites',
+       ],
+       softwareHouse: 'Soft Pyramid',
       },
       {
-        title: 'Strapi + React Developer – Headless CMS Apps',
-        location: 'Faisalabad, Pakistan',
-        postedDate: '2025-06-30',
-        salary: '₨102,000/Month',
-        description:
-          "We're building modern headless CMS experiences using Strapi and React. Join us to work on e-commerce frontends, product catalogs, and backend API integration via REST & GraphQL.",
-        responsibilities: [
-          'Connect React-based UIs with Strapi APIs.',
-          'Design reusable layouts with Next.js and Tailwind.',
-          'Use GraphQL and REST for dynamic content loading.',
-          'Maintain admin interface and structured content.'
-        ],
-        requirements: [
-          '1 year of experience with Strapi or any headless CMS.',
-          'Basic understanding of GraphQL and REST API integration.',
-          'Ability to build mobile-first interfaces.',
-          'Good command of frontend styling and logic.'
-        ],
-        skills: ['strapi', 'next.js', 'react', 'html', 'css', 'tailwind', 'graphql', 'api integration', 'javascript', 'responsive websites'],
-        softwareHouse: 'Soft Pyramid'
+       title: 'Sanity.io Developer – Content API Integrations',
+       location: 'Karachi, Pakistan',
+       postedDate: '2025-07-01',
+       salary: '₨110,000/Month',
+       description:
+        'Join our CMS-driven team to build content-rich applications using Sanity.io, React, and Next.js. Perfect for a developer who loves structured content, live previews, and scalable UI.',
+       responsibilities: [
+        'Integrate Sanity APIs with Next.js frontends.',
+        'Create reusable components to display dynamic content.',
+        'Implement live preview and client-side routing.',
+        'Collaborate with content creators and designers.',
+       ],
+       requirements: [
+        '2 years frontend experience, preferably with CMS integration.',
+        'Hands-on with GROQ queries and Sanity schemas.',
+        'Experience building blog, portfolio, or content sites.',
+        'Familiarity with Tailwind and structured content models.',
+       ],
+       skills: [
+        'sanity.io',
+        'next.js',
+        'react',
+        'javascript',
+        'html',
+        'tailwind',
+        'webhooks',
+        'api integration',
+        'css',
+       ],
+       softwareHouse: 'NorthBay Solutions',
       },
-      {
-        title: 'Jamstack Developer – Appwrite + React',
-        location: 'Peshawar, Pakistan',
-        postedDate: '2025-06-29',
-        salary: '₨100,000/Month',
-        description:
-          "Looking for a Jamstack developer experienced in working with Appwrite, React, and Next.js. Build secure, scalable apps with BaaS features like file storage, user auth, and serverless functions.",
-        responsibilities: [
-          'Develop UI components integrated with Appwrite backend.',
-          'Set up user auth, databases, and file storage systems.',
-          'Work with REST APIs and Appwrite SDKs.',
-          'Collaborate on project planning and responsive layout design.'
-        ],
-        requirements: [
-          '2 years of frontend or Jamstack development.',
-          'Experience with Appwrite services and SDK usage.',
-          'Good understanding of frontend and backend handshakes.',
-          'Capable of deploying serverless and secure features.'
-        ],
-        skills: ['appwrite', 'html', 'react', 'next.js', 'tailwind', 'javascript', 'authentication', 'OOP', 'css', 'api integration'],
-        softwareHouse: 'ArhamSoft'
-      }
      ],
      'CAREERJET.com': [
       {
-        title: 'Jamstack Developer – Supabase & Next.js',
-        location: 'Austin, TX',
-        postedDate: '2025-07-02',
-        salary: '$290.00/Month',
-        description:
-          "Join our US-based Jamstack team working on product analytics dashboards. You'll build blazing-fast web apps using Supabase, React, and Tailwind, integrating live data with clean design.",
-        responsibilities: [
-          'Create reusable components using React and Tailwind.',
-          'Integrate Supabase APIs for auth and data layers.',
-          'Build dynamic Next.js pages and route logic.',
-          'Work with UI/UX designers on pixel-perfect delivery.'
-        ],
-        requirements: [
-          '2 years experience with frontend or Jamstack.',
-          'Working knowledge of Supabase services.',
-          'Experience building authenticated dashboards.',
-          'Proficient in Tailwind and dynamic rendering.'
-        ],
-        skills: ['supabase', 'react', 'next.js', 'tailwind', 'html', 'css', 'javascript', 'authentication', 'api integration'],
-        softwareHouse: 'Vercel'
+       title: 'Jamstack Developer – Supabase & Next.js',
+       location: 'Austin, TX',
+       postedDate: '2025-07-02',
+       salary: '$290.00/Month',
+       description:
+        "Join our US-based Jamstack team working on product analytics dashboards. You'll build blazing-fast web apps using Supabase, React, and Tailwind, integrating live data with clean design.",
+       responsibilities: [
+        'Create reusable components using React and Tailwind.',
+        'Integrate Supabase APIs for auth and data layers.',
+        'Build dynamic Next.js pages and route logic.',
+        'Work with UI/UX designers on pixel-perfect delivery.',
+       ],
+       requirements: [
+        '2 years experience with frontend or Jamstack.',
+        'Working knowledge of Supabase services.',
+        'Experience building authenticated dashboards.',
+        'Proficient in Tailwind and dynamic rendering.',
+       ],
+       skills: [
+        'supabase',
+        'react',
+        'next.js',
+        'tailwind',
+        'html',
+        'css',
+        'javascript',
+        'authentication',
+        'api integration',
+       ],
+       softwareHouse: 'Vercel',
       },
       {
-        title: 'Firebase + React Developer – Real-time Interfaces',
-        location: 'San Francisco, CA',
-        postedDate: '2025-07-02',
-        salary: '$295.00/Month',
-        description:
-          "Looking for a frontend developer to create real-time dashboards using Firebase and React. You'll build fast, reliable apps that sync instantly and scale globally.",
-        responsibilities: [
-          'Develop UI with React and Firebase Realtime DB.',
-          'Implement Next.js routes and layouts.',
-          'Integrate user auth and Firestore security rules.',
-          'Write Tailwind-based responsive design.'
-        ],
-        requirements: [
-          '1 year frontend experience with Firebase.',
-          'Comfortable working with Realtime Database & Functions.',
-          'Experience integrating dynamic content.',
-          'Strong CSS and component logic knowledge.'
-        ],
-        skills: ['firebase', 'javascript', 'react', 'tailwind', 'next.js', 'html', 'css', 'functions behind the scene', 'authentication'],
-        softwareHouse: 'Google Cloud'
+       title: 'Firebase + React Developer – Real-time Interfaces',
+       location: 'San Francisco, CA',
+       postedDate: '2025-07-02',
+       salary: '$295.00/Month',
+       description:
+        "Looking for a frontend developer to create real-time dashboards using Firebase and React. You'll build fast, reliable apps that sync instantly and scale globally.",
+       responsibilities: [
+        'Develop UI with React and Firebase Realtime DB.',
+        'Implement Next.js routes and layouts.',
+        'Integrate user auth and Firestore security rules.',
+        'Write Tailwind-based responsive design.',
+       ],
+       requirements: [
+        '1 year frontend experience with Firebase.',
+        'Comfortable working with Realtime Database & Functions.',
+        'Experience integrating dynamic content.',
+        'Strong CSS and component logic knowledge.',
+       ],
+       skills: [
+        'firebase',
+        'javascript',
+        'react',
+        'tailwind',
+        'next.js',
+        'html',
+        'css',
+        'functions behind the scene',
+        'authentication',
+       ],
+       softwareHouse: 'Google Cloud',
       },
       {
-        title: 'Sanity.io Developer – Headless CMS Interfaces',
-        location: 'New York, NY',
-        postedDate: '2025-07-01',
-        salary: '$288.00/Month',
-        description:
-          "Help us build structured content interfaces using Sanity.io and Next.js. This role involves close coordination with content teams and seamless rendering across devices.",
-        responsibilities: [
-          'Integrate Sanity APIs into React UI.',
-          'Use Tailwind and component libraries.',
-          'Implement dynamic GROQ queries.',
-          'Handle SEO and image optimization logic.'
-        ],
-        requirements: [
-          '2 years experience with headless CMS platforms.',
-          'Familiar with GROQ, structure builder, and live preview.',
-          'Strong understanding of component data flows.',
-          'Solid skills in HTML/CSS and SSR setup.'
-        ],
-        skills: ['sanity.io', 'html', 'css', 'javascript', 'tailwind', 'next.js', 'react', 'webhooks', 'api integration'],
-        softwareHouse: 'Contentful Inc.'
+       title: 'Sanity.io Developer – Headless CMS Interfaces',
+       location: 'New York, NY',
+       postedDate: '2025-07-01',
+       salary: '$288.00/Month',
+       description:
+        'Help us build structured content interfaces using Sanity.io and Next.js. This role involves close coordination with content teams and seamless rendering across devices.',
+       responsibilities: [
+        'Integrate Sanity APIs into React UI.',
+        'Use Tailwind and component libraries.',
+        'Implement dynamic GROQ queries.',
+        'Handle SEO and image optimization logic.',
+       ],
+       requirements: [
+        '2 years experience with headless CMS platforms.',
+        'Familiar with GROQ, structure builder, and live preview.',
+        'Strong understanding of component data flows.',
+        'Solid skills in HTML/CSS and SSR setup.',
+       ],
+       skills: [
+        'sanity.io',
+        'html',
+        'css',
+        'javascript',
+        'tailwind',
+        'next.js',
+        'react',
+        'webhooks',
+        'api integration',
+       ],
+       softwareHouse: 'Contentful Inc.',
       },
       {
-        title: 'Appwrite Developer – Serverless Web Apps',
-        location: 'Seattle, WA',
-        postedDate: '2025-07-01',
-        salary: '$285.00/Month',
-        description:
-          "Join our cloud-native development team building Jamstack sites with Appwrite. Work on frontend security, user authentication, and file management modules.",
-        responsibilities: [
-          'Create secure frontend modules using Appwrite APIs.',
-          'Build responsive React components with Tailwind.',
-          'Use Appwrite Functions for serverless workflows.',
-          'Deploy apps with ISR and build caching in Next.js.'
-        ],
-        requirements: [
-          '1–2 years of experience using Appwrite or Firebase.',
-          'Knowledge of auth, database, and functions setup.',
-          'Skilled in React, Tailwind, and HTML/CSS.',
-          'Confident with frontend deployments and webhooks.'
-        ],
-        skills: ['appwrite', 'tailwind', 'next.js', 'react', 'html', 'css', 'javascript', 'authentication', 'OOP'],
-        softwareHouse: 'Netlify'
+       title: 'Appwrite Developer – Serverless Web Apps',
+       location: 'Seattle, WA',
+       postedDate: '2025-07-01',
+       salary: '$285.00/Month',
+       description:
+        'Join our cloud-native development team building Jamstack sites with Appwrite. Work on frontend security, user authentication, and file management modules.',
+       responsibilities: [
+        'Create secure frontend modules using Appwrite APIs.',
+        'Build responsive React components with Tailwind.',
+        'Use Appwrite Functions for serverless workflows.',
+        'Deploy apps with ISR and build caching in Next.js.',
+       ],
+       requirements: [
+        '1–2 years of experience using Appwrite or Firebase.',
+        'Knowledge of auth, database, and functions setup.',
+        'Skilled in React, Tailwind, and HTML/CSS.',
+        'Confident with frontend deployments and webhooks.',
+       ],
+       skills: [
+        'appwrite',
+        'tailwind',
+        'next.js',
+        'react',
+        'html',
+        'css',
+        'javascript',
+        'authentication',
+        'OOP',
+       ],
+       softwareHouse: 'Netlify',
       },
       {
-        title: 'Strapi Developer – API-first Frontends',
-        location: 'Miami, FL',
-        postedDate: '2025-06-30',
-        salary: '$289.00/Month',
-        description:
-          "Work with our Strapi-powered CMS to build frontend apps with clean APIs and modern architecture. Ideal for developers who love structured content and GraphQL endpoints.",
-        responsibilities: [
-          'Build Next.js components with Strapi data.',
-          'Integrate APIs using REST and GraphQL.',
-          'Write styled UI using Tailwind CSS.',
-          'Implement SSR/ISR strategies as needed.'
-        ],
-        requirements: [
-          '2 years frontend or CMS experience.',
-          'Hands-on with Strapi schemas and GraphQL.',
-          'Proficient with Tailwind, React, and routing systems.',
-          'Experience deploying JAMstack products.'
-        ],
-        skills: ['strapi', 'graphql', 'react', 'tailwind', 'next.js', 'html', 'css', 'javascript', 'api integration'],
-        softwareHouse: 'Hashnode Inc.'
-      }
+       title: 'Strapi Developer – API-first Frontends',
+       location: 'Miami, FL',
+       postedDate: '2025-06-30',
+       salary: '$289.00/Month',
+       description:
+        'Work with our Strapi-powered CMS to build frontend apps with clean APIs and modern architecture. Ideal for developers who love structured content and GraphQL endpoints.',
+       responsibilities: [
+        'Build Next.js components with Strapi data.',
+        'Integrate APIs using REST and GraphQL.',
+        'Write styled UI using Tailwind CSS.',
+        'Implement SSR/ISR strategies as needed.',
+       ],
+       requirements: [
+        '2 years frontend or CMS experience.',
+        'Hands-on with Strapi schemas and GraphQL.',
+        'Proficient with Tailwind, React, and routing systems.',
+        'Experience deploying JAMstack products.',
+       ],
+       skills: [
+        'strapi',
+        'graphql',
+        'react',
+        'tailwind',
+        'next.js',
+        'html',
+        'css',
+        'javascript',
+        'api integration',
+       ],
+       softwareHouse: 'Hashnode Inc.',
+      },
      ],
      'SIMPLYHIRED.com': [
       {
-        title: 'Jamstack Developer – Supabase Focused',
-        location: 'Berlin, Germany',
-        postedDate: '2025-07-02',
-        salary: '$290.00/Month',
-        description:
-          "Collaborate on developing high-speed marketing pages and admin dashboards with Supabase and Next.js. Ideal for devs who value speed and secure data integration.",
-        responsibilities: [
-          'Connect Supabase APIs with SSR-powered Next.js.',
-          'Create tailwind-powered design systems.',
-          'Build authentication and protected routes.',
-          'Write modular UI components in React.'
-        ],
-        requirements: [
-          '1 year of experience with Supabase or similar stack.',
-          'Familiarity with auth and live query patterns.',
-          'Strong command over modern JS and Tailwind.',
-          'Experience deploying JAMstack apps.'
-        ],
-        skills: ['supabase', 'html', 'react', 'next.js', 'javascript', 'tailwind', 'authentication', 'api integration'],
-        softwareHouse: 'TIER Mobility'
+       title: 'Jamstack Developer – Supabase Focused',
+       location: 'Berlin, Germany',
+       postedDate: '2025-07-02',
+       salary: '$290.00/Month',
+       description:
+        'Collaborate on developing high-speed marketing pages and admin dashboards with Supabase and Next.js. Ideal for devs who value speed and secure data integration.',
+       responsibilities: [
+        'Connect Supabase APIs with SSR-powered Next.js.',
+        'Create tailwind-powered design systems.',
+        'Build authentication and protected routes.',
+        'Write modular UI components in React.',
+       ],
+       requirements: [
+        '1 year of experience with Supabase or similar stack.',
+        'Familiarity with auth and live query patterns.',
+        'Strong command over modern JS and Tailwind.',
+        'Experience deploying JAMstack apps.',
+       ],
+       skills: [
+        'supabase',
+        'html',
+        'react',
+        'next.js',
+        'javascript',
+        'tailwind',
+        'authentication',
+        'api integration',
+       ],
+       softwareHouse: 'TIER Mobility',
       },
       {
-        title: 'Firebase Developer – Real-time Projects',
-        location: 'Dubai, UAE',
-        postedDate: '2025-07-02',
-        salary: '$295.00/Month',
-        description:
-          "Create lightning-fast interfaces using Firebase and React. Be part of our innovation team building realtime messaging tools and dashboards.",
-        responsibilities: [
-          'Use Firebase Firestore and Auth with Next.js.',
-          'Implement live updates and serverless functions.',
-          'Develop with Tailwind and modular React logic.',
-          'Maintain security rules and scalable backend.'
-        ],
-        requirements: [
-          '2 years of frontend + Firebase experience.',
-          'Comfortable with auth, rules, and Firestore triggers.',
-          'Proficiency in responsive UI and clean code.',
-          'Basic CI/CD and deployment knowledge.'
-        ],
-        skills: ['firebase', 'html', 'css', 'javascript', 'react', 'next.js', 'tailwind', 'functions behind the scene'],
-        softwareHouse: 'Careem'
+       title: 'Firebase Developer – Real-time Projects',
+       location: 'Dubai, UAE',
+       postedDate: '2025-07-02',
+       salary: '$295.00/Month',
+       description:
+        'Create lightning-fast interfaces using Firebase and React. Be part of our innovation team building realtime messaging tools and dashboards.',
+       responsibilities: [
+        'Use Firebase Firestore and Auth with Next.js.',
+        'Implement live updates and serverless functions.',
+        'Develop with Tailwind and modular React logic.',
+        'Maintain security rules and scalable backend.',
+       ],
+       requirements: [
+        '2 years of frontend + Firebase experience.',
+        'Comfortable with auth, rules, and Firestore triggers.',
+        'Proficiency in responsive UI and clean code.',
+        'Basic CI/CD and deployment knowledge.',
+       ],
+       skills: [
+        'firebase',
+        'html',
+        'css',
+        'javascript',
+        'react',
+        'next.js',
+        'tailwind',
+        'functions behind the scene',
+       ],
+       softwareHouse: 'Careem',
       },
       {
-        title: 'Sanity.io Developer – Dynamic Web Projects',
-        location: 'London, UK',
-        postedDate: '2025-07-01',
-        salary: '$288.00/Month',
-        description:
-          "Build high-performance websites and content platforms with Sanity.io and Next.js. Join a growing content-tech team focused on speed and maintainability.",
-        responsibilities: [
-          'Use GROQ queries to fetch structured data.',
-          'Build dynamic UIs using Tailwind + Sanity.',
-          'Integrate live previews and SEO metadata.',
-          'Work with content and design teams on UI quality.'
-        ],
-        requirements: [
-          '1–2 years of frontend/CMS experience.',
-          'Fluent with Sanity Studio and structure.',
-          'Strong HTML/CSS foundations.',
-          'Confident in SSR and content syncing.'
-        ],
-        skills: ['sanity.io', 'react', 'next.js', 'tailwind', 'javascript', 'html', 'css', 'api integration'],
-        softwareHouse: 'BBC Design & Engineering'
+       title: 'Sanity.io Developer – Dynamic Web Projects',
+       location: 'London, UK',
+       postedDate: '2025-07-01',
+       salary: '$288.00/Month',
+       description:
+        'Build high-performance websites and content platforms with Sanity.io and Next.js. Join a growing content-tech team focused on speed and maintainability.',
+       responsibilities: [
+        'Use GROQ queries to fetch structured data.',
+        'Build dynamic UIs using Tailwind + Sanity.',
+        'Integrate live previews and SEO metadata.',
+        'Work with content and design teams on UI quality.',
+       ],
+       requirements: [
+        '1–2 years of frontend/CMS experience.',
+        'Fluent with Sanity Studio and structure.',
+        'Strong HTML/CSS foundations.',
+        'Confident in SSR and content syncing.',
+       ],
+       skills: [
+        'sanity.io',
+        'react',
+        'next.js',
+        'tailwind',
+        'javascript',
+        'html',
+        'css',
+        'api integration',
+       ],
+       softwareHouse: 'BBC Design & Engineering',
       },
       {
-        title: 'Strapi Developer – API-driven Interfaces',
-        location: 'Tokyo, Japan',
-        postedDate: '2025-07-01',
-        salary: '$289.00/Month',
-        description:
-          "Work with Strapi as your CMS and build modern Next.js applications for a global media agency. Apply REST/GraphQL principles for optimized UI performance.",
-        responsibilities: [
-          'Integrate Strapi API with frontend modules.',
-          'Use GraphQL for optimized content rendering.',
-          'Write Tailwind-first responsive designs.',
-          'Handle routing, auth, and SSR pages.'
-        ],
-        requirements: [
-          '2 years of frontend/CMS integration experience.',
-          'Understanding of content types and data models.',
-          'Strong API consumption and frontend logic.',
-          'Experience in REST, GraphQL, and auth.'
-        ],
-        skills: ['strapi', 'graphql', 'react', 'tailwind', 'next.js', 'html', 'css', 'javascript'],
-        softwareHouse: 'Rakuten'
+       title: 'Strapi Developer – API-driven Interfaces',
+       location: 'Tokyo, Japan',
+       postedDate: '2025-07-01',
+       salary: '$289.00/Month',
+       description:
+        'Work with Strapi as your CMS and build modern Next.js applications for a global media agency. Apply REST/GraphQL principles for optimized UI performance.',
+       responsibilities: [
+        'Integrate Strapi API with frontend modules.',
+        'Use GraphQL for optimized content rendering.',
+        'Write Tailwind-first responsive designs.',
+        'Handle routing, auth, and SSR pages.',
+       ],
+       requirements: [
+        '2 years of frontend/CMS integration experience.',
+        'Understanding of content types and data models.',
+        'Strong API consumption and frontend logic.',
+        'Experience in REST, GraphQL, and auth.',
+       ],
+       skills: [
+        'strapi',
+        'graphql',
+        'react',
+        'tailwind',
+        'next.js',
+        'html',
+        'css',
+        'javascript',
+       ],
+       softwareHouse: 'Rakuten',
       },
       {
-        title: 'Appwrite Developer – Secure SaaS Apps',
-        location: 'Toronto, Canada',
-        postedDate: '2025-06-30',
-        salary: '$285.00/Month',
-        description:
-          "Join our security-first SaaS platform team. You'll build frontend layers over Appwrite services with Next.js, and manage auth, databases, and protected routes.",
-        responsibilities: [
-          'Integrate Appwrite’s SDK with React interfaces.',
-          'Design protected views with Tailwind UI.',
-          'Create login, registration, and session handlers.',
-          'Optimize client-server interactions with functions.'
-        ],
-        requirements: [
-          '1–2 years of experience in Jamstack or Appwrite.',
-          'Good understanding of auth flows and backend triggers.',
-          'UI-focused mindset with clean state management.',
-          'Experience deploying on Vercel or Netlify.'
-        ],
-        skills: ['appwrite', 'react', 'tailwind', 'next.js', 'javascript', 'html', 'css', 'authentication', 'api integration'],
-        softwareHouse: 'Shopify'
-      }
+       title: 'Appwrite Developer – Secure SaaS Apps',
+       location: 'Toronto, Canada',
+       postedDate: '2025-06-30',
+       salary: '$285.00/Month',
+       description:
+        "Join our security-first SaaS platform team. You'll build frontend layers over Appwrite services with Next.js, and manage auth, databases, and protected routes.",
+       responsibilities: [
+        'Integrate Appwrite’s SDK with React interfaces.',
+        'Design protected views with Tailwind UI.',
+        'Create login, registration, and session handlers.',
+        'Optimize client-server interactions with functions.',
+       ],
+       requirements: [
+        '1–2 years of experience in Jamstack or Appwrite.',
+        'Good understanding of auth flows and backend triggers.',
+        'UI-focused mindset with clean state management.',
+        'Experience deploying on Vercel or Netlify.',
+       ],
+       skills: [
+        'appwrite',
+        'react',
+        'tailwind',
+        'next.js',
+        'javascript',
+        'html',
+        'css',
+        'authentication',
+        'api integration',
+       ],
+       softwareHouse: 'Shopify',
+      },
      ],
      'GLASSDOOR.com': [
       {
-        title: 'Jamstack Developer – Fullstack with Supabase',
-        location: 'Barcelona, Spain',
-        postedDate: '2025-07-02',
-        salary: '$293.00/Month',
-        description:
-          "Join our remote-first team developing interactive dashboards and marketing websites powered by Supabase and React. Ideal for developers passionate about clean UI and fast APIs.",
-        responsibilities: [
-          'Use Supabase for authentication and data management.',
-          'Design and develop with Tailwind and Next.js.',
-          'Implement secure data fetch with API optimization.',
-          'Ensure high performance across all breakpoints.'
-        ],
-        requirements: [
-          '1 year of experience in Jamstack or Supabase.',
-          'Proficiency in building responsive React apps.',
-          'Experience with SSR and authentication logic.',
-          'Good communication and collaboration skills.'
-        ],
-        skills: ['supabase', 'react', 'tailwind', 'next.js', 'html', 'css', 'javascript', 'api integration'],
-        softwareHouse: 'Typeform'
+       title: 'Jamstack Developer – Fullstack with Supabase',
+       location: 'Barcelona, Spain',
+       postedDate: '2025-07-02',
+       salary: '$293.00/Month',
+       description:
+        'Join our remote-first team developing interactive dashboards and marketing websites powered by Supabase and React. Ideal for developers passionate about clean UI and fast APIs.',
+       responsibilities: [
+        'Use Supabase for authentication and data management.',
+        'Design and develop with Tailwind and Next.js.',
+        'Implement secure data fetch with API optimization.',
+        'Ensure high performance across all breakpoints.',
+       ],
+       requirements: [
+        '1 year of experience in Jamstack or Supabase.',
+        'Proficiency in building responsive React apps.',
+        'Experience with SSR and authentication logic.',
+        'Good communication and collaboration skills.',
+       ],
+       skills: [
+        'supabase',
+        'react',
+        'tailwind',
+        'next.js',
+        'html',
+        'css',
+        'javascript',
+        'api integration',
+       ],
+       softwareHouse: 'Typeform',
+      },
+
+      {
+       title: 'Strapi Developer – API-first JAMStack Apps',
+       location: 'Paris, France',
+       postedDate: '2025-07-01',
+       salary: '$288.00/Month',
+       description:
+        "Build visually elegant sites with a headless CMS backend. If you're passionate about decoupled architectures and love React, this is for you.",
+       responsibilities: [
+        'Develop Next.js pages connected to Strapi API.',
+        'Use REST/GraphQL for content integration.',
+        'Maintain reusable design systems with Tailwind.',
+        'Implement SEO features and responsive templates.',
+       ],
+       requirements: [
+        '1–2 years experience with Strapi or similar headless CMS.',
+        'Understanding of GraphQL and static generation.',
+        'Strong grasp of frontend and content modeling.',
+        'Clean, scalable coding practices.',
+       ],
+       skills: [
+        'strapi',
+        'graphql',
+        'react',
+        'next.js',
+        'html',
+        'tailwind',
+        'css',
+        'javascript',
+       ],
+       softwareHouse: 'Qonto',
       },
       {
-        title: 'Firebase + Next.js Developer',
-        location: 'Singapore',
-        postedDate: '2025-07-01',
-        salary: '$290.00/Month',
-        description:
-          "We're building live financial tools powered by Firebase and modern frontend frameworks. Join our product squad and develop fast, secure user experiences.",
-        responsibilities: [
-          'Create client-facing features with Firebase and React.',
-          'Handle real-time updates with Firestore.',
-          'Build clean component architecture with Tailwind.',
-          'Integrate serverless functions for workflows.'
-        ],
-        requirements: [
-          '2 years frontend experience with Firebase.',
-          'Knowledge of auth, security rules, and cloud functions.',
-          'Ability to build maintainable UI systems.',
-          'Strong command of React and CSS utility frameworks.'
-        ],
-        skills: ['firebase', 'next.js', 'tailwind', 'javascript', 'html', 'css', 'functions behind the scene', 'authentication'],
-        softwareHouse: 'Grab Holdings'
+       title: 'Firebase + Next.js Developer',
+       location: 'Singapore',
+       postedDate: '2025-07-01',
+       salary: '$290.00/Month',
+       description:
+        "We're building live financial tools powered by Firebase and modern frontend frameworks. Join our product squad and develop fast, secure user experiences.",
+       responsibilities: [
+        'Create client-facing features with Firebase and React.',
+        'Handle real-time updates with Firestore.',
+        'Build clean component architecture with Tailwind.',
+        'Integrate serverless functions for workflows.',
+       ],
+       requirements: [
+        '2 years frontend experience with Firebase.',
+        'Knowledge of auth, security rules, and cloud functions.',
+        'Ability to build maintainable UI systems.',
+        'Strong command of React and CSS utility frameworks.',
+       ],
+       skills: [
+        'firebase',
+        'next.js',
+        'tailwind',
+        'javascript',
+        'html',
+        'css',
+        'functions behind the scene',
+        'authentication',
+       ],
+       softwareHouse: 'Grab Holdings',
       },
       {
-        title: 'Strapi Developer – API-first JAMStack Apps',
-        location: 'Paris, France',
-        postedDate: '2025-07-01',
-        salary: '$288.00/Month',
-        description:
-          "Build visually elegant sites with a headless CMS backend. If you're passionate about decoupled architectures and love React, this is for you.",
-        responsibilities: [
-          'Develop Next.js pages connected to Strapi API.',
-          'Use REST/GraphQL for content integration.',
-          'Maintain reusable design systems with Tailwind.',
-          'Implement SEO features and responsive templates.'
-        ],
-        requirements: [
-          '1–2 years experience with Strapi or similar headless CMS.',
-          'Understanding of GraphQL and static generation.',
-          'Strong grasp of frontend and content modeling.',
-          'Clean, scalable coding practices.'
-        ],
-        skills: ['strapi', 'graphql', 'react', 'next.js', 'html', 'tailwind', 'css', 'javascript'],
-        softwareHouse: 'Qonto'
+       title: 'Sanity.io Developer – Content-first Web Apps',
+       location: 'Amsterdam, Netherlands',
+       postedDate: '2025-06-30',
+       salary: '$291.00/Month',
+       description:
+        'Join a content-led development team focused on scalable websites. Your role will focus on Sanity.io integration, structured data rendering, and CMS-powered frontends.',
+       responsibilities: [
+        'Integrate Sanity.io APIs with dynamic UI components.',
+        'Design user flows with Tailwind and React.',
+        'Collaborate with marketing teams on CMS structure.',
+        'Ensure cross-device performance and SEO.',
+       ],
+       requirements: [
+        '2 years working with CMS integrations.',
+        'Strong experience in GROQ and Sanity schema logic.',
+        'Able to build dynamic pages and layouts.',
+        'Fluent in React component-based architecture.',
+       ],
+       skills: [
+        'sanity.io',
+        'react',
+        'html',
+        'css',
+        'next.js',
+        'tailwind',
+        'javascript',
+        'webhooks',
+       ],
+       softwareHouse: 'MessageBird',
       },
       {
-        title: 'Sanity.io Developer – Content-first Web Apps',
-        location: 'Amsterdam, Netherlands',
-        postedDate: '2025-06-30',
-        salary: '$291.00/Month',
-        description:
-          "Join a content-led development team focused on scalable websites. Your role will focus on Sanity.io integration, structured data rendering, and CMS-powered frontends.",
-        responsibilities: [
-          'Integrate Sanity.io APIs with dynamic UI components.',
-          'Design user flows with Tailwind and React.',
-          'Collaborate with marketing teams on CMS structure.',
-          'Ensure cross-device performance and SEO.'
-        ],
-        requirements: [
-          '2 years working with CMS integrations.',
-          'Strong experience in GROQ and Sanity schema logic.',
-          'Able to build dynamic pages and layouts.',
-          'Fluent in React component-based architecture.'
-        ],
-        skills: ['sanity.io', 'react', 'html', 'css', 'next.js', 'tailwind', 'javascript', 'webhooks'],
-        softwareHouse: 'MessageBird'
-      },
-      {
-        title: 'Appwrite Developer – Secure SaaS UI Developer',
-        location: 'Zurich, Switzerland',
-        postedDate: '2025-06-29',
-        salary: '$289.00/Month',
-        description:
-          "We are building SaaS dashboards using Appwrite as backend infrastructure. If you can build fast, secure, and functional UIs, we’d love to talk.",
-        responsibilities: [
-          'Implement Appwrite auth, storage, and databases.',
-          'Develop UI logic with React and Tailwind.',
-          'Build reusable Next.js components.',
-          'Optimize frontend performance and loading.'
-        ],
-        requirements: [
-          '1–2 years of frontend or Jamstack experience.',
-          'Deep understanding of Appwrite services.',
-          'Strong skills in authentication and SSR.',
-          'Fluent in responsive and component-based development.'
-        ],
-        skills: ['appwrite', 'react', 'tailwind', 'next.js', 'html', 'css', 'javascript', 'authentication', 'api integration'],
-        softwareHouse: 'Proton AG'
+       title: 'Appwrite Developer – Secure SaaS UI Developer',
+       location: 'Zurich, Switzerland',
+       postedDate: '2025-06-29',
+       salary: '$289.00/Month',
+       description:
+        'We are building SaaS dashboards using Appwrite as backend infrastructure. If you can build fast, secure, and functional UIs, we’d love to talk.',
+       responsibilities: [
+        'Implement Appwrite auth, storage, and databases.',
+        'Develop UI logic with React and Tailwind.',
+        'Build reusable Next.js components.',
+        'Optimize frontend performance and loading.',
+       ],
+       requirements: [
+        '1–2 years of frontend or Jamstack experience.',
+        'Deep understanding of Appwrite services.',
+        'Strong skills in authentication and SSR.',
+        'Fluent in responsive and component-based development.',
+       ],
+       skills: [
+        'appwrite',
+        'react',
+        'tailwind',
+        'next.js',
+        'html',
+        'css',
+        'javascript',
+        'authentication',
+        'api integration',
+       ],
+       softwareHouse: 'Proton AG',
       },
      ],
      'INDEED.com': [
       {
-        title: 'Firebase Developer – Real-Time UIs',
-        location: 'Sydney, Australia',
-        postedDate: '2025-07-02',
-        salary: '$295.00/Month',
-        description:
-          "Help us create scalable chat and notification systems using Firebase and React. We’re seeking frontend engineers with real-time app experience.",
-        responsibilities: [
-          'Integrate Firestore and Firebase Functions.',
-          'Use Tailwind for UI and responsiveness.',
-          'Develop reusable React logic components.',
-          'Secure endpoints and protect user data.'
-        ],
-        requirements: [
-          '1 year experience in Firebase + React.',
-          'Solid understanding of auth and session handling.',
-          'Strong JS and component logic.',
-          'Ability to work remotely and asynchronously.'
-        ],
-        skills: ['firebase', 'next.js', 'tailwind', 'react', 'html', 'css', 'javascript', 'functions behind the scene'],
-        softwareHouse: 'Canva'
+       title: 'Strapi Developer – Jamstack CMS Sites',
+       location: 'Warsaw, Poland',
+       postedDate: '2025-07-01',
+       salary: '$286.00/Month',
+       description:
+        'Join our remote-first team building client websites and internal dashboards using Strapi CMS and React-based UI logic.',
+       responsibilities: [
+        'Connect Strapi APIs with frontend architecture.',
+        'Build modular layouts using Tailwind CSS.',
+        'Ensure dynamic content integration.',
+        'Test API latency and reliability.',
+       ],
+       requirements: [
+        '2 years of CMS experience with REST APIs.',
+        'Expertise in React + Tailwind workflow.',
+        'Ability to interpret and structure backend data.',
+        'Familiarity with mobile-first development.',
+       ],
+       skills: [
+        'strapi',
+        'react',
+        'tailwind',
+        'next.js',
+        'html',
+        'css',
+        'javascript',
+        'api integration',
+       ],
+       softwareHouse: 'Netguru',
       },
       {
-        title: 'Jamstack Developer – Multi-BaaS Role',
-        location: 'Oslo, Norway',
-        postedDate: '2025-07-01',
-        salary: '$290.00/Month',
-        description:
-          "Work with a hybrid BaaS stack including Firebase, Supabase, and Strapi. Perfect for a developer who enjoys switching gears across CMS and databases.",
-        responsibilities: [
-          'Integrate and test APIs from multiple sources.',
-          'Build dynamic components with React + Tailwind.',
-          'Structure CMS content and pages.',
-          'Deploy globally with Vercel.'
-        ],
-        requirements: [
-          '1.5 years frontend experience across platforms.',
-          'Good grasp of REST and GraphQL workflows.',
-          'Organized and test-driven approach.',
-          'Cross-stack API management experience.'
-        ],
-        skills: ['firebase', 'strapi', 'supabase', 'react', 'next.js', 'tailwind', 'html', 'css', 'javascript'],
-        softwareHouse: 'Kahoot!'
+       title: 'Firebase Developer – Real-Time UIs',
+       location: 'Sydney, Australia',
+       postedDate: '2025-07-02',
+       salary: '$295.00/Month',
+       description:
+        'Help us create scalable chat and notification systems using Firebase and React. We’re seeking frontend engineers with real-time app experience.',
+       responsibilities: [
+        'Integrate Firestore and Firebase Functions.',
+        'Use Tailwind for UI and responsiveness.',
+        'Develop reusable React logic components.',
+        'Secure endpoints and protect user data.',
+       ],
+       requirements: [
+        '1 year experience in Firebase + React.',
+        'Solid understanding of auth and session handling.',
+        'Strong JS and component logic.',
+        'Ability to work remotely and asynchronously.',
+       ],
+       skills: [
+        'firebase',
+        'next.js',
+        'tailwind',
+        'react',
+        'html',
+        'css',
+        'javascript',
+        'functions behind the scene',
+       ],
+       softwareHouse: 'Canva',
       },
       {
-        title: 'Strapi Developer – Jamstack CMS Sites',
-        location: 'Warsaw, Poland',
-        postedDate: '2025-07-01',
-        salary: '$286.00/Month',
-        description:
-          "Join our remote-first team building client websites and internal dashboards using Strapi CMS and React-based UI logic.",
-        responsibilities: [
-          'Connect Strapi APIs with frontend architecture.',
-          'Build modular layouts using Tailwind CSS.',
-          'Ensure dynamic content integration.',
-          'Test API latency and reliability.'
-        ],
-        requirements: [
-          '2 years of CMS experience with REST APIs.',
-          'Expertise in React + Tailwind workflow.',
-          'Ability to interpret and structure backend data.',
-          'Familiarity with mobile-first development.'
-        ],
-        skills: ['strapi', 'react', 'tailwind', 'next.js', 'html', 'css', 'javascript', 'api integration'],
-        softwareHouse: 'Netguru'
+       title: 'Jamstack Developer – Multi-BaaS Role',
+       location: 'Oslo, Norway',
+       postedDate: '2025-07-01',
+       salary: '$290.00/Month',
+       description:
+        'Work with a hybrid BaaS stack including Firebase, Supabase, and Strapi. Perfect for a developer who enjoys switching gears across CMS and databases.',
+       responsibilities: [
+        'Integrate and test APIs from multiple sources.',
+        'Build dynamic components with React + Tailwind.',
+        'Structure CMS content and pages.',
+        'Deploy globally with Vercel.',
+       ],
+       requirements: [
+        '1.5 years frontend experience across platforms.',
+        'Good grasp of REST and GraphQL workflows.',
+        'Organized and test-driven approach.',
+        'Cross-stack API management experience.',
+       ],
+       skills: [
+        'firebase',
+        'strapi',
+        'supabase',
+        'react',
+        'next.js',
+        'tailwind',
+        'html',
+        'css',
+        'javascript',
+       ],
+       softwareHouse: 'Kahoot!',
+      },
+
+      {
+       title: 'Sanity.io Developer – Content API Specialist',
+       location: 'Vienna, Austria',
+       postedDate: '2025-06-30',
+       salary: '$287.00/Month',
+       description:
+        "We're building custom publishing platforms with Sanity.io and headless architectures. You'll manage structured data, SEO features, and preview environments.",
+       responsibilities: [
+        'Use GROQ queries to power React components.',
+        'Collaborate on schema building and UIs.',
+        'Optimize frontend loading and dynamic layouts.',
+        'Handle image optimization and metadata.',
+       ],
+       requirements: [
+        '1–2 years experience using Sanity.',
+        'Experience with SEO and performance optimization.',
+        'Strong in HTML, Tailwind, and structured data.',
+        'Fast debugging and production readiness.',
+       ],
+       skills: [
+        'sanity.io',
+        'next.js',
+        'react',
+        'html',
+        'tailwind',
+        'css',
+        'javascript',
+        'webhooks',
+       ],
+       softwareHouse: 'Runtastic (Adidas R&D)',
       },
       {
-        title: 'Sanity.io Developer – Content API Specialist',
-        location: 'Vienna, Austria',
-        postedDate: '2025-06-30',
-        salary: '$287.00/Month',
-        description:
-          "We're building custom publishing platforms with Sanity.io and headless architectures. You'll manage structured data, SEO features, and preview environments.",
-        responsibilities: [
-          'Use GROQ queries to power React components.',
-          'Collaborate on schema building and UIs.',
-          'Optimize frontend loading and dynamic layouts.',
-          'Handle image optimization and metadata.'
-        ],
-        requirements: [
-          '1–2 years experience using Sanity.',
-          'Experience with SEO and performance optimization.',
-          'Strong in HTML, Tailwind, and structured data.',
-          'Fast debugging and production readiness.'
-        ],
-        skills: ['sanity.io', 'next.js', 'react', 'html', 'tailwind', 'css', 'javascript', 'webhooks'],
-        softwareHouse: 'Runtastic (Adidas R&D)'
+       title: 'Jamstack Developer – Firebase + CMS Integration',
+       location: 'Istanbul, Türkiye',
+       postedDate: '2025-06-30',
+       salary: '$288.00/Month',
+       description:
+        'Be part of our core development team creating user-centric web apps using Firebase backend and CMS-based frontends with React.',
+       responsibilities: [
+        'Build features with Firebase and Strapi.',
+        'Use Next.js for routing and SSR logic.',
+        'Manage component-based UIs with Tailwind.',
+        'Ensure security and scalability.',
+       ],
+       requirements: [
+        '2 years experience with Firebase + React.',
+        'Experience with CMS like Strapi or Sanity.',
+        'Good JS and data structure knowledge.',
+        'Fluent in frontend testing and clean coding.',
+       ],
+       skills: [
+        'firebase',
+        'strapi',
+        'react',
+        'tailwind',
+        'next.js',
+        'javascript',
+        'html',
+        'css',
+        'authentication',
+       ],
+       softwareHouse: 'Peak Games',
       },
-      {
-        title: 'Jamstack Developer – Firebase + CMS Integration',
-        location: 'Istanbul, Türkiye',
-        postedDate: '2025-06-30',
-        salary: '$288.00/Month',
-        description:
-          "Be part of our core development team creating user-centric web apps using Firebase backend and CMS-based frontends with React.",
-        responsibilities: [
-          'Build features with Firebase and Strapi.',
-          'Use Next.js for routing and SSR logic.',
-          'Manage component-based UIs with Tailwind.',
-          'Ensure security and scalability.'
-        ],
-        requirements: [
-          '2 years experience with Firebase + React.',
-          'Experience with CMS like Strapi or Sanity.',
-          'Good JS and data structure knowledge.',
-          'Fluent in frontend testing and clean coding.'
-        ],
-        skills: ['firebase', 'strapi', 'react', 'tailwind', 'next.js', 'javascript', 'html', 'css', 'authentication'],
-        softwareHouse: 'Peak Games'
-      }
      ],
     };
 
@@ -2988,563 +3268,786 @@ export default function TechStackJobsMarket() {
     const countryData = {
      'ROZEE.pk': [
       {
-        title: 'Full Stack MERN Developer – REST & JWT Expertise',
-        location: 'Lahore, Pakistan',
-        postedDate: '2025-07-02',
-        salary: '₨130,000/Month',
-        description:
-          "We're hiring an experienced MERN stack developer to build secure, full-stack applications using modern architecture. You'll work on scalable dashboards and internal tools.",
-        responsibilities: [
-          'Design RESTful APIs with Express and Node.js.',
-          'Build frontend with React, Redux, and Tailwind.',
-          'Integrate MongoDB with complex query logic.',
-          'Implement authentication using JWT and middleware.'
-        ],
-        requirements: [
-          'Minimum 3 years of experience with the MERN stack.',
-          'Strong understanding of authentication and sessions.',
-          'Hands-on experience with Git and deployment tools.',
-          'Excellent debugging and backend API integration skills.'
-        ],
-        skills: ['MongoDB', 'Express.js', 'React', 'Node.js', 'Tailwind', 'JWT', 'Redux', 'REST API', 'Git'],
-        softwareHouse: 'Mindstorm Studios'
+       title: 'Full Stack MERN Developer – REST & JWT Expertise',
+       location: 'Lahore, Pakistan',
+       postedDate: '2025-07-02',
+       salary: '₨130,000/Month',
+       description:
+        "We're hiring an experienced MERN stack developer to build secure, full-stack applications using modern architecture. You'll work on scalable dashboards and internal tools.",
+       responsibilities: [
+        'Design RESTful APIs with Express and Node.js.',
+        'Build frontend with React, Redux, and Tailwind.',
+        'Integrate MongoDB with complex query logic.',
+        'Implement authentication using JWT and middleware.',
+       ],
+       requirements: [
+        'Minimum 3 years of experience with the MERN stack.',
+        'Strong understanding of authentication and sessions.',
+        'Hands-on experience with Git and deployment tools.',
+        'Excellent debugging and backend API integration skills.',
+       ],
+       skills: [
+        'MongoDB',
+        'Express.js',
+        'React',
+        'Node.js',
+        'Tailwind',
+        'JWT',
+        'Redux',
+        'REST API',
+        'Git',
+       ],
+       softwareHouse: 'Mindstorm Studios',
       },
       {
-        title: 'MERN Stack Developer – API & Component Architecture',
-        location: 'Islamabad, Pakistan',
-        postedDate: '2025-07-02',
-        salary: '₨125,000/Month',
-        description:
-          "Join our dynamic engineering team working on client portals and admin panels using the MERN stack. Strong emphasis on UI performance and backend structure.",
-        responsibilities: [
-          'Create React components with Redux and hooks.',
-          'Develop scalable APIs using Node and Express.',
-          'Work with MongoDB and Mongoose for schema control.',
-          'Handle UI state, routing, and form validation.'
-        ],
-        requirements: [
-          '2+ years of MERN development experience.',
-          'Comfortable working in agile environments.',
-          'Strong command of JavaScript, ES6+, and REST APIs.',
-          'Experience in mobile-friendly UI development.'
-        ],
-        skills: ['React', 'Redux', 'Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'Tailwind', 'JavaScript', 'REST API'],
-        softwareHouse: 'Techlogix'
+       title: 'MERN Stack Developer – API & Component Architecture',
+       location: 'Islamabad, Pakistan',
+       postedDate: '2025-07-02',
+       salary: '₨125,000/Month',
+       description:
+        'Join our dynamic engineering team working on client portals and admin panels using the MERN stack. Strong emphasis on UI performance and backend structure.',
+       responsibilities: [
+        'Create React components with Redux and hooks.',
+        'Develop scalable APIs using Node and Express.',
+        'Work with MongoDB and Mongoose for schema control.',
+        'Handle UI state, routing, and form validation.',
+       ],
+       requirements: [
+        '2+ years of MERN development experience.',
+        'Comfortable working in agile environments.',
+        'Strong command of JavaScript, ES6+, and REST APIs.',
+        'Experience in mobile-friendly UI development.',
+       ],
+       skills: [
+        'React',
+        'Redux',
+        'Node.js',
+        'Express.js',
+        'MongoDB',
+        'Mongoose',
+        'Tailwind',
+        'JavaScript',
+        'REST API',
+       ],
+       softwareHouse: 'Techlogix',
       },
       {
-        title: 'Senior MERN Developer – GraphQL & CI/CD',
-        location: 'Karachi, Pakistan',
-        postedDate: '2025-07-01',
-        salary: '₨135,000/Month',
-        description:
-          "We're seeking a senior MERN developer who thrives on GraphQL APIs and DevOps integration. You'll help architect reusable backend and frontend logic for long-term products.",
-        responsibilities: [
-          'Build full-stack features using MERN + GraphQL.',
-          'Design CI/CD pipelines for automatic deployments.',
-          'Ensure secure authentication and route guarding.',
-          'Work closely with product and design teams.'
-        ],
-        requirements: [
-          '3 years+ experience as a full stack developer.',
-          'Strong command of GraphQL and REST.',
-          'Experience with GitHub Actions or similar CI/CD tools.',
-          'Excellent communication and documentation habits.'
-        ],
-        skills: ['MongoDB', 'Express.js', 'React', 'Node.js', 'GraphQL', 'Tailwind', 'JWT', 'CI/CD', 'Git'],
-        softwareHouse: '10Pearls'
+       title: 'Senior MERN Developer – GraphQL & CI/CD',
+       location: 'Karachi, Pakistan',
+       postedDate: '2025-07-01',
+       salary: '₨135,000/Month',
+       description:
+        "We're seeking a senior MERN developer who thrives on GraphQL APIs and DevOps integration. You'll help architect reusable backend and frontend logic for long-term products.",
+       responsibilities: [
+        'Build full-stack features using MERN + GraphQL.',
+        'Design CI/CD pipelines for automatic deployments.',
+        'Ensure secure authentication and route guarding.',
+        'Work closely with product and design teams.',
+       ],
+       requirements: [
+        '3 years+ experience as a full stack developer.',
+        'Strong command of GraphQL and REST.',
+        'Experience with GitHub Actions or similar CI/CD tools.',
+        'Excellent communication and documentation habits.',
+       ],
+       skills: [
+        'MongoDB',
+        'Express.js',
+        'React',
+        'Node.js',
+        'GraphQL',
+        'Tailwind',
+        'JWT',
+        'CI/CD',
+        'Git',
+       ],
+       softwareHouse: '10Pearls',
       },
       {
-        title: 'MERN Stack Engineer – TypeScript & Modular Codebases',
-        location: 'Multan, Pakistan',
-        postedDate: '2025-07-01',
-        salary: '₨120,000/Month',
-        description:
-          "We're hiring a MERN stack engineer experienced in TypeScript and modular code structures. You'll lead feature development on microservices and modern frontend components.",
-        responsibilities: [
-          'Develop robust React components using TypeScript.',
-          'Build Node APIs with Express and middleware layers.',
-          'Work on schema optimization in MongoDB.',
-          'Write clean, testable code with proper typing.'
-        ],
-        requirements: [
-          '2–3 years experience working with MERN stack.',
-          'Familiar with TypeScript, testing libraries, and Git.',
-          'Good sense of UI/UX performance and DOM optimization.',
-          'Capable of leading small feature teams.'
-        ],
-        skills: ['TypeScript', 'React', 'Node.js', 'MongoDB', 'Express.js', 'Tailwind', 'JWT', 'Mongoose', 'Git'],
-        softwareHouse: 'Techline'
+       title: 'MERN Stack Engineer – TypeScript & Modular Codebases',
+       location: 'Multan, Pakistan',
+       postedDate: '2025-07-01',
+       salary: '₨120,000/Month',
+       description:
+        "We're hiring a MERN stack engineer experienced in TypeScript and modular code structures. You'll lead feature development on microservices and modern frontend components.",
+       responsibilities: [
+        'Develop robust React components using TypeScript.',
+        'Build Node APIs with Express and middleware layers.',
+        'Work on schema optimization in MongoDB.',
+        'Write clean, testable code with proper typing.',
+       ],
+       requirements: [
+        '2–3 years experience working with MERN stack.',
+        'Familiar with TypeScript, testing libraries, and Git.',
+        'Good sense of UI/UX performance and DOM optimization.',
+        'Capable of leading small feature teams.',
+       ],
+       skills: [
+        'TypeScript',
+        'React',
+        'Node.js',
+        'MongoDB',
+        'Express.js',
+        'Tailwind',
+        'JWT',
+        'Mongoose',
+        'Git',
+       ],
+       softwareHouse: 'Techline',
       },
       {
-        title: 'Full Stack Developer – MERN & Cloud Integration',
-        location: 'Peshawar, Pakistan',
-        postedDate: '2025-06-30',
-        salary: '₨128,000/Month',
-        description:
-          "Join our growing team as a Full Stack MERN Developer and work on cloud-integrated web apps. Ideal for developers who love database design and frontend performance tuning.",
-        responsibilities: [
-          'Develop RESTful services and MongoDB models.',
-          'Design responsive React UIs and dashboards.',
-          'Integrate APIs with cloud functions (e.g., Firebase/Serverless).',
-          'Write secure code with role-based access.'
-        ],
-        requirements: [
-          '3 years of practical experience with MERN stack.',
-          'Understanding of cloud deployment workflows.',
-          'Strong command over secure data handling and async logic.',
-          'Experience integrating third-party services via APIs.'
-        ],
-        skills: ['React', 'Node.js', 'MongoDB', 'Express.js', 'JWT', 'Tailwind', 'REST API', 'Cloud Functions', 'OOP'],
-        softwareHouse: 'Cubix'
-      }
+       title: 'Full Stack Developer – MERN & Cloud Integration',
+       location: 'Peshawar, Pakistan',
+       postedDate: '2025-06-30',
+       salary: '₨128,000/Month',
+       description:
+        'Join our growing team as a Full Stack MERN Developer and work on cloud-integrated web apps. Ideal for developers who love database design and frontend performance tuning.',
+       responsibilities: [
+        'Develop RESTful services and MongoDB models.',
+        'Design responsive React UIs and dashboards.',
+        'Integrate APIs with cloud functions (e.g., Firebase/Serverless).',
+        'Write secure code with role-based access.',
+       ],
+       requirements: [
+        '3 years of practical experience with MERN stack.',
+        'Understanding of cloud deployment workflows.',
+        'Strong command over secure data handling and async logic.',
+        'Experience integrating third-party services via APIs.',
+       ],
+       skills: [
+        'React',
+        'Node.js',
+        'MongoDB',
+        'Express.js',
+        'JWT',
+        'Tailwind',
+        'REST API',
+        'Cloud Functions',
+        'OOP',
+       ],
+       softwareHouse: 'Cubix',
+      },
      ],
      'CAREERJET.com': [
       {
-        title: 'Senior MERN Stack Developer – RESTful APIs & JWT',
-        location: 'Dallas, TX',
-        postedDate: '2025-07-02',
-        salary: '$430.00/Month',
-        description:
-          "Join a fintech startup building secure, real-time dashboards using the MERN stack. We focus on scalable APIs, clean design systems, and bulletproof authentication.",
-        responsibilities: [
-          'Build modular React components with Redux.',
-          'Create backend APIs with Node.js and Express.',
-          'Secure data with JWT and session tokens.',
-          'Integrate MongoDB for real-time data layers.'
-        ],
-        requirements: [
-          'Minimum 3 years of MERN stack development.',
-          'Strong REST API design and state management.',
-          'Experience with Git-based workflows.',
-          'Understanding of role-based access control.'
-        ],
-        skills: ['MongoDB', 'Express.js', 'React', 'Node.js', 'Redux', 'JWT', 'REST API', 'Tailwind', 'Git'],
-        softwareHouse: 'Capital One Tech'
+       title: 'Senior MERN Stack Developer – RESTful APIs & JWT',
+       location: 'Dallas, TX',
+       postedDate: '2025-07-02',
+       salary: '$430.00/Month',
+       description:
+        'Join a fintech startup building secure, real-time dashboards using the MERN stack. We focus on scalable APIs, clean design systems, and bulletproof authentication.',
+       responsibilities: [
+        'Build modular React components with Redux.',
+        'Create backend APIs with Node.js and Express.',
+        'Secure data with JWT and session tokens.',
+        'Integrate MongoDB for real-time data layers.',
+       ],
+       requirements: [
+        'Minimum 3 years of MERN stack development.',
+        'Strong REST API design and state management.',
+        'Experience with Git-based workflows.',
+        'Understanding of role-based access control.',
+       ],
+       skills: [
+        'MongoDB',
+        'Express.js',
+        'React',
+        'Node.js',
+        'Redux',
+        'JWT',
+        'REST API',
+        'Tailwind',
+        'Git',
+       ],
+       softwareHouse: 'Capital One Tech',
       },
       {
-        title: 'Full Stack MERN Developer – GraphQL & Cloud Integration',
-        location: 'San Jose, CA',
-        postedDate: '2025-07-02',
-        salary: '$440.00/Month',
-        description:
-          "We’re looking for a full stack developer experienced with MERN and GraphQL to join our SaaS analytics platform team. You’ll work on cloud-native deployments and interactive dashboards.",
-        responsibilities: [
-          'Develop and manage GraphQL endpoints.',
-          'Implement reusable frontend logic in React.',
-          'Connect APIs with MongoDB/Mongoose layers.',
-          'Deploy using CI/CD tools and version control.'
-        ],
-        requirements: [
-          '2–3 years in full-stack JavaScript environments.',
-          'Experience using GraphQL with MongoDB.',
-          'Knowledge of CI/CD practices.',
-          'Excellent problem-solving and code review skills.'
-        ],
-        skills: ['React', 'GraphQL', 'Node.js', 'MongoDB', 'Express.js', 'Tailwind', 'JWT', 'Git', 'CI/CD'],
-        softwareHouse: 'Intuit Inc.'
+       title: 'Full Stack MERN Developer – GraphQL & Cloud Integration',
+       location: 'San Jose, CA',
+       postedDate: '2025-07-02',
+       salary: '$440.00/Month',
+       description:
+        'We’re looking for a full stack developer experienced with MERN and GraphQL to join our SaaS analytics platform team. You’ll work on cloud-native deployments and interactive dashboards.',
+       responsibilities: [
+        'Develop and manage GraphQL endpoints.',
+        'Implement reusable frontend logic in React.',
+        'Connect APIs with MongoDB/Mongoose layers.',
+        'Deploy using CI/CD tools and version control.',
+       ],
+       requirements: [
+        '2–3 years in full-stack JavaScript environments.',
+        'Experience using GraphQL with MongoDB.',
+        'Knowledge of CI/CD practices.',
+        'Excellent problem-solving and code review skills.',
+       ],
+       skills: [
+        'React',
+        'GraphQL',
+        'Node.js',
+        'MongoDB',
+        'Express.js',
+        'Tailwind',
+        'JWT',
+        'Git',
+        'CI/CD',
+       ],
+       softwareHouse: 'Intuit Inc.',
       },
       {
-        title: 'MERN Stack Engineer – TypeScript & Enterprise Apps',
-        location: 'Seattle, WA',
-        postedDate: '2025-07-01',
-        salary: '$420.00/Month',
-        description:
-          "Help scale our enterprise web platform using the MERN stack with TypeScript and Tailwind CSS. Work closely with designers and product owners to deliver user-centric tools.",
-        responsibilities: [
-          'Develop full-stack apps with MERN and TypeScript.',
-          'Design scalable UI systems with Tailwind.',
-          'Implement backend services using Express.',
-          'Collaborate via GitHub and Agile sprints.'
-        ],
-        requirements: [
-          'At least 3 years working with MERN stack.',
-          'Comfortable using TypeScript across the stack.',
-          'Familiar with Mongoose and advanced MongoDB queries.',
-          'Excellent teamwork and clean coding habits.'
-        ],
-        skills: ['TypeScript', 'React', 'Node.js', 'MongoDB', 'Express.js', 'Tailwind', 'JWT', 'Git', 'Agile'],
-        softwareHouse: 'Amazon Web Services (AWS)'
+       title: 'MERN Stack Engineer – TypeScript & Enterprise Apps',
+       location: 'Seattle, WA',
+       postedDate: '2025-07-01',
+       salary: '$420.00/Month',
+       description:
+        'Help scale our enterprise web platform using the MERN stack with TypeScript and Tailwind CSS. Work closely with designers and product owners to deliver user-centric tools.',
+       responsibilities: [
+        'Develop full-stack apps with MERN and TypeScript.',
+        'Design scalable UI systems with Tailwind.',
+        'Implement backend services using Express.',
+        'Collaborate via GitHub and Agile sprints.',
+       ],
+       requirements: [
+        'At least 3 years working with MERN stack.',
+        'Comfortable using TypeScript across the stack.',
+        'Familiar with Mongoose and advanced MongoDB queries.',
+        'Excellent teamwork and clean coding habits.',
+       ],
+       skills: [
+        'TypeScript',
+        'React',
+        'Node.js',
+        'MongoDB',
+        'Express.js',
+        'Tailwind',
+        'JWT',
+        'Git',
+        'Agile',
+       ],
+       softwareHouse: 'Amazon Web Services (AWS)',
       },
       {
-        title: 'Lead MERN Developer – SaaS Product Team',
-        location: 'Boston, MA',
-        postedDate: '2025-07-01',
-        salary: '$435.00/Month',
-        description:
-          "We're seeking a lead-level MERN developer to help architect and maintain key modules of our growing SaaS platform. Work with scalable APIs, complex schemas, and real-time user interfaces.",
-        responsibilities: [
-          'Build complex backend logic using Node & Express.',
-          'Optimize MongoDB performance and schema design.',
-          'Manage frontend state using Redux and Context API.',
-          'Ensure accessibility and responsiveness across devices.'
-        ],
-        requirements: [
-          '3+ years of experience with the MERN stack.',
-          'Solid understanding of data modeling and query optimization.',
-          'Capable of leading small agile dev teams.',
-          'Good knowledge of testing frameworks.'
-        ],
-        skills: ['MongoDB', 'React', 'Express.js', 'Node.js', 'Redux', 'Tailwind', 'REST API', 'Testing', 'Git'],
-        softwareHouse: 'HubSpot'
+       title: 'Lead MERN Developer – SaaS Product Team',
+       location: 'Boston, MA',
+       postedDate: '2025-07-01',
+       salary: '$435.00/Month',
+       description:
+        "We're seeking a lead-level MERN developer to help architect and maintain key modules of our growing SaaS platform. Work with scalable APIs, complex schemas, and real-time user interfaces.",
+       responsibilities: [
+        'Build complex backend logic using Node & Express.',
+        'Optimize MongoDB performance and schema design.',
+        'Manage frontend state using Redux and Context API.',
+        'Ensure accessibility and responsiveness across devices.',
+       ],
+       requirements: [
+        '3+ years of experience with the MERN stack.',
+        'Solid understanding of data modeling and query optimization.',
+        'Capable of leading small agile dev teams.',
+        'Good knowledge of testing frameworks.',
+       ],
+       skills: [
+        'MongoDB',
+        'React',
+        'Express.js',
+        'Node.js',
+        'Redux',
+        'Tailwind',
+        'REST API',
+        'Testing',
+        'Git',
+       ],
+       softwareHouse: 'HubSpot',
       },
       {
-        title: 'MERN Developer – UI Focused with Mongoose',
-        location: 'Chicago, IL',
-        postedDate: '2025-06-30',
-        salary: '$410.00/Month',
-        description:
-          "Join our design-driven team to build and refine customer-facing portals using MERN technologies. Emphasis on UI/UX, backend connections, and reusable patterns.",
-        responsibilities: [
-          'Develop React components integrated with APIs.',
-          'Write expressive data models using Mongoose.',
-          'Use Tailwind to design responsive layouts.',
-          'Debug across the full stack and suggest improvements.'
-        ],
-        requirements: [
-          '2–3 years of MERN stack experience.',
-          'Solid frontend fundamentals and clean CSS work.',
-          'Backend knowledge using Express and Node.',
-          'Strong team player and fast learner.'
-        ],
-        skills: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'Tailwind', 'JWT', 'JavaScript', 'Git'],
-        softwareHouse: 'Basecamp'
-      }
+       title: 'MERN Developer – UI Focused with Mongoose',
+       location: 'Chicago, IL',
+       postedDate: '2025-06-30',
+       salary: '$410.00/Month',
+       description:
+        'Join our design-driven team to build and refine customer-facing portals using MERN technologies. Emphasis on UI/UX, backend connections, and reusable patterns.',
+       responsibilities: [
+        'Develop React components integrated with APIs.',
+        'Write expressive data models using Mongoose.',
+        'Use Tailwind to design responsive layouts.',
+        'Debug across the full stack and suggest improvements.',
+       ],
+       requirements: [
+        '2–3 years of MERN stack experience.',
+        'Solid frontend fundamentals and clean CSS work.',
+        'Backend knowledge using Express and Node.',
+        'Strong team player and fast learner.',
+       ],
+       skills: [
+        'React',
+        'Node.js',
+        'Express.js',
+        'MongoDB',
+        'Mongoose',
+        'Tailwind',
+        'JWT',
+        'JavaScript',
+        'Git',
+       ],
+       softwareHouse: 'Basecamp',
+      },
      ],
      'SIMPLYHIRED.com': [
       {
-        title: 'Full Stack MERN Developer – Real-time Dashboard Projects',
-        location: 'Berlin, Germany',
-        postedDate: '2025-07-02',
-        salary: '$430.00/Month',
-        description:
-          "We're developing real-time dashboards for logistics and supply chain analytics using the MERN stack. Be part of an agile product team with fast releases and international clients.",
-        responsibilities: [
-          'Build scalable APIs with Node.js & Express.',
-          'Design and develop responsive UIs in React.',
-          'Integrate real-time sockets and data streams.',
-          'Collaborate with product and QA teams.'
-        ],
-        requirements: [
-          '2–3 years of experience in MERN stack projects.',
-          'Familiarity with WebSockets and REST APIs.',
-          'Strong communication and Git workflow usage.',
-          'Good understanding of UI performance.'
-        ],
-        skills: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Socket.io', 'Redux', 'Tailwind', 'REST API'],
-        softwareHouse: 'Delivery Hero'
+       title: 'Full Stack MERN Developer – Real-time Dashboard Projects',
+       location: 'Berlin, Germany',
+       postedDate: '2025-07-02',
+       salary: '$430.00/Month',
+       description:
+        "We're developing real-time dashboards for logistics and supply chain analytics using the MERN stack. Be part of an agile product team with fast releases and international clients.",
+       responsibilities: [
+        'Build scalable APIs with Node.js & Express.',
+        'Design and develop responsive UIs in React.',
+        'Integrate real-time sockets and data streams.',
+        'Collaborate with product and QA teams.',
+       ],
+       requirements: [
+        '2–3 years of experience in MERN stack projects.',
+        'Familiarity with WebSockets and REST APIs.',
+        'Strong communication and Git workflow usage.',
+        'Good understanding of UI performance.',
+       ],
+       skills: [
+        'React',
+        'Node.js',
+        'Express.js',
+        'MongoDB',
+        'Socket.io',
+        'Redux',
+        'Tailwind',
+        'REST API',
+       ],
+       softwareHouse: 'Delivery Hero',
       },
       {
-        title: 'MERN Developer – SaaS CRM Builder',
-        location: 'Toronto, Canada',
-        postedDate: '2025-07-02',
-        salary: '$440.00/Month',
-        description:
-          "Join our platform team to develop customer engagement tools using MERN stack with heavy emphasis on UI logic and integrations.",
-        responsibilities: [
-          'Work on front-to-back CRM features.',
-          'Maintain modular components in React.',
-          'Integrate API endpoints with role-based access.',
-          'Write secure login and auth features using JWT.'
-        ],
-        requirements: [
-          'At least 3 years in full stack JavaScript.',
-          'Solid React/Redux fundamentals.',
-          'Hands-on with MongoDB & Mongoose schema.',
-          'Experience working in distributed teams.'
-        ],
-        skills: ['MongoDB', 'Express.js', 'React', 'Node.js', 'JWT', 'Redux', 'Tailwind', 'CI/CD'],
-        softwareHouse: 'Shopify'
+       title: 'MERN Developer – SaaS CRM Builder',
+       location: 'Toronto, Canada',
+       postedDate: '2025-07-02',
+       salary: '$440.00/Month',
+       description:
+        'Join our platform team to develop customer engagement tools using MERN stack with heavy emphasis on UI logic and integrations.',
+       responsibilities: [
+        'Work on front-to-back CRM features.',
+        'Maintain modular components in React.',
+        'Integrate API endpoints with role-based access.',
+        'Write secure login and auth features using JWT.',
+       ],
+       requirements: [
+        'At least 3 years in full stack JavaScript.',
+        'Solid React/Redux fundamentals.',
+        'Hands-on with MongoDB & Mongoose schema.',
+        'Experience working in distributed teams.',
+       ],
+       skills: [
+        'MongoDB',
+        'Express.js',
+        'React',
+        'Node.js',
+        'JWT',
+        'Redux',
+        'Tailwind',
+        'CI/CD',
+       ],
+       softwareHouse: 'Shopify',
       },
       {
-        title: 'Senior MERN Developer – GraphQL & Microservices',
-        location: 'Copenhagen, Denmark',
-        postedDate: '2025-07-01',
-        salary: '$438.00/Month',
-        description:
-          "You’ll lead front-end and back-end feature implementation in a microservice-based architecture. Must be confident in GraphQL API consumption and modern React patterns.",
-        responsibilities: [
-          'Build GraphQL-integrated UIs.',
-          'Work on cloud functions and deployments.',
-          'Set up MongoDB models and validations.',
-          'Maintain code quality and peer reviews.'
-        ],
-        requirements: [
-          '3+ years in MERN stack with GraphQL experience.',
-          'Hands-on with scalable architecture.',
-          'Comfortable with CI tools and Docker.',
-          'Strong communication and problem-solving.'
-        ],
-        skills: ['React', 'Node.js', 'MongoDB', 'Express.js', 'GraphQL', 'TypeScript', 'Docker', 'Git'],
-        softwareHouse: 'Tradeshift'
+       title: 'Senior MERN Developer – GraphQL & Microservices',
+       location: 'Copenhagen, Denmark',
+       postedDate: '2025-07-01',
+       salary: '$438.00/Month',
+       description:
+        'You’ll lead front-end and back-end feature implementation in a microservice-based architecture. Must be confident in GraphQL API consumption and modern React patterns.',
+       responsibilities: [
+        'Build GraphQL-integrated UIs.',
+        'Work on cloud functions and deployments.',
+        'Set up MongoDB models and validations.',
+        'Maintain code quality and peer reviews.',
+       ],
+       requirements: [
+        '3+ years in MERN stack with GraphQL experience.',
+        'Hands-on with scalable architecture.',
+        'Comfortable with CI tools and Docker.',
+        'Strong communication and problem-solving.',
+       ],
+       skills: [
+        'React',
+        'Node.js',
+        'MongoDB',
+        'Express.js',
+        'GraphQL',
+        'TypeScript',
+        'Docker',
+        'Git',
+       ],
+       softwareHouse: 'Tradeshift',
       },
       {
-        title: 'MERN Stack Developer – TypeScript & Mongoose Expert',
-        location: 'Cape Town, South Africa',
-        postedDate: '2025-07-01',
-        salary: '$415.00/Month',
-        description:
-          "We are scaling internal tools and dashboards using the MERN stack, written in TypeScript. Looking for someone experienced in database design and schema optimization.",
-        responsibilities: [
-          'Work on frontend components using React & TypeScript.',
-          'Design robust MongoDB schemas using Mongoose.',
-          'Develop APIs with proper validation and error handling.',
-          'Deploy apps via CI/CD pipelines.'
-        ],
-        requirements: [
-          '2+ years of MERN development.',
-          'Advanced skills in Mongoose and backend logic.',
-          'Experience with Git and testing tools.',
-          'Comfortable in agile and fast-paced teams.'
-        ],
-        skills: ['React', 'TypeScript', 'MongoDB', 'Express.js', 'Mongoose', 'Tailwind', 'JWT'],
-        softwareHouse: 'Yoco Technologies'
+       title: 'MERN Stack Developer – TypeScript & Mongoose Expert',
+       location: 'Cape Town, South Africa',
+       postedDate: '2025-07-01',
+       salary: '$415.00/Month',
+       description:
+        'We are scaling internal tools and dashboards using the MERN stack, written in TypeScript. Looking for someone experienced in database design and schema optimization.',
+       responsibilities: [
+        'Work on frontend components using React & TypeScript.',
+        'Design robust MongoDB schemas using Mongoose.',
+        'Develop APIs with proper validation and error handling.',
+        'Deploy apps via CI/CD pipelines.',
+       ],
+       requirements: [
+        '2+ years of MERN development.',
+        'Advanced skills in Mongoose and backend logic.',
+        'Experience with Git and testing tools.',
+        'Comfortable in agile and fast-paced teams.',
+       ],
+       skills: [
+        'React',
+        'TypeScript',
+        'MongoDB',
+        'Express.js',
+        'Mongoose',
+        'Tailwind',
+        'JWT',
+       ],
+       softwareHouse: 'Yoco Technologies',
       },
       {
-        title: 'Full Stack MERN Developer – Cloud SaaS Tools',
-        location: 'Dubai, UAE',
-        postedDate: '2025-07-01',
-        salary: '$420.00/Month',
-        description:
-          "Help us build cloud-based accounting and inventory apps using full MERN stack. This is a hybrid role involving backend logic and UI/UX responsiveness.",
-        responsibilities: [
-          'Create dashboard features using React.',
-          'Write Node-based APIs with clean structure.',
-          'Secure user data using JWT and session tokens.',
-          'Design responsive UI with Tailwind.'
-        ],
-        requirements: [
-          '2–3 years of full stack experience.',
-          'Knowledge of secure REST APIs and CRUD systems.',
-          'Strong teamwork and GitHub familiarity.',
-          'Basic cloud deployment (Netlify/Vercel).'
-        ],
-        skills: ['React', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'Tailwind', 'Git'],
-        softwareHouse: 'Careem (Uber Subsidiary)'
-      }
+       title: 'Full Stack MERN Developer – Cloud SaaS Tools',
+       location: 'Dubai, UAE',
+       postedDate: '2025-07-01',
+       salary: '$420.00/Month',
+       description:
+        'Help us build cloud-based accounting and inventory apps using full MERN stack. This is a hybrid role involving backend logic and UI/UX responsiveness.',
+       responsibilities: [
+        'Create dashboard features using React.',
+        'Write Node-based APIs with clean structure.',
+        'Secure user data using JWT and session tokens.',
+        'Design responsive UI with Tailwind.',
+       ],
+       requirements: [
+        '2–3 years of full stack experience.',
+        'Knowledge of secure REST APIs and CRUD systems.',
+        'Strong teamwork and GitHub familiarity.',
+        'Basic cloud deployment (Netlify/Vercel).',
+       ],
+       skills: [
+        'React',
+        'Node.js',
+        'Express.js',
+        'MongoDB',
+        'JWT',
+        'Tailwind',
+        'Git',
+       ],
+       softwareHouse: 'Careem (Uber Subsidiary)',
+      },
      ],
      'GLASSDOOR.com': [
       {
-        title: 'MERN Stack Developer – Admin Panel Engineering',
-        location: 'Helsinki, Finland',
-        postedDate: '2025-07-02',
-        salary: '$410.00/Month',
-        description:
-          "Develop and maintain internal admin panels and analytics dashboards using MERN technologies. Work closely with backend services and product leads.",
-        responsibilities: [
-          'Design frontend components in React + Redux.',
-          'Build secure API routes in Node/Express.',
-          'Integrate MongoDB queries and validation.',
-          'Maintain pixel-perfect responsive UIs.'
-        ],
-        requirements: [
-          '2+ years in full stack JS development.',
-          'Strong understanding of REST and middleware.',
-          'Experience in responsive CSS frameworks.',
-          'Team-oriented and organized in Git workflows.'
-        ],
-        skills: ['React', 'Redux', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind', 'REST API'],
-        softwareHouse: 'Wolt'
+       title: 'MERN Stack Developer – Admin Panel Engineering',
+       location: 'Helsinki, Finland',
+       postedDate: '2025-07-02',
+       salary: '$410.00/Month',
+       description:
+        'Develop and maintain internal admin panels and analytics dashboards using MERN technologies. Work closely with backend services and product leads.',
+       responsibilities: [
+        'Design frontend components in React + Redux.',
+        'Build secure API routes in Node/Express.',
+        'Integrate MongoDB queries and validation.',
+        'Maintain pixel-perfect responsive UIs.',
+       ],
+       requirements: [
+        '2+ years in full stack JS development.',
+        'Strong understanding of REST and middleware.',
+        'Experience in responsive CSS frameworks.',
+        'Team-oriented and organized in Git workflows.',
+       ],
+       skills: [
+        'React',
+        'Redux',
+        'Node.js',
+        'Express.js',
+        'MongoDB',
+        'Tailwind',
+        'REST API',
+       ],
+       softwareHouse: 'Wolt',
       },
       {
-        title: 'Full Stack JavaScript Developer – MERN + DevOps Exposure',
-        location: 'Tokyo, Japan',
-        postedDate: '2025-07-02',
-        salary: '$438.00/Month',
-        description:
-          "We’re scaling a video streaming platform using MERN stack and DevOps pipelines. Looking for engineers who can collaborate cross-functionally and own features end-to-end.",
-        responsibilities: [
-          'Work with product on feature delivery.',
-          'Manage cloud functions and deployment.',
-          'Write scalable backend APIs in Express.',
-          'Implement reusable UI logic with Tailwind.'
-        ],
-        requirements: [
-          'At least 3 years of JavaScript/MERN experience.',
-          'Exposure to CI/CD tools like GitHub Actions.',
-          'Comfortable using Docker in dev environments.',
-          'Familiarity with video/image optimization a plus.'
-        ],
-        skills: ['MongoDB', 'Express.js', 'React', 'Node.js', 'Tailwind', 'CI/CD', 'Docker'],
-        softwareHouse: 'Rakuten'
+       title: 'Full Stack JavaScript Developer – MERN + DevOps Exposure',
+       location: 'Tokyo, Japan',
+       postedDate: '2025-07-02',
+       salary: '$438.00/Month',
+       description:
+        'We’re scaling a video streaming platform using MERN stack and DevOps pipelines. Looking for engineers who can collaborate cross-functionally and own features end-to-end.',
+       responsibilities: [
+        'Work with product on feature delivery.',
+        'Manage cloud functions and deployment.',
+        'Write scalable backend APIs in Express.',
+        'Implement reusable UI logic with Tailwind.',
+       ],
+       requirements: [
+        'At least 3 years of JavaScript/MERN experience.',
+        'Exposure to CI/CD tools like GitHub Actions.',
+        'Comfortable using Docker in dev environments.',
+        'Familiarity with video/image optimization a plus.',
+       ],
+       skills: [
+        'MongoDB',
+        'Express.js',
+        'React',
+        'Node.js',
+        'Tailwind',
+        'CI/CD',
+        'Docker',
+       ],
+       softwareHouse: 'Rakuten',
       },
       {
-        title: 'MERN Stack Engineer – Healthcare Web Platforms',
-        location: 'Lisbon, Portugal',
-        postedDate: '2025-07-02',
-        salary: '$425.00/Month',
-        description:
-          "Join our healthcare SaaS platform and improve patient dashboards and clinic admin tools using the MERN stack. Focused on speed, clarity, and compliance.",
-        responsibilities: [
-          'Build role-based dashboards with React and Redux.',
-          'Secure backend APIs with Express & JWT.',
-          'Write flexible MongoDB schemas.',
-          'Follow accessibility and GDPR best practices.'
-        ],
-        requirements: [
-          '2–3 years with MERN technologies.',
-          'Understanding of healthcare data standards (a bonus).',
-          'Detail-oriented with UI precision.',
-          'Able to write clean, testable code.'
-        ],
-        skills: ['React', 'Redux', 'Node.js', 'MongoDB', 'Express.js', 'JWT', 'Tailwind'],
-        softwareHouse: 'Talkdesk'
+       title: 'MERN Stack Engineer – Healthcare Web Platforms',
+       location: 'Lisbon, Portugal',
+       postedDate: '2025-07-02',
+       salary: '$425.00/Month',
+       description:
+        'Join our healthcare SaaS platform and improve patient dashboards and clinic admin tools using the MERN stack. Focused on speed, clarity, and compliance.',
+       responsibilities: [
+        'Build role-based dashboards with React and Redux.',
+        'Secure backend APIs with Express & JWT.',
+        'Write flexible MongoDB schemas.',
+        'Follow accessibility and GDPR best practices.',
+       ],
+       requirements: [
+        '2–3 years with MERN technologies.',
+        'Understanding of healthcare data standards (a bonus).',
+        'Detail-oriented with UI precision.',
+        'Able to write clean, testable code.',
+       ],
+       skills: [
+        'React',
+        'Redux',
+        'Node.js',
+        'MongoDB',
+        'Express.js',
+        'JWT',
+        'Tailwind',
+       ],
+       softwareHouse: 'Talkdesk',
       },
       {
-        title: 'MERN Developer – E-Commerce UI & Cart Logic',
-        location: 'Rome, Italy',
-        postedDate: '2025-07-01',
-        salary: '$417.00/Month',
-        description:
-          "Be part of a boutique e-commerce team building responsive storefronts and smart carts using MERN technologies and session-based storage logic.",
-        responsibilities: [
-          'Create responsive layouts with React.',
-          'Implement cart and checkout with Express APIs.',
-          'Design MongoDB models for inventory.',
-          'Collaborate on improving site speed and UX.'
-        ],
-        requirements: [
-          '2+ years in MERN projects.',
-          'Familiar with SSR and hydration concepts.',
-          'Good grasp of sessions, auth, and cookies.',
-          'Pixel perfection and layout accuracy required.'
-        ],
-        skills: ['React', 'Express.js', 'Node.js', 'MongoDB', 'Tailwind', 'Redux', 'JWT'],
-        softwareHouse: 'Yoox Net-A-Porter'
+       title: 'MERN Developer – E-Commerce UI & Cart Logic',
+       location: 'Rome, Italy',
+       postedDate: '2025-07-01',
+       salary: '$417.00/Month',
+       description:
+        'Be part of a boutique e-commerce team building responsive storefronts and smart carts using MERN technologies and session-based storage logic.',
+       responsibilities: [
+        'Create responsive layouts with React.',
+        'Implement cart and checkout with Express APIs.',
+        'Design MongoDB models for inventory.',
+        'Collaborate on improving site speed and UX.',
+       ],
+       requirements: [
+        '2+ years in MERN projects.',
+        'Familiar with SSR and hydration concepts.',
+        'Good grasp of sessions, auth, and cookies.',
+        'Pixel perfection and layout accuracy required.',
+       ],
+       skills: [
+        'React',
+        'Express.js',
+        'Node.js',
+        'MongoDB',
+        'Tailwind',
+        'Redux',
+        'JWT',
+       ],
+       softwareHouse: 'Yoox Net-A-Porter',
       },
       {
-        title: 'MERN Stack Developer – Fintech Product Line',
-        location: 'Dublin, Ireland',
-        postedDate: '2025-07-01',
-        salary: '$440.00/Month',
-        description:
-          "Work with us to develop finance dashboards, ledger systems, and account APIs using MERN. Focus on speed, accuracy, and security throughout the full stack.",
-        responsibilities: [
-          'Implement account and transaction UIs with React.',
-          'Create API routes and auth middleware.',
-          'Integrate financial reporting modules.',
-          'Deploy code using versioned Git workflows.'
-        ],
-        requirements: [
-          '3 years MERN development in production apps.',
-          'Excellent JS debugging and test writing.',
-          'Secure handling of sensitive data.',
-          'Experience working in sprint teams.'
-        ],
-        skills: ['React', 'Node.js', 'MongoDB', 'Express.js', 'JWT', 'Redux', 'Tailwind'],
-        softwareHouse: 'Stripe'
-      }
+       title: 'MERN Stack Developer – Fintech Product Line',
+       location: 'Dublin, Ireland',
+       postedDate: '2025-07-01',
+       salary: '$440.00/Month',
+       description:
+        'Work with us to develop finance dashboards, ledger systems, and account APIs using MERN. Focus on speed, accuracy, and security throughout the full stack.',
+       responsibilities: [
+        'Implement account and transaction UIs with React.',
+        'Create API routes and auth middleware.',
+        'Integrate financial reporting modules.',
+        'Deploy code using versioned Git workflows.',
+       ],
+       requirements: [
+        '3 years MERN development in production apps.',
+        'Excellent JS debugging and test writing.',
+        'Secure handling of sensitive data.',
+        'Experience working in sprint teams.',
+       ],
+       skills: [
+        'React',
+        'Node.js',
+        'MongoDB',
+        'Express.js',
+        'JWT',
+        'Redux',
+        'Tailwind',
+       ],
+       softwareHouse: 'Stripe',
+      },
      ],
      'INDEED.com': [
       {
-        title: 'Senior MERN Developer – Internal Tools & Dashboards',
-        location: 'Barcelona, Spain',
-        postedDate: '2025-06-30',
-        salary: '$433.00/Month',
-        description:
-          "Join our internal tools team to build UI dashboards for managing users, metrics, and platform controls across departments. Full stack logic in MERN.",
-        responsibilities: [
-          'Create component-driven dashboards in React.',
-          'Write backend services using Node & Express.',
-          'Integrate real-time charts with database metrics.',
-          'Implement user access and permission layers.'
-        ],
-        requirements: [
-          '2–3 years in full stack engineering.',
-          'Good knowledge of backend logic with role-based access.',
-          'Experience building internal admin tools.',
-          'Able to deliver features independently.'
-        ],
-        skills: ['React', 'MongoDB', 'Node.js', 'Express.js', 'Tailwind', 'JWT', 'Redux'],
-        softwareHouse: 'Glovo'
+       title: 'Senior MERN Developer – Internal Tools & Dashboards',
+       location: 'Barcelona, Spain',
+       postedDate: '2025-06-30',
+       salary: '$433.00/Month',
+       description:
+        'Join our internal tools team to build UI dashboards for managing users, metrics, and platform controls across departments. Full stack logic in MERN.',
+       responsibilities: [
+        'Create component-driven dashboards in React.',
+        'Write backend services using Node & Express.',
+        'Integrate real-time charts with database metrics.',
+        'Implement user access and permission layers.',
+       ],
+       requirements: [
+        '2–3 years in full stack engineering.',
+        'Good knowledge of backend logic with role-based access.',
+        'Experience building internal admin tools.',
+        'Able to deliver features independently.',
+       ],
+       skills: [
+        'React',
+        'MongoDB',
+        'Node.js',
+        'Express.js',
+        'Tailwind',
+        'JWT',
+        'Redux',
+       ],
+       softwareHouse: 'Glovo',
       },
       {
-        title: 'MERN Developer – Agile Agency Projects',
-        location: 'Stockholm, Sweden',
-        postedDate: '2025-06-30',
-        salary: '$419.00/Month',
-        description:
-          "Contribute to multiple short and long-term client projects using the MERN stack. You’ll work on landing pages, internal tools, and API-first applications.",
-        responsibilities: [
-          'Handle cross-stack feature development.',
-          'Use Tailwind to implement rapid prototypes.',
-          'Build Express-based backend logic.',
-          'Participate in agile sprint meetings and reviews.'
-        ],
-        requirements: [
-          'Minimum 2 years of MERN experience.',
-          'Fast learner and adaptable to new client specs.',
-          'Comfortable with pair programming and Jira.',
-          'Clean commit history and Git etiquette.'
-        ],
-        skills: ['MongoDB', 'React', 'Node.js', 'Express.js', 'Redux', 'Tailwind', 'Git'],
-        softwareHouse: 'Tink'
+       title: 'MERN Developer – Agile Agency Projects',
+       location: 'Stockholm, Sweden',
+       postedDate: '2025-06-30',
+       salary: '$419.00/Month',
+       description:
+        'Contribute to multiple short and long-term client projects using the MERN stack. You’ll work on landing pages, internal tools, and API-first applications.',
+       responsibilities: [
+        'Handle cross-stack feature development.',
+        'Use Tailwind to implement rapid prototypes.',
+        'Build Express-based backend logic.',
+        'Participate in agile sprint meetings and reviews.',
+       ],
+       requirements: [
+        'Minimum 2 years of MERN experience.',
+        'Fast learner and adaptable to new client specs.',
+        'Comfortable with pair programming and Jira.',
+        'Clean commit history and Git etiquette.',
+       ],
+       skills: [
+        'MongoDB',
+        'React',
+        'Node.js',
+        'Express.js',
+        'Redux',
+        'Tailwind',
+        'Git',
+       ],
+       softwareHouse: 'Tink',
       },
       {
-        title: 'Full Stack MERN Developer – Startup Environment',
-        location: 'Bangkok, Thailand',
-        postedDate: '2025-06-30',
-        salary: '$415.00/Month',
-        description:
-          "A fast-growing travel startup is hiring MERN developers to lead the frontend and backend of their user booking platform. This role is hands-on and impactful.",
-        responsibilities: [
-          'Develop user portals in React and Tailwind.',
-          'Build backend APIs and Mongo models.',
-          'Integrate third-party APIs (Stripe, Booking.com).',
-          'Manage state with Redux and contexts.'
-        ],
-        requirements: [
-          '2+ years in startup or fast-paced teams.',
-          'Experience working with travel or booking APIs.',
-          'Can debug both frontend and backend issues.',
-          'Basic knowledge of DevOps tools a plus.'
-        ],
-        skills: ['React', 'Node.js', 'MongoDB', 'Redux', 'Express.js', 'Tailwind', 'REST API'],
-        softwareHouse: 'Agoda'
+       title: 'Full Stack MERN Developer – Startup Environment',
+       location: 'Bangkok, Thailand',
+       postedDate: '2025-06-30',
+       salary: '$415.00/Month',
+       description:
+        'A fast-growing travel startup is hiring MERN developers to lead the frontend and backend of their user booking platform. This role is hands-on and impactful.',
+       responsibilities: [
+        'Develop user portals in React and Tailwind.',
+        'Build backend APIs and Mongo models.',
+        'Integrate third-party APIs (Stripe, Booking.com).',
+        'Manage state with Redux and contexts.',
+       ],
+       requirements: [
+        '2+ years in startup or fast-paced teams.',
+        'Experience working with travel or booking APIs.',
+        'Can debug both frontend and backend issues.',
+        'Basic knowledge of DevOps tools a plus.',
+       ],
+       skills: [
+        'React',
+        'Node.js',
+        'MongoDB',
+        'Redux',
+        'Express.js',
+        'Tailwind',
+        'REST API',
+       ],
+       softwareHouse: 'Agoda',
       },
       {
-        title: 'MERN Stack Engineer – LMS & Education Tools',
-        location: 'Auckland, New Zealand',
-        postedDate: '2025-06-29',
-        salary: '$412.00/Month',
-        description:
-          "Work with our edtech platform to develop interactive lessons, user management modules, and reporting dashboards — all built on MERN stack.",
-        responsibilities: [
-          'Design components for quizzes, results, and users.',
-          'Secure backend logic with authentication middleware.',
-          'Create reporting and analytics dashboards.',
-          'Ensure mobile-first responsive UIs.'
-        ],
-        requirements: [
-          '2+ years of MERN stack experience.',
-          'Previous edtech or LMS platform experience preferred.',
-          'Strong CSS/HTML fundamentals with Tailwind.',
-          'Experience with Mongoose and nested data.'
-        ],
-        skills: ['React', 'Express.js', 'MongoDB', 'Node.js', 'JWT', 'Tailwind', 'Mongoose'],
-        softwareHouse: 'Education Perfect'
+       title: 'MERN Stack Engineer – LMS & Education Tools',
+       location: 'Auckland, New Zealand',
+       postedDate: '2025-06-29',
+       salary: '$412.00/Month',
+       description:
+        'Work with our edtech platform to develop interactive lessons, user management modules, and reporting dashboards — all built on MERN stack.',
+       responsibilities: [
+        'Design components for quizzes, results, and users.',
+        'Secure backend logic with authentication middleware.',
+        'Create reporting and analytics dashboards.',
+        'Ensure mobile-first responsive UIs.',
+       ],
+       requirements: [
+        '2+ years of MERN stack experience.',
+        'Previous edtech or LMS platform experience preferred.',
+        'Strong CSS/HTML fundamentals with Tailwind.',
+        'Experience with Mongoose and nested data.',
+       ],
+       skills: [
+        'React',
+        'Express.js',
+        'MongoDB',
+        'Node.js',
+        'JWT',
+        'Tailwind',
+        'Mongoose',
+       ],
+       softwareHouse: 'Education Perfect',
       },
       {
-        title: 'MERN Developer – Mobile Web & Responsive Systems',
-        location: 'Buenos Aires, Argentina',
-        postedDate: '2025-06-29',
-        salary: '$414.00/Month',
-        description:
-          "Join a design-focused mobile web team building MERN stack apps optimized for 4G/5G experiences. You’ll focus on responsiveness and speed.",
-        responsibilities: [
-          'Develop responsive UIs using Tailwind.',
-          'Build REST APIs and handle auth tokens.',
-          'Optimize performance for mobile data usage.',
-          'Maintain accessibility standards.'
-        ],
-        requirements: [
-          '2–3 years of MERN experience.',
-          'Strong interest in performance optimization.',
-          'Can work closely with designers.',
-          'Understanding of internationalization (i18n).'
-        ],
-        skills: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind', 'JWT', 'REST API'],
-        softwareHouse: 'Mercado Libre'
-      }
+       title: 'MERN Developer – Mobile Web & Responsive Systems',
+       location: 'Buenos Aires, Argentina',
+       postedDate: '2025-06-29',
+       salary: '$414.00/Month',
+       description:
+        'Join a design-focused mobile web team building MERN stack apps optimized for 4G/5G experiences. You’ll focus on responsiveness and speed.',
+       responsibilities: [
+        'Develop responsive UIs using Tailwind.',
+        'Build REST APIs and handle auth tokens.',
+        'Optimize performance for mobile data usage.',
+        'Maintain accessibility standards.',
+       ],
+       requirements: [
+        '2–3 years of MERN experience.',
+        'Strong interest in performance optimization.',
+        'Can work closely with designers.',
+        'Understanding of internationalization (i18n).',
+       ],
+       skills: [
+        'React',
+        'Node.js',
+        'Express.js',
+        'MongoDB',
+        'Tailwind',
+        'JWT',
+        'REST API',
+       ],
+       softwareHouse: 'Mercado Libre',
+      },
      ],
     };
 
@@ -3568,563 +4071,877 @@ export default function TechStackJobsMarket() {
     const countryData = {
      'ROZEE.pk': [
       {
-        title: 'Full Stack MERN Developer – REST & JWT Expertise',
-        location: 'Lahore, Pakistan',
-        postedDate: '2025-07-02',
-        salary: '₨130,000/Month',
-        description:
-          "We're hiring an experienced MERN stack developer to build secure, full-stack applications using modern architecture. You'll work on scalable dashboards and internal tools.",
-        responsibilities: [
-          'Design RESTful APIs with Express and Node.js.',
-          'Build frontend with React, Redux, and Tailwind.',
-          'Integrate MongoDB with complex query logic.',
-          'Implement authentication using JWT and middleware.'
-        ],
-        requirements: [
-          'Minimum 3 years of experience with the MERN stack.',
-          'Strong understanding of authentication and sessions.',
-          'Hands-on experience with Git and deployment tools.',
-          'Excellent debugging and backend API integration skills.'
-        ],
-        skills: ['MongoDB', 'Express.js', 'React', 'Node.js', 'Tailwind', 'JWT', 'Redux', 'REST API', 'Git'],
-        softwareHouse: 'Mindstorm Studios'
+       title: 'Next.js Developer – Full Stack Integration with BaaS',
+       location: 'Islamabad, Pakistan',
+       postedDate: '2025-07-02',
+       salary: '₨155,000/Month',
+       description:
+        'Join our dynamic product team to build web applications using Next.js, integrated with BaaS platforms like Firebase and Supabase. Work across frontend and serverless APIs with scalable architecture.',
+       responsibilities: [
+        'Develop SSR and ISR-based applications in Next.js.',
+        'Integrate backend services using Supabase and Firebase.',
+        'Build responsive and reusable React components.',
+        'Optimize performance for critical rendering and SEO.',
+       ],
+       requirements: [
+        '3.5+ years of experience in React/Next.js stack.',
+        'Strong understanding of server-side rendering.',
+        'Experience with BaaS tools and GraphQL/REST APIs.',
+        'Solid grasp on DOM, SEO, and accessibility.',
+       ],
+       skills: [
+        'next.js',
+        'react',
+        'tailwind',
+        'html',
+        'css',
+        'javascript',
+        'dom',
+        'google app script',
+        'MVC',
+        'OOP',
+        'responsive websites',
+        'prototype',
+       ],
+       softwareHouse: 'Systems Limited',
       },
       {
-        title: 'MERN Stack Developer – API & Component Architecture',
-        location: 'Islamabad, Pakistan',
-        postedDate: '2025-07-02',
-        salary: '₨125,000/Month',
-        description:
-          "Join our dynamic engineering team working on client portals and admin panels using the MERN stack. Strong emphasis on UI performance and backend structure.",
-        responsibilities: [
-          'Create React components with Redux and hooks.',
-          'Develop scalable APIs using Node and Express.',
-          'Work with MongoDB and Mongoose for schema control.',
-          'Handle UI state, routing, and form validation.'
-        ],
-        requirements: [
-          '2+ years of MERN development experience.',
-          'Comfortable working in agile environments.',
-          'Strong command of JavaScript, ES6+, and REST APIs.',
-          'Experience in mobile-friendly UI development.'
-        ],
-        skills: ['React', 'Redux', 'Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'Tailwind', 'JavaScript', 'REST API'],
-        softwareHouse: 'Techlogix'
+       title: 'Next.js Specialist – MERN + BaaS Developer',
+       location: 'Karachi, Pakistan',
+       postedDate: '2025-07-02',
+       salary: '₨150,000/Month',
+       description:
+        'We’re looking for a Next.js expert with full stack experience in MERN and BaaS technologies. You’ll deliver powerful UIs and optimize backend interactions using serverless tools.',
+       responsibilities: [
+        'Develop high-performance UIs using React and Next.js.',
+        'Connect APIs using Firebase and Strapi.',
+        'Implement secure login/auth flows with JWT.',
+        'Collaborate on full-stack features using MongoDB & Node.',
+       ],
+       requirements: [
+        '3+ years in MERN and Next.js ecosystem.',
+        'Hands-on with responsive design and modular CSS.',
+        'Familiar with RESTful APIs and cloud-based services.',
+        'Ability to build accessible, performant apps.',
+       ],
+       skills: [
+        'react',
+        'next.js',
+        'tailwind',
+        'javascript',
+        'html',
+        'css',
+        'bootstrap',
+        'data structures',
+        'functions behind the scene',
+        'OOP',
+        'MVC',
+       ],
+       softwareHouse: '10Pearls',
       },
       {
-        title: 'Senior MERN Developer – GraphQL & CI/CD',
-        location: 'Karachi, Pakistan',
-        postedDate: '2025-07-01',
-        salary: '₨135,000/Month',
-        description:
-          "We're seeking a senior MERN developer who thrives on GraphQL APIs and DevOps integration. You'll help architect reusable backend and frontend logic for long-term products.",
-        responsibilities: [
-          'Build full-stack features using MERN + GraphQL.',
-          'Design CI/CD pipelines for automatic deployments.',
-          'Ensure secure authentication and route guarding.',
-          'Work closely with product and design teams.'
-        ],
-        requirements: [
-          '3 years+ experience as a full stack developer.',
-          'Strong command of GraphQL and REST.',
-          'Experience with GitHub Actions or similar CI/CD tools.',
-          'Excellent communication and documentation habits.'
-        ],
-        skills: ['MongoDB', 'Express.js', 'React', 'Node.js', 'GraphQL', 'Tailwind', 'JWT', 'CI/CD', 'Git'],
-        softwareHouse: '10Pearls'
+       title: 'Senior Next.js Developer – Real-Time Apps & UI Optimization',
+       location: 'Lahore, Pakistan',
+       postedDate: '2025-07-02',
+       salary: '₨152,000/Month',
+       description:
+        'We’re hiring a Next.js developer to work on real-time dashboards and highly interactive UIs. Your role will involve frontend performance, socket integration, and SSR strategies.',
+       responsibilities: [
+        'Build scalable UI using React + Tailwind.',
+        'Integrate real-time features using socket.io.',
+        'Apply SEO best practices in Next.js routing.',
+        'Work on API integration and server-side logic.',
+       ],
+       requirements: [
+        '3.5 years of full stack JS experience.',
+        'Must be comfortable with socket programming.',
+        'Experience with critical rendering path optimization.',
+        'Solid knowledge of MVC structure and responsive layouts.',
+       ],
+       skills: [
+        'tailwind',
+        'next.js',
+        'html',
+        'react',
+        'css',
+        'javascript',
+        'socket.io',
+        'ajax',
+        'critical rendering',
+        'responsive websites',
+        'OOP',
+        'prototype',
+       ],
+       softwareHouse: 'Tkxel',
       },
       {
-        title: 'MERN Stack Engineer – TypeScript & Modular Codebases',
-        location: 'Multan, Pakistan',
-        postedDate: '2025-07-01',
-        salary: '₨120,000/Month',
-        description:
-          "We're hiring a MERN stack engineer experienced in TypeScript and modular code structures. You'll lead feature development on microservices and modern frontend components.",
-        responsibilities: [
-          'Develop robust React components using TypeScript.',
-          'Build Node APIs with Express and middleware layers.',
-          'Work on schema optimization in MongoDB.',
-          'Write clean, testable code with proper typing.'
-        ],
-        requirements: [
-          '2–3 years experience working with MERN stack.',
-          'Familiar with TypeScript, testing libraries, and Git.',
-          'Good sense of UI/UX performance and DOM optimization.',
-          'Capable of leading small feature teams.'
-        ],
-        skills: ['TypeScript', 'React', 'Node.js', 'MongoDB', 'Express.js', 'Tailwind', 'JWT', 'Mongoose', 'Git'],
-        softwareHouse: 'Techline'
+       title: 'Next.js & Firebase Developer – Serverless Application Stack',
+       location: 'Rawalpindi, Pakistan',
+       postedDate: '2025-07-01',
+       salary: '₨153,000/Month',
+       description:
+        'Join our cloud-first team building serverless applications using Next.js, Firebase, and Tailwind CSS. A great opportunity to scale modern web apps across regions.',
+       responsibilities: [
+        'Develop apps with Next.js and Firestore as backend.',
+        'Design UI layouts with Tailwind and MUI.',
+        'Implement real-time updates and secure auth.',
+        'Build scalable and reusable code architecture.',
+       ],
+       requirements: [
+        '3+ years of experience with Next.js and Firebase.',
+        'Familiar with modern JS patterns and React hooks.',
+        'Good understanding of cloud functions and deployments.',
+        'Ability to work across both frontend and backend logic.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'next.js',
+        'react',
+        'javascript',
+        'tailwind',
+        'MUI',
+        'machine learning',
+        'tensorflow.js',
+        'functions behind the scene',
+       ],
+       softwareHouse: 'DevCrew',
       },
       {
-        title: 'Full Stack Developer – MERN & Cloud Integration',
-        location: 'Peshawar, Pakistan',
-        postedDate: '2025-06-30',
-        salary: '₨128,000/Month',
-        description:
-          "Join our growing team as a Full Stack MERN Developer and work on cloud-integrated web apps. Ideal for developers who love database design and frontend performance tuning.",
-        responsibilities: [
-          'Develop RESTful services and MongoDB models.',
-          'Design responsive React UIs and dashboards.',
-          'Integrate APIs with cloud functions (e.g., Firebase/Serverless).',
-          'Write secure code with role-based access.'
-        ],
-        requirements: [
-          '3 years of practical experience with MERN stack.',
-          'Understanding of cloud deployment workflows.',
-          'Strong command over secure data handling and async logic.',
-          'Experience integrating third-party services via APIs.'
-        ],
-        skills: ['React', 'Node.js', 'MongoDB', 'Express.js', 'JWT', 'Tailwind', 'REST API', 'Cloud Functions', 'OOP'],
-        softwareHouse: 'Cubix'
-      }
+       title: 'Full Stack Next.js Developer – Integrated BaaS Platform',
+       location: 'Faisalabad, Pakistan',
+       postedDate: '2025-07-01',
+       salary: '₨150,000/Month',
+       description:
+        "We're building a full-stack analytics dashboard powered by Next.js and Supabase. If you're passionate about clean UI, server-rendered content, and real-time sync, this role is for you.",
+       responsibilities: [
+        'Implement frontend in React/Next.js with Tailwind.',
+        'Integrate authentication and backend using Supabase.',
+        'Optimize performance through code splitting and caching.',
+        'Work with designers on seamless responsive design.',
+       ],
+       requirements: [
+        '3–3.5 years of experience with modern JavaScript frameworks.',
+        'In-depth experience with Next.js and server-side rendering.',
+        'Skilled in responsive layout and design systems.',
+        'Comfortable working with backendless platforms like Appwrite or Supabase.',
+       ],
+       skills: [
+        'next.js',
+        'react',
+        'tailwind',
+        'javascript',
+        'html',
+        'css',
+        'dom',
+        'OOP',
+        'google app script',
+        'responsive websites',
+        'bootstraps',
+       ],
+       softwareHouse: 'InvoZone',
+      },
      ],
      'CAREERJET.com': [
       {
-        title: 'Senior MERN Stack Developer – RESTful APIs & JWT',
-        location: 'Dallas, TX',
-        postedDate: '2025-07-02',
-        salary: '$430.00/Month',
-        description:
-          "Join a fintech startup building secure, real-time dashboards using the MERN stack. We focus on scalable APIs, clean design systems, and bulletproof authentication.",
-        responsibilities: [
-          'Build modular React components with Redux.',
-          'Create backend APIs with Node.js and Express.',
-          'Secure data with JWT and session tokens.',
-          'Integrate MongoDB for real-time data layers.'
-        ],
-        requirements: [
-          'Minimum 3 years of MERN stack development.',
-          'Strong REST API design and state management.',
-          'Experience with Git-based workflows.',
-          'Understanding of role-based access control.'
-        ],
-        skills: ['MongoDB', 'Express.js', 'React', 'Node.js', 'Redux', 'JWT', 'REST API', 'Tailwind', 'Git'],
-        softwareHouse: 'Capital One Tech'
+       title: 'Next.js Specialist – Full Stack Web Interfaces',
+       location: 'Chicago, IL',
+       postedDate: '2025-07-01',
+       salary: '$525.00/Month',
+       description:
+        'Join a cross-functional team developing advanced user interfaces for cloud platforms. Your role will focus on Next.js development along with scalable backend and API design.',
+       responsibilities: [
+        'Craft user flows in React and Next.js with clean routing.',
+        'Develop backend endpoints in Node and Express.',
+        'Ensure SEO, performance, and accessibility standards.',
+        'Collaborate with UI/UX and backend engineers.',
+       ],
+       requirements: [
+        '3+ years of experience in MERN and Next.js.',
+        'Solid experience in component architecture and testing.',
+        'Must be comfortable with async APIs and auth middleware.',
+        'Portfolio of clean, mobile-first work is a bonus.',
+       ],
+       skills: [
+        'react',
+        'next.js',
+        'html',
+        'javascript',
+        'tailwind',
+        'css',
+        'node.js',
+        'express',
+        'mongoDB',
+        'ajax',
+        'OOP',
+        'tensorflow.js',
+       ],
+       softwareHouse: 'Basecamp',
       },
       {
-        title: 'Full Stack MERN Developer – GraphQL & Cloud Integration',
-        location: 'San Jose, CA',
-        postedDate: '2025-07-02',
-        salary: '$440.00/Month',
-        description:
-          "We’re looking for a full stack developer experienced with MERN and GraphQL to join our SaaS analytics platform team. You’ll work on cloud-native deployments and interactive dashboards.",
-        responsibilities: [
-          'Develop and manage GraphQL endpoints.',
-          'Implement reusable frontend logic in React.',
-          'Connect APIs with MongoDB/Mongoose layers.',
-          'Deploy using CI/CD tools and version control.'
-        ],
-        requirements: [
-          '2–3 years in full-stack JavaScript environments.',
-          'Experience using GraphQL with MongoDB.',
-          'Knowledge of CI/CD practices.',
-          'Excellent problem-solving and code review skills.'
-        ],
-        skills: ['React', 'GraphQL', 'Node.js', 'MongoDB', 'Express.js', 'Tailwind', 'JWT', 'Git', 'CI/CD'],
-        softwareHouse: 'Intuit Inc.'
+       title: 'Next.js Developer – Firebase + MERN Integration',
+       location: 'Miami, FL',
+       postedDate: '2025-07-01',
+       salary: '$530.00/Month',
+       description:
+        "Looking for a talented developer to join our Firebase-powered web application team. If you're an expert in Next.js with backend familiarity and love fast-paced development, let’s talk.",
+       responsibilities: [
+        'Build dynamic routes and views in Next.js.',
+        'Use Firebase for auth, functions, and DB.',
+        'Connect Node.js backend APIs as fallbacks.',
+        'Design responsive layouts with Tailwind and MUI.',
+       ],
+       requirements: [
+        '3–3.5 years of experience in React + Next.js.',
+        'Experience with backendless or BaaS platforms.',
+        'Understanding of DOM behavior and rendering lifecycle.',
+        'Ability to create highly optimized interfaces.',
+       ],
+       skills: [
+        'next.js',
+        'firebase',
+        'html',
+        'css',
+        'javascript',
+        'react',
+        'node.js',
+        'mongoDB',
+        'express',
+        'MUI',
+        'dom',
+        'data structures',
+       ],
+       softwareHouse: 'Slack (Salesforce)',
       },
       {
-        title: 'MERN Stack Engineer – TypeScript & Enterprise Apps',
-        location: 'Seattle, WA',
-        postedDate: '2025-07-01',
-        salary: '$420.00/Month',
-        description:
-          "Help scale our enterprise web platform using the MERN stack with TypeScript and Tailwind CSS. Work closely with designers and product owners to deliver user-centric tools.",
-        responsibilities: [
-          'Develop full-stack apps with MERN and TypeScript.',
-          'Design scalable UI systems with Tailwind.',
-          'Implement backend services using Express.',
-          'Collaborate via GitHub and Agile sprints.'
-        ],
-        requirements: [
-          'At least 3 years working with MERN stack.',
-          'Comfortable using TypeScript across the stack.',
-          'Familiar with Mongoose and advanced MongoDB queries.',
-          'Excellent teamwork and clean coding habits.'
-        ],
-        skills: ['TypeScript', 'React', 'Node.js', 'MongoDB', 'Express.js', 'Tailwind', 'JWT', 'Git', 'Agile'],
-        softwareHouse: 'Amazon Web Services (AWS)'
+       title: 'Senior Next.js + MERN Engineer – SaaS Product Team',
+       location: 'New York, NY',
+       postedDate: '2025-07-01',
+       salary: '$545.00/Month',
+       description:
+        'We’re scaling our SaaS platform with cutting-edge Next.js, MongoDB, and serverless integrations. This role requires high-level frontend performance understanding and hands-on backend fluency.',
+       responsibilities: [
+        'Lead frontend builds in Next.js and React.',
+        'Integrate APIs using Express and MongoDB.',
+        'Work on custom authentication and user roles.',
+        'Maintain pixel-perfect UIs and Tailwind themes.',
+       ],
+       requirements: [
+        '3.5 years of experience in JavaScript stacks.',
+        'Confident in full-stack app architecture.',
+        'Understanding of BaaS and token-based auth.',
+        'Strong communication and code review habits.',
+       ],
+       skills: [
+        'javascript',
+        'next.js',
+        'tailwind',
+        'css',
+        'html',
+        'react',
+        'node.js',
+        'mongoDB',
+        'express',
+        'google app script',
+        'functions behind the scene',
+        'prototype',
+       ],
+       softwareHouse: 'Squarespace',
       },
       {
-        title: 'Lead MERN Developer – SaaS Product Team',
-        location: 'Boston, MA',
-        postedDate: '2025-07-01',
-        salary: '$435.00/Month',
-        description:
-          "We're seeking a lead-level MERN developer to help architect and maintain key modules of our growing SaaS platform. Work with scalable APIs, complex schemas, and real-time user interfaces.",
-        responsibilities: [
-          'Build complex backend logic using Node & Express.',
-          'Optimize MongoDB performance and schema design.',
-          'Manage frontend state using Redux and Context API.',
-          'Ensure accessibility and responsiveness across devices.'
-        ],
-        requirements: [
-          '3+ years of experience with the MERN stack.',
-          'Solid understanding of data modeling and query optimization.',
-          'Capable of leading small agile dev teams.',
-          'Good knowledge of testing frameworks.'
-        ],
-        skills: ['MongoDB', 'React', 'Express.js', 'Node.js', 'Redux', 'Tailwind', 'REST API', 'Testing', 'Git'],
-        softwareHouse: 'HubSpot'
+       title: 'Next.js Full Stack Developer – API-First Platforms',
+       location: 'San Francisco, CA',
+       postedDate: '2025-07-02',
+       salary: '$540.00/Month',
+       description:
+        'Join our development team building enterprise-grade applications using the MERN stack with a Next.js frontend. Focus on SSR performance, API integration, and elegant design systems.',
+       responsibilities: [
+        'Develop feature-rich interfaces in React and Next.js.',
+        'Implement secure backend logic using Express.',
+        'Optimize apps using critical rendering techniques.',
+        'Deploy serverless routes via Vercel/Cloud Functions.',
+       ],
+       requirements: [
+        '3+ years experience in React/Next.js ecosystem.',
+        'Good understanding of MVC architecture and async data fetching.',
+        'Comfortable with NoSQL and GraphQL APIs.',
+        'Must write clean, scalable, and testable code.',
+       ],
+       skills: [
+        'next.js',
+        'react',
+        'node.js',
+        'html',
+        'css',
+        'javascript',
+        'mongoDB',
+        'express',
+        'tailwind',
+        'critical rendering',
+        'MVC',
+        'responsive websites',
+       ],
+       softwareHouse: 'Twilio',
       },
       {
-        title: 'MERN Developer – UI Focused with Mongoose',
-        location: 'Chicago, IL',
-        postedDate: '2025-06-30',
-        salary: '$410.00/Month',
-        description:
-          "Join our design-driven team to build and refine customer-facing portals using MERN technologies. Emphasis on UI/UX, backend connections, and reusable patterns.",
-        responsibilities: [
-          'Develop React components integrated with APIs.',
-          'Write expressive data models using Mongoose.',
-          'Use Tailwind to design responsive layouts.',
-          'Debug across the full stack and suggest improvements.'
-        ],
-        requirements: [
-          '2–3 years of MERN stack experience.',
-          'Solid frontend fundamentals and clean CSS work.',
-          'Backend knowledge using Express and Node.',
-          'Strong team player and fast learner.'
-        ],
-        skills: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'Tailwind', 'JWT', 'JavaScript', 'Git'],
-        softwareHouse: 'Basecamp'
-      }
+       title: 'Next.js Engineer – Full Stack with Express & MongoDB',
+       location: 'Austin, TX',
+       postedDate: '2025-07-02',
+       salary: '$550.00/Month',
+       description:
+        'Work with our US-based engineering team to build blazing-fast web apps using Next.js with backend support in Node and MongoDB. Join us in delivering dynamic SSR experiences and secure API layers.',
+       responsibilities: [
+        'Develop user-focused features in Next.js and React.',
+        'Create RESTful services with Express and MongoDB.',
+        'Implement Tailwind-based responsive designs.',
+        'Maintain reusable, scalable component architecture.',
+       ],
+       requirements: [
+        '3.5+ years in full-stack JavaScript environments.',
+        'Deep understanding of SSR/ISR and frontend routing.',
+        'Comfortable with authentication, caching, and real-time data.',
+        'Collaborate effectively within agile teams.',
+       ],
+       skills: [
+        'html',
+        'next.js',
+        'react',
+        'tailwind',
+        'css',
+        'javascript',
+        'node.js',
+        'express',
+        'mongoDB',
+        'ajax',
+        'OOP',
+        'socket.io',
+       ],
+       softwareHouse: 'Zapier',
+      },
      ],
      'SIMPLYHIRED.com': [
       {
-        title: 'Full Stack MERN Developer – Real-time Dashboard Projects',
-        location: 'Berlin, Germany',
-        postedDate: '2025-07-02',
-        salary: '$430.00/Month',
-        description:
-          "We're developing real-time dashboards for logistics and supply chain analytics using the MERN stack. Be part of an agile product team with fast releases and international clients.",
-        responsibilities: [
-          'Build scalable APIs with Node.js & Express.',
-          'Design and develop responsive UIs in React.',
-          'Integrate real-time sockets and data streams.',
-          'Collaborate with product and QA teams.'
-        ],
-        requirements: [
-          '2–3 years of experience in MERN stack projects.',
-          'Familiarity with WebSockets and REST APIs.',
-          'Strong communication and Git workflow usage.',
-          'Good understanding of UI performance.'
-        ],
-        skills: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Socket.io', 'Redux', 'Tailwind', 'REST API'],
-        softwareHouse: 'Delivery Hero'
+       title: 'Next.js Specialist – Full Stack with BaaS Integration',
+       location: 'Barcelona, Spain',
+       postedDate: '2025-07-02',
+       salary: '$550.00/Month',
+       description:
+        'Join our digital platform team as a Next.js specialist with backend exposure. Work on SSR, API integrations, and Firebase functions with a modern stack.',
+       responsibilities: [
+        'Build and deploy SSR apps using Next.js.',
+        'Integrate with Firebase and RESTful APIs.',
+        'Write clean Express.js backend endpoints.',
+        'Contribute to scalable architecture discussions.',
+       ],
+       requirements: [
+        '3.5+ years experience in JavaScript and MERN stacks.',
+        'Solid grasp on SEO, routing, and SSR/ISR.',
+        'Good command over responsive UI frameworks.',
+        'Experience with Firebase or Supabase is a plus.',
+       ],
+       skills: [
+        'next.js',
+        'react',
+        'tailwind',
+        'javascript',
+        'html',
+        'css',
+        'node.js',
+        'express',
+        'mongoDB',
+        'ajax',
+        'OOP',
+        'responsive websites',
+       ],
+       softwareHouse: 'Typeform',
       },
       {
-        title: 'MERN Developer – SaaS CRM Builder',
-        location: 'Toronto, Canada',
-        postedDate: '2025-07-02',
-        salary: '$440.00/Month',
-        description:
-          "Join our platform team to develop customer engagement tools using MERN stack with heavy emphasis on UI logic and integrations.",
-        responsibilities: [
-          'Work on front-to-back CRM features.',
-          'Maintain modular components in React.',
-          'Integrate API endpoints with role-based access.',
-          'Write secure login and auth features using JWT.'
-        ],
-        requirements: [
-          'At least 3 years in full stack JavaScript.',
-          'Solid React/Redux fundamentals.',
-          'Hands-on with MongoDB & Mongoose schema.',
-          'Experience working in distributed teams.'
-        ],
-        skills: ['MongoDB', 'Express.js', 'React', 'Node.js', 'JWT', 'Redux', 'Tailwind', 'CI/CD'],
-        softwareHouse: 'Shopify'
+       title: 'Full Stack Next.js Developer – Serverless + SSR Apps',
+       location: 'Dubai, UAE',
+       postedDate: '2025-07-02',
+       salary: '$540.00/Month',
+       description:
+        'We’re building high-traffic apps for fintech clients and need a senior Next.js developer to lead SSR integration and cloud function workflows.',
+       responsibilities: [
+        'Manage frontend modules using React and Tailwind.',
+        'Build scalable backend APIs with Express.',
+        'Connect MongoDB operations to client interfaces.',
+        'Implement routing strategies using Next.js features.',
+       ],
+       requirements: [
+        '3–3.5 years of experience with React + Next.js.',
+        'Comfortable working with serverless tools.',
+        'Strong problem-solving and optimization techniques.',
+        'Proficiency with Git and deployment pipelines.',
+       ],
+       skills: [
+        'javascript',
+        'node.js',
+        'express',
+        'tailwind',
+        'next.js',
+        'react',
+        'css',
+        'html',
+        'data structures',
+        'MVC',
+        'OOP',
+        'functions behind the scene',
+       ],
+       softwareHouse: 'Fetchr',
       },
       {
-        title: 'Senior MERN Developer – GraphQL & Microservices',
-        location: 'Copenhagen, Denmark',
-        postedDate: '2025-07-01',
-        salary: '$438.00/Month',
-        description:
-          "You’ll lead front-end and back-end feature implementation in a microservice-based architecture. Must be confident in GraphQL API consumption and modern React patterns.",
-        responsibilities: [
-          'Build GraphQL-integrated UIs.',
-          'Work on cloud functions and deployments.',
-          'Set up MongoDB models and validations.',
-          'Maintain code quality and peer reviews.'
-        ],
-        requirements: [
-          '3+ years in MERN stack with GraphQL experience.',
-          'Hands-on with scalable architecture.',
-          'Comfortable with CI tools and Docker.',
-          'Strong communication and problem-solving.'
-        ],
-        skills: ['React', 'Node.js', 'MongoDB', 'Express.js', 'GraphQL', 'TypeScript', 'Docker', 'Git'],
-        softwareHouse: 'Tradeshift'
+       title: 'Next.js Frontend Engineer – Ecommerce Interface Build',
+       location: 'Amsterdam, Netherlands',
+       postedDate: '2025-07-02',
+       salary: '$530.00/Month',
+       description:
+        'Looking for a skilled frontend engineer with mastery in React and Next.js to build fast, SEO-ready eCommerce frontends and integrations with backend APIs.',
+       responsibilities: [
+        'Develop responsive UIs using Tailwind and React.',
+        'Use Next.js routing and API pages efficiently.',
+        'Collaborate with backend team for API needs.',
+        'Ensure accessibility and responsive compliance.',
+       ],
+       requirements: [
+        '3+ years of frontend dev experience.',
+        'Experience with REST, GraphQL, and third-party APIs.',
+        'Ability to write reusable UI components.',
+        'Strong eye for UX/UI detail.',
+       ],
+       skills: [
+        'html',
+        'next.js',
+        'tailwind',
+        'react',
+        'css',
+        'javascript',
+        'node.js',
+        'mongoDB',
+        'express',
+        'dom',
+        'responsive websites',
+       ],
+       softwareHouse: 'Booking.com',
       },
       {
-        title: 'MERN Stack Developer – TypeScript & Mongoose Expert',
-        location: 'Cape Town, South Africa',
-        postedDate: '2025-07-01',
-        salary: '$415.00/Month',
-        description:
-          "We are scaling internal tools and dashboards using the MERN stack, written in TypeScript. Looking for someone experienced in database design and schema optimization.",
-        responsibilities: [
-          'Work on frontend components using React & TypeScript.',
-          'Design robust MongoDB schemas using Mongoose.',
-          'Develop APIs with proper validation and error handling.',
-          'Deploy apps via CI/CD pipelines.'
-        ],
-        requirements: [
-          '2+ years of MERN development.',
-          'Advanced skills in Mongoose and backend logic.',
-          'Experience with Git and testing tools.',
-          'Comfortable in agile and fast-paced teams.'
-        ],
-        skills: ['React', 'TypeScript', 'MongoDB', 'Express.js', 'Mongoose', 'Tailwind', 'JWT'],
-        softwareHouse: 'Yoco Technologies'
+       title: 'Next.js + Express Developer – Cloud CMS Platforms',
+       location: 'Cairo, Egypt',
+       postedDate: '2025-07-02',
+       salary: '$545.00/Month',
+       description:
+        "Help us integrate CMS platforms like Sanity with custom Next.js UIs. If you're great at frontend and backend logic, this role is for you.",
+       responsibilities: [
+        'Implement CMS-driven routes in Next.js.',
+        'Write custom API handlers with Express.',
+        'Integrate data via GROQ or REST queries.',
+        'Deploy to Vercel and monitor build pipelines.',
+       ],
+       requirements: [
+        'Minimum 3 years full stack experience.',
+        'Familiarity with headless CMS systems.',
+        'Solid frontend fundamentals and backend APIs.',
+        'Understanding of ISR and content caching.',
+       ],
+       skills: [
+        'next.js',
+        'react',
+        'node.js',
+        'mongoDB',
+        'express',
+        'javascript',
+        'html',
+        'css',
+        'dom',
+        'tailwind',
+        'OOP',
+        'MUI',
+       ],
+       softwareHouse: 'Instabug',
       },
       {
-        title: 'Full Stack MERN Developer – Cloud SaaS Tools',
-        location: 'Dubai, UAE',
-        postedDate: '2025-07-01',
-        salary: '$420.00/Month',
-        description:
-          "Help us build cloud-based accounting and inventory apps using full MERN stack. This is a hybrid role involving backend logic and UI/UX responsiveness.",
-        responsibilities: [
-          'Create dashboard features using React.',
-          'Write Node-based APIs with clean structure.',
-          'Secure user data using JWT and session tokens.',
-          'Design responsive UI with Tailwind.'
-        ],
-        requirements: [
-          '2–3 years of full stack experience.',
-          'Knowledge of secure REST APIs and CRUD systems.',
-          'Strong teamwork and GitHub familiarity.',
-          'Basic cloud deployment (Netlify/Vercel).'
-        ],
-        skills: ['React', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'Tailwind', 'Git'],
-        softwareHouse: 'Careem (Uber Subsidiary)'
-      }
+       title: 'Senior Next.js + MERN Developer – Real-Time Dashboards',
+       location: 'Singapore',
+       postedDate: '2025-07-02',
+       salary: '$525.00/Month',
+       description:
+        "We're seeking a full stack Next.js developer experienced in building dashboard interfaces, socket connections, and data streaming with MongoDB.",
+       responsibilities: [
+        'Build feature-rich dashboards in React + Next.js.',
+        'Manage state with Redux or Context.',
+        'Work with real-time sockets for live updates.',
+        'Collaborate on backend Express API design.',
+       ],
+       requirements: [
+        '3–3.5 years in modern full stack stacks.',
+        'Experience in WebSocket-based apps.',
+        'Hands-on with Next.js data fetching (SSR, ISR).',
+        'Strong understanding of SPA and PWA.',
+       ],
+       skills: [
+        'socket.io',
+        'node.js',
+        'express',
+        'mongoDB',
+        'html',
+        'tailwind',
+        'react',
+        'next.js',
+        'javascript',
+        'css',
+        'prototype',
+        'google app script',
+       ],
+       softwareHouse: 'Shopee',
+      },
      ],
      'GLASSDOOR.com': [
       {
-        title: 'MERN Stack Developer – Admin Panel Engineering',
-        location: 'Helsinki, Finland',
-        postedDate: '2025-07-02',
-        salary: '$410.00/Month',
-        description:
-          "Develop and maintain internal admin panels and analytics dashboards using MERN technologies. Work closely with backend services and product leads.",
-        responsibilities: [
-          'Design frontend components in React + Redux.',
-          'Build secure API routes in Node/Express.',
-          'Integrate MongoDB queries and validation.',
-          'Maintain pixel-perfect responsive UIs.'
-        ],
-        requirements: [
-          '2+ years in full stack JS development.',
-          'Strong understanding of REST and middleware.',
-          'Experience in responsive CSS frameworks.',
-          'Team-oriented and organized in Git workflows.'
-        ],
-        skills: ['React', 'Redux', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind', 'REST API'],
-        softwareHouse: 'Wolt'
+       title: 'Full Stack Developer – Next.js & Cloud API Ecosystem',
+       location: 'Toronto, Canada',
+       postedDate: '2025-07-02',
+       salary: '$540.00/Month',
+       description:
+        'Looking for a developer with mastery in Next.js and REST APIs to build server-rendered apps integrated with modern BaaS solutions.',
+       responsibilities: [
+        'Design SSR apps with custom hooks and pages.',
+        'Manage cloud database connections via MongoDB.',
+        'Use Node.js and Express for backend workflows.',
+        'Collaborate with design team for pixel-perfect UIs.',
+       ],
+       requirements: [
+        '3–3.5 years of experience in full stack JS.',
+        'Strong frontend skills with Tailwind and MUI.',
+        'Experience in building and consuming APIs.',
+        'Good problem-solving and documentation practices.',
+       ],
+       skills: [
+        'javascript',
+        'next.js',
+        'tailwind',
+        'react',
+        'node.js',
+        'express',
+        'mongoDB',
+        'html',
+        'css',
+        'data structures',
+        'functions behind the scene',
+       ],
+       softwareHouse: 'Shopify',
       },
       {
-        title: 'Full Stack JavaScript Developer – MERN + DevOps Exposure',
-        location: 'Tokyo, Japan',
-        postedDate: '2025-07-02',
-        salary: '$438.00/Month',
-        description:
-          "We’re scaling a video streaming platform using MERN stack and DevOps pipelines. Looking for engineers who can collaborate cross-functionally and own features end-to-end.",
-        responsibilities: [
-          'Work with product on feature delivery.',
-          'Manage cloud functions and deployment.',
-          'Write scalable backend APIs in Express.',
-          'Implement reusable UI logic with Tailwind.'
-        ],
-        requirements: [
-          'At least 3 years of JavaScript/MERN experience.',
-          'Exposure to CI/CD tools like GitHub Actions.',
-          'Comfortable using Docker in dev environments.',
-          'Familiarity with video/image optimization a plus.'
-        ],
-        skills: ['MongoDB', 'Express.js', 'React', 'Node.js', 'Tailwind', 'CI/CD', 'Docker'],
-        softwareHouse: 'Rakuten'
+       title: 'Senior Next.js Developer – Advanced Web Interfaces',
+       location: 'Berlin, Germany',
+       postedDate: '2025-07-02',
+       salary: '$525.00/Month',
+       description:
+        'Join our innovative product team to develop interactive web platforms using Next.js, Express, and MongoDB. Collaborate on UI/UX, data fetching, and performance optimizations.',
+       responsibilities: [
+        'Build responsive UIs with React, Tailwind, and Next.js.',
+        'Work on dynamic API routes and integrations.',
+        'Optimize code for SSR/CSR transitions.',
+        'Collaborate with QA and backend teams.',
+       ],
+       requirements: [
+        '3.5+ years of experience in full stack JS.',
+        'Strong knowledge of REST and API patterns.',
+        'Deep understanding of React lifecycles and SSR.',
+        'Strong communication and debugging skills.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'javascript',
+        'react',
+        'next.js',
+        'tailwind',
+        'node.js',
+        'express',
+        'mongoDB',
+        'OOP',
+        'ajax',
+        'prototype',
+       ],
+       softwareHouse: 'SoundCloud',
       },
       {
-        title: 'MERN Stack Engineer – Healthcare Web Platforms',
-        location: 'Lisbon, Portugal',
-        postedDate: '2025-07-02',
-        salary: '$425.00/Month',
-        description:
-          "Join our healthcare SaaS platform and improve patient dashboards and clinic admin tools using the MERN stack. Focused on speed, clarity, and compliance.",
-        responsibilities: [
-          'Build role-based dashboards with React and Redux.',
-          'Secure backend APIs with Express & JWT.',
-          'Write flexible MongoDB schemas.',
-          'Follow accessibility and GDPR best practices.'
-        ],
-        requirements: [
-          '2–3 years with MERN technologies.',
-          'Understanding of healthcare data standards (a bonus).',
-          'Detail-oriented with UI precision.',
-          'Able to write clean, testable code.'
-        ],
-        skills: ['React', 'Redux', 'Node.js', 'MongoDB', 'Express.js', 'JWT', 'Tailwind'],
-        softwareHouse: 'Talkdesk'
+       title: 'Senior Developer – Next.js + Firebase Realtime Apps',
+       location: 'Melbourne, Australia',
+       postedDate: '2025-07-02',
+       salary: '$545.00/Month',
+       description:
+        "Join our collaborative team to build real-time apps using Next.js and Firebase. You'll lead frontend state management and backend cloud functions.",
+       responsibilities: [
+        'Implement real-time UI updates with Firebase.',
+        'Write and deploy secure backend functions.',
+        'Develop rich frontend flows using React + Tailwind.',
+        'Support Next.js deployments and SEO strategies.',
+       ],
+       requirements: [
+        '3–3.5 years of experience in full stack development.',
+        'Firebase Auth, Firestore, and Functions proficiency.',
+        'Strong control over component rendering logic.',
+        'Excellent communication and Git practices.',
+       ],
+       skills: [
+        'firebase',
+        'next.js',
+        'react',
+        'javascript',
+        'tailwind',
+        'html',
+        'css',
+        'node.js',
+        'express',
+        'dom',
+        'OOP',
+        'socket.io',
+       ],
+       softwareHouse: 'Envato',
       },
       {
-        title: 'MERN Developer – E-Commerce UI & Cart Logic',
-        location: 'Rome, Italy',
-        postedDate: '2025-07-01',
-        salary: '$417.00/Month',
-        description:
-          "Be part of a boutique e-commerce team building responsive storefronts and smart carts using MERN technologies and session-based storage logic.",
-        responsibilities: [
-          'Create responsive layouts with React.',
-          'Implement cart and checkout with Express APIs.',
-          'Design MongoDB models for inventory.',
-          'Collaborate on improving site speed and UX.'
-        ],
-        requirements: [
-          '2+ years in MERN projects.',
-          'Familiar with SSR and hydration concepts.',
-          'Good grasp of sessions, auth, and cookies.',
-          'Pixel perfection and layout accuracy required.'
-        ],
-        skills: ['React', 'Express.js', 'Node.js', 'MongoDB', 'Tailwind', 'Redux', 'JWT'],
-        softwareHouse: 'Yoox Net-A-Porter'
+       title: 'Lead Next.js Engineer – AI-Driven Applications',
+       location: 'Tokyo, Japan',
+       postedDate: '2025-07-02',
+       salary: '$530.00/Month',
+       description:
+        'We are developing AI-first user interfaces using Tensorflow.js, Next.js, and Express. Ideal role for someone passionate about blending ML and web UI.',
+       responsibilities: [
+        'Develop AI-focused frontend apps in Next.js.',
+        'Integrate ML models into the frontend logic.',
+        'Build API endpoints to serve ML responses.',
+        'Optimize rendering performance for predictions.',
+       ],
+       requirements: [
+        '3+ years of frontend development experience.',
+        'Knowledge of machine learning and Tensorflow.js.',
+        'Strong JavaScript/React foundation.',
+        'Experience with SSR performance tuning.',
+       ],
+       skills: [
+        'tensorflow.js',
+        'next.js',
+        'html',
+        'css',
+        'javascript',
+        'tailwind',
+        'node.js',
+        'express',
+        'react',
+        'google app script',
+        'data structures',
+       ],
+       softwareHouse: 'LINE Corporation',
       },
       {
-        title: 'MERN Stack Developer – Fintech Product Line',
-        location: 'Dublin, Ireland',
-        postedDate: '2025-07-01',
-        salary: '$440.00/Month',
-        description:
-          "Work with us to develop finance dashboards, ledger systems, and account APIs using MERN. Focus on speed, accuracy, and security throughout the full stack.",
-        responsibilities: [
-          'Implement account and transaction UIs with React.',
-          'Create API routes and auth middleware.',
-          'Integrate financial reporting modules.',
-          'Deploy code using versioned Git workflows.'
-        ],
-        requirements: [
-          '3 years MERN development in production apps.',
-          'Excellent JS debugging and test writing.',
-          'Secure handling of sensitive data.',
-          'Experience working in sprint teams.'
-        ],
-        skills: ['React', 'Node.js', 'MongoDB', 'Express.js', 'JWT', 'Redux', 'Tailwind'],
-        softwareHouse: 'Stripe'
-      }
+       title: 'Next.js + MERN Specialist – Microservices Architecture',
+       location: 'Nairobi, Kenya',
+       postedDate: '2025-07-02',
+       salary: '$550.00/Month',
+       description:
+        'Join a fast-growing fintech company building microservices with Next.js as the frontend layer and Node/Express in the backend.',
+       responsibilities: [
+        'Lead Next.js frontend architecture with modular pages.',
+        'Design secure API endpoints with Express.',
+        'Integrate MongoDB aggregations with real-time rendering.',
+        'Participate in sprint planning and reviews.',
+       ],
+       requirements: [
+        '3.5+ years in full stack product development.',
+        'Hands-on experience with scalable microservices.',
+        'Strong command of TypeScript and modular JS.',
+        'Ability to collaborate across distributed teams.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'react',
+        'next.js',
+        'node.js',
+        'mongoDB',
+        'express',
+        'tailwind',
+        'MUI',
+        'responsive websites',
+        'OOP',
+       ],
+       softwareHouse: 'Twiga Tech',
+      },
      ],
      'INDEED.com': [
       {
-        title: 'Senior MERN Developer – Internal Tools & Dashboards',
-        location: 'Barcelona, Spain',
-        postedDate: '2025-06-30',
-        salary: '$433.00/Month',
-        description:
-          "Join our internal tools team to build UI dashboards for managing users, metrics, and platform controls across departments. Full stack logic in MERN.",
-        responsibilities: [
-          'Create component-driven dashboards in React.',
-          'Write backend services using Node & Express.',
-          'Integrate real-time charts with database metrics.',
-          'Implement user access and permission layers.'
-        ],
-        requirements: [
-          '2–3 years in full stack engineering.',
-          'Good knowledge of backend logic with role-based access.',
-          'Experience building internal admin tools.',
-          'Able to deliver features independently.'
-        ],
-        skills: ['React', 'MongoDB', 'Node.js', 'Express.js', 'Tailwind', 'JWT', 'Redux'],
-        softwareHouse: 'Glovo'
+       title: 'Next.js Stack Engineer – SaaS and UI Performance',
+       location: 'Oslo, Norway',
+       postedDate: '2025-07-02',
+       salary: '$525.00/Month',
+       description:
+        'Work in a SaaS product team to build high-performance UI using React/Next.js stack. Collaborate on backend Express logic and PWA development.',
+       responsibilities: [
+        'Develop SSR web apps with dynamic content.',
+        'Manage backend connections using MongoDB.',
+        'Improve code performance and UI responsiveness.',
+        'Implement SEO-friendly Next.js routes.',
+       ],
+       requirements: [
+        '3.5+ years in React/Node development.',
+        'Strong in client-server communication and performance.',
+        'Good UI/UX sense and accessibility knowledge.',
+        'Experience with database optimization preferred.',
+       ],
+       skills: [
+        'javascript',
+        'node.js',
+        'next.js',
+        'react',
+        'tailwind',
+        'html',
+        'css',
+        'express',
+        'mongoDB',
+        'MVC',
+        'functions behind the scene',
+       ],
+       softwareHouse: 'Telenor Digital',
       },
       {
-        title: 'MERN Developer – Agile Agency Projects',
-        location: 'Stockholm, Sweden',
-        postedDate: '2025-06-30',
-        salary: '$419.00/Month',
-        description:
-          "Contribute to multiple short and long-term client projects using the MERN stack. You’ll work on landing pages, internal tools, and API-first applications.",
-        responsibilities: [
-          'Handle cross-stack feature development.',
-          'Use Tailwind to implement rapid prototypes.',
-          'Build Express-based backend logic.',
-          'Participate in agile sprint meetings and reviews.'
-        ],
-        requirements: [
-          'Minimum 2 years of MERN experience.',
-          'Fast learner and adaptable to new client specs.',
-          'Comfortable with pair programming and Jira.',
-          'Clean commit history and Git etiquette.'
-        ],
-        skills: ['MongoDB', 'React', 'Node.js', 'Express.js', 'Redux', 'Tailwind', 'Git'],
-        softwareHouse: 'Tink'
+       title: 'Full Stack Engineer – Next.js + Socket.io Integration',
+       location: 'Seoul, South Korea',
+       postedDate: '2025-07-02',
+       salary: '$535.00/Month',
+       description:
+        'Develop real-time multiplayer applications using the MERN stack. Use Next.js and Socket.io to sync frontend with backend game logic.',
+       responsibilities: [
+        'Build responsive game UIs using React + Tailwind.',
+        'Integrate Socket.io events for real-time updates.',
+        'Handle API logic using Node/Express.',
+        'Collaborate with backend for DB sync.',
+       ],
+       requirements: [
+        '3+ years in real-time app development.',
+        'Experience with multiplayer architecture.',
+        'Strong frontend and backend debugging.',
+        'Version control and Git flow experience.',
+       ],
+       skills: [
+        'socket.io',
+        'next.js',
+        'react',
+        'javascript',
+        'html',
+        'css',
+        'node.js',
+        'mongoDB',
+        'express',
+        'dom',
+        'bootstraps',
+       ],
+       softwareHouse: 'NCSoft',
       },
       {
-        title: 'Full Stack MERN Developer – Startup Environment',
-        location: 'Bangkok, Thailand',
-        postedDate: '2025-06-30',
-        salary: '$415.00/Month',
-        description:
-          "A fast-growing travel startup is hiring MERN developers to lead the frontend and backend of their user booking platform. This role is hands-on and impactful.",
-        responsibilities: [
-          'Develop user portals in React and Tailwind.',
-          'Build backend APIs and Mongo models.',
-          'Integrate third-party APIs (Stripe, Booking.com).',
-          'Manage state with Redux and contexts.'
-        ],
-        requirements: [
-          '2+ years in startup or fast-paced teams.',
-          'Experience working with travel or booking APIs.',
-          'Can debug both frontend and backend issues.',
-          'Basic knowledge of DevOps tools a plus.'
-        ],
-        skills: ['React', 'Node.js', 'MongoDB', 'Redux', 'Express.js', 'Tailwind', 'REST API'],
-        softwareHouse: 'Agoda'
+       title: 'Next.js + Strapi Developer – Full Stack CMS Experience',
+       location: 'Lisbon, Portugal',
+       postedDate: '2025-07-02',
+       salary: '$540.00/Month',
+       description:
+        'We’re hiring a full stack dev to build CMS-integrated platforms using Next.js and Strapi. Focus on user dashboards, backend APIs, and clean UX.',
+       responsibilities: [
+        'Use Next.js with Tailwind for frontend UI.',
+        'Integrate Strapi and custom backend endpoints.',
+        'Deploy to Vercel with serverless functions.',
+        'Ensure accessibility and design system consistency.',
+       ],
+       requirements: [
+        '3–3.5 years of experience in React/Next.js.',
+        'Good understanding of CMS data models.',
+        'Solid backend skills in Node/Express.',
+        'Experience with PWA and SSR apps.',
+       ],
+       skills: [
+        'next.js',
+        'react',
+        'tailwind',
+        'html',
+        'css',
+        'node.js',
+        'express',
+        'javascript',
+        'google app script',
+        'ajax',
+        'OOP',
+       ],
+       softwareHouse: 'Unbabel',
       },
       {
-        title: 'MERN Stack Engineer – LMS & Education Tools',
-        location: 'Auckland, New Zealand',
-        postedDate: '2025-06-29',
-        salary: '$412.00/Month',
-        description:
-          "Work with our edtech platform to develop interactive lessons, user management modules, and reporting dashboards — all built on MERN stack.",
-        responsibilities: [
-          'Design components for quizzes, results, and users.',
-          'Secure backend logic with authentication middleware.',
-          'Create reporting and analytics dashboards.',
-          'Ensure mobile-first responsive UIs.'
-        ],
-        requirements: [
-          '2+ years of MERN stack experience.',
-          'Previous edtech or LMS platform experience preferred.',
-          'Strong CSS/HTML fundamentals with Tailwind.',
-          'Experience with Mongoose and nested data.'
-        ],
-        skills: ['React', 'Express.js', 'MongoDB', 'Node.js', 'JWT', 'Tailwind', 'Mongoose'],
-        softwareHouse: 'Education Perfect'
+       title: 'Next.js + Express Full Stack Developer',
+       location: 'Warsaw, Poland',
+       postedDate: '2025-07-02',
+       salary: '$525.00/Month',
+       description:
+        'Build fast and scalable tools for enterprise teams using modern full stack technologies. Focus on clean UI and backend logic in Express.',
+       responsibilities: [
+        'Code frontend with Next.js and Tailwind.',
+        'Write backend APIs in Node/Express.',
+        'Optimize SEO and Lighthouse performance.',
+        'Contribute to CI/CD deployments.',
+       ],
+       requirements: [
+        '3.5 years of experience in full stack dev.',
+        'Solid knowledge of JavaScript ES6+.',
+        'Strong attention to code readability.',
+        'Good grip on frontend testing and responsiveness.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'tailwind',
+        'javascript',
+        'next.js',
+        'react',
+        'node.js',
+        'express',
+        'mongoDB',
+        'OOP',
+        'ajax',
+        'critical rendering',
+       ],
+       softwareHouse: 'Allegro',
       },
       {
-        title: 'MERN Developer – Mobile Web & Responsive Systems',
-        location: 'Buenos Aires, Argentina',
-        postedDate: '2025-06-29',
-        salary: '$414.00/Month',
-        description:
-          "Join a design-focused mobile web team building MERN stack apps optimized for 4G/5G experiences. You’ll focus on responsiveness and speed.",
-        responsibilities: [
-          'Develop responsive UIs using Tailwind.',
-          'Build REST APIs and handle auth tokens.',
-          'Optimize performance for mobile data usage.',
-          'Maintain accessibility standards.'
-        ],
-        requirements: [
-          '2–3 years of MERN experience.',
-          'Strong interest in performance optimization.',
-          'Can work closely with designers.',
-          'Understanding of internationalization (i18n).'
-        ],
-        skills: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind', 'JWT', 'REST API'],
-        softwareHouse: 'Mercado Libre'
-      }
+       title: 'Next.js UI Engineer – Performance Optimization Focus',
+       location: 'Zurich, Switzerland',
+       postedDate: '2025-07-02',
+       salary: '$550.00/Month',
+       description:
+        'Join a fintech company building highly optimized interfaces with Next.js, React, and dynamic routing. Prioritize performance, SEO, and user journeys.',
+       responsibilities: [
+        'Lead frontend performance initiatives.',
+        'Optimize rendering for mobile and web.',
+        'Work on GraphQL + REST API integration.',
+        'Push UI/UX boundaries through Tailwind and MUI.',
+       ],
+       requirements: [
+        '3–3.5 years frontend experience.',
+        'Mastery of responsive CSS and SEO practices.',
+        'Experience in financial dashboards a plus.',
+        'Strong Next.js lifecycle understanding.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'javascript',
+        'tailwind',
+        'react',
+        'next.js',
+        'node.js',
+        'express',
+        'mongoDB',
+        'MUI',
+        'responsive websites',
+        'data structures',
+       ],
+       softwareHouse: 'Credit Suisse',
+      },
      ],
     };
 
@@ -4144,37 +4961,902 @@ export default function TechStackJobsMarket() {
     'GLASSDOOR.com',
     'INDEED.com',
    ],
-   content: (platform) => {
-    // platform-specific data
-    const platformData = {
-     'ROZEE.pk': {
-      imagePath1: '/assets/image/jobs/reactN-rozee-1.png',
-      imagePath2: '/assets/image/jobs/reactN-rozee-2.png',
-     },
-     'CAREERJET.com': {
-      imagePath1: '/assets/image/jobs/reactN-career-1.png',
-     },
-     'SIMPLYHIRED.com': {
-      imagePath1: '/assets/image/jobs/reactN-simplyHired-1.png',
-     },
-     'GLASSDOOR.com': {
-      imagePath1: '/assets/image/jobs/reactN-glassdoor-1.png',
-     },
-     'INDEED.com': {
-      imagePath1: '/assets/image/jobs/reactN-indeed-1.png',
-     },
+   content: (country) => {
+    const countryData = {
+     'ROZEE.pk': [
+      {
+       title: 'React Native Developer – Full Stack Mobile Engineer',
+       location: 'Lahore, Pakistan',
+       postedDate: '2025-07-02',
+       salary: 'PKR 185,000/Month',
+       description:
+        'Join our mobile app division as a React Native developer. Build and deploy full stack mobile applications using modern backend and cloud-native services.',
+       responsibilities: [
+        'Develop cross-platform mobile apps using React Native.',
+        'Integrate REST APIs built with Node.js and Express.',
+        'Implement scalable state and navigation systems.',
+        'Ensure responsive, accessible mobile UIs.',
+       ],
+       requirements: [
+        '3+ years in mobile app development with React Native.',
+        'Understanding of backend integration and storage.',
+        'Hands-on with responsive layout frameworks.',
+        'Strong debugging and performance tuning skills.',
+       ],
+       skills: [
+        'react native',
+        'mobile apps',
+        'javascript',
+        'node.js',
+        'html',
+        'tailwind',
+        'css',
+        'express',
+        'OOP',
+        'functions behind the scene',
+        'ajax',
+        'MUI',
+        'responsive websites',
+        'protoype',
+       ],
+       softwareHouse: 'Systems Limited',
+      },
+      {
+       title: 'Senior React Native Engineer – Cross-Platform Mobile',
+       location: 'Islamabad, Pakistan',
+       postedDate: '2025-07-02',
+       salary: 'PKR 179,000/Month',
+       description:
+        "We're hiring a senior React Native engineer to lead cross-platform mobile development for business automation apps. Experience with REST APIs and design systems is required.",
+       responsibilities: [
+        'Lead development of mobile apps in React Native.',
+        'Work closely with backend teams on Express-based APIs.',
+        'Implement consistent UI using MUI and Tailwind.',
+        'Optimize performance and handle device-level integrations.',
+       ],
+       requirements: [
+        '4+ years of relevant experience in React Native.',
+        'Strong skills in JavaScript, CSS, and responsive layout.',
+        'Solid command on cross-platform deployment.',
+        'Experience with Google Maps, Notifications, and Sockets.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'react native',
+        'mobile apps',
+        'javascript',
+        'node.js',
+        'tailwind',
+        'MUI',
+        'data structures',
+        'express',
+        'socket.io',
+        'dom',
+        'ajax',
+        'google app script',
+       ],
+       softwareHouse: '10Pearls',
+      },
+      {
+       title: 'React Native Specialist – Backend Integrated Mobile Apps',
+       location: 'Karachi, Pakistan',
+       postedDate: '2025-07-02',
+       salary: 'PKR 178,000/Month',
+       description:
+        'Build scalable and offline-first mobile apps in React Native. This role is perfect for developers who enjoy building full-featured apps with integrated backend logic.',
+       responsibilities: [
+        'Create reusable components and modules for mobile apps.',
+        'Integrate real-time data and APIs into app interfaces.',
+        'Ensure smooth performance on Android and iOS.',
+        'Participate in agile development and testing cycles.',
+       ],
+       requirements: [
+        '3.5+ years of React Native experience.',
+        'Deep understanding of the mobile development lifecycle.',
+        'Familiarity with NoSQL/MongoDB and Express APIs.',
+        'Experience with offline storage and app updates.',
+       ],
+       skills: [
+        'mobile apps',
+        'javascript',
+        'html',
+        'css',
+        'react native',
+        'node.js',
+        'tailwind',
+        'ajax',
+        'MVC',
+        'responsive websites',
+        'machine learning',
+        'bootstraps',
+        'OOP',
+       ],
+       softwareHouse: 'Techlogix',
+      },
+      {
+       title: 'Full Stack React Native Developer – Node & Express Integration',
+       location: 'Faisalabad, Pakistan',
+       postedDate: '2025-07-02',
+       salary: 'PKR 182,000/Month',
+       description:
+        "Looking for a full stack React Native developer to lead mobile-first solutions powered by robust Express-based backends. You'll be working across the stack with a UX-first mindset.",
+       responsibilities: [
+        'Develop frontend and backend logic for mobile apps.',
+        'Implement Tailwind-based UI for mobile.',
+        'Design and test REST APIs in Express.',
+        'Build scalable mobile apps using React Native.',
+       ],
+       requirements: [
+        '4+ years full stack experience with React Native.',
+        'Proficiency in frontend + backend coordination.',
+        'Experience with Git, Agile, and cloud deployment.',
+        'Strong sense of mobile UX/UI patterns.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'tailwind',
+        'javascript',
+        'react native',
+        'mobile apps',
+        'node.js',
+        'express',
+        'critical rendering',
+        'functions behind the scene',
+        'OOP',
+        'google app script',
+       ],
+       softwareHouse: 'VentureDive',
+      },
+      {
+       title: 'React Native App Developer – Secure Fintech Mobile Solutions',
+       location: 'Peshawar, Pakistan',
+       postedDate: '2025-07-02',
+       salary: 'PKR 189,000/Month',
+       description:
+        'Join a fast-growing fintech company and help us build secure, efficient, and user-friendly mobile applications using React Native. Strong backend and mobile logic required.',
+       responsibilities: [
+        'Create mobile interfaces for finance-based workflows.',
+        'Develop offline-first and secure login features.',
+        'Write and connect Express/MongoDB endpoints.',
+        'Handle push notifications and deep linking.',
+       ],
+       requirements: [
+        '3+ years of production-grade React Native development.',
+        'Ability to work on complex flows and integrations.',
+        'Strong database and API handling skills.',
+        'Solid performance profiling and testing experience.',
+       ],
+       skills: [
+        'react native',
+        'mobile apps',
+        'javascript',
+        'html',
+        'tailwind',
+        'css',
+        'node.js',
+        'express',
+        'protoype',
+        'responsive websites',
+        'tensorflow.js',
+        'ajax',
+        'bootstraps',
+        'OOP',
+       ],
+       softwareHouse: 'CureMD',
+      },
+     ],
+     'CAREERJET.com': [
+      {
+       title:
+        'Senior React Native Developer – Backend-Integrated Mobile Platforms',
+       location: 'Seattle, WA, USA',
+       postedDate: '2025-07-02',
+       salary: '$620.00/Month',
+       description:
+        'We’re building a next-gen mobile solution in the education space. Looking for a React Native specialist with backend Node.js skills to own mobile architecture.',
+       responsibilities: [
+        'Build mobile applications from concept to deployment.',
+        'Manage app state, storage, and offline syncing.',
+        'Integrate MongoDB and Express APIs with frontend.',
+        'Test across devices and platforms for performance.',
+       ],
+       requirements: [
+        '4+ years of React Native and Node.js experience.',
+        'Strong command of cross-platform navigation libraries.',
+        'Hands-on experience with Express and MongoDB.',
+        'Experience with Redux or Context preferred.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'javascript',
+        'react native',
+        'node.js',
+        'mobile apps',
+        'tailwind',
+        'express',
+        'data structures',
+        'bootstraps',
+        'ajax',
+        'MUI',
+        'OOP',
+       ],
+       softwareHouse: 'Duolingo',
+      },
+      {
+       title: 'React Native Engineer – Cross-Platform Mobile App Specialist',
+       location: 'Austin, TX, USA',
+       postedDate: '2025-07-02',
+       salary: '$635.00/Month',
+       description:
+        'Join our mobile development team and lead cross-platform solutions using React Native. Help us build high-performance apps with integrated APIs and cloud functions.',
+       responsibilities: [
+        'Develop hybrid mobile applications using React Native.',
+        'Write reusable UI components with Tailwind.',
+        'Integrate APIs using Node.js and Express.',
+        'Collaborate with designers for smooth UX flows.',
+       ],
+       requirements: [
+        '3+ years of mobile development experience.',
+        'Strong understanding of app lifecycle and data storage.',
+        'Experience with backend API handling.',
+        'Familiarity with cross-platform performance issues.',
+       ],
+       skills: [
+        'react native',
+        'mobile apps',
+        'tailwind',
+        'javascript',
+        'html',
+        'css',
+        'node.js',
+        'express',
+        'socket.io',
+        'functions behind the scene',
+        'OOP',
+        'responsive websites',
+       ],
+       softwareHouse: 'BigCommerce',
+      },
+      {
+       title: 'React Native Developer – Scalable Mobile Solutions',
+       location: 'Boston, MA, USA',
+       postedDate: '2025-07-02',
+       salary: '$630.00/Month',
+       description:
+        'We are expanding our mobile product line and need a dedicated React Native developer to help architect and scale our existing apps. Backend integration experience is critical.',
+       responsibilities: [
+        'Develop mobile interfaces using React Native and Tailwind.',
+        'Integrate Express APIs and MongoDB operations.',
+        'Contribute to CI/CD pipelines and release cycles.',
+        'Work with QA to test across devices.',
+       ],
+       requirements: [
+        '3+ years of mobile development experience.',
+        'Experience working with cloud functions or Firebase is a bonus.',
+        'Must have deployed production-grade apps.',
+        'Strong familiarity with testing tools and Git workflows.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'javascript',
+        'node.js',
+        'tailwind',
+        'react native',
+        'mobile apps',
+        'express',
+        'critical rendering',
+        'responsive websites',
+        'socket.io',
+        'OOP',
+        'google app script',
+       ],
+       softwareHouse: 'HubSpot',
+      },
+      {
+       title:
+        'React Native Architect – Performance-Oriented Mobile Development',
+       location: 'Chicago, IL, USA',
+       postedDate: '2025-07-02',
+       salary: '$615.00/Month',
+       description:
+        'Looking for a React Native engineer to lead development on scalable mobile apps with clean code and rapid UI rendering. Backend knowledge of Express is essential.',
+       responsibilities: [
+        'Own mobile app development pipeline.',
+        'Lead frontend development using React Native.',
+        'Connect backend with APIs via Node.js.',
+        'Optimize rendering and ensure high FPS performance.',
+       ],
+       requirements: [
+        '4+ years in cross-platform mobile development.',
+        'Deep understanding of performance bottlenecks.',
+        'Hands-on with animations and device APIs.',
+        'Experience with security and data encryption is a plus.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'javascript',
+        'node.js',
+        'tailwind',
+        'react native',
+        'mobile apps',
+        'ajax',
+        'machine learning',
+        'functions behind the scene',
+        'OOP',
+        'bootstraps',
+        'tensorflow.js',
+       ],
+       softwareHouse: 'Groupon',
+      },
+      {
+       title: 'Full Stack Mobile App Developer – React Native + Node.js',
+       location: 'San Diego, CA, USA',
+       postedDate: '2025-07-02',
+       salary: '$600.00/Month',
+       description:
+        'Work with our product team to build and maintain mobile-first applications using React Native and a robust Node.js backend. Experience with MongoDB is a big plus.',
+       responsibilities: [
+        'Develop and maintain scalable React Native apps.',
+        'Design backend APIs with Node.js and Express.',
+        'Implement mobile UI using Tailwind and MUI.',
+        'Ensure mobile app testing and deployment.',
+       ],
+       requirements: [
+        '3.5+ years of experience with React Native and Express.',
+        'Ability to handle full app lifecycle.',
+        'Familiar with REST API structures.',
+        'Working knowledge of mobile-first UX design.',
+       ],
+       skills: [
+        'mobile apps',
+        'react native',
+        'tailwind',
+        'javascript',
+        'css',
+        'html',
+        'node.js',
+        'mongoDB',
+        'dom',
+        'MVC',
+        'google app script',
+        'prototype',
+        'responsive websites',
+       ],
+       softwareHouse: 'Intuit',
+      },
+     ],
+     'SIMPLYHIRED.com': [
+      {
+       title: 'React Native Specialist – Full Stack Mobile Systems',
+       location: 'Singapore',
+       postedDate: '2025-07-02',
+       salary: '$620.00/Month',
+       description:
+        'Looking for an experienced React Native developer to build hybrid mobile apps with real-time backend connectivity and high performance rendering.',
+       responsibilities: [
+        'Architect full stack mobile apps from UI to backend.',
+        'Use Express.js and MongoDB for scalable APIs.',
+        'Design responsive UIs with Tailwind and MUI.',
+        'Ensure data sync and performance on mobile devices.',
+       ],
+       requirements: [
+        '4+ years in full stack mobile development.',
+        'Strong understanding of mobile-first logic.',
+        'Ability to write modular, testable code.',
+        'Experience with cross-platform challenges.',
+       ],
+       skills: [
+        'react native',
+        'mobile apps',
+        'tailwind',
+        'javascript',
+        'html',
+        'css',
+        'node.js',
+        'express',
+        'socket.io',
+        'google app script',
+        'data structures',
+        'bootstraps',
+       ],
+       softwareHouse: 'Grab Holdings',
+      },
+      {
+       title: 'React Native Developer – Global Mobile Platforms',
+       location: 'Barcelona, Spain',
+       postedDate: '2025-07-02',
+       salary: '$610.00/Month',
+       description:
+        'Help us redefine mobile experiences across continents with powerful apps built in React Native. You’ll lead scalable UI logic and backend API integration.',
+       responsibilities: [
+        'Develop high-quality mobile interfaces using React Native.',
+        'Integrate Express APIs with frontend mobile layers.',
+        'Optimize mobile performance and responsiveness.',
+        'Deploy to Android and iOS platforms with CI/CD tools.',
+       ],
+       requirements: [
+        '3+ years experience with React Native and Node.js.',
+        'Strong mobile architecture and design knowledge.',
+        'Familiarity with backend data workflows.',
+        'Passionate about UI performance and accessibility.',
+       ],
+       skills: [
+        'react native',
+        'mobile apps',
+        'html',
+        'css',
+        'tailwind',
+        'node.js',
+        'javascript',
+        'ajax',
+        'MUI',
+        'express',
+        'OOP',
+        'responsive websites',
+       ],
+       softwareHouse: 'Glovo',
+      },
+      {
+       title: 'Full Stack React Native Developer – Realtime Apps',
+       location: 'Dubai, UAE',
+       postedDate: '2025-07-02',
+       salary: '$600.00/Month',
+       description:
+        'Build real-time financial apps using React Native and scalable Express backends. Strong database and state management experience preferred.',
+       responsibilities: [
+        'Develop interactive mobile dashboards.',
+        'Work on MongoDB queries and API endpoints.',
+        'Integrate socket streams for real-time data.',
+        'Ensure responsiveness and test automation.',
+       ],
+       requirements: [
+        '4 years React Native experience with Node/Express.',
+        'Ability to write clean and modular code.',
+        'Understand serverless and state management.',
+        'Collaborate in cross-functional teams.',
+       ],
+       skills: [
+        'javascript',
+        'tailwind',
+        'html',
+        'css',
+        'react native',
+        'mobile apps',
+        'node.js',
+        'express',
+        'mongoDB',
+        'OOP',
+        'socket.io',
+        'dom',
+       ],
+       softwareHouse: 'Careem',
+      },
+      {
+       title: 'Senior React Native Engineer – Cloud Connected Apps',
+       location: 'Dublin, Ireland',
+       postedDate: '2025-07-02',
+       salary: '$630.00/Month',
+       description:
+        'Join our digital health platform to build secure, cloud-enabled mobile apps using React Native. Ensure HIPAA-compliant, real-time experiences.',
+       responsibilities: [
+        'Build mobile health dashboards in React Native.',
+        'Work with backend APIs and socket-based communication.',
+        'Optimize app lifecycle performance.',
+        'Ensure compliance with data handling regulations.',
+       ],
+       requirements: [
+        '3.5+ years mobile development experience.',
+        'Strong Express and cloud database understanding.',
+        'Familiarity with secure user sessions.',
+        'Experience working in agile environments.',
+       ],
+       skills: [
+        'react native',
+        'mobile apps',
+        'tailwind',
+        'javascript',
+        'node.js',
+        'css',
+        'html',
+        'OOP',
+        'critical rendering',
+        'ajax',
+        'MVC',
+        'responsive websites',
+       ],
+       softwareHouse: 'LetsGetChecked',
+      },
+      {
+       title: 'React Native App Developer – AI-Enabled Interfaces',
+       location: 'Amsterdam, Netherlands',
+       postedDate: '2025-07-02',
+       salary: '$635.00/Month',
+       description:
+        'We are developing mobile interfaces powered by machine learning. React Native experience paired with Tensorflow.js is a huge plus.',
+       responsibilities: [
+        'Build UI with React Native and Tailwind.',
+        'Integrate ML models with Tensorflow.js.',
+        'Optimize frontend rendering and animations.',
+        'Deploy to production with backend integrations.',
+       ],
+       requirements: [
+        '3+ years in mobile/AI-based app development.',
+        'Strong JavaScript fundamentals.',
+        'Hands-on with animations and UI transitions.',
+        'Understanding of REST API and state handling.',
+       ],
+       skills: [
+        'react native',
+        'mobile apps',
+        'tailwind',
+        'javascript',
+        'html',
+        'css',
+        'tensorflow.js',
+        'machine learning',
+        'ajax',
+        'functions behind the scene',
+        'prototype',
+        'node.js',
+       ],
+       softwareHouse: 'Booking.com',
+      },
+     ],
+     'GLASSDOOR.com': [
+      {
+       title: 'React Native Mobile Engineer – Full Stack App Development',
+       location: 'Cape Town, South Africa',
+       postedDate: '2025-07-02',
+       salary: '$635.00/Month',
+       description:
+        'Build robust and scalable mobile applications using React Native. Collaborate with backend teams to deliver end-to-end user experiences in emerging markets.',
+       responsibilities: [
+        'Develop cross-platform mobile apps with clean UI/UX.',
+        'Integrate APIs and manage local data storage.',
+        'Work closely with backend team on Express & MongoDB.',
+        'Handle device-level features and deployments.',
+       ],
+       requirements: [
+        '4+ years of hands-on experience in React Native.',
+        'Comfort with Node.js/Express and mobile debugging.',
+        'Experience working in agile and remote teams.',
+        'Strong grasp on responsive and performant UI design.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'javascript',
+        'node.js',
+        'tailwind',
+        'react native',
+        'mobile apps',
+        'express',
+        'OOP',
+        'MUI',
+        'ajax',
+        'responsive websites',
+       ],
+      },
+      {
+       title: 'React Native Developer – AI & Mobility Projects',
+       location: 'Amsterdam, Netherlands',
+       postedDate: '2025-07-02',
+       salary: '$615.00/Month',
+       description:
+        'Join a smart mobility startup using AI-powered logic within React Native apps. Work with Tensorflow.js, RESTful APIs, and clean component architecture.',
+       responsibilities: [
+        'Build advanced mobile features with React Native.',
+        'Embed machine learning models using JS libraries.',
+        'Design smooth user experiences with Tailwind CSS.',
+        'Collaborate with frontend/backend teams globally.',
+       ],
+       requirements: [
+        '3+ years of mobile app dev experience.',
+        'Familiar with ML integration and JS performance.',
+        'Experience with push notifications and device APIs.',
+        'Knowledge of version control and testing libraries.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'javascript',
+        'node.js',
+        'tailwind',
+        'react native',
+        'mobile apps',
+        'tensorflow.js',
+        'functions behind the scene',
+        'bootstraps',
+        'prototype',
+        'google app script',
+       ],
+      },
+      {
+       title: 'React Native App Developer – SaaS & Real-Time Integrations',
+       location: 'Helsinki, Finland',
+       postedDate: '2025-07-02',
+       salary: '$600.00/Month',
+       description:
+        'Join our SaaS team to build mobile apps integrated with real-time data streams. Use React Native, sockets, and clean backend integrations.',
+       responsibilities: [
+        'Develop mobile UIs with live data syncing.',
+        'Build Express-based API bridges.',
+        'Ensure scalability across Android and iOS.',
+        'Participate in full development cycle from design to deployment.',
+       ],
+       requirements: [
+        '3.5+ years of experience in React Native.',
+        'Understanding of real-time events and sockets.',
+        'Strong problem-solving and team collaboration.',
+        'Past experience in SaaS or analytics projects.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'javascript',
+        'node.js',
+        'tailwind',
+        'react native',
+        'mobile apps',
+        'socket.io',
+        'data structures',
+        'dom',
+        'MVC',
+        'OOP',
+       ],
+      },
+      {
+       title: 'Lead React Native Developer – Global E-Commerce Mobile Apps',
+       location: 'Dubai, UAE',
+       postedDate: '2025-07-02',
+       salary: '$630.00/Month',
+       description:
+        'Drive development of mobile applications for global e-commerce platforms. Lead the mobile strategy and ensure smooth backend connectivity and UI design.',
+       responsibilities: [
+        'Lead React Native app structure and architecture.',
+        'Ensure responsive UIs for international users.',
+        'Build API logic with Express + MongoDB.',
+        'Guide junior mobile developers across modules.',
+       ],
+       requirements: [
+        '4+ years of mobile and full stack experience.',
+        'Strong React Native & Node.js integration skills.',
+        'Familiar with cart, checkout, and payment flows.',
+        'Clear documentation and Git workflows are must.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'javascript',
+        'node.js',
+        'tailwind',
+        'react native',
+        'mobile apps',
+        'express',
+        'mongoDB',
+        'critical rendering',
+        'OOP',
+        'ajax',
+       ],
+      },
+      {
+       title: 'React Native Engineer – HealthTech Cross-Platform Solutions',
+       location: 'Copenhagen, Denmark',
+       postedDate: '2025-07-02',
+       salary: '$620.00/Month',
+       description:
+        "Help revolutionize mobile health apps with React Native. You'll work on scalable UI, secure API integration, and user-first features.",
+       responsibilities: [
+        'Build HIPAA-compliant mobile interfaces.',
+        'Integrate encrypted endpoints using Express.',
+        'Manage local data securely with async storage.',
+        'Deliver pixel-perfect UI across screen sizes.',
+       ],
+       requirements: [
+        '3+ years in healthcare or secure mobile apps.',
+        'React Native experience with real-world launches.',
+        'Understanding of secure data flows.',
+        'Attention to UI, accessibility, and navigation.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'javascript',
+        'node.js',
+        'tailwind',
+        'react native',
+        'mobile apps',
+        'ajax',
+        'responsive websites',
+        'functions behind the scene',
+        'MUI',
+        'OOP',
+        'google app script',
+       ],
+      },
+     ],
+     'INDEED.com': [
+      {
+       title: 'React Native App Engineer – TravelTech Platform',
+       location: 'Kuala Lumpur, Malaysia',
+       postedDate: '2025-07-02',
+       salary: '$620.00/Month',
+       description:
+        "Join our TravelTech platform and deliver high-end mobile solutions using React Native. You'll work on booking interfaces, location services, and offline maps.",
+       responsibilities: [
+        'Build mobile interfaces for trip planning.',
+        'Handle offline map storage and local caching.',
+        'Work with Express/MongoDB for booking APIs.',
+        'Ensure fast load time and smooth animations.',
+       ],
+       requirements: [
+        '3+ years of React Native development.',
+        'Experience with geolocation and map libraries.',
+        'Strong backend API understanding.',
+        'Familiar with CI/CD pipelines and Git.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'javascript',
+        'node.js',
+        'tailwind',
+        'react native',
+        'mobile apps',
+        'mongoDB',
+        'ajax',
+        'bootstraps',
+        'MVC',
+        'socket.io',
+       ],
+      },
+      {
+       title: 'Lead React Native Developer – Remote Health Monitoring Apps',
+       location: 'Stockholm, Sweden',
+       postedDate: '2025-07-02',
+       salary: '$630.00/Month',
+       description:
+        "Lead the development of mobile apps focused on remote health tracking. You'll integrate sensor data, design interactive dashboards, and secure patient data flows.",
+       responsibilities: [
+        'Build healthcare-focused mobile solutions.',
+        'Integrate with APIs and IoT health sensors.',
+        'Implement biometric login and encryption.',
+        'Design mobile dashboards with graphs and charts.',
+       ],
+       requirements: [
+        '4+ years of mobile and security-focused experience.',
+        'React Native proficiency in production apps.',
+        'Solid UI and database knowledge.',
+        'Comfortable with HIPAA/GDPR compliant flows.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'javascript',
+        'node.js',
+        'tailwind',
+        'react native',
+        'mobile apps',
+        'OOP',
+        'MUI',
+        'functions behind the scene',
+        'google app script',
+        'ajax',
+       ],
+      },
+      {
+       title: 'React Native Full Stack Mobile Developer',
+       location: 'Wellington, New Zealand',
+       postedDate: '2025-07-02',
+       salary: '$615.00/Month',
+       description:
+        'Be part of a fast-paced fintech startup building a high-performance mobile app using React Native and Express. Help scale our architecture and performance.',
+       responsibilities: [
+        'Build and optimize mobile app components.',
+        'Design RESTful services in Express.',
+        'Collaborate on CI/CD and testing pipelines.',
+        'Implement mobile-first secure experiences.',
+       ],
+       requirements: [
+        '3.5+ years of React Native and Node.js experience.',
+        'Strong UI skills and backend API knowledge.',
+        'Solid grasp on data flow and authentication.',
+        'Experience with mobile testing frameworks.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'javascript',
+        'node.js',
+        'tailwind',
+        'react native',
+        'mobile apps',
+        'express',
+        'dom',
+        'data structures',
+        'responsive websites',
+        'prototype',
+       ],
+      },
+      {
+       title: 'Senior React Native Developer – AI-Focused Apps',
+       location: 'Toronto, Canada',
+       postedDate: '2025-07-02',
+       salary: '$635.00/Month',
+       description:
+        'Join our AI startup and develop intelligent mobile apps using React Native. Integrate ML features and real-time analytics through scalable components.',
+       responsibilities: [
+        'Develop AI-powered mobile app interfaces.',
+        'Integrate TensorFlow.js for on-device predictions.',
+        'Work with Node.js backend for real-time metrics.',
+        'Ensure responsive and animated UI delivery.',
+       ],
+       requirements: [
+        '4+ years of mobile development experience.',
+        'Strong background in ML integrations in React Native.',
+        'Experience with cloud deployment and CI/CD.',
+        'Excellent problem-solving skills.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'javascript',
+        'node.js',
+        'tailwind',
+        'react native',
+        'mobile apps',
+        'tensorflow.js',
+        'functions behind the scene',
+        'OOP',
+        'critical rendering',
+        'socket.io',
+       ],
+      },
+      {
+       title: 'React Native Developer – Logistics & Fleet Management Apps',
+       location: 'Berlin, Germany',
+       postedDate: '2025-07-02',
+       salary: '$625.00/Month',
+       description:
+        'Join our logistics product team to develop React Native apps for fleet tracking and delivery automation. Work with backend teams to handle location and event data.',
+       responsibilities: [
+        'Develop cross-platform mobile interfaces.',
+        'Integrate real-time location APIs.',
+        'Ensure scalability and offline support.',
+        'Collaborate with backend for fleet operations.',
+       ],
+       requirements: [
+        '3+ years of React Native experience.',
+        'Good understanding of real-time data handling.',
+        'Strong skills in state management and storage.',
+        'Experience with Git and Agile workflow.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'javascript',
+        'node.js',
+        'tailwind',
+        'react native',
+        'mobile apps',
+        'ajax',
+        'express',
+        'google app script',
+        'responsive websites',
+        'MUI',
+       ],
+      },
+     ],
     };
 
     return {
-     title: `React Native Developer in ${platform}`,
-     data: [
-      {
-       shortDescription: platformData[platform].shortDescription,
-       heading: 'About React Native Developer ',
-       image1: platformData[platform].imagePath1, // Moved image links here
-       image2: platformData[platform].imagePath2, // Moved image links here
-      },
-     ],
+     title: `React Native Developer Jobs in ${country}`,
+     data: countryData[country],
     };
    },
   },
@@ -4188,37 +5870,636 @@ export default function TechStackJobsMarket() {
     'GLASSDOOR.com',
     'INDEED.com',
    ],
-   content: (platform) => {
-    // platform-specific data
-    const platformData = {
-     'ROZEE.pk': {
-      imagePath1: '/assets/image/jobs/devOps-rozee-1.png',
-      imagePath2: '/assets/image/jobs/devOps-rozee-2.png',
-     },
-     'CAREERJET.com': {
-      imagePath1: '/assets/image/jobs/devOps-career-1.png',
-     },
-     'SIMPLYHIRED.com': {
-      imagePath1: '/assets/image/jobs/devOps-simplyHired-1.png',
-     },
-     'GLASSDOOR.com': {
-      imagePath1: '/assets/image/jobs/devOps-glassdoor-1.png',
-     },
-     'INDEED.com': {
-      imagePath1: '/assets/image/jobs/devOps-indeed-1.png',
-     },
+   content: (country) => {
+    const countryData = {
+     'ROZEE.pk': [
+      {
+       title: 'DevOps & Infrastructure Engineer – Secure Cloud Deployments',
+       location: 'Multan, Pakistan',
+       postedDate: '2025-07-02',
+       salary: 'PKR 420,000/Month',
+       description:
+        "Join a dynamic team building cloud-native apps with secure infrastructure. As a DevOps engineer, you'll automate environments and improve system stability across the stack.",
+       responsibilities: [
+        'Implement and maintain secure cloud environments.',
+        'Automate deployments for web and API layers.',
+        'Enhance DevOps lifecycle with testing & rollback strategies.',
+        'Manage CI/CD pipelines integrated with full stack workflows.',
+       ],
+       requirements: [
+        '4+ years in DevOps or backend infrastructure roles.',
+        'Strong scripting and pipeline automation skills.',
+        'Cloud security practices familiarity is a plus.',
+        'Understanding of agile workflows and DevSecOps.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'JavaScript',
+        'react',
+        'next.js',
+        'node.js',
+        'tailwind',
+        'DevOps',
+        'ajax',
+        'MVC',
+        'machine learning',
+        'google app script',
+        'prototype',
+        'responsive websites',
+       ],
+      },
+      {
+       title: 'DevOps Engineer – Kubernetes, GitOps & CI/CD Management',
+       location: 'Peshawar, Pakistan',
+       postedDate: '2025-07-02',
+       salary: 'PKR 450,000/Month',
+       description:
+        "We are looking for a skilled DevOps professional to build and scale our Kubernetes deployments. You'll ensure that our frontend and backend delivery is seamless and automated.",
+       responsibilities: [
+        'Lead Kubernetes cluster setup and maintenance.',
+        'Develop CI/CD workflows integrated with Git.',
+        'Support React, Node, and API deployments.',
+        'Maintain observability across infrastructure.',
+       ],
+       requirements: [
+        '5 years in DevOps engineering or site reliability.',
+        'Hands-on experience with GitOps methodologies.',
+        'Knowledge of Helm, Docker, and cloud services.',
+        'Team-first attitude and scripting capability.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'JavaScript',
+        'react',
+        'next.js',
+        'node.js',
+        'tailwind',
+        'DevOps',
+        'tensorflow.js',
+        'OOP',
+        'responsive websites',
+        'express',
+        'bootstraps',
+        'socket.io',
+       ],
+      },
+      {
+       title: 'Full Stack DevOps Engineer – Cloud Native Application Delivery',
+       location: 'Lahore, Pakistan',
+       postedDate: '2025-07-02',
+       salary: 'PKR 400,000/Month',
+       description:
+        "We're hiring a DevOps engineer with full stack awareness to lead container orchestration and microservices deployments. You will work in a hybrid cloud and on-prem environment.",
+       responsibilities: [
+        'Develop and maintain CI/CD pipelines for microservices.',
+        'Optimize application deployment with Docker/Kubernetes.',
+        'Collaborate with frontend teams on app delivery.',
+        'Implement system monitoring and logs centralization.',
+       ],
+       requirements: [
+        '4+ years of professional DevOps experience.',
+        'Strong foundation in backend service delivery.',
+        'Experience with MongoDB, Node.js, and container tech.',
+        'Good communication and documentation skills.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'JavaScript',
+        'react',
+        'next.js',
+        'node.js',
+        'tailwind',
+        'DevOps',
+        'data structures',
+        'MUI',
+        'express',
+        'google app script',
+        'OOP',
+       ],
+      },
+      {
+       title: 'DevOps Specialist – Automation, Monitoring & Full Stack Ops',
+       location: 'Karachi, Pakistan',
+       postedDate: '2025-07-02',
+       salary: 'PKR 445,000/Month',
+       description:
+        'Join our DevOps team to build deployment automation and improve development lifecycle processes. Collaborate with frontend and backend teams on operational efficiency.',
+       responsibilities: [
+        'Manage infrastructure setup and deployment workflows.',
+        'Monitor applications and implement alerting strategies.',
+        'Automate releases for React and Node.js apps.',
+        'Ensure high availability and secure deployments.',
+       ],
+       requirements: [
+        '5 years of DevOps experience.',
+        'Hands-on with containers, Docker, and version control.',
+        'Knowledge of backend service monitoring tools.',
+        'Experience deploying full stack apps in production.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'JavaScript',
+        'react',
+        'next.js',
+        'node.js',
+        'tailwind',
+        'DevOps',
+        'bootstraps',
+        'MVC',
+        'critical rendering',
+        'responsive websites',
+        'ajax',
+        'prototype',
+       ],
+      },
+      {
+       title: 'Senior DevOps Engineer – CI/CD & Full Stack Integration',
+       location: 'Islamabad, Pakistan',
+       postedDate: '2025-07-02',
+       salary: 'PKR 430,000/Month',
+       description:
+        "We’re seeking a seasoned DevOps Engineer to manage our CI/CD pipelines and cloud infrastructure. You'll collaborate with developers to streamline full stack operations using modern tools.",
+       responsibilities: [
+        'Design, build, and manage CI/CD automation.',
+        'Ensure cloud infrastructure reliability and scalability.',
+        'Integrate backend deployment pipelines with React/Next.js apps.',
+        'Collaborate on infrastructure as code (IaC) practices.',
+       ],
+       requirements: [
+        '4+ years of DevOps experience.',
+        'Strong scripting and automation knowledge.',
+        'Cloud services like AWS or GCP experience preferred.',
+        'Solid understanding of full stack development workflows.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'JavaScript',
+        'react',
+        'next.js',
+        'node.js',
+        'tailwind',
+        'DevOps',
+        'mongoDB',
+        'OOP',
+        'express',
+        'socket.io',
+        'google app script',
+       ],
+      },
+     ],
+     'CAREERJET.com': [
+      {
+       title: 'DevOps Engineer – Cloud Automation & CI/CD Systems',
+       location: 'Austin, TX, USA',
+       postedDate: '2025-07-02',
+       salary: '$1,500/Month',
+       description:
+        'Join our DevOps team to lead scalable cloud automation and CI/CD orchestration. You’ll collaborate with full stack teams for seamless delivery of React/Next.js applications.',
+       responsibilities: [
+        'Design and implement cloud infrastructure using IaC.',
+        'Develop and manage GitHub Actions and CI/CD pipelines.',
+        'Integrate React and Node.js apps into automated deployment.',
+        'Monitor logs, uptime, and system health dashboards.',
+       ],
+       requirements: [
+        '5+ years of DevOps or cloud infrastructure experience.',
+        'Proficient with containerization, CI tools, and version control.',
+        'Solid understanding of JavaScript-based full stack delivery.',
+        'Experience with AWS, GCP, or Azure.',
+       ],
+       skills: [
+        'html',
+        'css',
+        'JavaScript',
+        'react',
+        'next.js',
+        'node.js',
+        'tailwind',
+        'DevOps',
+        'ajax',
+        'express',
+        'google app script',
+        'MVC',
+        'responsive websites',
+       ],
+       },
+       {
+        title: 'Full Stack DevOps Specialist – Secure Web Deployment',
+        location: 'San Diego, CA, USA',
+        postedDate: '2025-07-02',
+        salary: '$1,520/Month',
+        description:
+          "We're hiring a Full Stack DevOps expert to build automated deployment pipelines, enforce security standards, and support React and Node.js production rollouts.",
+        responsibilities: [
+          'Automate application deployment and rollback pipelines.',
+          'Collaborate with frontend and backend teams on delivery.',
+          'Monitor production services and system load.',
+          'Document infrastructure and system changes.'
+        ],
+        requirements: [
+          '4+ years of experience in DevOps and backend services.',
+          'Proficient in container orchestration and CI/CD pipelines.',
+          'Knowledge of infrastructure monitoring tools.',
+          'Strong scripting, Git, and versioning experience.'
+        ],
+        skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'machine learning', 'socket.io', 'OOP', 'bootstraps', 'critical rendering']
+       },
+       {
+        title: 'Senior DevOps Engineer – Infrastructure as Code & Monitoring',
+        location: 'Seattle, WA, USA',
+        postedDate: '2025-07-02',
+        salary: '$1,530/Month',
+        description:
+          "Drive DevOps excellence by implementing IaC, automated workflows, and scalable deployment systems. Support robust React/Next.js delivery pipelines and backend APIs.",
+        responsibilities: [
+          'Manage IaC deployment using Terraform or Pulumi.',
+          'Build observability tools with Grafana and Prometheus.',
+          'Ensure secure deployment of full stack JavaScript apps.',
+          'Collaborate with SRE and engineering teams.'
+        ],
+        requirements: [
+          '5 years of DevOps and infrastructure experience.',
+          'Deep knowledge of Node.js stack and containerization.',
+          'Comfortable managing complex distributed systems.',
+          'Excellent troubleshooting and system design skills.'
+        ],
+        skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'google app script', 'express', 'MVC', 'MUI', 'OOP', 'responsive websites']
+       },
+       {
+        title: 'DevOps Engineer – Cloud-Native Applications & Pipelines',
+        location: 'Chicago, IL, USA',
+        postedDate: '2025-07-02',
+        salary: '$1,490/Month',
+        description:
+          "We are looking for a DevOps engineer to support cloud-native apps, streamline release pipelines, and collaborate with frontend engineers building Next.js applications.",
+        responsibilities: [
+          'Set up and optimize deployment workflows for production.',
+          'Ensure CI/CD best practices across services.',
+          'Handle environment provisioning and resource scaling.',
+          'Integrate system logging and audit controls.'
+        ],
+        requirements: [
+          '4+ years of DevOps and CI/CD pipeline experience.',
+          'Experience working with Next.js and backend APIs.',
+          'Comfortable with containers and orchestration tools.',
+          'Understanding of secure deployment practices.'
+        ],
+        skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'ajax', 'tensorflow.js', 'OOP', 'critical rendering', 'socket.io']
+       },
+       {
+        title: 'DevOps & Infrastructure Engineer – Full Stack Systems',
+        location: 'Boston, MA, USA',
+        postedDate: '2025-07-02',
+        salary: '$1,485/Month',
+        description:
+          "Join our engineering ops team to build highly available DevOps pipelines. Help deliver performant Next.js and Node.js apps backed by scalable infrastructure.",
+        responsibilities: [
+          'Maintain Docker-based CI/CD deployments.',
+          'Implement logging, error tracking, and health checks.',
+          'Provision infrastructure using IaC frameworks.',
+          'Optimize system cost and performance.'
+        ],
+        requirements: [
+          '4–5 years of DevOps and full stack integration experience.',
+          'Familiarity with frontend build processes (React/Next).',
+          'Working knowledge of security best practices.',
+          'Efficient in cloud-native tools and monitoring dashboards.'
+        ],
+        skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'dom', 'data structures', 'mongoDB', 'bootstraps', 'prototype']
+      }
+     ],
+      'SIMPLYHIRED.com': [
+     
+        {
+          title: 'Platform DevOps Engineer – Hybrid Cloud Apps',
+          location: 'Oslo, Norway',
+          postedDate: '2025-07-02',
+          salary: '$1,495/Month',
+          description:
+            "Build and manage hybrid cloud platforms supporting frontend and backend services. Ensure reliability and security for distributed microservices pipelines.",
+          responsibilities: [
+            'Deploy React/Next.js platforms in hybrid environments.',
+            'Manage CI/CD with GitLab and Jenkins.',
+            'Maintain infrastructure and secret management.',
+            'Establish logging and recovery automation.'
+          ],
+          requirements: [
+            '4–5 years in DevOps with hybrid cloud exposure.',
+            'Fluency with GitOps and Infrastructure as Code.',
+            'Experience supporting Node.js, MongoDB, and React stacks.',
+            'Comfortable working in ISO-compliant environments.'
+          ],
+          skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'bootstraps', 'socket.io', 'MVC', 'google app script']
+        },
+        {
+          title: 'DevOps & CI/CD Engineer – Microservices & Full Stack',
+          location: 'Dubai, UAE',
+          postedDate: '2025-07-02',
+          salary: '$1,525/Month',
+          description:
+            "Deliver scalable DevOps solutions for a high-traffic media platform. Work with frontend and backend devs to automate microservices across environments.",
+          responsibilities: [
+            'Orchestrate deployments using Kubernetes.',
+            'Maintain build/release automation pipelines.',
+            'Enable high availability and rollback capabilities.',
+            'Monitor systems and address real-time failures.'
+          ],
+          requirements: [
+            '5+ years DevOps or cloud engineering experience.',
+            'Hands-on with containers, load balancers, and CI tools.',
+            'Agile workflow and sprint planning familiarity.',
+            'Strong full stack integration awareness.'
+          ],
+          skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'OOP', 'responsive websites', 'data structures', 'prototype']
+        },
+        {
+          title: 'Senior DevOps Engineer – ML Pipelines & WebOps',
+          location: 'Sydney, Australia',
+          postedDate: '2025-07-02',
+          salary: '$1,510/Month',
+          description:
+            "Work with ML engineers and frontend devs to deploy machine learning models inside React-based web apps. Build pipelines that automate and optimize release processes.",
+          responsibilities: [
+            'Deploy containerized ML services to production.',
+            'Collaborate with web teams for integration.',
+            'Set up observability tools (Prometheus, Grafana).',
+            'Manage high-load infrastructure environments.'
+          ],
+          requirements: [
+            '4+ years in DevOps with ML/AI exposure.',
+            'Experience with Python APIs and Node.js microservices.',
+            'Infrastructure knowledge for model delivery.',
+            'Kubernetes and workflow orchestration required.'
+          ],
+          skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'tensorflow.js', 'google app script', 'OOP', 'critical rendering']
+        },
+        {
+          title: 'Full Stack DevOps Specialist – SaaS Systems Delivery',
+          location: 'Toronto, Canada',
+          postedDate: '2025-07-02',
+          salary: '$1,485/Month',
+          description:
+            "Be part of a product-focused SaaS company. Automate builds and deployments while ensuring resilient infrastructure supporting full stack JavaScript environments.",
+          responsibilities: [
+            'Automate builds and zero-downtime deployments.',
+            'Configure staging and production CI/CD.',
+            'Implement alerting and disaster recovery processes.',
+            'Optimize backend release workflows.'
+          ],
+          requirements: [
+            '5+ years DevOps/Infrastructure experience.',
+            'Docker, Kubernetes, and Helm expertise.',
+            'Experience deploying Node.js and Next.js apps.',
+            'Solid Linux, Git, and scripting background.'
+          ],
+          skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'ajax', 'express', 'google app script', 'MVC']
+        },
+      {
+        title: 'DevOps Engineer – Infrastructure Automation & CI/CD',
+        location: 'Berlin, Germany',
+        postedDate: '2025-07-02',
+        salary: '$1,500/Month',
+        description:
+          "Join our European cloud ops team to streamline deployments using GitHub Actions, Terraform, and container orchestration. Deliver scalable React/Next.js systems globally.",
+        responsibilities: [
+          'Design, automate, and manage cloud infrastructure.',
+          'Implement scalable CI/CD workflows.',
+          'Optimize deployment strategies for full stack apps.',
+          'Collaborate with frontend/backend teams for smooth releases.'
+        ],
+        requirements: [
+          '4+ years in DevOps with CI/CD experience.',
+          'Strong command of cloud platforms like AWS or GCP.',
+          'Experience with microservices and Docker.',
+          'Proficient in scripting, Git, and monitoring tools.'
+        ],
+        skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'data structures', 'MUI', 'responsive websites', 'socket.io']
+      }
+     ],
+     'GLASSDOOR.com': [
+      {
+        title: 'Cloud DevOps Engineer – Full Stack Delivery & Automation',
+        location: 'Barcelona, Spain',
+        postedDate: '2025-07-02',
+        salary: '$1,505/Month',
+        description:
+          "We're hiring a DevOps engineer to manage scalable deployments and CI pipelines for our React, Next.js, and Node.js stack across European clients.",
+        responsibilities: [
+          'Create and maintain GitOps deployment pipelines.',
+          'Automate provisioning using Terraform.',
+          'Integrate DevOps with full stack teams.',
+          'Ensure monitoring, logging, and backup plans.'
+        ],
+        requirements: [
+          '4+ years DevOps experience with JavaScript stacks.',
+          'Experience with IaC, CI/CD tools, and GitHub Actions.',
+          'Comfort with multi-region cloud environments.',
+          'Strong scripting and system-level debugging skills.'
+        ],
+        skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'express', 'OOP', 'critical rendering', 'data structures']
+      },
+      {
+        title: 'DevOps & Site Reliability Engineer – High Uptime Environments',
+        location: 'Tokyo, Japan',
+        postedDate: '2025-07-02',
+        salary: '$1,530/Month',
+        description:
+          "Seeking an SRE-focused DevOps engineer to support high uptime React and Node.js deployments. You'll optimize systems for performance, redundancy, and reliability.",
+        responsibilities: [
+          'Deploy scalable containerized apps via Kubernetes.',
+          'Implement performance monitoring and auto-healing systems.',
+          'Support uptime for production services.',
+          'Enable blue/green and canary deployments.'
+        ],
+        requirements: [
+          '5+ years of SRE/DevOps experience.',
+          'Knowledge of uptime metrics, load balancing, and rollback.',
+          'Proficient in React/Node.js DevOps support.',
+          'Strong command over Unix/Linux systems.'
+        ],
+        skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'machine learning', 'ajax', 'google app script', 'socket.io']
+      },
+      {
+        title: 'Full Stack DevOps Engineer – Product Pipeline Optimization',
+        location: 'Amsterdam, Netherlands',
+        postedDate: '2025-07-02',
+        salary: '$1,485/Month',
+        description:
+          "You’ll work across cloud deployments and developer tooling to improve code-to-cloud pipelines for a high-growth software product used by global retailers.",
+        responsibilities: [
+          'Automate CI/CD pipelines for product release.',
+          'Build and deploy frontend/backend services.',
+          'Set up dynamic infrastructure using IaC.',
+          'Collaborate on performance benchmarking.'
+        ],
+        requirements: [
+          '4+ years DevOps experience in full stack environment.',
+          'Comfortable with AWS, Docker, and GitHub Workflows.',
+          'Proficiency in JS-based app stack deployments.',
+          'Familiar with monitoring dashboards.'
+        ],
+        skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'responsive websites', 'OOP', 'bootstraps', 'MVC']
+      },
+      {
+        title: 'Lead DevOps Engineer – Kubernetes & CI/CD Systems',
+        location: 'Auckland, New Zealand',
+        postedDate: '2025-07-02',
+        salary: '$1,500/Month',
+        description:
+          "We’re seeking a senior DevOps professional to lead pipeline, container, and deployment processes across modern React and API-based web apps.",
+        responsibilities: [
+          'Architect deployment systems for frontend/backend codebases.',
+          'Implement IaC and GitOps workflows.',
+          'Oversee CI/CD process design and testing.',
+          'Collaborate with full stack engineers to optimize delivery.'
+        ],
+        requirements: [
+          '5+ years DevOps or cloud automation experience.',
+          'Expertise in container orchestration (Docker, K8s).',
+          'Able to manage complex release environments.',
+          'Strong Node.js pipeline integration.'
+        ],
+        skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'ajax', 'express', 'socket.io', 'data structures', 'MVC']
+      },
+      {
+        title: 'Cloud Infrastructure & DevOps Engineer – Distributed Systems',
+        location: 'Zurich, Switzerland',
+        postedDate: '2025-07-02',
+        salary: '$1,490/Month',
+        description:
+          "Join our infrastructure division managing cloud-based deployment systems, monitoring layers, and JavaScript stack performance improvements across platforms.",
+        responsibilities: [
+          'Develop cross-region deployment pipelines.',
+          'Establish scalable, fault-tolerant cloud solutions.',
+          'Support React/Next.js app rollouts globally.',
+          'Implement custom automation scripts.'
+        ],
+        requirements: [
+          '5 years DevOps/cloud operations experience.',
+          'Fluency in infrastructure tooling (Terraform, Ansible).',
+          'Strong experience with JavaScript-based deployments.',
+          'Comfortable in regulated, multi-tenant environments.'
+        ],
+        skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'data structures', 'MUI', 'OOP', 'prototype']
+      }
+     ],
+      'INDEED.com': [
+        {
+          title: 'DevOps Engineer – Full Stack Platform Orchestration',
+          location: 'Copenhagen, Denmark',
+          postedDate: '2025-07-02',
+          salary: '$1,495/Month',
+          description:
+            "Join a distributed engineering team to manage containerized deployment, CI/CD automation, and end-to-end DevOps for Node and React-based applications.",
+          responsibilities: [
+            'Work with developers to streamline builds.',
+            'Build secure pipelines for microservices.',
+            'Deploy infrastructure via IaC and CI.',
+            'Monitor production systems and perform tuning.'
+          ],
+          requirements: [
+            '4+ years in cloud ops and DevOps roles.',
+            'Familiarity with React + Node.js stack automation.',
+            'Experience building pipelines in enterprise environments.',
+            'Scripting in Bash, Python, or Node required.'
+          ],
+          skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'OOP', 'bootstraps', 'data structures', 'MVC']
+        },
+        {
+          title: 'DevOps Engineer – High-Speed Deployment Systems',
+          location: 'Warsaw, Poland',
+          postedDate: '2025-07-02',
+          salary: '$1,520/Month',
+          description:
+            "Join a fintech product team where you'll own pipeline architecture for our critical deployments. Ensure React and Node updates are shipped fast and reliably.",
+          responsibilities: [
+            'Maintain automated test and release systems.',
+            'Monitor system health and load under pressure.',
+            'Coordinate regional and global deployment pipelines.',
+            'Optimize rollback and patching procedures.'
+          ],
+          requirements: [
+            '4–5 years DevOps with JS app deployment.',
+            'Hands-on with CI/CD platforms like CircleCI or GitHub Actions.',
+            'Experience with React/Next.js builds and CDN routing.',
+            'Capable in performance stress testing.'
+          ],
+          skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'ajax', 'MUI', 'socket.io', 'google app script']
+        },
+        {
+          title: 'Global DevOps Specialist – Full Stack Automation',
+          location: 'Cape Town, South Africa',
+          postedDate: '2025-07-02',
+          salary: '$1,485/Month',
+          description:
+            "Help us scale our multi-country frontend/backend stack with robust automation pipelines and efficient delivery practices using modern DevOps workflows.",
+          responsibilities: [
+            'Automate staging-to-production flow.',
+            'Work closely with backend API and frontend teams.',
+            'Implement rollout control and rollback logic.',
+            'Maintain secure access and permissions.'
+          ],
+          requirements: [
+            '4+ years in automation/devops roles.',
+            'Full stack JS deployment knowledge essential.',
+            'Versioning and rollback experience.',
+            'Cloud services and Git expertise required.'
+          ],
+          skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'google app script', 'data structures', 'prototype', 'bootstraps']
+        },
+        {
+          title: 'Next.js DevOps Architect – Performance & Pipeline Engineer',
+          location: 'Singapore',
+          postedDate: '2025-07-02',
+          salary: '$1,525/Month',
+          description:
+            "Lead full stack delivery ops and performance pipelines for our enterprise-grade Next.js applications across finance and healthcare clients.",
+          responsibilities: [
+            'Monitor app performance across deployments.',
+            'Maintain infrastructure compliance and audits.',
+            'Support server-side rendering workflows (Next.js).',
+            'Build secure deployment environments with CI tools.'
+          ],
+          requirements: [
+            '5+ years DevOps/infra experience.',
+            'Comfort with performance engineering tools.',
+            'Experience integrating full stack JS deployments.',
+            'Security-focused DevOps mindset.'
+          ],
+          skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'socket.io', 'MVC', 'ajax', 'OOP']
+        },
+      {
+        title: 'DevOps Engineer – SaaS Platform & Scalable Architecture',
+        location: 'Lisbon, Portugal',
+        postedDate: '2025-07-02',
+        salary: '$1,515/Month',
+        description:
+          "Work on high-availability SaaS delivery using Next.js frontend and Node.js backend stacks. Help scale infrastructure to support growing customer base.",
+        responsibilities: [
+          'Build Docker-based release pipelines.',
+          'Ensure 99.99% uptime for web services.',
+          'Collaborate with engineers on feature rollouts.',
+          'Manage cost-efficient deployment strategies.'
+        ],
+        requirements: [
+          '4+ years in DevOps and cloud deployments.',
+          'Knowledge of frontend and backend ops processes.',
+          'Understanding of cost optimization tools.',
+          'Comfortable in fast-paced product environments.'
+        ],
+        skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'critical rendering', 'express', 'google app script', 'responsive websites']
+      }
+     ],
     };
 
     return {
-     title: `DevOps Engineer in ${platform}`,
-     data: [
-      {
-       shortDescription: platformData[platform].shortDescription,
-       heading: 'About DevOps Engineer ',
-       image1: platformData[platform].imagePath1,
-       image2: platformData[platform].imagePath2,
-      },
-     ],
+     title: `DevOps Engineer Jobs in ${country}`,
+     data: countryData[country],
     };
    },
   },
