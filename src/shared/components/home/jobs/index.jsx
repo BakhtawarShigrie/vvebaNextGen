@@ -13,6 +13,8 @@ import {
  TableContainer,
  TableRow,
  Box,
+ Pagination,
+ PaginationItem,
 } from '@mui/material';
 
 import Image from 'next/image';
@@ -38,6 +40,7 @@ export default function TechStackJobs() {
      'ROZEE.pk': {
       imagePath1: '/assets/image/jobs/web-rozee-1.png',
       imagePath2: '/assets/image/jobs/web-rozee-2.png',
+      jobNum : "9,208"
      },
      'CAREERJET.com': {
       imagePath1: '/assets/image/jobs/web-career-1.png',
@@ -60,7 +63,8 @@ export default function TechStackJobs() {
        shortDescription: platformData[platform].shortDescription,
        heading: 'About Web Developer ',
        image1: platformData[platform].imagePath1, // Moved image links here
-       image2: platformData[platform].imagePath2, // Moved image links here
+      image2: platformData[platform].imagePath2, // Moved image links here
+      totalJob: platformData[platform].jobNum,
       },
      ],
     };
@@ -82,6 +86,7 @@ export default function TechStackJobs() {
      'ROZEE.pk': {
       imagePath1: '/assets/image/jobs/js-rozee-1.png',
       imagePath2: '/assets/image/jobs/js-rozee-2.png',
+      jobNum: '7,112',
      },
      'CAREERJET.com': {
       imagePath1: '/assets/image/jobs/js-career-1.png',
@@ -105,11 +110,13 @@ export default function TechStackJobs() {
        heading: 'About JavaScript Developer ',
        image1: platformData[platform].imagePath1, // Moved image links here
        image2: platformData[platform].imagePath2, // Moved image links here
+       totalJob: platformData[platform].jobNum,
       },
      ],
     };
    },
-  },
+   },
+  
   'Front-End Developer': {
    color: 'linear-gradient(-90deg, #2B5E5E,rgb(110, 187, 187))',
    tabs: [
@@ -125,6 +132,7 @@ export default function TechStackJobs() {
      'ROZEE.pk': {
       imagePath1: '/assets/image/jobs/frontend-rozee-1.png',
       imagePath2: '/assets/image/jobs/frontend-rozee-2.png',
+      jobNum: '3,346',
      },
      'CAREERJET.com': {
       imagePath1: '/assets/image/jobs/frontend-career-1.png',
@@ -148,11 +156,13 @@ export default function TechStackJobs() {
        heading: 'About Front-End Developer ',
        image1: platformData[platform].imagePath1, // Moved image links here
        image2: platformData[platform].imagePath2, // Moved image links here
+       totalJob: platformData[platform].jobNum,
       },
      ],
     };
    },
-  },
+   },
+  
   'JAM-stack Developer': {
    color: 'linear-gradient(-90deg, #4B93E9,rgb(135, 179, 232))',
    tabs: [
@@ -168,6 +178,7 @@ export default function TechStackJobs() {
      'ROZEE.pk': {
       imagePath1: '/assets/image/jobs/jamStack-rozee-1.png',
       imagePath2: '/assets/image/jobs/jamStack-rozee-2.png',
+      jobNum: '117',
      },
      'CAREERJET.com': {
       imagePath1: '/assets/image/jobs/jamStack-career-1.png',
@@ -191,6 +202,7 @@ export default function TechStackJobs() {
        heading: 'About JAM-stack Developer ',
        image1: platformData[platform].imagePath1, // Moved image links here
        image2: platformData[platform].imagePath2, // Moved image links here
+       totalJob: platformData[platform].jobNum,
       },
      ],
     };
@@ -212,6 +224,7 @@ export default function TechStackJobs() {
      'ROZEE.pk': {
       imagePath1: '/assets/image/jobs/mern-rozee-1.png',
       imagePath2: '/assets/image/jobs/mern-rozee-2.png',
+      jobNum: '673'
      },
      'CAREERJET.com': {
       imagePath1: '/assets/image/jobs/mern-career-1.png',
@@ -235,6 +248,7 @@ export default function TechStackJobs() {
        heading: 'About MERN-Stack Developer ',
        image1: platformData[platform].imagePath1,
        image2: platformData[platform].imagePath2,
+       totalJob: platformData[platform].jobNum,
       },
      ],
     };
@@ -256,6 +270,7 @@ export default function TechStackJobs() {
      'ROZEE.pk': {
       imagePath1: '/assets/image/jobs/next-rozee-1.png',
       imagePath2: '/assets/image/jobs/next-rozee-2.png',
+      jobNum: '1,336',
      },
      'CAREERJET.com': {
       imagePath1: '/assets/image/jobs/next-career-1.png',
@@ -279,6 +294,7 @@ export default function TechStackJobs() {
        heading: 'About Next.js Specialist ',
        image1: platformData[platform].imagePath1, // Moved image links here
        image2: platformData[platform].imagePath2, // Moved image links here
+       totalJob: platformData[platform].jobNum,
       },
      ],
     };
@@ -300,6 +316,7 @@ export default function TechStackJobs() {
      'ROZEE.pk': {
       imagePath1: '/assets/image/jobs/reactN-rozee-1.png',
       imagePath2: '/assets/image/jobs/reactN-rozee-2.png',
+      jobNum: '1,709',
      },
      'CAREERJET.com': {
       imagePath1: '/assets/image/jobs/reactN-career-1.png',
@@ -323,6 +340,7 @@ export default function TechStackJobs() {
        heading: 'About React Native Developer ',
        image1: platformData[platform].imagePath1, // Moved image links here
        image2: platformData[platform].imagePath2, // Moved image links here
+       totalJob: platformData[platform].jobNum,
       },
      ],
     };
@@ -344,6 +362,7 @@ export default function TechStackJobs() {
      'ROZEE.pk': {
       imagePath1: '/assets/image/jobs/devOps-rozee-1.png',
       imagePath2: '/assets/image/jobs/devOps-rozee-2.png',
+      jobNum: '2,278',
      },
      'CAREERJET.com': {
       imagePath1: '/assets/image/jobs/devOps-career-1.png',
@@ -367,6 +386,7 @@ export default function TechStackJobs() {
        heading: 'About DevOps Engineer ',
        image1: platformData[platform].imagePath1,
        image2: platformData[platform].imagePath2,
+       totalJob: platformData[platform].jobNum,
       },
      ],
     };
@@ -388,6 +408,7 @@ export default function TechStackJobs() {
      'ROZEE.pk': {
       imagePath1: '/assets/image/jobs/salesforce-rozee-1.png',
       imagePath2: '/assets/image/jobs/salesforce-rozee-2.png',
+      jobNum: '894',
      },
      'CAREERJET.com': {
       imagePath1: '/assets/image/jobs/salesforce-career-1.png',
@@ -411,11 +432,13 @@ export default function TechStackJobs() {
        heading: 'About Salesforce Specialist ',
        image1: platformData[platform].imagePath1,
        image2: platformData[platform].imagePath2,
+       totalJob: platformData[platform].jobNum,
       },
      ],
     };
    },
-  },
+   },
+  
   'Microservices Developer': {
    color: 'linear-gradient(-90deg,rgb(218, 124, 215),rgb(226, 131, 175) )',
    tabs: [
@@ -431,6 +454,7 @@ export default function TechStackJobs() {
      'ROZEE.pk': {
       imagePath1: '/assets/image/jobs/microservices-rozee-1.png',
       imagePath2: '/assets/image/jobs/microservices-rozee-2.png',
+      jobNum: '781',
      },
      'CAREERJET.com': {
       imagePath1: '/assets/image/jobs/microservices-career-1.png',
@@ -454,6 +478,7 @@ export default function TechStackJobs() {
        heading: 'About Microservices Developer ',
        image1: platformData[platform].imagePath1, // Moved image links here
        image2: platformData[platform].imagePath2, // Moved image links here
+       totalJob: platformData[platform].jobNum,
       },
      ],
     };
@@ -475,6 +500,7 @@ export default function TechStackJobs() {
      'ROZEE.pk': {
       imagePath1: '/assets/image/jobs/blockchain-rozee-1.png',
       imagePath2: '/assets/image/jobs/blockchain-rozee-2.png',
+      jobNum: '643',
      },
      'CAREERJET.com': {
       imagePath1: '/assets/image/jobs/blockchain-career-1.png',
@@ -498,6 +524,7 @@ export default function TechStackJobs() {
        heading: 'About Blockchain Developer ',
        image1: platformData[platform].imagePath1, // Moved image links here
        image2: platformData[platform].imagePath2, // Moved image links here
+       totalJob: platformData[platform].jobNum,
       },
      ],
     };
@@ -519,6 +546,7 @@ export default function TechStackJobs() {
      'ROZEE.pk': {
       imagePath1: '/assets/image/jobs/dataScientist-rozee-1.png',
       imagePath2: '/assets/image/jobs/dataScientist-rozee-2.png',
+      jobNum: '784',
      },
      'CAREERJET.com': {
       imagePath1: '/assets/image/jobs/dataScientist-career-1.png',
@@ -542,6 +570,7 @@ export default function TechStackJobs() {
        heading: 'About Data Scientist ',
        image1: platformData[platform].imagePath1, // Moved image links here
        image2: platformData[platform].imagePath2, // Moved image links here
+       totalJob: platformData[platform].jobNum,
       },
      ],
     };
@@ -563,6 +592,7 @@ export default function TechStackJobs() {
      'ROZEE.pk': {
       imagePath1: '/assets/image/jobs/ml-rozee-1.png',
       imagePath2: '/assets/image/jobs/ml-rozee-2.png',
+      jobNum: '957',
      },
      'CAREERJET.com': {
       imagePath1: '/assets/image/jobs/ml-career-1.png',
@@ -586,6 +616,7 @@ export default function TechStackJobs() {
        heading: 'About Machine Learning Engineer ',
        image1: platformData[platform].imagePath1, // Moved image links here
        image2: platformData[platform].imagePath2, // Moved image links here
+       totalJob: platformData[platform].jobNum,
       },
      ],
     };
@@ -607,6 +638,7 @@ export default function TechStackJobs() {
      'ROZEE.pk': {
       imagePath1: '/assets/image/jobs/ai-rozee-1.png',
       imagePath2: '/assets/image/jobs/ai-rozee-2.png',
+      jobNum: '412',
      },
      'CAREERJET.com': {
       imagePath1: '/assets/image/jobs/ai-career-1.png',
@@ -630,6 +662,7 @@ export default function TechStackJobs() {
        heading: 'About AI Engineer ',
        image1: platformData[platform].imagePath1, // Moved image links here
        image2: platformData[platform].imagePath2, // Moved image links here
+       totalJob: platformData[platform].jobNum,
       },
      ],
     };
@@ -651,6 +684,7 @@ export default function TechStackJobs() {
      'ROZEE.pk': {
       imagePath1: '/assets/image/jobs/ceh-rozee-1.png',
       imagePath2: '/assets/image/jobs/ceh-rozee-2.png',
+      jobNum: '946',
      },
      'CAREERJET.com': {
       imagePath1: '/assets/image/jobs/ceh-career-1.png',
@@ -673,6 +707,7 @@ export default function TechStackJobs() {
        heading: 'About Certified Ethical Hacker (CEH v13) ',
        image1: platformData[platform].imagePath1,
        image2: platformData[platform].imagePath2,
+       totalJob: platformData[platform].jobNum,
       },
      ],
     };
@@ -824,6 +859,49 @@ export default function TechStackJobs() {
                </div>
               )}
              </div>
+             {row.totalJob && (
+              <Box
+               display="flex"
+               justifyContent="space-between"
+               alignItems="center"
+               px={2}
+               py={2}
+              >
+               {/* Left Text */}
+               <Typography variant="body2" color="text.secondary">
+                Total Jobs: {row.totalJob}
+               </Typography>
+
+               {/* Pagination UI */}
+               <Pagination
+                count={7} // total pages
+                page={1} // current page
+                variant="text"
+                shape="text"
+                renderItem={(item) => (
+                 <PaginationItem
+                  {...item}
+                  sx={{
+                   fontSize: 14,
+                   minWidth: 0,
+                   padding: '4px 8px',
+                   mx: 0.3,
+                   color:
+                    item.page === 1 && item.type === 'page'
+                     ? 'black'
+                     : 'primary.main',
+                   fontWeight:
+                    item.page === 1 && item.type === 'page' ? 'bold' : 'normal',
+                   textDecoration:
+                    item.page === 1 && item.type === 'page'
+                     ? 'none'
+                     : 'underline',
+                  }}
+                 />
+                )}
+               />
+              </Box>
+             )}
             </TableRow>
            ))}
          </Box>
