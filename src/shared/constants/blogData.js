@@ -84,5 +84,26 @@ export const blogListing = {
    description:
     'Discover proven strategies to make your websites load faster and deliver better user experiences. Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.',
   },
+  {
+   id: 13,
+   title: 'Web Performance Optimization Techniques',
+   image: '/assets/2.png',
+   description:
+    'Discover proven strategies to make your websites load faster and deliver better user experiences. Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.',
+  },
+  {
+   id: 14,
+   title: 'Web Performance Optimization Techniques',
+   image: '/assets/2.png',
+   description:
+    'Discover proven strategies to make your websites load faster and deliver better user experiences. Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.',
+  },
+  {
+   id: 15,
+   title: 'Web Performance Optimization Techniques',
+   image: '/assets/2.png',
+   description:
+    'Discover proven strategies to make your websites load faster and deliver better user experiences. Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.Transition from JavaScript to TypeScript with this practical guide covering types, interfaces, and more.',
+  },
  ],
 };
