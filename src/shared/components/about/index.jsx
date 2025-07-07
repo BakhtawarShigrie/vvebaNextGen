@@ -179,7 +179,7 @@ export const About = () => {
       <div className="ml-40 sm-ml">
        <div style={{clipPath: 'polygon(0 0, 100% 0%, 100% 100%, 0 77%)'}}>
         <Image
-         src="/assets/Shahid_Khalid2.jpg"
+         src="/assets/Shahid_Khalid3.jpg"
          alt="Shahid Khalid"
          width={500}
          height={350}

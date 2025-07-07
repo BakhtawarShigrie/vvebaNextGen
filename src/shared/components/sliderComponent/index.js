@@ -120,10 +120,10 @@ const Carousel = () => {
    thumbIcon: '/assets/slider_cart-7.jpg',
    image: '/assets/image/05.jpg',
    details:
-    'Stage 6 is the ultimate destination for developers ready to lead in the world of decentralized technology. This elite-level program prepares you to become a Blockchain Developer, equipped to build secure, transparent, and scalable applications for the future of finance, identity, data, and more. Over the course of this advanced 6-month free bootcamp journey, you’ll work in high-level environments that mirror the blockchain industry’s real demands. From smart contracts to distributed ledgers, this program is tailored for those who want to be on the cutting edge of innovation. Upon successful completion, each employee earns a globally recognized certification from EC-Council, one of the most respected blockchain authorities in the world. Every graduate is also guaranteed a $4000/month job at our company, placing you in a powerful position within one of the most forward-moving sectors of the tech industry. Stage 6 is not just a bootcamp—it’s a launchpad into blockchain leadership.',
+    'Stage 7 is a premium specialization track within the VVEBA journey, tailored for developers eager to break into the rapidly evolving field of Artificial Intelligence. This 6-month, free training program (4 hours/day) simulates high-demand AI environments, helping students build the discipline and mindset required to succeed in real-world roles. The focus is on sharpening critical thinking, decision-making, and the ability to design scalable AI-powered systems that solve meaningful problems. Students are guided through intensive problem-solving sessions, collaborative challenges, and performance-driven project execution. Upon successful completion, every graduate is guaranteed a job at our company with a $6000/month salary, placing them in a high-value role within one of the most sought-after sectors in tech. Stage 7 is a bold step forward for those ready to specialize, not the end—just another powerful elevation in the VVEBA tech career roadmap.',
    author: 'Akeel',
-   title: 'Blockchain Developer',
-   topic: '$4000/month Guaranteed',
+   title: 'AI Engineer',
+   topic: '$6000/month Guaranteed',
    description: [
     'We train you and ensure a job placement at VVEBA Pvt. Ltd.',
     'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
@@ -136,10 +136,10 @@ const Carousel = () => {
    thumbIcon: '/assets/slider_cart-8.jpg',
    image: '/assets/image/05.jpg',
    details:
-    'Stage 6 is the ultimate destination for developers ready to lead in the world of decentralized technology. This elite-level program prepares you to become a Blockchain Developer, equipped to build secure, transparent, and scalable applications for the future of finance, identity, data, and more. Over the course of this advanced 6-month free bootcamp journey, you’ll work in high-level environments that mirror the blockchain industry’s real demands. From smart contracts to distributed ledgers, this program is tailored for those who want to be on the cutting edge of innovation. Upon successful completion, each employee earns a globally recognized certification from EC-Council, one of the most respected blockchain authorities in the world. Every graduate is also guaranteed a $4000/month job at our company, placing you in a powerful position within one of the most forward-moving sectors of the tech industry. Stage 6 is not just a bootcamp—it’s a launchpad into blockchain leadership.',
+    'Stage 8 is a specialized track designed for professionals ready to protect the digital world. Focused on real-time threat detection, system defense, and ethical hacking, this 6-month free training (4 hours/day) prepares students to operate in high-security environments where precision, discretion, and responsibility are critical. From risk assessments to penetration testing simulations, students learn to think like attackers in order to build stronger defenses. At the end of this rigorous program, every student will appear for and earn the CEH v13 (Certified Ethical Hacker) certification from EC-Council, one of the most globally respected credentials in cybersecurity. Upon successful completion of both training and certification, each graduate is guaranteed a job in our company with a starting salary of $10,000/month. Stage 8 transforms capable developers into certified ethical hackers—ready to secure systems, organizations, and global networks.',
    author: 'Akeel',
-   title: 'Blockchain Developer',
-   topic: '$4000/month Guaranteed',
+   title: ' Cybersecurity Expert',
+   topic: '$10,000/month Guaranteed',
    description: [
     'We train you and ensure a job placement at VVEBA Pvt. Ltd.',
     'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
