@@ -39,12 +39,15 @@ export const HomeAreaAbout = () => {
          data-wow-delay=".3s"
         >
          <div className="tp-home-4-service-title text-center mt-10">
-          <span className="tp-section-v_2-title-pre" style={{color: " #ffffff"}}>
+          <span
+           className="tp-section-v_2-title-pre"
+           style={{color: ' #ffffff'}}
+          >
            ABOUT US
           </span>
           <h3 className="tp-section-title">
-           Providing advanced tech solutions for startups and diverse
-           enterprises.
+           VVEBA turns learners into IT entrepreneur with real skills and
+           guaranteed jobs.
           </h3>
          </div>
         </div>
@@ -53,9 +56,9 @@ export const HomeAreaAbout = () => {
          data-wow-duration="1s"
          data-wow-delay=".5s"
         >
-         With a focus on innovation and efficiency, we tailor our services to
-         meet the specific needs and challenges of each client, ensuring
-         seamless integration and maximum impact.
+         Learn, build, and get hired—VVEBA’s step-by-step tech journey takes you
+         from beginner to specialist, backed by global certifications and
+         industry-grade job guarantees.
         </p>
         <div
          className="tp-about-quote text-center mt-50 wow fadeInDown"
@@ -64,7 +67,7 @@ export const HomeAreaAbout = () => {
         >
          <h4 className="tp-about-quote-title">
           {' '}
-          Turning ideas into tangible digital realities{' '}
+          Build with us, Grow with us, Stay with us.
          </h4>
         </div>
         <div className="tp-about-4-cta d-flex justify-content-center mt-60 mb-10 align-items-center align-items-sm-start">
@@ -79,9 +82,9 @@ export const HomeAreaAbout = () => {
           </div>
 
           <div className="tp-hero-about-4-cta-contact pl-15">
-           <a href="tel:0923041699991" style={{color: '#fff'}}>
+           <a href="tel:9231971671681" style={{color: '#fff'}}>
             <span>Call for help</span>
-            <h4 style={{color: '#fff'}}>092 304 1699991</h4>
+            <h4 style={{color: '#fff'}}>+92 319 71671681</h4>
            </a>
           </div>
          </div>

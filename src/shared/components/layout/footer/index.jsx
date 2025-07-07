@@ -18,9 +18,9 @@ export const Footer = () => {
          </div>
          <div className="tp-footer-widget-content">
           <p>
-           Pioneering Innovation, Crafting Tomorrow's Solutions Today. Embrace
-           the Future with Our Cutting-Edge Technology and Expertise, Tailored
-           to Elevate Your Business to New Heights.
+           VVEBA Pvt. Ltd. empowers passionate learners to become global tech
+           leaders through real-world training, guaranteed jobs, and
+           industry-recognized certifications—step into your future.
           </p>
           <div className="tp-footer-input-email p-relative">
            <input type="text" placeholder="Your mail address" />
@@ -118,9 +118,9 @@ export const Footer = () => {
             </span>
            </div>
            <div className="tp-footer-widget-contact-content">
-            <a href="tel:923041699991">(092) 304 16 99 991</a>
+            <a href="tel:923197167168">(092) 319 71 67 168</a>
             <br />
-            <a href="tel:923134022275">(092) 313 40 22 275</a>
+            <a href="tel:923264047334">(092) 326 40 47 334</a>
            </div>
           </div>
           <div className="tp-footer-widget-contact d-flex align-items-center mb-25">
@@ -130,19 +130,11 @@ export const Footer = () => {
             </span>
            </div>
            <div className="tp-footer-widget-contact-content">
-            <a
-             href="https://www.google.com/maps/place/Eden+Gardens,+Lahore,+Punjab,+Pakistan/@31.3907053,74.351307,15z/data=!3m1!4b1!4m6!3m5!1s0x391907862cebed07:0x9f5d34e09083a562!8m2!3d31.3897307!4d74.3719431!16s%2Fg%2F1tg6t2lk?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"
-             target="_blank"
-            >
-             Eden Gardens,{' '}
+            <a href="https://maps.app.goo.gl/bbkj4ijSvsgvg2Pb9" target="_blank">
+             Office # 20, Zone/C, 2 Floor, Innovista Technology Zone, DHA
+             Business Hub, DHA Phase 8, Lahore.{' '}
             </a>
             <br />
-            <a
-             href="https://www.google.com/maps/place/Gajju+Matah,+Lahore,+Punjab,+Pakistan/@31.3859959,74.3550292,15z/data=!3m1!4b1!4m6!3m5!1s0x3919a8298d0bfc69:0x1898a929b479a31c!8m2!3d31.3862146!4d74.3660784!16s%2Fm%2F0qzfrqd?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"
-             target="_blank"
-            >
-             Gajjumatta, Lahore.
-            </a>
            </div>
           </div>
           <div className="tp-footer-widget-contact d-flex align-items-center">
@@ -152,7 +144,7 @@ export const Footer = () => {
             </span>
            </div>
            <div className="tp-footer-widget-contact-content">
-            <a href="mailto:inquiry@softx.solutions">inquiry@softx.solutions</a>
+            <a href="mailto:Support@vveba.com">Support@vveba.com</a>
            </div>
           </div>
          </div>

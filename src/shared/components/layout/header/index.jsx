@@ -45,22 +45,21 @@ export const Header = () => {
 
  const handleExploreClose = () => {
   setAnchorEl(null);
-    };
-    const handleCategoryClick = (link) => {
-     handleExploreClose(); // Close the popover
+ };
+ const handleCategoryClick = (link) => {
+  handleExploreClose(); // Close the popover
 
-     if (link.startsWith('#')) {
-      // Scroll to in-page section
-      const elementId = link.substring(1);
-      const section = document.getElementById(elementId);
-      if (section) {
-       section.scrollIntoView({behavior: 'smooth'});
-      }
-     } else {
-      router.push(link); // Navigate to another page
-     }
-    };
-      
+  if (link.startsWith('#')) {
+   // Scroll to in-page section
+   const elementId = link.substring(1);
+   const section = document.getElementById(elementId);
+   if (section) {
+    section.scrollIntoView({behavior: 'smooth'});
+   }
+  } else {
+   router.push(link); // Navigate to another page
+  }
+ };
 
  const openExplore = Boolean(anchorEl);
 
@@ -69,7 +68,7 @@ export const Header = () => {
   {label: 'Global Recognition', action: scrollToCourses},
   {label: 'BootCamp Curriculum', action: () => router.push('/contact')},
   {label: 'Course Details', action: () => router.push('/contact')},
-  {label: 'About Us', action: () => router.push('/contact')},
+  {label: 'About Us', action: () => router.push('/about')},
  ];
 
  const exploreCategories = {
@@ -99,7 +98,6 @@ export const Header = () => {
    {label: 'Music Boxes', link: '#music-boxes-section'},
   ],
  };
-  
 
  return (
   <header>
@@ -121,20 +119,23 @@ export const Header = () => {
     >
      <Box sx={{display: 'flex', alignItems: 'center'}}>
       <Link href="/">
-        <Box
-         sx={{
-          position: 'relative',
-          width: {xs: 50, sm: 70},
-          height: {xs: 50, sm: 70},
-         }}
-        >
-         <Image
-          src="/assets/logo.svg"
-          alt="Logo"
-          fill
-          style={{objectFit: 'contain'}}
-         />
-        </Box>
+       <Box
+        sx={{
+         position: 'relative',
+         width: {xs: 100, sm: 120},
+         height: {xs: 50, sm: 70},
+         width: '150px',
+         height: '100px',
+         left: '10%',
+        }}
+       >
+        <Image
+         src="/assets/final_logo.png"
+         alt="Logo"
+         fill
+         style={{objectFit: 'contain'}}
+        />
+       </Box>
       </Link>
      </Box>
 
