@@ -115,6 +115,38 @@ const Carousel = () => {
     'Eligibility: Intermediate or equivalent',
    ],
   },
+  {
+   id: 6,
+   thumbIcon: '/assets/slider_cart-7.jpg',
+   image: '/assets/image/05.jpg',
+   details:
+    'Stage 6 is the ultimate destination for developers ready to lead in the world of decentralized technology. This elite-level program prepares you to become a Blockchain Developer, equipped to build secure, transparent, and scalable applications for the future of finance, identity, data, and more. Over the course of this advanced 6-month free bootcamp journey, you’ll work in high-level environments that mirror the blockchain industry’s real demands. From smart contracts to distributed ledgers, this program is tailored for those who want to be on the cutting edge of innovation. Upon successful completion, each employee earns a globally recognized certification from EC-Council, one of the most respected blockchain authorities in the world. Every graduate is also guaranteed a $4000/month job at our company, placing you in a powerful position within one of the most forward-moving sectors of the tech industry. Stage 6 is not just a bootcamp—it’s a launchpad into blockchain leadership.',
+   author: 'Akeel',
+   title: 'Blockchain Developer',
+   topic: '$4000/month Guaranteed',
+   description: [
+    'We train you and ensure a job placement at VVEBA Pvt. Ltd.',
+    'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
+    'Appointments Required for Entry',
+    'Eligibility: Intermediate or equivalent',
+   ],
+  },
+  {
+   id: 7,
+   thumbIcon: '/assets/slider_cart-8.jpg',
+   image: '/assets/image/05.jpg',
+   details:
+    'Stage 6 is the ultimate destination for developers ready to lead in the world of decentralized technology. This elite-level program prepares you to become a Blockchain Developer, equipped to build secure, transparent, and scalable applications for the future of finance, identity, data, and more. Over the course of this advanced 6-month free bootcamp journey, you’ll work in high-level environments that mirror the blockchain industry’s real demands. From smart contracts to distributed ledgers, this program is tailored for those who want to be on the cutting edge of innovation. Upon successful completion, each employee earns a globally recognized certification from EC-Council, one of the most respected blockchain authorities in the world. Every graduate is also guaranteed a $4000/month job at our company, placing you in a powerful position within one of the most forward-moving sectors of the tech industry. Stage 6 is not just a bootcamp—it’s a launchpad into blockchain leadership.',
+   author: 'Akeel',
+   title: 'Blockchain Developer',
+   topic: '$4000/month Guaranteed',
+   description: [
+    'We train you and ensure a job placement at VVEBA Pvt. Ltd.',
+    'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
+    'Appointments Required for Entry',
+    'Eligibility: Intermediate or equivalent',
+   ],
+  },
  ]);
 
  const [isNext, setIsNext] = useState(false);
@@ -126,7 +158,7 @@ const Carousel = () => {
  const runNextAutoRef = useRef();
 
  const timeRunning = 3000;
- const timeAutoNext = 7000;
+ const timeAutoNext = 10000;
 
  const showSlider = (type) => {
   if (!sliderRef.current || !thumbnailBorderRef.current || !carouselRef.current)

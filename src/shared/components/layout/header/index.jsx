@@ -45,21 +45,22 @@ export const Header = () => {
 
  const handleExploreClose = () => {
   setAnchorEl(null);
- };
- const handleCategoryClick = (link) => {
-  handleExploreClose(); // Close the popover
+    };
+    const handleCategoryClick = (link) => {
+     handleExploreClose(); // Close the popover
 
-  if (link.startsWith('#')) {
-   // Scroll to in-page section
-   const elementId = link.substring(1);
-   const section = document.getElementById(elementId);
-   if (section) {
-    section.scrollIntoView({behavior: 'smooth'});
-   }
-  } else {
-   router.push(link); // Navigate to another page
-  }
- };
+     if (link.startsWith('#')) {
+      // Scroll to in-page section
+      const elementId = link.substring(1);
+      const section = document.getElementById(elementId);
+      if (section) {
+       section.scrollIntoView({behavior: 'smooth'});
+      }
+     } else {
+      router.push(link); // Navigate to another page
+     }
+    };
+      
 
  const openExplore = Boolean(anchorEl);
 
@@ -98,6 +99,7 @@ export const Header = () => {
    {label: 'Music Boxes', link: '#music-boxes-section'},
   ],
  };
+  
 
  return (
   <header>
@@ -125,8 +127,8 @@ export const Header = () => {
          width: {xs: 100, sm: 120},
          height: {xs: 50, sm: 70},
          width: '150px',
-         height: '100px',
-         left: '10%',
+                 height: '100px',
+         left: "10%"
         }}
        >
         <Image
