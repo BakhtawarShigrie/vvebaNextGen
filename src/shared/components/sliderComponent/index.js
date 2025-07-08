@@ -25,8 +25,16 @@ const Carousel = () => {
    id: 0,
    thumbIcon: '/assets/slider_cart-1.jpg',
    image: '/assets/image/01.jpg',
-   details: `Stage 1 is the ideal starting point for passionate beginners looking to become professional frontend developers. It spans three structured levels. Level 1, students undergo 6 months of intensive, paid training (12 hours/day, 5 days/week), where they learn the complete fundamentals of frontend development. This includes HTML, CSS, JavaScript, SASS, Bootstrap, Tailwind CSS, DOM manipulation, AJAX, responsive design, and an introduction to basic data structures to build logic. After completing this core phase, they are provided 2 months of free profile-building support, during which they work on real-world projects to strengthen their portfolio. Upon successful completion of the full 8-month journey—including training and profile projects—students are guaranteed a job at our company with a starting salary of $200/month. Level 2, Students embark on a 6-month deep dive into advanced JavaScript through free training sessions held 4 hours per day. Level 3, where students explore React.js with real-world single of multiple page applications. Stage 1 concludes with a fully developed skillset and strong project portfolio, followed by a guaranteed $200/month salary.`,
-   author: 'Ali Husnain',
+   details: `Stage 01 is the ideal starting point for passionate beginners looking to become professional frontend developers. It spans three structured levels. 
+   
+     Level 01: students undergo 6 months of intensive, paid training (12 hours/day, 5 days/week), where they learn the complete fundamentals of frontend development. This includes HTML, CSS, JavaScript, SASS, Bootstrap, Tailwind CSS, DOM manipulation, AJAX, responsive design, and an introduction to basic data structures to build logic. After completing this core phase, they are provided 2 months of free profile-building support, during which they work on real-world projects to strengthen their portfolio. Upon successful completion of the full 8-month journey—including training and profile projects—students are guaranteed a job at our company with a starting salary of $200/month.
+     
+     Level 02: Students embark on a 6-month deep dive into advanced JavaScript through free training sessions held 4 hours per day. It takes learners from absolute basics to advanced real-world problem solving. It begins with understanding variables (let, const), data types, operators, conditionals, loops, and functions, followed by the concepts of scope, hoisting, and strict mode. Students then progress to working with arrays, objects, destructuring, spread/rest operators, and mastering ES6+ features like arrow functions and classes. Core topics like closures, higher-order functions, and the this keyword build deeper logic-building abilities. DOM manipulation, event handling, form validation, and browser APIs are introduced next to prepare students for frontend interactivity. On the advanced side, the course covers asynchronous JavaScript with callbacks, promises, and async/await, along with APIs, JSON, local storage, and error handling. Learners dive into the event loop, memory management, modules, data structures, and functional programming. Optional mastery includes topics like debouncing, design patterns, web workers, and introduction to TypeScript, preparing students for any modern JavaScript role with confidence.
+     
+     Level 03: where students explore React.js with real-world single of multiple page applications.
+     
+     Stage 01 concludes with a fully developed skillset and strong project portfolio, followed by a guaranteed $200/month salary.`,
+   avatar: '/assets/Avatar-1.jpg',
    title: 'Junior Frontend Developer',
    topic: '$200/month Guaranteed',
    description: [
@@ -40,9 +48,26 @@ const Carousel = () => {
    id: 1,
    thumbIcon: '/assets/slider_cart-2.jpg',
    image: '/assets/image/02.jpg',
-   details: `Stage 2 is the advanced track for students who have completed Stage 1 foundational experience. Level 4, where learners specialize as JAMstack Developers. This 6-month program (4 hours/day) dives into the modern architecture of JavaScript, APIs, and Markup, using tools like Next.js, Gatsby, headless CMSs (like Strapi or Sanity), and deployment platforms like Vercel. The focus is on building blazing-fast, secure, and SEO-friendly web applications. In the second path of Level 4, students can instead specialize as MERN Stack Developers, mastering MongoDB, Express.js, React, and Node.js. Level 5, trains students to become Next.js Specialists, teaching advanced features like server- side rendering(SSR), static site generation(SSG), ISR, dynamic routing, authentication, performance tuning, and full deployment pipelines.Real - world, enterprise - grade apps are built throughout this level.By the end of Stage 2, learners are fully equipped to work globally as high - performing frontend or full - stack developers—earning a guaranteed $500 / month salary as they enter the professional world with confidence and specialization.`,
-   author: 'HUSNAIN',
-   title: 'JAMstack Developer',
+   details: `
+To qualify for Stage 02, students must complete all three levels of Stage 01, which provides the essential foundation for modern frontend development:
+
+Level 01: students undergo 6 months of paid training, mastering HTML, CSS, JavaScript, SASS, Bootstrap, Tailwind, DOM, AJAX, responsive design, and basic data structures—followed by 2 months of free profile project building.
+
+Level 02: covers the fundamentals of JavaScript, sharpening logic and scripting confidence.
+
+Level 03: focuses entirely on React.js and Next.js, equipping students with the tools to build high-performance user interfaces and static/dynamic web apps.
+
+Once Stage 01 is completed, students enter Stage 02, a deeper full-stack journey spread across three structured levels—each 6 months long, free, and 4 hours per day:
+
+Level 04: JAMstack Developer – Learn to build fast, secure, and SEO-friendly web applications using modern tools and static-first architecture.
+
+Level 05: MERN Stack Developer – Dive into full-stack development using MongoDB, Express.js, React, and Node.js to build scalable applications.
+
+Level 06: Next.js Specialist – Specialize in professional-grade web development with a focus on performance, routing, rendering, and real-world deployment using Next.js.
+
+Every student completing Stage 02 earns a guaranteed job in our company with a $500/month salary, unlocking career-ready expertise and access to Stage 03 and beyond.`,
+   avatar: '/assets/Avatar-2.jpg',
+   title: 'Full Stack Developer',
    topic: '$500/month Guaranteed',
    description: [
     'We train you and ensure a job placement at VVEBA Pvt. Ltd.',
@@ -55,11 +80,30 @@ const Carousel = () => {
    id: 2,
    thumbIcon: '/assets/slider_cart-3.jpg',
    image: '/assets/image/03.jpg',
-   details:
-    'Stage 3 is the elite track for developers ready to specialize in production-grade web applications using Next.js. This 6-month track offers free, high-intensity training for 4 hours each day, focused on pushing you beyond standard coding practices and into expert-level thinking. Throughout the journey, students are placed in realistic product-building scenarios, working on complex problems, collaborating in team environments, and delivering solutions under deadlines. This stage emphasizes quality, speed, reliability, and readiness for global standards. Its not just about writing code—its about building scalable systems, thinking critically, and executing professionally. You`ll be closely mentored, challenged with real workflows, and expected to deliver with confidence. Upon successful completion of the program, every graduate is offered a guaranteed job in our company with a $1000/month salary, reflecting your new status as a specialist. This stage is for those who aim high—and are ready to be treated like true professionals.',
-   author: 'FAWAD',
+   details: `To become a Next.js Specialist in Stage 03, students must first complete all levels of Stage 01 and Stage 02, which together provide the essential groundwork for advanced frontend and full-stack development.
+
+Level 01: 6 months of paid training in HTML, CSS, JavaScript, SASS, Bootstrap, Tailwind, DOM, AJAX, responsive design, and data structures, followed by 2 months of free profile project work.
+
+Level 02: Deep dive into the fundamentals of JavaScript, focusing on scripting, logical thinking, and foundational concepts.
+
+Level 03: Introduction to React.js and Next.js, covering components, UI rendering, and static/dynamic web experiences.
+
+Level 04: JAMstack Developer – Build fast, secure, and SEO-optimized web applications using modern frontend architecture.
+
+Level 05: MERN Stack Developer – Create full-stack web apps using MongoDB, Express.js, React, and Node.js.
+
+Level 06: Next.js Specialist (Basic) – Initial exposure to professional-grade routing, rendering, and performance optimizations using Next.js.
+
+<b>Now Entering Stage 03: Next.js Specialist</b>
+
+After mastering the fundamentals across both previous stages, students now begin Stage 03:
+
+Level 07: Next.js Specialist, a dedicated 6-month free training (4 hours/day) designed to sharpen expertise in building production-grade, high-performance web applications using Next.js. This stage focuses on real-world development scenarios, working in collaborative environments, and preparing for roles in modern web product teams.
+
+Upon successful completion, every graduate is guaranteed a job at our company with a $1000/month salary, proving their capability to deliver fast, scalable, and professional web applications with industry-ready confidence.`,
+   avatar: '/assets/Avatar-3.jpg',
    title: 'Next.js Specialist',
-   topic: '$1000/month Guaranteed',
+   topic: '$1,000/month Guaranteed',
    description: [
     'We train you and ensure a job placement at VVEBA Pvt. Ltd.',
     'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
@@ -71,11 +115,35 @@ const Carousel = () => {
    id: 3,
    thumbIcon: '/assets/slider_cart-4.jpg',
    image: '/assets/image/04.jpg',
-   details:
-    'Stage 4 is where you transition from skilled developer to full-fledged DevOps engineer, capable of managing the infrastructure, automation, and scalability demands of real-world products. This advanced program spans 6 months of free, focused training (4 hours per day) designed to simulate real-world production environments. It’s not just about writing scripts—it’s about building systems that never go down. You’ll work under realistic pressure, solving live operational challenges and collaborating across simulated cross-functional teams. The training focuses on discipline, accountability, and delivering software that is fast, stable, and secure. As part of the program, you will also be prepared for and awarded a globally recognized AWS Certified DevOps Engineer certification, further validating your expertise on an international level. Upon successful completion of the training and certification, every graduate is guaranteed a job at our company, starting with a $1500/month salary. This stage is for those who are ready to engineer systems that power the world’s best technology—reliably and at scale.',
-   author: 'BAKHTAWAR',
+   details: `Before entering Stage 04, students must successfully complete all levels of Stage 01, Stage 02, and Stage 03. These foundational stages are essential to prepare learners with the practical development mindset, coding discipline, and real-world project experience required for advanced infrastructure and deployment roles.
+
+Level 01: 6 months of paid training in HTML, CSS, JavaScript, Bootstrap, Tailwind, SASS, DOM, AJAX, responsive design, and data structures, followed by 2 months of free profile projects.
+
+Level 02: Focused on the fundamentals of JavaScript, helping students build strong logical thinking and scripting foundations.
+
+Level 03: Introduces React.js and Next.js, allowing students to build modern, interactive web interfaces and static/dynamic web experiences.
+
+Level 04: JAMstack Developer – Learn static-first, API-driven development focused on speed, security, and scalability.
+
+Level 05: MERN Stack Developer – Build full-stack applications using MongoDB, Express, React, and Node.js.
+
+Level 06: Next.js Specialist (Basic) – Advance your skills in professional-level routing, performance, and full-stack rendering using Next.js.
+
+Level 07: A 6-month specialist-level training focused entirely on mastering high-performance, production-grade applications with Next.js. Students work on real business-grade systems in collaborative environments, readying them for enterprise roles with full deployment capability.
+
+Upon completion: Guaranteed job with $1000/month salary
+
+Now Entering Stage 4: DevOps Engineer
+
+With a strong full-stack and frontend foundation in place, learners now begin Stage 4: DevOps Engineer.
+
+Level 08: This 6-month free training (4 hours/day) is designed to train students in system reliability, automation, deployment workflows, infrastructure management, and operational readiness. Students work in simulated production environments where precision, ownership, and uptime matter most.
+This stage is structured to develop a DevOps mindset—where students move beyond just writing code and into building the systems that support it. Real-time collaboration, performance monitoring, CI/CD practices, and environment handling are all approached through real-world simulations.
+
+Upon successful completion, every student is guaranteed a job at our company with a $1500/month salary, officially stepping into their role as a DevOps Engineer equipped to support global tech ecosystems.`,
+   avatar: '/assets/Avatar-4.jpg',
    title: 'DevOps Engineer',
-   topic: '$1500/month Guaranteed',
+   topic: '$1,500/month Guaranteed',
    description: [
     'We train you and ensure a job placement at VVEBA Pvt. Ltd.',
     'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
@@ -87,9 +155,34 @@ const Carousel = () => {
    id: 4,
    thumbIcon: '/assets/slider_cart-5.jpg',
    image: '/assets/image/05.jpg',
-   details:
-    'Stage 5 is the pinnacle of our engineering journey—built for elite developers aiming to lead and architect large-scale distributed systems. Over an intensive 6-month free advanced training program, students dive deep into real-world microservices architecture, service orchestration, and system design—operating at the level required by global enterprises. This stage demands precision, leadership, and the ability to manage complex services across cloud environments. Upon successful completion, every you earns a globally recognized certification in Spring Boot Java Microservices, validating their backend expertise with industry-proven technologies. Graduates are guaranteed a high-paying job in our company with a $3000/month salary, launching them into top-tier roles as backend system architects or microservices specialists. Stage 5 is not just a Bootcamp—it’s a final leap into world-class software engineering.',
-   author: 'Akeel',
+   details: `
+To enroll in <b>Stage 5: Microservices Architect,</b> students must complete all levels of Stage 01, Stage 02, Stage 03, and Stage 04. These foundational and professional levels ensure learners have mastered full-stack development, system deployment, and production-grade engineering before moving into scalable backend architecture.
+
+Level 01: 6-month paid training in HTML, CSS, JavaScript, Bootstrap, Tailwind, SASS, DOM, AJAX, responsive design, and data structures. Followed by 2 months of free profile projects.
+
+Level 02: Focused entirely on the fundamentals of JavaScript, developing strong logic and scripting abilities.
+
+Level 03: Introduces React.js and Next.js, enabling students to create dynamic, modern user interfaces.
+
+Level 04: JAMstack Developer – Focus on API-driven, static-first web development using modern tools and architecture.
+
+Level 05: MERN Stack Developer – Build full-stack applications using MongoDB, Express.js, React, and Node.js.
+
+Level 06: Next.js Specialist (Basic) – Learn advanced routing, rendering, and optimization techniques in Next.js.
+
+Level 07: 6-month professional training focused on building real-world, enterprise-level applications using Next.js, along with real deployment practices, teamwork, and performance tuning.
+
+Level 08: Students learn deployment pipelines, automation, system monitoring, and infrastructure management over 6 months of free training (4 hours/day). The program simulates real-time production environments to shape operational maturity.
+
+Now Entering Stage 5: Microservices Architect
+
+With a powerful full-stack and DevOps foundation, students are now eligible for <b>Stage 5:
+
+Level 09: Microservices Architect a specialized 6-month training (free, 4 hours/day) designed to prepare developers for scalable backend system design and cloud-native architecture. In this stage, students operate in simulated enterprise environments where service-based thinking, team collaboration, and distributed application design are key. This is where coders become system architects.
+Students who complete this stage will also receive a globally recognized certification in Spring Boot Java Microservices, proving their backend and architecture expertise to international employers.
+
+Upon completion, every student is guaranteed a $3000/month job in our company, launching them into elite backend engineering roles where they build, scale, and manage high-demand systems.`,
+   avatar: '/assets/Avatar-5.jpg',
    title: 'Microservices Architect',
    topic: '$3000/month Guaranteed',
    description: [
@@ -102,12 +195,41 @@ const Carousel = () => {
   {
    id: 5,
    thumbIcon: '/assets/slider_cart-6.jpg',
-   image: '/assets/image/05.jpg',
-   details:
-    'Stage 6 is the ultimate destination for developers ready to lead in the world of decentralized technology. This elite-level program prepares you to become a Blockchain Developer, equipped to build secure, transparent, and scalable applications for the future of finance, identity, data, and more. Over the course of this advanced 6-month free bootcamp journey, you’ll work in high-level environments that mirror the blockchain industry’s real demands. From smart contracts to distributed ledgers, this program is tailored for those who want to be on the cutting edge of innovation. Upon successful completion, each employee earns a globally recognized certification from EC-Council, one of the most respected blockchain authorities in the world. Every graduate is also guaranteed a $4000/month job at our company, placing you in a powerful position within one of the most forward-moving sectors of the tech industry. Stage 6 is not just a bootcamp—it’s a launchpad into blockchain leadership.',
-   author: 'Akeel',
+   image: '/assets/image/06.jpg',
+   details: `Before entering Stage 06, students must successfully complete all levels of Stage 01, Stage 02, Stage 03, Stage 04, and Stage 05. These prior stages are essential for shaping a well-rounded tech expert skilled in frontend development, backend architecture, system deployment, and operational engineering.
+
+Level 01: 6 months of paid foundational training in HTML, CSS, JavaScript, Bootstrap, Tailwind, DOM, AJAX, and responsive design, followed by 2 months of free portfolio project building
+
+Level 02: Focuses purely on JavaScript fundamentals, covering the essential building blocks of logic and scripting
+
+Level 03: Introduction to React.js and Next.js, enabling development of interactive UIs and dynamic/static websites
+
+Level 04: JAMstack Developer – Learn fast, secure static-first architecture using modern APIs
+
+Level 05: MERN Stack Developer – Build full-stack apps using MongoDB, Express, React, and Node.js
+
+Level 06: Next.js Specialist (Basic) – Dive deeper into routing, server-side rendering, and optimization using Next.js
+
+Level 07: An expert-level 6-month track focused on full product delivery using Next.js, performance tuning, and live deployment strategies
+
+Level 08: 6-month free training in automation, CI/CD pipelines, infrastructure as code, and monitoring systems in production and AWS certified DevOps Engineer.
+
+Level 09: Professional 6-month track focused on scalable, distributed backend systems and service-oriented design, including Spring Boot Java Microservices Certification
+
+Now Entering Stage 06: Blockchain Developer
+
+With full-stack, DevOps, and architecture mastery in place, students are now eligible for Stage 6:
+
+Level 10: Blockchain Developer—a highly specialized 6-month track (free, 4 hours/day) focused on building secure, decentralized, and tamper-proof systems that power Web3, fintech, NFTs, smart contracts, and digital identity.
+
+This program is not limited to a single certificate or training cycle. Stage 06 is divided into 4 levels, each representing a globally recognized blockchain certification issued by EC-Council. These certifications progressively validate your skills in smart contract development, blockchain architecture, security, and ethical practices.
+
+By the end of Stage 06, students will not only gain in-depth hands-on experience with real blockchain projects, but also earn all 4 official blockchain certifications from EC-Council.
+
+Upon successful completion of all levels and certifications, every student is guaranteed a $4000/month job in our company, marking their entry into the global blockchain economy as a certified, job-ready, and trusted developer.`,
+   avatar: '/assets/Avatar-6.jpg',
    title: 'Blockchain Developer',
-   topic: '$4000/month Guaranteed',
+   topic: '$4,000/month Guaranteed',
    description: [
     'We train you and ensure a job placement at VVEBA Pvt. Ltd.',
     'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
@@ -118,12 +240,40 @@ const Carousel = () => {
   {
    id: 6,
    thumbIcon: '/assets/slider_cart-7.jpg',
-   image: '/assets/image/05.jpg',
-   details:
-    'Stage 7 is a premium specialization track within the VVEBA journey, tailored for developers eager to break into the rapidly evolving field of Artificial Intelligence. This 6-month, free training program (4 hours/day) simulates high-demand AI environments, helping students build the discipline and mindset required to succeed in real-world roles. The focus is on sharpening critical thinking, decision-making, and the ability to design scalable AI-powered systems that solve meaningful problems. Students are guided through intensive problem-solving sessions, collaborative challenges, and performance-driven project execution. Upon successful completion, every graduate is guaranteed a job at our company with a $6000/month salary, placing them in a high-value role within one of the most sought-after sectors in tech. Stage 7 is a bold step forward for those ready to specialize, not the end—just another powerful elevation in the VVEBA tech career roadmap.',
-   author: 'Akeel',
+   image: '/assets/image/07.jpg',
+   details: `
+To qualify for Stage 07: AI Engineer, students must complete all levels of Stage 01 through Stage 06. These stages build the full journey—from frontend foundations to backend mastery, system deployment, microservices, and secure blockchain development—equipping learners with the technical depth and real-world experience needed to move into the high-demand field of Artificial Intelligence.
+
+Level 01: Paid 6-month training in HTML, CSS, JavaScript, Tailwind, Bootstrap, DOM, AJAX, responsive design, and data structures, followed by 2 months of free profile projects
+
+Level 02: Focused solely on the fundamentals of JavaScript
+
+Level 03: Mastering modern UI with React.js and Next.js
+
+Level 04: JAMstack Developer – static-first, API-powered apps
+
+Level 05: MERN Stack Developer – full-stack web apps
+
+Level 06: Next.js – server-side and hybrid rendering
+
+Level 07: Full product delivery using Next.js as a Next.js Specialist in a real-world team environment Completion Reward: $1000/month job
+
+Level 08: Hands-on deployment, infrastructure automation, monitoring and get certified DevOps Engineer from AWS.
+
+Level 09: Distributed backend systems and certification in Spring Boot Java Microservices
+
+Level 10: Real-world blockchain apps and 4 EC-Council certifications 
+
+Now Entering Stage 07: AI Engineer
+
+With a deeply layered skill set built over six progressive stages, students now begin Stage 07:
+
+Level 11: AI Engineer, a specialized 6-month free training (4 hours/day) designed for those who are ready to build, optimize, and deploy intelligent systems in real production environments.
+This stage is structured to simulate the workflows of modern AI teams, where engineers are expected to think beyond code—analyzing data, solving abstract problems, and deploying smart, scalable solutions. You’ll face project-level challenges that prepare you for roles in global tech companies working on automation, intelligent products, and decision-making engines.
+Upon completion of Stage 07, every graduate is guaranteed a job at our company with a $6000/month salary, launching them into one of the most respected, high-paying roles in the global software industry.`,
+   avatar: '/assets/Avatar-7.jpg',
    title: 'AI Engineer',
-   topic: '$6000/month Guaranteed',
+   topic: '$6,000/month Guaranteed',
    description: [
     'We train you and ensure a job placement at VVEBA Pvt. Ltd.',
     'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
@@ -134,10 +284,45 @@ const Carousel = () => {
   {
    id: 7,
    thumbIcon: '/assets/slider_cart-8.jpg',
-   image: '/assets/image/05.jpg',
-   details:
-    'Stage 8 is a specialized track designed for professionals ready to protect the digital world. Focused on real-time threat detection, system defense, and ethical hacking, this 6-month free training (4 hours/day) prepares students to operate in high-security environments where precision, discretion, and responsibility are critical. From risk assessments to penetration testing simulations, students learn to think like attackers in order to build stronger defenses. At the end of this rigorous program, every student will appear for and earn the CEH v13 (Certified Ethical Hacker) certification from EC-Council, one of the most globally respected credentials in cybersecurity. Upon successful completion of both training and certification, each graduate is guaranteed a job in our company with a starting salary of $10,000/month. Stage 8 transforms capable developers into certified ethical hackers—ready to secure systems, organizations, and global networks.',
-   author: 'Akeel',
+   image: '/assets/image/08.png',
+   details: `
+Stage 08 represents one of the most critical, high-responsibility roles in today’s digital world—Cybersecurity Expert. To be eligible for this elite training, students must complete all previous stages (Stage 01 through Stage 07), which collectively equip them with the deep technical foundation, system understanding, and secure development practices required to defend against cyber threats in modern enterprises.
+
+Stage 01: Junior Frontend Developer
+
+Level 01: Paid 6-month foundation in HTML, CSS, JavaScript, Bootstrap, Tailwind, DOM, AJAX, responsive design, and data structures
+
+Level 02: Focus on JavaScript fundamentals
+
+Level 03: UI mastery with React.js and Next.js
+Followed by 2 months of free portfolio project building
+
+Level 04: JAMstack Developer – static-first, modern APIs
+
+Level 05: MERN Stack Developer – dynamic full-stack apps
+
+Level 06: Next.js – hybrid rendering and scalability
+
+Level 07: Product-grade application building with real-world teamwork using Next.js as a Next.js Specialist
+
+Level 08: CI/CD, automation, infrastructure monitoring, system uptime and AWS certified DevOps Engineer
+
+Level 09: Backend system design, containerization, scalable services with Spring Boot Java Microservices Certification
+
+Level 10: Decentralized systems and smart contract mastery, including 4 Blockchain Certifications from EC-Council
+
+Level 11: Real-world intelligent systems simulation, smart automation logic, working as an AI Engineer
+
+Now Entering Stage 8: Cybersecurity Expert
+
+Cybersecurity isn’t optional—it’s the backbone of modern digital ecosystems.
+
+Level 12: Students take on one of the most sensitive and respected roles in tech: defending systems, networks, and organizations from cyber threats. This 6-month free program (4 hours/day) prepares learners to operate in high-risk, high-stakes environments where ethical hacking, penetration testing, and threat response are core responsibilities.
+
+As part of this elite track, students earn the globally recognized CEH v13 (Certified Ethical Hacker) certification from EC-Council, validating their ability to think like a hacker to defend like a professional. Learners are immersed in real-world simulation labs, team-based security operations, and challenge-based scenarios to sharpen their precision and response skills.
+
+Upon successful completion of Stage 08, every student is guaranteed a $10,000/month job at our company, entering the global cybersecurity space as a certified, trusted, and battle-tested expert.`,
+   avatar: '/assets/Avatar-8.jpg',
    title: ' Cybersecurity Expert',
    topic: '$10,000/month Guaranteed',
    description: [
@@ -247,17 +432,16 @@ const Carousel = () => {
  //  // Add state for video dialog
 
  const [dialogOpen, setdialogOpen] = useState(false);
-    const [selectedItem, setSelectedItem] = useState(null);
-    const handleDialogOpen = (item) => {
-     setSelectedItem(item);
-     setdialogOpen(true);
-    };
+ const [selectedItem, setSelectedItem] = useState(null);
+ const handleDialogOpen = (item) => {
+  setSelectedItem(item);
+  setdialogOpen(true);
+ };
 
-    const handleDialogClose = () => {
-     setdialogOpen(false);
-     setSelectedItem(null);
-    };
-    
+ const handleDialogClose = () => {
+  setdialogOpen(false);
+  setSelectedItem(null);
+ };
 
  return (
   <div
@@ -333,7 +517,9 @@ const Carousel = () => {
        className="thumbnail-image"
       />
       <div className="content">
-       <div className="title" style={{color: " #363f46"}}>{item.title}</div>
+       <div className="title" style={{color: ' #363f46'}}>
+        {item.title}
+       </div>
        <div className="description">{item.topic}</div>
       </div>
      </div>
@@ -366,13 +552,13 @@ const Carousel = () => {
       <>
        <Stack spacing={2} direction="row" alignItems="center">
         <Avatar
-         src={selectedItem.thumbIcon}
+         src={selectedItem.avatar}
          alt={selectedItem.title}
          sx={{width: 56, height: 56, marginTop: '10px'}}
         />
         <div>
          <Typography variant="h6">
-          {'Stage:' + (selectedItem.id + 1) + ' ' + selectedItem.title ||
+          {'Stage ' + (selectedItem.id + 1) + ': ' + selectedItem.title ||
            'Author N/A'}
          </Typography>
          <Typography variant="subtitle2" color="text.secondary">
@@ -384,11 +570,18 @@ const Carousel = () => {
         sx={{mt: 2}}
         dangerouslySetInnerHTML={{
          __html: selectedItem.details
-          .replace(/Level 1,/g, '<br /> <br /> <strong>Level 1,</strong>')
-          .replace(/Level 2,/g, '<br /> <br /> <strong>Level 2,</strong>')
-          .replace(/Level 3,/g, '<br /> <br /> <strong>Level 3,</strong>')
-          .replace(/Level 4,/g, '<br /> <br /> <strong>Level 4,</strong>')
-          .replace(/Level 5,/g, '<br /> <br /> <strong>Level 5,</strong>'),
+          .replace(/Level 01:/g, '<br /> <br /> <strong>Level 01:</strong>')
+          .replace(/Level 02:/g, '<br /> <br /> <strong>Level 02:</strong>')
+          .replace(/Level 03:/g, '<br /> <br /> <strong>Level 03:</strong>')
+          .replace(/Level 04:/g, '<br /> <br /> <strong>Level 04:</strong>')
+          .replace(/Level 05:/g, '<br /> <br /> <strong>Level 05:</strong>')
+          .replace(/Level 06:/g, '<br /> <br /> <strong>Level 06:</strong>')
+          .replace(/Level 07:/g, '<br /> <br /> <strong>Level 07:</strong>')
+          .replace(/Level 08:/g, '<br /> <br /> <strong>Level 08:</strong>')
+          .replace(/Level 09:/g, '<br /> <br /> <strong>Level 09:</strong>')
+          .replace(/Level 10:/g, '<br /> <br /> <strong>Level 10:</strong>')
+          .replace(/Level 11:/g, '<br /> <br /> <strong>Level 11:</strong>')
+          .replace(/Level 12:/g, '<br /> <br /> <strong>Level 12:</strong>')
         }}
        />
       </>
