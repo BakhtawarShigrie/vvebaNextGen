@@ -6773,324 +6773,384 @@ export default function TechStackJobsMarket() {
       'SIMPLYHIRED.com': [
      
         {
-          title: 'Platform DevOps Engineer – Hybrid Cloud Apps',
-          location: 'Oslo, Norway',
+          title: 'Salesforce Consultant – Global CRM Implementation Expert',
+          location: 'Berlin, Germany',
           postedDate: '2025-07-02',
-          salary: '$1,495/Month',
+          salary: '$2,030/Month',
           description:
-            "Build and manage hybrid cloud platforms supporting frontend and backend services. Ensure reliability and security for distributed microservices pipelines.",
+            "Lead global-scale CRM deployments with end-to-end Salesforce configuration, cloud integration, and Lightning component development.",
           responsibilities: [
-            'Deploy React/Next.js platforms in hybrid environments.',
-            'Manage CI/CD with GitLab and Jenkins.',
-            'Maintain infrastructure and secret management.',
-            'Establish logging and recovery automation.'
+            'Configure and customize Salesforce Sales & Service Cloud.',
+            'Manage Git-based DevOps workflows for CRM changes.',
+            'Integrate React.js portals with Salesforce APIs.',
+            'Develop reusable Apex modules across departments.'
           ],
           requirements: [
-            '4–5 years in DevOps with hybrid cloud exposure.',
-            'Fluency with GitOps and Infrastructure as Code.',
-            'Experience supporting Node.js, MongoDB, and React stacks.',
-            'Comfortable working in ISO-compliant environments.'
+            '6+ years in Salesforce implementation.',
+            'Worked with cross-functional DevOps teams on global products.',
+            'Managed marketing automation workflows via CRM.',
+            'Handled frontend and backend sync with Node.js and Salesforce.'
           ],
-          skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'bootstraps', 'socket.io', 'MVC', 'google app script']
+          skills: [
+            'html', 'css', 'Business Analysis', 'Sales Cloud', 'Service Cloud', 'tailwind', 'OOP', 'Customization',
+            'ajax', 'MUI', 'Configuration', 'data structures', 'google app script', 'Project Management',
+            'Data analysis', 'Apex Programming', 'Lightning', 'MVC', 'responsive websites', 'Client Relationship Management'
+          ]
         },
         {
-          title: 'DevOps & CI/CD Engineer – Microservices & Full Stack',
-          location: 'Dubai, UAE',
-          postedDate: '2025-07-02',
-          salary: '$1,525/Month',
-          description:
-            "Deliver scalable DevOps solutions for a high-traffic media platform. Work with frontend and backend devs to automate microservices across environments.",
-          responsibilities: [
-            'Orchestrate deployments using Kubernetes.',
-            'Maintain build/release automation pipelines.',
-            'Enable high availability and rollback capabilities.',
-            'Monitor systems and address real-time failures.'
-          ],
-          requirements: [
-            '5+ years DevOps or cloud engineering experience.',
-            'Hands-on with containers, load balancers, and CI tools.',
-            'Agile workflow and sprint planning familiarity.',
-            'Strong full stack integration awareness.'
-          ],
-          skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'OOP', 'responsive websites', 'data structures', 'prototype']
-        },
-        {
-          title: 'Senior DevOps Engineer – ML Pipelines & WebOps',
-          location: 'Sydney, Australia',
-          postedDate: '2025-07-02',
-          salary: '$1,510/Month',
-          description:
-            "Work with ML engineers and frontend devs to deploy machine learning models inside React-based web apps. Build pipelines that automate and optimize release processes.",
-          responsibilities: [
-            'Deploy containerized ML services to production.',
-            'Collaborate with web teams for integration.',
-            'Set up observability tools (Prometheus, Grafana).',
-            'Manage high-load infrastructure environments.'
-          ],
-          requirements: [
-            '4+ years in DevOps with ML/AI exposure.',
-            'Experience with Python APIs and Node.js microservices.',
-            'Infrastructure knowledge for model delivery.',
-            'Kubernetes and workflow orchestration required.'
-          ],
-          skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'tensorflow.js', 'google app script', 'OOP', 'critical rendering']
-        },
-        {
-          title: 'Full Stack DevOps Specialist – SaaS Systems Delivery',
+          title: 'Salesforce Consultant – Multi-Cloud & Frontend Integration',
           location: 'Toronto, Canada',
           postedDate: '2025-07-02',
-          salary: '$1,485/Month',
+          salary: '$2,050/Month',
           description:
-            "Be part of a product-focused SaaS company. Automate builds and deployments while ensuring resilient infrastructure supporting full stack JavaScript environments.",
+            "Join a cross-continent Salesforce team delivering Marketing Cloud integrations with frontend portals built on React and Next.js.",
           responsibilities: [
-            'Automate builds and zero-downtime deployments.',
-            'Configure staging and production CI/CD.',
-            'Implement alerting and disaster recovery processes.',
-            'Optimize backend release workflows.'
+            'Lead Lightning customization projects.',
+            'Build secure APIs between frontend and Salesforce.',
+            'Contribute to CI/CD pipelines for metadata migration.',
+            'Mentor internal teams in full stack cloud integration.'
           ],
           requirements: [
-            '5+ years DevOps/Infrastructure experience.',
-            'Docker, Kubernetes, and Helm expertise.',
-            'Experience deploying Node.js and Next.js apps.',
-            'Solid Linux, Git, and scripting background.'
+            '6+ years of CRM and platform design.',
+            'Handled CRM sync with MERN stack portals.',
+            'Built DevOps-driven release automation pipelines.',
+            'Optimized Salesforce Lightning UX performance.'
           ],
-          skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'ajax', 'express', 'google app script', 'MVC']
+          skills: [
+            'html', 'css', 'Marketing Cloud', 'Service Cloud', 'tailwind', 'Business analysis', 'Data management',
+            'Project Management', 'OOP', 'Configuration', 'Customization', 'google app script', 'ajax', 'MUI',
+            'critical rendering', 'express', 'Apex Programming', 'Lightning', 'responsive websites', 'socket.io'
+          ]
         },
-      {
-        title: 'DevOps Engineer – Infrastructure Automation & CI/CD',
-        location: 'Berlin, Germany',
-        postedDate: '2025-07-02',
-        salary: '$1,500/Month',
-        description:
-          "Join our European cloud ops team to streamline deployments using GitHub Actions, Terraform, and container orchestration. Deliver scalable React/Next.js systems globally.",
-        responsibilities: [
-          'Design, automate, and manage cloud infrastructure.',
-          'Implement scalable CI/CD workflows.',
-          'Optimize deployment strategies for full stack apps.',
-          'Collaborate with frontend/backend teams for smooth releases.'
-        ],
-        requirements: [
-          '4+ years in DevOps with CI/CD experience.',
-          'Strong command of cloud platforms like AWS or GCP.',
-          'Experience with microservices and Docker.',
-          'Proficient in scripting, Git, and monitoring tools.'
-        ],
-        skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'data structures', 'MUI', 'responsive websites', 'socket.io']
-      }
+        {
+          title: 'Salesforce Consultant – CRM Transformation & Lightning Solutions',
+          location: 'Melbourne, Australia',
+          postedDate: '2025-07-02',
+          salary: '$2,070/Month',
+          description:
+            "We are looking for a Salesforce consultant to support enterprise cloud CRM transformation and integration with full stack web platforms.",
+          responsibilities: [
+            'Implement Lightning pages with reusable components.',
+            'Deploy metadata via DevOps and Git workflows.',
+            'Integrate Salesforce APIs with backend Express services.',
+            'Drive end-user adoption and data automation initiatives.'
+          ],
+          requirements: [
+            '6+ years in custom CRM delivery.',
+            'Built enterprise DevOps CI/CD infrastructure.',
+            'Worked on data sync using Node.js and MongoDB.',
+            'Deployed marketing journeys in Marketing Cloud.'
+          ],
+          skills: [
+            'html', 'css', 'data analysis', 'tailwind', 'Sales Cloud', 'Business Analysis', 'ajax', 'Client Relationship Management',
+            'MVC', 'google app script', 'bootstraps', 'OOP', 'Customization', 'Configuration',
+            'Apex Programming', 'Lightning', 'dom', 'machine learning', 'responsive websites', 'data structures'
+          ]
+        },
+        {
+          title: 'Salesforce Consultant – Full Stack CRM Integrator',
+          location: 'Amsterdam, Netherlands',
+          postedDate: '2025-07-02',
+          salary: '$2,060/Month',
+          description:
+            "Deliver end-to-end Salesforce CRM solutions, integrating front-end frameworks and backend databases with customized Apex modules.",
+          responsibilities: [
+            'Manage Salesforce configuration with multi-cloud environments.',
+            'Sync APIs with React and Express-based platforms.',
+            'Set up Lightning flows and dynamic page layouts.',
+            'Implement DevOps deployment strategies for CRM updates.'
+          ],
+          requirements: [
+            '6+ years in Salesforce and full stack platform integration.',
+            'Developed backend APIs with Node.js for CRM data sync.',
+            'Created scalable marketing flows in Marketing Cloud.',
+            'Handled GitHub-based deployments using CI/CD.'
+          ],
+          skills: [
+            'html', 'css', 'Sales Cloud', 'Service Cloud', 'ajax', 'MVC', 'data structures', 'express', 'Customization', 'Project Management',
+            'Client Relationship Management', 'bootstraps', 'OOP', 'google app script', 'Marketing Cloud',
+            'Apex Programming', 'Lightning', 'tailwind', 'prototype', 'responsive websites'
+          ]
+        },
+        {
+          title: 'Salesforce Consultant – Lightning Automation & Cloud Workflows',
+          location: 'Dubai, UAE',
+          postedDate: '2025-07-02',
+          salary: '$2,045/Month',
+          description:
+            "Join an agile CRM team delivering Salesforce Marketing Cloud campaigns and Lightning-based solutions integrated with DevOps and modern stacks.",
+          responsibilities: [
+            'Design and customize Lightning Web Components.',
+            'Support CI/CD deployment processes via GitLab.',
+            'Integrate Salesforce with mobile-responsive portals.',
+            'Implement automation across customer workflows.'
+          ],
+          requirements: [
+            '6+ years in Salesforce configuration and CRM optimization.',
+            'Worked with MongoDB, Express, and React integrations.',
+            'Managed data pipelines in full stack environments.',
+            'Assisted in cloud migration for B2C clients.'
+          ],
+          skills: [
+            'html', 'css', 'dom', 'ajax', 'Sales Cloud', 'Service Cloud', 'Marketing Cloud', 'Project Management',
+            'Data management', 'google app script', 'tailwind', 'OOP', 'MVC', 'Customization',
+            'Apex Programming', 'Lightning', 'prototype', 'responsive websites', 'Client Relationship Management', 'Configuration'
+          ]
+        }
      ],
      'GLASSDOOR.com': [
       {
-        title: 'Cloud DevOps Engineer – Full Stack Delivery & Automation',
+        title: 'Salesforce Consultant – Cross-Cloud CRM Architect',
+        location: 'Paris, France',
+        postedDate: '2025-07-02',
+        salary: '$2,080/Month',
+        description:
+          "Work with global teams to deploy Salesforce Sales & Service Cloud instances, automate business processes, and build advanced Lightning components.",
+        responsibilities: [
+          'Architect cloud-based Salesforce workflows.',
+          'Integrate Salesforce with third-party platforms.',
+          'Implement metadata-driven Lightning customization.',
+          'Support frontend integration using REST APIs.'
+        ],
+        requirements: [
+          '6+ years of enterprise Salesforce delivery.',
+          'Previously managed CRM deployments across regions.',
+          'Supported frontend apps via DevOps-driven CI/CD.',
+          'Led cross-functional product rollout involving Service Cloud.'
+        ],
+        skills: [
+          'html', 'css', 'Sales Cloud', 'ajax', 'javascript', 'Data analysis', 'MVC', 'Marketing Cloud',
+          'tailwind', 'Project Management', 'machine learning', 'MUI', 'Customization',
+          'Apex Programming', 'Lightning', 'OOP', 'responsive websites', 'google app script', 'express', 'Client Relationship Management'
+        ]
+      },
+      {
+        title: 'Salesforce Consultant – CRM Ops & Full Stack Collaboration',
+        location: 'Singapore',
+        postedDate: '2025-07-02',
+        salary: '$2,090/Month',
+        description:
+          "We're hiring a Salesforce Consultant to streamline Sales Cloud pipelines and manage integrations with React, Node.js, and cloud infrastructure.",
+        responsibilities: [
+          'Work on dynamic Lightning page layouts.',
+          'Customize Apex classes and batch jobs.',
+          'Coordinate with DevOps on version control and staging.',
+          'Deliver integrations with frontend and backend systems.'
+        ],
+        requirements: [
+          '6+ years in Salesforce ecosystems.',
+          'Led Lightning transitions across departments.',
+          'Worked with full stack teams using Express and React.',
+          'Automated deployments with cloud-based GitOps tools.'
+        ],
+        skills: [
+          'html', 'css', 'tailwind', 'Business Analysis', 'Sales Cloud', 'Service Cloud', 'bootstraps', 'machine learning',
+          'Customization', 'google app script', 'MVC', 'ajax', 'Client Relationship Management',
+          'Apex Programming', 'Lightning', 'OOP', 'Configuration', 'Project Management', 'responsive websites'
+        ]
+      },
+      {
+        title: 'Salesforce Consultant – Lightning, Cloud, and Data Integration',
         location: 'Barcelona, Spain',
         postedDate: '2025-07-02',
-        salary: '$1,505/Month',
+        salary: '$2,030/Month',
         description:
-          "We're hiring a DevOps engineer to manage scalable deployments and CI pipelines for our React, Next.js, and Node.js stack across European clients.",
+          "Contribute to cross-continent Salesforce deployments by building custom flows, Lightning components, and real-time data integration pipelines.",
         responsibilities: [
-          'Create and maintain GitOps deployment pipelines.',
-          'Automate provisioning using Terraform.',
-          'Integrate DevOps with full stack teams.',
-          'Ensure monitoring, logging, and backup plans.'
+          'Develop and optimize Apex code for data processing.',
+          'Customize UI using Lightning Web Components.',
+          'Automate marketing flows using Salesforce tools.',
+          'Sync backend databases with Salesforce REST APIs.'
         ],
         requirements: [
-          '4+ years DevOps experience with JavaScript stacks.',
-          'Experience with IaC, CI/CD tools, and GitHub Actions.',
-          'Comfort with multi-region cloud environments.',
-          'Strong scripting and system-level debugging skills.'
+          '6+ years in Salesforce ecosystem.',
+          'Integrated backend services using Node and Express.',
+          'Built metadata-driven components across Sales Cloud.',
+          'Led Salesforce admin and DevOps automation tasks.'
         ],
-        skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'express', 'OOP', 'critical rendering', 'data structures']
+        skills: [
+          'html', 'css', 'dom', 'Sales Cloud', 'Service Cloud', 'bootstraps', 'google app script', 'Marketing Cloud',
+          'data structures', 'ajax', 'MVC', 'Client Relationship Management', 'Project Management',
+          'Apex Programming', 'Lightning', 'Customization', 'OOP', 'responsive websites', 'Configuration', 'Flexibility'
+        ]
       },
       {
-        title: 'DevOps & Site Reliability Engineer – High Uptime Environments',
-        location: 'Tokyo, Japan',
-        postedDate: '2025-07-02',
-        salary: '$1,530/Month',
-        description:
-          "Seeking an SRE-focused DevOps engineer to support high uptime React and Node.js deployments. You'll optimize systems for performance, redundancy, and reliability.",
-        responsibilities: [
-          'Deploy scalable containerized apps via Kubernetes.',
-          'Implement performance monitoring and auto-healing systems.',
-          'Support uptime for production services.',
-          'Enable blue/green and canary deployments.'
-        ],
-        requirements: [
-          '5+ years of SRE/DevOps experience.',
-          'Knowledge of uptime metrics, load balancing, and rollback.',
-          'Proficient in React/Node.js DevOps support.',
-          'Strong command over Unix/Linux systems.'
-        ],
-        skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'machine learning', 'ajax', 'google app script', 'socket.io']
-      },
-      {
-        title: 'Full Stack DevOps Engineer – Product Pipeline Optimization',
-        location: 'Amsterdam, Netherlands',
-        postedDate: '2025-07-02',
-        salary: '$1,485/Month',
-        description:
-          "You’ll work across cloud deployments and developer tooling to improve code-to-cloud pipelines for a high-growth software product used by global retailers.",
-        responsibilities: [
-          'Automate CI/CD pipelines for product release.',
-          'Build and deploy frontend/backend services.',
-          'Set up dynamic infrastructure using IaC.',
-          'Collaborate on performance benchmarking.'
-        ],
-        requirements: [
-          '4+ years DevOps experience in full stack environment.',
-          'Comfortable with AWS, Docker, and GitHub Workflows.',
-          'Proficiency in JS-based app stack deployments.',
-          'Familiar with monitoring dashboards.'
-        ],
-        skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'responsive websites', 'OOP', 'bootstraps', 'MVC']
-      },
-      {
-        title: 'Lead DevOps Engineer – Kubernetes & CI/CD Systems',
-        location: 'Auckland, New Zealand',
-        postedDate: '2025-07-02',
-        salary: '$1,500/Month',
-        description:
-          "We’re seeking a senior DevOps professional to lead pipeline, container, and deployment processes across modern React and API-based web apps.",
-        responsibilities: [
-          'Architect deployment systems for frontend/backend codebases.',
-          'Implement IaC and GitOps workflows.',
-          'Oversee CI/CD process design and testing.',
-          'Collaborate with full stack engineers to optimize delivery.'
-        ],
-        requirements: [
-          '5+ years DevOps or cloud automation experience.',
-          'Expertise in container orchestration (Docker, K8s).',
-          'Able to manage complex release environments.',
-          'Strong Node.js pipeline integration.'
-        ],
-        skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'ajax', 'express', 'socket.io', 'data structures', 'MVC']
-      },
-      {
-        title: 'Cloud Infrastructure & DevOps Engineer – Distributed Systems',
+        title: 'Salesforce Consultant – Full Stack CRM Delivery Partner',
         location: 'Zurich, Switzerland',
         postedDate: '2025-07-02',
-        salary: '$1,490/Month',
+        salary: '$2,090/Month',
         description:
-          "Join our infrastructure division managing cloud-based deployment systems, monitoring layers, and JavaScript stack performance improvements across platforms.",
+          "We’re looking for a Salesforce consultant to lead global CRM deployments and contribute to full stack development environments powered by Salesforce APIs.",
         responsibilities: [
-          'Develop cross-region deployment pipelines.',
-          'Establish scalable, fault-tolerant cloud solutions.',
-          'Support React/Next.js app rollouts globally.',
-          'Implement custom automation scripts.'
+          'Configure Salesforce Sales and Marketing Clouds for global teams.',
+          'Create custom Lightning components for responsive UX.',
+          'Collaborate with DevOps to deploy Salesforce changes.',
+          'Manage customer journeys through Apex automation.'
         ],
         requirements: [
-          '5 years DevOps/cloud operations experience.',
-          'Fluency in infrastructure tooling (Terraform, Ansible).',
-          'Strong experience with JavaScript-based deployments.',
-          'Comfortable in regulated, multi-tenant environments.'
+          '6+ years of Salesforce architecture experience.',
+          'Integrated Salesforce with modern MERN applications.',
+          'Worked on CI/CD pipelines for sandbox and production sync.',
+          'Delivered training to cross-functional CRM users.'
         ],
-        skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'data structures', 'MUI', 'OOP', 'prototype']
+        skills: [
+          'html', 'css', 'Sales Cloud', 'Service Cloud', 'Project Management', 'Client Relationship Management', 'ajax', 'express',
+          'MVC', 'Customization', 'tailwind', 'machine learning', 'google app script', 'Business Analysis', 'OOP',
+          'Apex Programming', 'Lightning', 'responsive websites', 'bootstraps', 'Data analysis'
+        ]
+      },
+      {
+        title: 'Salesforce Consultant – API & Data-Driven CRM Systems',
+        location: 'Johannesburg, South Africa',
+        postedDate: '2025-07-02',
+        salary: '$2,000/Month',
+        description:
+          "Deliver custom Salesforce solutions with Lightning customization, data management, and DevOps workflows for high-traffic businesses.",
+        responsibilities: [
+          'Build scalable Apex triggers and components.',
+          'Deploy Salesforce code via automated DevOps pipelines.',
+          'Integrate full stack APIs for dynamic CRM updates.',
+          'Manage CRM dashboards and data visualization.'
+        ],
+        requirements: [
+          '6+ years in CRM solution engineering.',
+          'Integrated MongoDB and Salesforce data models.',
+          'Managed pipeline deployment with Git and Jenkins.',
+          'Created scalable Lightning interfaces for mobile-first use.'
+        ],
+        skills: [
+          'html', 'css', 'Marketing Cloud', 'dom', 'ajax', 'Sales Cloud', 'Service Cloud', 'data analysis',
+          'google app script', 'Project Management', 'OOP', 'express', 'responsive websites', 'MVC',
+          'Apex Programming', 'Lightning', 'Customization', 'Client Relationship Management', 'bootstraps', 'Data management'
+        ]
       }
      ],
       'INDEED.com': [
         {
-          title: 'DevOps Engineer – Full Stack Platform Orchestration',
-          location: 'Copenhagen, Denmark',
+          title: 'Salesforce Consultant – DevOps-Focused CRM Delivery',
+          location: 'Seoul, South Korea',
           postedDate: '2025-07-02',
-          salary: '$1,495/Month',
+          salary: '$2,070/Month',
           description:
-            "Join a distributed engineering team to manage containerized deployment, CI/CD automation, and end-to-end DevOps for Node and React-based applications.",
+            "Join our digital transformation team delivering CRM solutions that align with DevOps workflows, automation, and Lightning-based applications.",
           responsibilities: [
-            'Work with developers to streamline builds.',
-            'Build secure pipelines for microservices.',
-            'Deploy infrastructure via IaC and CI.',
-            'Monitor production systems and perform tuning.'
+            'Lead Apex customization and testing strategies.',
+            'Automate deployment pipelines using GitHub Actions.',
+            'Integrate Salesforce with React and mobile APIs.',
+            'Contribute to cross-team data schema alignment.'
           ],
           requirements: [
-            '4+ years in cloud ops and DevOps roles.',
-            'Familiarity with React + Node.js stack automation.',
-            'Experience building pipelines in enterprise environments.',
-            'Scripting in Bash, Python, or Node required.'
+            '6+ years Salesforce experience.',
+            'Experience with DevOps automation tools.',
+            'Worked on microservices synced with CRM.',
+            'Trained cross-functional users on Lightning UX.'
           ],
-          skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'OOP', 'bootstraps', 'data structures', 'MVC']
+          skills: [
+            'html', 'css', 'javascript', 'Sales Cloud', 'Marketing Cloud', 'Service Cloud', 'data analysis', 'Configuration',
+            'express', 'Project Management', 'ajax', 'MVC', 'OOP', 'google app script', 'Customization',
+            'Apex Programming', 'Lightning', 'tailwind', 'Client Relationship Management', 'responsive websites'
+          ]
         },
         {
-          title: 'DevOps Engineer – High-Speed Deployment Systems',
-          location: 'Warsaw, Poland',
+          title: 'Salesforce Consultant – Cloud Specialist with Apex Expertise',
+          location: 'Oslo, Norway',
           postedDate: '2025-07-02',
-          salary: '$1,520/Month',
+          salary: '$2,000/Month',
           description:
-            "Join a fintech product team where you'll own pipeline architecture for our critical deployments. Ensure React and Node updates are shipped fast and reliably.",
+            "We’re hiring a Salesforce expert who thrives in full stack environments, understands CRM logic, and builds responsive Lightning apps that scale.",
           responsibilities: [
-            'Maintain automated test and release systems.',
-            'Monitor system health and load under pressure.',
-            'Coordinate regional and global deployment pipelines.',
-            'Optimize rollback and patching procedures.'
+            'Create and test Lightning flows and LWC modules.',
+            'Use Apex to build dynamic triggers and REST integrations.',
+            'Support service cloud automation and ticket flows.',
+            'Deploy changes with DevOps CI pipelines.'
           ],
           requirements: [
-            '4–5 years DevOps with JS app deployment.',
-            'Hands-on with CI/CD platforms like CircleCI or GitHub Actions.',
-            'Experience with React/Next.js builds and CDN routing.',
-            'Capable in performance stress testing.'
+            '6+ years in Salesforce administration and development.',
+            'Familiar with cloud-first deployment environments.',
+            'Managed end-user workflows and lead pipelines.',
+            'Collaborated on multi-language CRM implementation.'
           ],
-          skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'ajax', 'MUI', 'socket.io', 'google app script']
+          skills: [
+            'html', 'css', 'Sales Cloud', 'Service Cloud', 'Marketing Cloud', 'Client Relationship Management', 'ajax', 'MVC',
+            'google app script', 'Data analysis', 'tailwind', 'machine learning', 'express', 'Customization',
+            'Apex Programming', 'Lightning', 'Project Management', 'OOP', 'responsive websites', 'dom'
+          ]
         },
         {
-          title: 'Global DevOps Specialist – Full Stack Automation',
-          location: 'Cape Town, South Africa',
+          title: 'Salesforce Consultant – Full Stack & Cloud Workflow Specialist',
+          location: 'Kuala Lumpur, Malaysia',
           postedDate: '2025-07-02',
-          salary: '$1,485/Month',
+          salary: '$2,100/Month',
           description:
-            "Help us scale our multi-country frontend/backend stack with robust automation pipelines and efficient delivery practices using modern DevOps workflows.",
+            "Help us deliver scalable CRM solutions using Salesforce Lightning, automated workflows, and integrations with React-based admin panels.",
           responsibilities: [
-            'Automate staging-to-production flow.',
-            'Work closely with backend API and frontend teams.',
-            'Implement rollout control and rollback logic.',
-            'Maintain secure access and permissions.'
+            'Customize Sales & Marketing Cloud flows.',
+            'Build scalable Apex logic and LWC apps.',
+            'Work with frontend teams to streamline user interactions.',
+            'Run DevOps-based deployment and backup strategies.'
           ],
           requirements: [
-            '4+ years in automation/devops roles.',
-            'Full stack JS deployment knowledge essential.',
-            'Versioning and rollback experience.',
-            'Cloud services and Git expertise required.'
+            '6+ years in Salesforce & full stack collaboration.',
+            'Built dynamic dashboards with API-synced data.',
+            'Implemented marketing automation through Lightning.',
+            'Worked with cloud Git workflows.'
           ],
-          skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'google app script', 'data structures', 'prototype', 'bootstraps']
+          skills: [
+            'html', 'css', 'ajax', 'Sales Cloud', 'Service Cloud', 'Marketing Cloud', 'tailwind', 'OOP', 'google app script',
+            'Customization', 'MVC', 'express', 'machine learning', 'Project Management',
+            'Apex Programming', 'Lightning', 'Client Relationship Management', 'responsive websites', 'Data analysis', 'Configuration'
+          ]
         },
         {
-          title: 'Next.js DevOps Architect – Performance & Pipeline Engineer',
-          location: 'Singapore',
+          title: 'Salesforce Consultant – Apex Cloud Builder & UI Strategist',
+          location: 'Bangkok, Thailand',
           postedDate: '2025-07-02',
-          salary: '$1,525/Month',
+          salary: '$2,030/Month',
           description:
-            "Lead full stack delivery ops and performance pipelines for our enterprise-grade Next.js applications across finance and healthcare clients.",
+            "We’re hiring a Salesforce professional with full stack logic, Apex expertise, and a passion for building clean, scalable, Lightning-driven CRM workflows.",
           responsibilities: [
-            'Monitor app performance across deployments.',
-            'Maintain infrastructure compliance and audits.',
-            'Support server-side rendering workflows (Next.js).',
-            'Build secure deployment environments with CI tools.'
+            'Build reusable Lightning components and record pages.',
+            'Sync CRM with Node.js middleware and Express APIs.',
+            'Deliver CI/CD releases with rollback capabilities.',
+            'Collaborate with UI/UX teams on responsive flows.'
           ],
           requirements: [
-            '5+ years DevOps/infra experience.',
-            'Comfort with performance engineering tools.',
-            'Experience integrating full stack JS deployments.',
-            'Security-focused DevOps mindset.'
+            '6+ years in Salesforce platform engineering.',
+            'Managed agile CRM projects globally.',
+            'Worked on both backend and frontend CRM layers.',
+            'Integrated third-party services into CRM dashboards.'
           ],
-          skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'socket.io', 'MVC', 'ajax', 'OOP']
+          skills: [
+            'html', 'css', 'ajax', 'Service Cloud', 'Sales Cloud', 'Marketing Cloud', 'OOP', 'MVC', 'tailwind', 'Client Relationship Management',
+            'Customization', 'machine learning', 'google app script', 'express', 'bootstraps', 'Apex Programming',
+            'Lightning', 'responsive websites', 'Data management', 'Configuration'
+          ]
         },
-      {
-        title: 'DevOps Engineer – SaaS Platform & Scalable Architecture',
-        location: 'Lisbon, Portugal',
-        postedDate: '2025-07-02',
-        salary: '$1,515/Month',
-        description:
-          "Work on high-availability SaaS delivery using Next.js frontend and Node.js backend stacks. Help scale infrastructure to support growing customer base.",
-        responsibilities: [
-          'Build Docker-based release pipelines.',
-          'Ensure 99.99% uptime for web services.',
-          'Collaborate with engineers on feature rollouts.',
-          'Manage cost-efficient deployment strategies.'
-        ],
-        requirements: [
-          '4+ years in DevOps and cloud deployments.',
-          'Knowledge of frontend and backend ops processes.',
-          'Understanding of cost optimization tools.',
-          'Comfortable in fast-paced product environments.'
-        ],
-        skills: ['html', 'css', 'JavaScript', 'react', 'next.js', 'node.js', 'tailwind', 'DevOps', 'critical rendering', 'express', 'google app script', 'responsive websites']
-      }
+        {
+          title: 'Salesforce Consultant – International Cloud Automation Lead',
+          location: 'Wellington, New Zealand',
+          postedDate: '2025-07-02',
+          salary: '$2,090/Month',
+          description:
+            "Work with global delivery teams to design Salesforce cloud integrations, build Lightning-based user portals, and implement DevOps best practices.",
+          responsibilities: [
+            'Implement business automation across CRM pipelines.',
+            'Manage DevOps and CI/CD processes for metadata deployment.',
+            'Collaborate with frontend and backend developers.',
+            'Write and maintain Apex classes, triggers, and flows.'
+          ],
+          requirements: [
+            '6+ years of experience in Salesforce automation and integration.',
+            'Built full stack portals syncing with Salesforce.',
+            'Worked in Git-based CRM environments.',
+            'Handled multilingual and multi-region CRM flows.'
+          ],
+          skills: [
+            'html', 'css', 'Sales Cloud', 'Service Cloud', 'Marketing Cloud', 'ajax', 'MVC', 'OOP', 'Project Management',
+            'express', 'Customization', 'data structures', 'MUI', 'google app script', 'tailwind',
+            'Apex Programming', 'Lightning', 'responsive websites', 'Client Relationship Management', 'Configuration'
+          ]
+        }
      ],
     };
 
@@ -7109,37 +7169,826 @@ export default function TechStackJobsMarket() {
     'GLASSDOOR.com',
     'INDEED.com',
    ],
-   content: (platform) => {
-    // platform-specific data
-    const platformData = {
-     'ROZEE.pk': {
-      imagePath1: '/assets/image/jobs/microservices-rozee-1.png',
-      imagePath2: '/assets/image/jobs/microservices-rozee-2.png',
-     },
-     'CAREERJET.com': {
-      imagePath1: '/assets/image/jobs/microservices-career-1.png',
-     },
-     'SIMPLYHIRED.com': {
-      imagePath1: '/assets/image/jobs/microservices-simplyHired-1.png',
-     },
-     'GLASSDOOR.com': {
-      imagePath1: '/assets/image/jobs/microservices-glassdoor-1.png',
-     },
-     'INDEED.com': {
-      imagePath1: '/assets/image/jobs/microservices-indeed-1.png',
-     },
+   content: (country) => {
+    const countryData = {
+     'ROZEE.pk': [
+      {
+       title:
+        'Senior Microservices Developer – Python & Container Orchestration',
+       location: 'Faisalabad, Pakistan',
+       postedDate: '2025-07-02',
+       salary: 'PKR 780,000/Month',
+       softwareHouse: 'ArhamSoft Pvt Ltd',
+       description:
+        'Help architect a Python-based microservices infrastructure for high-availability cloud systems. Use Docker and Kubernetes for agile deployments.',
+       responsibilities: [
+        'Develop and document backend Python services for multi-region deployment.',
+        'Implement CI/CD workflows for microservices delivery.',
+        'Use Kubernetes to manage container scale, health, and failover.',
+        'Ensure seamless database integration with MySQL.',
+       ],
+       requirements: [
+        '7+ years in backend development, specifically Python.',
+        'Experience building modular, reusable microservices.',
+        'Comfort with Docker images, Kubernetes pods, and auto-scaling.',
+        'Knowledge of MySQL schemas and query performance.',
+       ],
+       skills: [
+        'Python',
+        'MySQL',
+        'Docker',
+        'Kubernetes',
+        'CI/CD',
+        'data structures',
+        'ajax',
+        'tailwind',
+        'MVC',
+        'OOP',
+        'responsive websites',
+        'Configuration',
+       ],
+      },
+      {
+       title: 'Microservices Engineer – Full Stack JavaScript & API Scaling',
+       location: 'Peshawar, Pakistan',
+       postedDate: '2025-07-02',
+       salary: 'PKR 720,000/Month',
+       softwareHouse: 'TRG Tech',
+       description:
+        'Join a fast-growing SaaS company as a JavaScript-focused microservices developer. Deliver scalable APIs deployed via Docker and Kubernetes.',
+       responsibilities: [
+        'Write Node.js services that communicate through REST and WebSockets.',
+        'Deploy containers across multiple environments using Kubernetes.',
+        'Automate build pipelines and version control using Git workflows.',
+        'Maintain PostgreSQL integration with optimized queries.',
+       ],
+       requirements: [
+        '7+ years using JavaScript for full stack or backend roles.',
+        'Experienced in building APIs and deploying to Kubernetes clusters.',
+        'Strong command over PostgreSQL and REST architecture.',
+        'Familiar with Docker-based CI/CD pipelines.',
+       ],
+       skills: [
+        'JavaScript',
+        'PostgreSQL',
+        'Docker',
+        'Kubernetes',
+        'CI/CD',
+        'tailwind',
+        'ajax',
+        'express',
+        'responsive websites',
+        'data structures',
+        'socket.io',
+        'OOP',
+        'MVC',
+       ],
+      },
+      {
+       title: 'Microservices Developer – Scalable C# Backend',
+       location: 'Karachi, Pakistan',
+       postedDate: '2025-07-02',
+       salary: 'PKR 760,000/Month',
+       softwareHouse: '10Pearls Pakistan',
+       description:
+        'We’re looking for a microservices developer to build C#-based APIs running inside Docker containers and managed on Kubernetes with MongoDB.',
+       responsibilities: [
+        'Design event-driven microservices with C# and .NET Core.',
+        'Deploy, scale and monitor containers using Kubernetes.',
+        'Write unit tests and maintain service health through observability.',
+        'Develop secure APIs and interface with MongoDB collections.',
+       ],
+       requirements: [
+        '7+ years of C# or .NET backend experience.',
+        'Deep understanding of microservice architecture and container orchestration.',
+        'Familiar with document-based databases like MongoDB.',
+        'Worked in agile DevOps environments.',
+       ],
+       skills: [
+        'C#',
+        'MongoDB',
+        'Docker',
+        'Kubernetes',
+        'CI/CD',
+        'ajax',
+        'tailwind',
+        'MVC',
+        'google app script',
+        'OOP',
+        'responsive websites',
+        'data structures',
+       ],
+      },
+      {
+       title: 'Lead Microservices Developer – Java Microservice Architect',
+       location: 'Islamabad, Pakistan',
+       postedDate: '2025-07-02',
+       salary: 'PKR 795,000/Month',
+       softwareHouse: 'Ovex Technologies',
+       description:
+        'Lead a microservices architecture for a high-volume eCommerce platform using Java. Orchestrate containers with Kubernetes and automate CI/CD delivery.',
+       responsibilities: [
+        'Design API-first microservices in Java.',
+        'Integrate services into Kubernetes clusters using Helm.',
+        'Automate service pipelines with GitHub Actions and Jenkins.',
+        'Collaborate with cross-functional teams across DevOps and QA.',
+       ],
+       requirements: [
+        '7+ years of Java backend or microservices experience.',
+        'Advanced experience with Docker and Kubernetes.',
+        'Built production-ready microservices in large-scale systems.',
+        'Familiar with container orchestration and zero-downtime deployment.',
+       ],
+       skills: [
+        'Java',
+        'MySQL',
+        'Docker',
+        'Kubernetes',
+        'tailwind',
+        'data structures',
+        'ajax',
+        'MVC',
+        'google app script',
+        'OOP',
+        'responsive websites',
+        'Configuration',
+        'MUI',
+       ],
+      },
+      {
+       title: 'Senior Microservices Developer – Node.js Specialist',
+       location: 'Lahore, Pakistan',
+       postedDate: '2025-07-02',
+       salary: 'PKR 740,000/Month',
+       softwareHouse: 'Systems Limited',
+       description:
+        'Build scalable microservices for enterprise applications using Node.js. Help us deploy distributed containers in real-time cloud environments.',
+       responsibilities: [
+        'Design RESTful APIs and service registries.',
+        'Containerize services using Docker and orchestrate with Kubernetes.',
+        'Work closely with DevOps teams to streamline CI/CD pipelines.',
+        'Monitor service uptime and perform issue resolution for production systems.',
+       ],
+       requirements: [
+        '7+ years of backend/microservices development experience.',
+        'Strong command over Docker and Kubernetes.',
+        'Experience building scalable services in Node.js.',
+        'Comfortable working in a container-first cloud environment.',
+       ],
+       skills: [
+        'Node.js',
+        'PostgreSQL',
+        'Docker',
+        'Kubernetes',
+        'CI/CD',
+        'ajax',
+        'tailwind',
+        'MVC',
+        'OOP',
+        'responsive websites',
+        'google app script',
+        'socket.io',
+        'Configuration',
+       ],
+      },
+     ],
+     'CAREERJET.com': [
+      {
+       title: 'Senior Microservices Developer – Node.js Cloud Services',
+       location: 'New York, NY, USA',
+       postedDate: '2025-07-02',
+       salary: '$3050/Month',
+       softwareHouse: 'ThoughtWorks',
+       description:
+        "We're looking for a Node.js-focused developer to build modern microservices in a scalable, distributed environment. Work on real-time APIs and container-first deployments.",
+       responsibilities: [
+        'Develop Node.js microservices using RESTful API patterns.',
+        'Deploy containerized services with Docker and Kubernetes.',
+        'Build CI/CD automation workflows and optimize backend performance.',
+        'Integrate services with PostgreSQL for data consistency.',
+       ],
+       requirements: [
+        '7+ years in microservices and backend development.',
+        'Deep expertise with Docker/Kubernetes lifecycle and service orchestration.',
+        'Fluent in Node.js and PostgreSQL integration.',
+        'Built and deployed scalable microservices in production environments.',
+       ],
+       skills: [
+        'Node.js',
+        'PostgreSQL',
+        'Docker',
+        'Kubernetes',
+        'CI/CD',
+        'tailwind',
+        'MVC',
+        'responsive websites',
+        'data structures',
+        'ajax',
+       ],
+      },
+      {
+       title: 'Lead Microservices Developer – Java & Cloud-native Architecture',
+       location: 'San Francisco, CA, USA',
+       postedDate: '2025-07-02',
+       salary: '$2980/Month',
+       softwareHouse: 'HashiCorp',
+       description:
+        'Join a high-growth cloud company to develop Java-based microservices and manage distributed services deployed via Kubernetes.',
+       responsibilities: [
+        'Design modular microservices using Java and Spring Boot.',
+        'Deploy and manage containers in GCP Kubernetes clusters.',
+        'Implement logging, monitoring, and service resilience.',
+        'Integrate MongoDB and optimize queries for large datasets.',
+       ],
+       requirements: [
+        '7+ years of Java-based service development experience.',
+        'Expertise in cloud-native development with containers.',
+        'Hands-on experience with Kubernetes in production.',
+        'Strong knowledge of MongoDB data modeling.',
+       ],
+       skills: [
+        'Java',
+        'MongoDB',
+        'Docker',
+        'Kubernetes',
+        'CI/CD',
+        'ajax',
+        'data structures',
+        'responsive websites',
+        'MVC',
+        'google app script',
+       ],
+      },
+      {
+       title: 'Microservices Developer – C# and Scalable APIs',
+       location: 'Austin, TX, USA',
+       postedDate: '2025-07-02',
+       salary: '$3000/Month',
+       softwareHouse: 'Cognizant Softvision',
+       description:
+        'Develop C# microservices for complex systems handling millions of transactions. Join our engineering team building scalable services for enterprise software.',
+       responsibilities: [
+        'Build secure REST APIs in C# for distributed systems.',
+        'Deploy containerized services using Docker/Kubernetes.',
+        'Work on service discovery and health checks.',
+        'Integrate APIs with MySQL databases.',
+       ],
+       requirements: [
+        '7+ years of C# or .NET Core backend development.',
+        'Familiarity with container management using Kubernetes.',
+        'Strong MySQL skills including query optimization.',
+        'Experience in continuous deployment pipelines.',
+       ],
+       skills: [
+        'C#',
+        'MySQL',
+        'Docker',
+        'Kubernetes',
+        'CI/CD',
+        'responsive websites',
+        'tailwind',
+        'MVC',
+        'ajax',
+        'OOP',
+       ],
+      },
+      {
+       title: 'Microservices Engineer – JavaScript & API Infrastructure',
+       location: 'Seattle, WA, USA',
+       postedDate: '2025-07-02',
+       salary: '$3075/Month',
+       softwareHouse: 'Slalom Build',
+       description:
+        'Design event-driven microservices in JavaScript for our cloud product platform. Help scale APIs and services through container-based deployment.',
+       responsibilities: [
+        'Build scalable APIs in JavaScript (Node.js) for distributed systems.',
+        'Manage container deployments using Kubernetes.',
+        'Implement CI/CD for fast, secure code delivery.',
+        'Integrate and maintain PostgreSQL schemas and connections.',
+       ],
+       requirements: [
+        '7+ years of JavaScript or Node.js development experience.',
+        'Strong grasp of microservice scaling and container orchestration.',
+        'Expertise with PostgreSQL and service authentication.',
+        'Familiarity with service monitoring and rollback strategies.',
+       ],
+       skills: [
+        'JavaScript',
+        'PostgreSQL',
+        'Docker',
+        'Kubernetes',
+        'CI/CD',
+        'tailwind',
+        'responsive websites',
+        'ajax',
+        'google app script',
+        'MVC',
+       ],
+      },
+      {
+       title: 'Microservices Developer – Python API Systems',
+       location: 'Chicago, IL, USA',
+       postedDate: '2025-07-02',
+       salary: '$2910/Month',
+       softwareHouse: 'Kin + Carta',
+       description:
+        'Develop Python-based microservices with MongoDB for a cloud-native SaaS platform. Focus on fast deployments, performance, and scalability.',
+       responsibilities: [
+        'Design containerized microservices in Python.',
+        'Use Kubernetes to manage pods and deployments.',
+        'Automate CI/CD with GitHub Actions and Docker.',
+        'Work with MongoDB for fast, flexible data access.',
+       ],
+       requirements: [
+        '7+ years in backend or full-stack development using Python.',
+        'Hands-on with Docker, Kubernetes, and cloud environments.',
+        'Experience in developing secure, distributed services.',
+        'Solid knowledge of MongoDB and API query design.',
+       ],
+       skills: [
+        'Python',
+        'MongoDB',
+        'Docker',
+        'Kubernetes',
+        'CI/CD',
+        'tailwind',
+        'MVC',
+        'data structures',
+        'ajax',
+        'responsive websites',
+       ],
+      },
+     ],
+     'SIMPLYHIRED.com': [
+      {
+       title: 'Senior Microservices Developer – Node.js Cloud Services',
+       location: 'New York, NY, USA',
+       postedDate: '2025-07-02',
+       salary: '$3050/Month',
+       softwareHouse: 'ThoughtWorks',
+       description:
+        "We're looking for a Node.js-focused developer to build modern microservices in a scalable, distributed environment. Work on real-time APIs and container-first deployments.",
+       responsibilities: [
+        'Develop Node.js microservices using RESTful API patterns.',
+        'Deploy containerized services with Docker and Kubernetes.',
+        'Build CI/CD automation workflows and optimize backend performance.',
+        'Integrate services with PostgreSQL for data consistency.',
+       ],
+       requirements: [
+        '7+ years in microservices and backend development.',
+        'Deep expertise with Docker/Kubernetes lifecycle and service orchestration.',
+        'Fluent in Node.js and PostgreSQL integration.',
+        'Built and deployed scalable microservices in production environments.',
+       ],
+       skills: [
+        'Node.js',
+        'PostgreSQL',
+        'Docker',
+        'Kubernetes',
+        'CI/CD',
+        'tailwind',
+        'MVC',
+        'responsive websites',
+        'data structures',
+        'ajax',
+       ],
+      },
+      {
+       title: 'Lead Microservices Developer – Java & Cloud-native Architecture',
+       location: 'San Francisco, CA, USA',
+       postedDate: '2025-07-02',
+       salary: '$2980/Month',
+       softwareHouse: 'HashiCorp',
+       description:
+        'Join a high-growth cloud company to develop Java-based microservices and manage distributed services deployed via Kubernetes.',
+       responsibilities: [
+        'Design modular microservices using Java and Spring Boot.',
+        'Deploy and manage containers in GCP Kubernetes clusters.',
+        'Implement logging, monitoring, and service resilience.',
+        'Integrate MongoDB and optimize queries for large datasets.',
+       ],
+       requirements: [
+        '7+ years of Java-based service development experience.',
+        'Expertise in cloud-native development with containers.',
+        'Hands-on experience with Kubernetes in production.',
+        'Strong knowledge of MongoDB data modeling.',
+       ],
+       skills: [
+        'Java',
+        'MongoDB',
+        'Docker',
+        'Kubernetes',
+        'CI/CD',
+        'ajax',
+        'data structures',
+        'responsive websites',
+        'MVC',
+        'google app script',
+       ],
+      },
+      {
+       title: 'Microservices Developer – C# and Scalable APIs',
+       location: 'Austin, TX, USA',
+       postedDate: '2025-07-02',
+       salary: '$3000/Month',
+       softwareHouse: 'Cognizant Softvision',
+       description:
+        'Develop C# microservices for complex systems handling millions of transactions. Join our engineering team building scalable services for enterprise software.',
+       responsibilities: [
+        'Build secure REST APIs in C# for distributed systems.',
+        'Deploy containerized services using Docker/Kubernetes.',
+        'Work on service discovery and health checks.',
+        'Integrate APIs with MySQL databases.',
+       ],
+       requirements: [
+        '7+ years of C# or .NET Core backend development.',
+        'Familiarity with container management using Kubernetes.',
+        'Strong MySQL skills including query optimization.',
+        'Experience in continuous deployment pipelines.',
+       ],
+       skills: [
+        'C#',
+        'MySQL',
+        'Docker',
+        'Kubernetes',
+        'CI/CD',
+        'responsive websites',
+        'tailwind',
+        'MVC',
+        'ajax',
+        'OOP',
+       ],
+      },
+      {
+       title: 'Microservices Engineer – JavaScript & API Infrastructure',
+       location: 'Seattle, WA, USA',
+       postedDate: '2025-07-02',
+       salary: '$3075/Month',
+       softwareHouse: 'Slalom Build',
+       description:
+        'Design event-driven microservices in JavaScript for our cloud product platform. Help scale APIs and services through container-based deployment.',
+       responsibilities: [
+        'Build scalable APIs in JavaScript (Node.js) for distributed systems.',
+        'Manage container deployments using Kubernetes.',
+        'Implement CI/CD for fast, secure code delivery.',
+        'Integrate and maintain PostgreSQL schemas and connections.',
+       ],
+       requirements: [
+        '7+ years of JavaScript or Node.js development experience.',
+        'Strong grasp of microservice scaling and container orchestration.',
+        'Expertise with PostgreSQL and service authentication.',
+        'Familiarity with service monitoring and rollback strategies.',
+       ],
+       skills: [
+        'JavaScript',
+        'PostgreSQL',
+        'Docker',
+        'Kubernetes',
+        'CI/CD',
+        'tailwind',
+        'responsive websites',
+        'ajax',
+        'google app script',
+        'MVC',
+       ],
+      },
+      {
+       title: 'Microservices Developer – Python API Systems',
+       location: 'Chicago, IL, USA',
+       postedDate: '2025-07-02',
+       salary: '$2910/Month',
+       softwareHouse: 'Kin + Carta',
+       description:
+        'Develop Python-based microservices with MongoDB for a cloud-native SaaS platform. Focus on fast deployments, performance, and scalability.',
+       responsibilities: [
+        'Design containerized microservices in Python.',
+        'Use Kubernetes to manage pods and deployments.',
+        'Automate CI/CD with GitHub Actions and Docker.',
+        'Work with MongoDB for fast, flexible data access.',
+       ],
+       requirements: [
+        '7+ years in backend or full-stack development using Python.',
+        'Hands-on with Docker, Kubernetes, and cloud environments.',
+        'Experience in developing secure, distributed services.',
+        'Solid knowledge of MongoDB and API query design.',
+       ],
+       skills: [
+        'Python',
+        'MongoDB',
+        'Docker',
+        'Kubernetes',
+        'CI/CD',
+        'tailwind',
+        'MVC',
+        'data structures',
+        'ajax',
+        'responsive websites',
+       ],
+      },
+     ],
+     'GLASSDOOR.com': [
+      {
+       title: 'Senior Microservices Developer – Ruby & Event-Driven APIs',
+       location: 'Oslo, Norway',
+       postedDate: '2025-07-02',
+       salary: '$2900/Month',
+       softwareHouse: 'Telenor Digital',
+       description:
+        'Create high-availability services using Ruby and PostgreSQL. Design clean API contracts and deploy scalable systems using Kubernetes.',
+       responsibilities: [
+        'Develop Ruby microservices with PostgreSQL integration.',
+        'Use Docker for service packaging and deployment.',
+        'Implement logging, tracing, and observability patterns.',
+        'Maintain CI pipelines and release automation.',
+       ],
+       requirements: [
+        '7+ years in backend development with Ruby.',
+        'PostgreSQL expertise in high-volume applications.',
+        'Production experience with Docker and Kubernetes.',
+        'Ability to troubleshoot distributed systems.',
+       ],
+       skills: [
+        'Ruby',
+        'PostgreSQL',
+        'Docker',
+        'Kubernetes',
+        'CI/CD',
+        'MVC',
+        'OOP',
+        'ajax',
+        'responsive websites',
+        'tailwind',
+       ],
+      },
+      {
+       title: 'Microservices Engineer – Node.js Cloud Integration',
+       location: 'Amsterdam, Netherlands',
+       postedDate: '2025-07-02',
+       salary: '$3025/Month',
+       softwareHouse: 'Mollie',
+       description:
+        'Support payment microservices using Node.js and MySQL. Build resilient infrastructure and CI/CD pipelines across services.',
+       responsibilities: [
+        'Design REST APIs in Node.js with MySQL.',
+        'Deploy to container-based platforms with Kubernetes.',
+        'Monitor and scale services using metrics and logs.',
+        'Ensure performance under high load.',
+       ],
+       requirements: [
+        '7+ years of Node.js experience in scalable backend.',
+        'Strong MySQL query and schema experience.',
+        'Understanding of microservice deployments via Docker.',
+        'CI/CD automation expertise.',
+       ],
+       skills: [
+        'Node.js',
+        'MySQL',
+        'Docker',
+        'Kubernetes',
+        'CI/CD',
+        'google app script',
+        'ajax',
+        'MVC',
+        'tailwind',
+        'responsive websites',
+       ],
+      },
+      {
+       title: 'Microservices Developer – PHP & Container Security',
+       location: 'Zurich, Switzerland',
+       postedDate: '2025-07-02',
+       salary: '$2960/Month',
+       softwareHouse: 'Scandit',
+       description:
+        'Join our logistics product team to modernize our backend using PHP, MongoDB, and Kubernetes-based microservices.',
+       responsibilities: [
+        'Build and maintain PHP microservices.',
+        'Use MongoDB for non-relational data persistence.',
+        'Automate builds using CI/CD tools and Docker.',
+        'Deploy via Kubernetes with service monitoring.',
+       ],
+       requirements: [
+        '7+ years of backend experience with PHP.',
+        'Experience using MongoDB with microservices.',
+        'Docker image creation and lifecycle handling.',
+        'Familiar with API gateways and service meshes.',
+       ],
+       skills: [
+        'PHP',
+        'MongoDB',
+        'Docker',
+        'Kubernetes',
+        'CI/CD',
+        'ajax',
+        'OOP',
+        'responsive websites',
+        'MVC',
+        'google app script',
+       ],
+      },
+      {
+       title: 'Cloud Microservices Specialist – Python & Database Sync',
+       location: 'Lisbon, Portugal',
+       postedDate: '2025-07-02',
+       salary: '$2990/Month',
+       softwareHouse: 'OutSystems',
+       description:
+        'Build performant microservices for cloud app delivery. Write scalable Python code and manage MySQL schema for real-time data.',
+       responsibilities: [
+        'Build Python-based services with REST APIs.',
+        'Integrate MySQL and optimize for concurrency.',
+        'Manage containers using Docker and Kubernetes.',
+        'Implement automated deployment flows.',
+       ],
+       requirements: [
+        '7+ years in backend Python development.',
+        'MySQL optimization and maintenance experience.',
+        'CI/CD experience with GitHub Actions.',
+        'Docker and Kubernetes in production environments.',
+       ],
+       skills: [
+        'Python',
+        'MySQL',
+        'Docker',
+        'Kubernetes',
+        'CI/CD',
+        'ajax',
+        'OOP',
+        'data structures',
+        'MVC',
+        'responsive websites',
+       ],
+      },
+      {
+       title: 'Microservices Developer – JS & Firebase Functions',
+       location: 'Singapore',
+       postedDate: '2025-07-02',
+       salary: '$3070/Month',
+       softwareHouse: 'Sea Group',
+       description:
+        'Develop JS-based microservices using Firebase Functions for a gaming backend. Ensure scalable auth and real-time data syncing.',
+       responsibilities: [
+        'Build serverless microservices in JavaScript.',
+        'Integrate Firebase Realtime DB and Firestore.',
+        'Manage CI/CD and deployments via Docker.',
+        'Monitor services using logs and performance tools.',
+       ],
+       requirements: [
+        '7+ years of backend experience with JS.',
+        'Strong knowledge of Firebase tools.',
+        'Experience with Docker and container security.',
+        'Used Kubernetes for service orchestration.',
+       ],
+       skills: [
+        'JavaScript',
+        'Firebase',
+        'Docker',
+        'Kubernetes',
+        'CI/CD',
+        'tailwind',
+        'responsive websites',
+        'ajax',
+        'OOP',
+        'MVC',
+       ],
+      },
+     ],
+     'INDEED.com': [
+      {
+        title: "Microservices Engineer – JS & SQL Server Integration",
+        location: "Manila, Philippines",
+        postedDate: "2025-07-02",
+        salary: "$2905/Month",
+        softwareHouse: "Yondu",
+        description: "Design robust APIs and microservices in JavaScript. Support enterprise clients using SQL Server databases and containerized hosting.",
+        responsibilities: [
+          "Create modular JS microservices using REST APIs.",
+          "Integrate with SQL Server and manage DB connections.",
+          "Deploy services using Docker/Kubernetes.",
+          "Maintain code quality with test automation."
+        ],
+        requirements: [
+          "7+ years in JS backend development.",
+          "Strong SQL Server experience.",
+          "Expert with Docker and CI/CD environments.",
+          "Experience with microservice event systems."
+        ],
+        skills: [
+          "JavaScript", "SQL Server", "Docker", "Kubernetes", "CI/CD",
+          "responsive websites", "tailwind", "OOP", "ajax", "MVC"
+        ]
+      },
+      {
+        title: "Microservices Developer – Go & Realtime Services",
+        location: "Dublin, Ireland",
+        postedDate: "2025-07-02",
+        salary: "$3085/Month",
+        softwareHouse: "Intercom",
+        description: "Design scalable Go services for chat infrastructure. Use MongoDB for event logs and deploy via Kubernetes.",
+        responsibilities: [
+          "Build Go microservices handling live chats.",
+          "Integrate MongoDB for message tracking.",
+          "Use Docker and Kubernetes for deployment.",
+          "Work with CI/CD and feature rollout tools."
+        ],
+        requirements: [
+          "7+ years of backend experience using Go.",
+          "MongoDB with high-availability support.",
+          "CI/CD pipelines using GitHub Actions.",
+          "Experience with container-based delivery."
+        ],
+        skills: [
+          "Go", "MongoDB", "Docker", "Kubernetes", "CI/CD",
+          "OOP", "responsive websites", "MVC", "ajax", "data structures"
+        ]
+      },
+      {
+        title: "Cloud Microservices Developer – .NET Core",
+        location: "Helsinki, Finland",
+        postedDate: "2025-07-02",
+        salary: "$3095/Month",
+        softwareHouse: "Wolt",
+        description: "Work on order processing microservices for Wolt’s delivery app. Use C# and PostgreSQL with container-first deployments.",
+        responsibilities: [
+          "Write clean .NET Core APIs.",
+          "Use PostgreSQL for real-time data writes.",
+          "Create Docker containers and deploy to K8s.",
+          "Monitor systems for uptime and speed."
+        ],
+        requirements: [
+          "7+ years of experience in .NET Core.",
+          "Expert in PostgreSQL schema design.",
+          "Production Kubernetes deployment experience.",
+          "Understanding of microservice decoupling."
+        ],
+        skills: [
+          "C#", "PostgreSQL", "Docker", "Kubernetes", "CI/CD",
+          "ajax", "MVC", "responsive websites", "google app script", "OOP"
+        ]
+      },
+      {
+        title: "Python Microservices Engineer – Serverless Stack",
+        location: "Wellington, New Zealand",
+        postedDate: "2025-07-02",
+        salary: "$2955/Month",
+        softwareHouse: "Xero",
+        description: "Develop scalable microservices with Python and Firebase Cloud Functions. Use Kubernetes to manage API performance across services.",
+        responsibilities: [
+          "Build Python-based microservices for accounting software.",
+          "Use Firebase for cloud auth and event triggers.",
+          "Manage builds via CI/CD and Docker.",
+          "Deploy with Kubernetes and configure scaling."
+        ],
+        requirements: [
+          "7+ years of Python backend experience.",
+          "Hands-on experience with Firebase stack.",
+          "Advanced CI/CD deployment knowledge.",
+          "Strong Docker and Kubernetes experience."
+        ],
+        skills: [
+          "Python", "Firebase", "Docker", "Kubernetes", "CI/CD",
+          "MVC", "OOP", "responsive websites", "ajax", "tailwind"
+        ]
+      },
+      {
+       title: 'Enterprise Microservices Developer – Java Backend Systems',
+       location: 'Warsaw, Poland',
+       postedDate: '2025-07-02',
+       salary: '$2910/Month',
+       softwareHouse: 'Allegro',
+       description:
+        'Lead the design and development of Java microservices for e-commerce operations with PostgreSQL and secure Docker deployments.',
+       responsibilities: [
+        'Build Java-based APIs for product search and logistics.',
+        'Optimize PostgreSQL queries and indexes.',
+        'Handle container orchestration via Kubernetes.',
+        'Maintain CI/CD for multiple microservices.',
+       ],
+       requirements: [
+        '7+ years of Java backend experience.',
+        'Experience with PostgreSQL tuning.',
+        'Docker image pipelines and Kubernetes clusters.',
+        'Knowledge of distributed design patterns.',
+       ],
+       skills: [
+        'Java',
+        'PostgreSQL',
+        'Docker',
+        'Kubernetes',
+        'CI/CD',
+        'ajax',
+        'MVC',
+        'OOP',
+        'responsive websites',
+        'data structures',
+       ],
+      },
+     ],
     };
 
     return {
-     title: `Microservices Developer in ${platform}`,
-     data: [
-      {
-       shortDescription: platformData[platform].shortDescription,
-       heading: 'About Microservices Developer ',
-       image1: platformData[platform].imagePath1, // Moved image links here
-       image2: platformData[platform].imagePath2, // Moved image links here
-      },
-     ],
+     title: `Microservices Developer Jobs in ${country}`,
+     data: countryData[country],
     };
    },
   },
@@ -7153,37 +8002,819 @@ export default function TechStackJobsMarket() {
     'GLASSDOOR.com',
     'INDEED.com',
    ],
-   content: (platform) => {
-    // platform-specific data
-    const platformData = {
-     'ROZEE.pk': {
-      imagePath1: '/assets/image/jobs/blockchain-rozee-1.png',
-      imagePath2: '/assets/image/jobs/blockchain-rozee-2.png',
-     },
-     'CAREERJET.com': {
-      imagePath1: '/assets/image/jobs/blockchain-career-1.png',
-     },
-     'SIMPLYHIRED.com': {
-      imagePath1: '/assets/image/jobs/blockchain-simplyHired-1.png',
-     },
-     'GLASSDOOR.com': {
-      imagePath1: '/assets/image/jobs/blockchain-glassdoor-1.png',
-     },
-     'INDEED.com': {
-      imagePath1: '/assets/image/jobs/blockchain-indeed-1.png',
-     },
+   content: (country) => {
+    const countryData = {
+     'ROZEE.pk': [
+      {
+       title:
+        'Blockchain Solutions Architect – Smart Contracts & Decentralized Systems',
+       location: 'Lahore, Pakistan',
+       postedDate: '2025-07-02',
+       salary: 'PKR 1,020,000/Month',
+       softwareHouse: 'Systems Limited',
+       description:
+        'Seeking a senior blockchain expert to build decentralized financial systems with Ethereum and integrate secure APIs in a full stack environment.',
+       responsibilities: [
+        'Design and audit smart contracts for DeFi protocols.',
+        'Integrate RESTful APIs with blockchain ledgers.',
+        'Collaborate on scalable frontends using Tailwind and React.',
+        'Automate deployments with CI/CD pipelines.',
+       ],
+       requirements: [
+        '8+ years in blockchain and web tech development.',
+        'Hands-on Ethereum and Solidity contract experience.',
+        'Experience building full stack dApps using web3.js.',
+        'Comfortable with high-load backend integrations.',
+       ],
+       skills: [
+        'Solidity',
+        'web3.js',
+        'Ethereum',
+        'Truffle',
+        'CI/CD',
+        'RESTful API',
+        'JavaScript',
+        'tailwind',
+        'MUI',
+        'Postman',
+        'google app script',
+        'MVC',
+        'OOP',
+        'responsive websites',
+        'Auth0',
+        'ajax',
+        'critical rendering',
+        'data structures',
+       ],
+      },
+      {
+       title: 'Blockchain Consultant – DeFi Systems & Tokenomics',
+       location: 'Karachi, Pakistan',
+       postedDate: '2025-07-02',
+       salary: 'PKR 1,150,000/Month',
+       softwareHouse: '10Pearls',
+       description:
+        'Help shape token economies and DeFi platforms using smart contracts and robust APIs. Collaborate with full stack teams on cutting-edge projects.',
+       responsibilities: [
+        'Architect scalable DeFi protocols and contract structures.',
+        'Lead integration of blockchain with web UIs and APIs.',
+        'Review token metrics and perform simulations.',
+        'Write reusable code with CI/CD integration.',
+       ],
+       requirements: [
+        '8+ years of tech experience with 5+ in blockchain.',
+        'Proficient with Tokenomics modeling and governance logic.',
+        'Capable of full stack blockchain-enabled web development.',
+        'Skilled in Web3 authentication and encryption.',
+       ],
+       skills: [
+        'Solana',
+        'Rust',
+        'Tokenomics',
+        'web3.js',
+        'Postman',
+        'tailwind',
+        'socket.io',
+        'OOP',
+        'google app script',
+        'MVC',
+        'bootstrap',
+        'CI/CD',
+        'Auth0',
+        'HTML',
+        'CSS',
+        'JavaScript',
+        'machine learning',
+        'data structures',
+       ],
+      },
+      {
+       title: 'Senior Blockchain Developer – Web3 API & DAO Development',
+       location: 'Islamabad, Pakistan',
+       postedDate: '2025-07-02',
+       salary: 'PKR 1,090,000/Month',
+       softwareHouse: 'Techlogix',
+       description:
+        'Contribute to building DAOs and blockchain governance modules with modern tools like Ethers.js and The Graph, in an agile product-focused environment.',
+       responsibilities: [
+        'Build custom DAOs and indexers using blockchain data.',
+        'Collaborate with frontend teams to visualize Web3 data.',
+        'Maintain unit tests and CI/CD workflows.',
+        'Ensure secure communication through RESTful APIs.',
+       ],
+       requirements: [
+        '8+ years development, with at least 4 years in blockchain.',
+        'Experience with DAOs, The Graph, and governance layers.',
+        'Expert in frontend-to-blockchain data syncing.',
+        'Strong debugging and profiling skills.',
+       ],
+       skills: [
+        'Ethers.js',
+        'The Graph',
+        'DAOs',
+        'JavaScript',
+        'OOP',
+        'tailwind',
+        'responsive websites',
+        'Postman',
+        'ajax',
+        'MVC',
+        'HTML',
+        'CSS',
+        'data structures',
+        'bootstrap',
+        'google app script',
+        'RESTful API',
+        'Auth0',
+        'critical rendering',
+       ],
+      },
+      {
+       title: 'Lead Blockchain Engineer – Multichain Integration & Security',
+       location: 'Peshawar, Pakistan',
+       postedDate: '2025-07-02',
+       salary: 'PKR 1,180,000/Month',
+       softwareHouse: 'VentureDive',
+       description:
+        'Build and secure multi-chain applications using EVM and non-EVM networks. Ensure full stack integration from dApp to smart contracts with audit readiness.',
+       responsibilities: [
+        'Create multichain bridges and asset transfer protocols.',
+        'Secure smart contracts with best auditing practices.',
+        'Develop UIs and backends integrated with the blockchain.',
+        'Automate deployment and node setup with CI tools.',
+       ],
+       requirements: [
+        '8+ years of development including 3+ in multichain apps.',
+        'Hands-on with chain agnostic technologies and wallets.',
+        'Strong blockchain security and authentication protocols.',
+        'Skilled in DevOps pipelines and containerization.',
+       ],
+       skills: [
+        'web3.js',
+        'Multichain',
+        'Solana',
+        'CI/CD',
+        'Docker',
+        'MVC',
+        'tailwind',
+        'RESTful API',
+        'responsive websites',
+        'HTML',
+        'CSS',
+        'JavaScript',
+        'Postman',
+        'google app script',
+        'Auth0',
+        'data structures',
+        'bootstrap',
+        'OOP',
+       ],
+      },
+      {
+       title: 'Full Stack Blockchain Developer – NFT & dApp Systems',
+       location: 'Rawalpindi, Pakistan',
+       postedDate: '2025-07-02',
+       salary: 'PKR 1,100,000/Month',
+       softwareHouse: 'CureMD',
+       description:
+        'Work on NFT platforms and full stack blockchain systems. Develop secure Web3 interfaces and handle real-time asset indexing.',
+       responsibilities: [
+        'Create NFT minting platforms with frontend UI.',
+        'Manage smart contract interaction from web interfaces.',
+        'Use REST APIs to link off-chain data securely.',
+        'Optimize full stack performance across services.',
+       ],
+       requirements: [
+        '8+ years experience with 4+ in blockchain-related products.',
+        'Deep understanding of NFT standards (ERC-721, ERC-1155).',
+        'Able to build React UIs and backend REST integrations.',
+        'Strong in smart contract lifecycle management.',
+       ],
+       skills: [
+        'ERC-721',
+        'ERC-1155',
+        'NFTs',
+        'React',
+        'tailwind',
+        'OOP',
+        'JavaScript',
+        'HTML',
+        'CSS',
+        'google app script',
+        'RESTful API',
+        'Postman',
+        'MUI',
+        'bootstrap',
+        'data structures',
+        'socket.io',
+        'responsive websites',
+        'CI/CD',
+       ],
+      },
+     ],
+     'CAREERJET.com': [
+      {
+       title:
+        'Senior Blockchain Consultant – Cross-Chain Systems & dApp Architecture',
+       location: 'Austin, TX, USA',
+       postedDate: '2025-07-02',
+       salary: '$3,950/Month',
+       softwareHouse: 'Consensys',
+       description:
+        'We’re looking for an experienced blockchain consultant to lead development across multi-chain ecosystems, build dApps, and drive full stack Web3 innovation.',
+       responsibilities: [
+        'Architect scalable decentralized apps across Ethereum and L2s.',
+        'Implement blockchain data indexing and APIs.',
+        'Integrate security audits and protocol upgrades.',
+        'Collaborate with UI/UX and DevOps for end-to-end delivery.',
+       ],
+       requirements: [
+        '8+ years in full stack development, 4+ in blockchain space.',
+        'Proficiency in Solidity, web3.js, and cross-chain tooling.',
+        'Deep knowledge of L2 solutions like Optimism or Arbitrum.',
+        'Skilled in frontend performance and CI/CD automation.',
+       ],
+       skills: [
+        'Solidity',
+        'web3.js',
+        'Ethers.js',
+        'Cross-chain Bridges',
+        'L2s',
+        'CI/CD',
+        'Auth0',
+        'RESTful API',
+        'OOP',
+        'HTML',
+        'CSS',
+        'JavaScript',
+        'tailwind',
+        'Postman',
+        'responsive websites',
+        'google app script',
+        'MVC',
+        'data structures',
+       ],
+      },
+      {
+       title:
+        'Blockchain Platform Engineer – Secure dApps & Ledger Integrations',
+       location: 'New York, NY, USA',
+       postedDate: '2025-07-02',
+       salary: '$4,150/Month',
+       softwareHouse: 'Chainalysis',
+       description:
+        'Join a cutting-edge blockchain security platform to develop secure dApps and integrate ledger systems with real-time compliance tools.',
+       responsibilities: [
+        'Build and optimize secure blockchain-enabled applications.',
+        'Integrate RESTful and GraphQL APIs into smart contract flows.',
+        'Develop middleware for tracking and alerting transactions.',
+        'Test and secure Web3 code with Postman and CI/CD tools.',
+       ],
+       requirements: [
+        '8+ years in software engineering, 5+ in smart contracts.',
+        'Experience with wallet authentication and blockchain analytics.',
+        'Strong grasp of RESTful architecture and state management.',
+        'Hands-on with Web3 tech stacks, from frontend to smart contracts.',
+       ],
+       skills: [
+        'Ethereum',
+        'Solidity',
+        'Truffle',
+        'RESTful API',
+        'wallet integration',
+        'JavaScript',
+        'HTML',
+        'CSS',
+        'tailwind',
+        'MUI',
+        'google app script',
+        'ajax',
+        'critical rendering',
+        'OOP',
+        'data structures',
+        'Postman',
+        'MVC',
+        'responsive websites',
+       ],
+      },
+      {
+       title: 'Lead Blockchain Developer – Token Standards & Web3 UI',
+       location: 'San Francisco, CA, USA',
+       postedDate: '2025-07-02',
+       salary: '$4,200/Month',
+       softwareHouse: 'Alchemy',
+       description:
+        'Design ERC tokens and lead frontend Web3 experiences on high-load platforms. Collaborate closely with protocol and design teams to deliver seamless dApps.',
+       responsibilities: [
+        'Design and deploy custom token contracts (ERC-20, ERC-721).',
+        'Implement blockchain UI with React and Tailwind.',
+        'Write high-performance smart contracts with testing pipelines.',
+        'Handle full stack integrations with backend services.',
+       ],
+       requirements: [
+        '8+ years total experience; at least 4 in blockchain development.',
+        'Strong in token development and frontend architecture.',
+        'Familiar with NFT standards and IPFS integrations.',
+        'Agile workflow experience and CI/CD deployments.',
+       ],
+       skills: [
+        'ERC-20',
+        'ERC-721',
+        'IPFS',
+        'NFTs',
+        'Solidity',
+        'CI/CD',
+        'OOP',
+        'tailwind',
+        'JavaScript',
+        'responsive websites',
+        'google app script',
+        'Postman',
+        'HTML',
+        'CSS',
+        'RESTful API',
+        'data structures',
+        'MUI',
+        'socket.io',
+       ],
+      },
+      {
+       title: 'Decentralized Applications Engineer – Ethereum & zk-SNARKs',
+       location: 'Seattle, WA, USA',
+       postedDate: '2025-07-02',
+       salary: '$4,000/Month',
+       softwareHouse: 'Matter Labs',
+       description:
+        'Engineer advanced privacy-preserving applications using Ethereum and zero-knowledge proofs. Push the limits of decentralized scalability.',
+       responsibilities: [
+        'Develop dApps with zk-SNARK integrations.',
+        'Write and audit smart contracts for on-chain logic.',
+        'Coordinate with DevOps and cryptographers for secure deployments.',
+        'Build scalable UIs that interact with L2 Ethereum protocols.',
+       ],
+       requirements: [
+        '8+ years total experience, with 2+ in zero-knowledge cryptography.',
+        'Hands-on with zk-rollups and smart contract architecture.',
+        'Proficient in JavaScript, Solidity, and smart contract testing.',
+        'Strong sense of UI performance and decentralized storage.',
+       ],
+       skills: [
+        'zk-SNARKs',
+        'zkSync',
+        'Solidity',
+        'Ethereum',
+        'CI/CD',
+        'HTML',
+        'CSS',
+        'JavaScript',
+        'tailwind',
+        'OOP',
+        'google app script',
+        'RESTful API',
+        'responsive websites',
+        'ajax',
+        'Postman',
+        'critical rendering',
+        'MVC',
+        'data structures',
+       ],
+      },
+      {
+       title:
+        'Blockchain Integration Lead – Real-Time Smart Contract Automation',
+       location: 'Chicago, IL, USA',
+       postedDate: '2025-07-02',
+       salary: '$3,980/Month',
+       softwareHouse: 'Blockdaemon',
+       description:
+        'Lead smart contract deployments and backend automations for real-time systems. Develop robust APIs and UI flows for decentralized platforms.',
+       responsibilities: [
+        'Write and deploy complex smart contracts for live dApps.',
+        'Develop APIs to bridge blockchain and cloud databases.',
+        'Integrate frontends with real-time event subscriptions.',
+        'Ensure code quality with automated CI/CD workflows.',
+       ],
+       requirements: [
+        '8+ years in full stack or blockchain roles.',
+        'Expert in smart contract development and event listening.',
+        'Skilled in frontend/backend orchestration and DevOps tools.',
+        'Able to work with distributed ledger technologies.',
+       ],
+       skills: [
+        'Solidity',
+        'web3.js',
+        'RESTful API',
+        'CI/CD',
+        'Auth0',
+        'JavaScript',
+        'tailwind',
+        'HTML',
+        'CSS',
+        'Postman',
+        'google app script',
+        'data structures',
+        'responsive websites',
+        'MUI',
+        'ajax',
+        'MVC',
+        'OOP',
+        'socket.io',
+       ],
+      },
+     ],
+     'SIMPLYHIRED.com': [
+      {
+        "title": "Blockchain Solutions Architect – Web3 & Multichain Systems",
+        "location": "Amsterdam, Netherlands",
+        "postedDate": "2025-07-08",
+        "salary": "$4,100/Month",
+        "softwareHouse": "Blockstream BV",
+        "description": "Lead the development of multichain Web3 applications across DeFi, NFTs, and enterprise blockchain use cases. Architect scalable APIs and deploy secure smart contracts.",
+        "responsibilities": [
+          "Build and deploy full stack decentralized applications.",
+          "Design scalable APIs and manage cloud-based backends.",
+          "Ensure security and performance of deployed contracts.",
+          "Coordinate with product and design for seamless user flows."
+        ],
+        "requirements": [
+          "8+ years in software dev, 4+ in blockchain and smart contracts.",
+          "Experience with multichain architecture (EVM & non-EVM).",
+          "Ability to lead full-stack Web3 teams in agile cycles.",
+          "Solid knowledge of wallet integrations and node management."
+        ],
+        "skills": [
+          "Solidity", "Hardhat", "web3.js", "Ethereum", "CI/CD", "HTML", "CSS", 
+          "tailwind", "Postman", "RESTful API", "data structures", "bootstrap", 
+          "responsive websites", "MVC", "google app script", "OOP", "Auth0", "socket.io"
+        ]
+      },
+      {
+        "title": "Senior Blockchain Engineer – Smart Contract Audits & dApps",
+        "location": "Barcelona, Spain",
+        "postedDate": "2025-07-08",
+        "salary": "$3,900/Month",
+        "softwareHouse": "Aragon Labs",
+        "description": "Design secure decentralized governance systems and smart contracts. Contribute to open-source libraries and participate in audit reviews.",
+        "responsibilities": [
+          "Create and optimize smart contracts for DAO tooling.",
+          "Develop dApp frontends and backend integrations.",
+          "Perform security audits and logic validations.",
+          "Participate in open-source governance and forks."
+        ],
+        "requirements": [
+          "8+ years in full stack or blockchain dev.",
+          "Proven experience in Solidity audits and test coverage.",
+          "Knowledge of DAO architecture and token voting systems.",
+          "Familiarity with GraphQL and node providers like Infura."
+        ],
+        "skills": [
+          "Solidity", "OpenZeppelin", "DAOstack", "IPFS", "CI/CD", "HTML", 
+          "CSS", "tailwind", "javascript", "Postman", "ajax", "google app script", 
+          "critical rendering", "data structures", "OOP", "MVC", "Auth0", "tensorflow.js"
+        ]
+      },
+      {
+        "title": "Lead Blockchain Consultant – Enterprise Tokenization & Identity",
+        "location": "Zurich, Switzerland",
+        "postedDate": "2025-07-08",
+        "salary": "$4,200/Month",
+        "softwareHouse": "TrustSquare",
+        "description": "Consult and implement blockchain frameworks for enterprise tokenization, digital identity, and asset management with compliance and scale.",
+        "responsibilities": [
+          "Work with enterprise clients to deploy token frameworks.",
+          "Integrate blockchain with ERP systems and cloud APIs.",
+          "Lead architecture decisions across data, API, and auth layers.",
+          "Ensure regulatory compliance and performance."
+        ],
+        "requirements": [
+          "8+ years in software consulting or blockchain integration.",
+          "Experience in enterprise token issuance or identity models.",
+          "Strong understanding of permissioned vs public blockchains.",
+          "Hands-on with integration using Node.js and GraphQL."
+        ],
+        "skills": [
+          "Hyperledger", "Polygon", "Solidity", "CI/CD", "RESTful API", "javascript", 
+          "tailwind", "CSS", "bootstrap", "google app script", "MVC", "OOP", 
+          "responsive websites", "Auth0", "Postman", "machine learning", "tensorflow.js", "ajax"
+        ]
+      },
+      {
+        "title": "Blockchain Core Engineer – NFT, Gaming & Digital Assets",
+        "location": "Seoul, South Korea",
+        "postedDate": "2025-07-08",
+        "salary": "$4,000/Month",
+        "softwareHouse": "Kakao Games Blockchain Lab",
+        "description": "Develop smart contracts and backend infrastructure for gaming assets and NFT economies. Collaborate with game engines and blockchain APIs.",
+        "responsibilities": [
+          "Write and test NFT smart contracts and payment rails.",
+          "Design high-throughput backend APIs using microservices.",
+          "Integrate Unity or Unreal with blockchain layers.",
+          "Optimize minting, storage, and market listings."
+        ],
+        "requirements": [
+          "8+ years in gaming or blockchain backend systems.",
+          "Experience with ERC-1155, metadata protocols, and game SDKs.",
+          "Skilled in Node.js, Redis, and Solidity backend stacks.",
+          "Knowledge of WebSocket and GraphQL for live data flows."
+        ],
+        "skills": [
+          "ERC-1155", "Solidity", "Web3.js", "HTML", "CSS", "tailwind", "Postman", 
+          "socket.io", "OOP", "data structures", "MVC", "google app script", 
+          "RESTful API", "bootstrap", "machine learning", "Auth0", "ajax", "MUI"
+        ]
+      },
+      {
+        "title": "Blockchain DevOps Consultant – Node Scaling & Monitoring",
+        "location": "Lisbon, Portugal",
+        "postedDate": "2025-07-08",
+        "salary": "$3,950/Month",
+        "softwareHouse": "Ankr Labs",
+        "description": "Manage blockchain node deployments across Ethereum, Solana, and BSC. Automate monitoring, uptime checks, and performance metrics.",
+        "responsibilities": [
+          "Deploy validator and full nodes across cloud infra.",
+          "Configure monitoring tools like Grafana and Prometheus.",
+          "Optimize bandwidth and block sync performance.",
+          "Automate snapshotting and backups using CI/CD."
+        ],
+        "requirements": [
+          "8+ years in DevOps/Cloud; 3+ in blockchain infra.",
+          "Hands-on experience with Docker, Kubernetes, and node telemetry.",
+          "Knowledge of EVM-compatible nodes and performance tuning.",
+          "Security-conscious infrastructure practices."
+        ],
+        "skills": [
+          "Docker", "Kubernetes", "Solana", "CI/CD", "RESTful API", "tailwind", 
+          "CSS", "HTML", "OOP", "data structures", "bootstrap", "MVC", 
+          "Postman", "Auth0", "google app script", "ajax", "tensorflow.js", "responsive websites"
+        ]
+      }
+     ],
+     'GLASSDOOR.com' :[
+      {
+        "title": "Senior Blockchain Developer – Web3 Apps & Token Standards",
+        "location": "Berlin, Germany",
+        "postedDate": "2025-07-08",
+        "salary": "$4,150/Month",
+        "softwareHouse": "Parity Technologies",
+        "description": "Design secure Web3 applications on EVM-compatible chains. Implement tokens, NFTs, and advanced smart contracts in a scalable architecture.",
+        "responsibilities": [
+          "Develop modular smart contracts using Solidity and Vyper.",
+          "Design APIs that integrate on-chain logic with user interfaces.",
+          "Collaborate with UI/UX teams for seamless Web3 experiences.",
+          "Conduct code reviews and smart contract audits."
+        ],
+        "requirements": [
+          "8+ years development, 3+ in blockchain.",
+          "Strong knowledge of token standards (ERC-20, ERC-721, ERC-1155).",
+          "Hands-on with Docker, Kubernetes, and CI/CD.",
+          "Fluent in secure deployment of EVM contracts."
+        ],
+        "skills": [
+          "Solidity", "ERC-20", "ERC-721", "ERC-1155", "web3.js", "CI/CD",
+          "docker", "Kubernetes", "RESTful API", "tailwind", "Postman", "OOP",
+          "ajax", "data structures", "critical rendering", "HTML", "CSS", "MVC"
+        ]
+      },
+      {
+        "title": "Blockchain Integration Lead – Multichain DeFi Platforms",
+        "location": "Toronto, Canada",
+        "postedDate": "2025-07-08",
+        "salary": "$4,000/Month",
+        "softwareHouse": "ChainSafe Systems",
+        "description": "Lead integration of DeFi protocols across multichain environments. Manage wallet connections, LPs, and token flows through dApps.",
+        "responsibilities": [
+          "Integrate EVM and non-EVM chains into a single dApp flow.",
+          "Coordinate dev cycles for feature rollouts.",
+          "Write middleware and back-end logic for financial functions.",
+          "Conduct QA for integrations and API behavior."
+        ],
+        "requirements": [
+          "8+ years dev experience with 2+ in DeFi or finance systems.",
+          "Solid understanding of Layer-2 solutions (zkRollups, Optimism).",
+          "Expertise in Docker, Kubernetes, and distributed infra.",
+          "Strong grasp on WebSocket and GraphQL-based APIs."
+        ],
+        "skills": [
+          "Solidity", "Cosmos SDK", "docker", "Kubernetes", "CI/CD", "tailwind",
+          "MVC", "responsive websites", "Postman", "javascript", "RESTful API",
+          "tensorflow.js", "OOP", "MUI", "google app script", "bootstrap", "socket.io", "Auth0"
+        ]
+      },
+      {
+        "title": "Smart Contract Engineer – Enterprise Blockchain & Identity",
+        "location": "Dubai, UAE",
+        "postedDate": "2025-07-08",
+        "salary": "$3,950/Month",
+        "softwareHouse": "Avanza Innovations",
+        "description": "Build permissioned blockchain networks with decentralized identity and access management modules. Focus on security and compliance.",
+        "responsibilities": [
+          "Develop private chain logic and tokenized workflows.",
+          "Collaborate with enterprise security and IT teams.",
+          "Audit smart contracts before deployment.",
+          "Automate CI workflows for deployments."
+        ],
+        "requirements": [
+          "8+ years total, 4+ years blockchain enterprise exp.",
+          "Familiar with Fabric, Corda, and Ethereum enterprise stack.",
+          "Expert with Kubernetes and container-based deployment.",
+          "Secure design pattern experience for auth flows."
+        ],
+        "skills": [
+          "Hyperledger Fabric", "Solidity", "docker", "Kubernetes", "MVC",
+          "tailwind", "data structures", "Postman", "HTML", "CSS", "Auth0",
+          "machine learning", "google app script", "RESTful API", "OOP",
+          "ajax", "bootstrap", "responsive websites"
+        ]
+      },
+      {
+        "title": "Decentralized Apps Developer – Wallets, Tokens & APIs",
+        "location": "Tokyo, Japan",
+        "postedDate": "2025-07-08",
+        "salary": "$4,200/Month",
+        "softwareHouse": "Astar Labs",
+        "description": "Design decentralized apps that integrate blockchain wallets, identity protocols, and token ecosystems across multiple chains.",
+        "responsibilities": [
+          "Develop wallet connectors and session protocols.",
+          "Create smart contracts for NFTs and DAOs.",
+          "Work with designers on UI integration via Tailwind.",
+          "Secure frontend with token gating and access flows."
+        ],
+        "requirements": [
+          "8+ years in development, 3+ in dApp projects.",
+          "Expert with MetaMask, WalletConnect, and JSON-RPC.",
+          "Experience with Docker, CI/CD pipelines.",
+          "Knowledge of secure state handling in frontend apps."
+        ],
+        "skills": [
+          "WalletConnect", "Solidity", "docker", "Kubernetes", "CI/CD",
+          "HTML", "CSS", "tailwind", "Postman", "ajax", "data structures",
+          "socket.io", "OOP", "google app script", "MVC", "bootstrap", "Auth0", "tensorflow.js"
+        ]
+      },
+      {
+        "title": "Blockchain Infrastructure Engineer – Validator & Node Ops",
+        "location": "Tallinn, Estonia",
+        "postedDate": "2025-07-08",
+        "salary": "$3,950/Month",
+        "softwareHouse": "Moonbeam Foundation",
+        "description": "Run and maintain validator nodes and infrastructure for public and permissioned blockchain networks using scalable cloud environments.",
+        "responsibilities": [
+          "Deploy, monitor and update blockchain nodes and services.",
+          "Write automation scripts for node health and alerts.",
+          "Document infrastructure and best practices.",
+          "Coordinate chain upgrades and snapshot management."
+        ],
+        "requirements": [
+          "8+ years in DevOps, 3+ in blockchain networks.",
+          "Strong with container orchestration (Kubernetes, Docker Swarm).",
+          "Experience with log management and node sync logic.",
+          "Secure SSH, firewall and VPN configuration knowledge."
+        ],
+        "skills": [
+          "Kubernetes", "docker", "CI/CD", "RESTful API", "Postman",
+          "javascript", "tailwind", "HTML", "CSS", "Auth0", "socket.io",
+          "MVC", "responsive websites", "bootstrap", "OOP", "data structures",
+          "google app script", "ajax"
+        ]
+      }
+     ],
+     'INDEED.com' :[
+      {
+        "title": "Senior Blockchain Developer – Crypto Wallets & Tokenization",
+        "location": "Lisbon, Portugal",
+        "postedDate": "2025-07-08",
+        "salary": "$3,980/Month",
+        "softwareHouse": "Utrust Labs",
+        "description": "Join our engineering team to craft cutting-edge crypto wallets and token-based microservices. Secure, scale, and deploy on EVM-compatible networks with best DevOps practices.",
+        "responsibilities": [
+          "Build token exchange logic and support multisig wallets.",
+          "Integrate payment flows with blockchain events.",
+          "Write secure smart contracts with access control.",
+          "Ensure uptime of wallet services through CI/CD."
+        ],
+        "requirements": [
+          "8+ years of total experience including 3 in wallet protocols.",
+          "Fluent with blockchain SDKs and integration testing.",
+          "Strong DevOps skillset with Docker and Kubernetes.",
+          "Expertise in crypto APIs and digital signature flows."
+        ],
+        "skills": [
+          "Solidity", "web3.js", "docker", "Kubernetes", "tailwind",
+          "Postman", "RESTful API", "ajax", "HTML", "CSS", "MVC",
+          "OOP", "Auth0", "responsive websites", "google app script",
+          "data structures", "CI/CD", "socket.io"
+        ]
+      },
+      {
+        "title": "Blockchain Consultant – Smart Contracts & Data Privacy",
+        "location": "Zurich, Switzerland",
+        "postedDate": "2025-07-08",
+        "salary": "$4,150/Month",
+        "softwareHouse": "Swisscom Blockchain",
+        "description": "Consult for enterprise clients in deploying secure and compliant smart contracts. Focus on identity, privacy, and auditability across multichain deployments.",
+        "responsibilities": [
+          "Audit and write smart contracts for enterprise usage.",
+          "Design blockchain solutions with GDPR compliance.",
+          "Integrate KYC/AML APIs into dApps securely.",
+          "Set up permissioned networks and monitor integrity."
+        ],
+        "requirements": [
+          "8+ years of dev experience with 3+ in enterprise blockchain.",
+          "Expert in Solidity, token standards, and metadata schemas.",
+          "Comfortable with Kubernetes, Docker, and DevSecOps.",
+          "Experience working with legal or compliance teams is a plus."
+        ],
+        "skills": [
+          "Solidity", "docker", "Kubernetes", "Postman", "tailwind",
+          "OOP", "MVC", "ajax", "google app script", "Auth0",
+          "javascript", "CSS", "responsive websites", "bootstrap",
+          "RESTful API", "tensorflow.js", "CI/CD", "data structures"
+        ]
+      },
+      {
+        "title": "Web3 Application Engineer – NFTs & Marketplace Dev",
+        "location": "Barcelona, Spain",
+        "postedDate": "2025-07-08",
+        "salary": "$4,050/Month",
+        "softwareHouse": "Metaframe Labs",
+        "description": "Work on decentralized NFT marketplace infrastructure. Handle everything from minting protocols to frontend wallet integration and secure metadata storage.",
+        "responsibilities": [
+          "Develop NFT minting and marketplace smart contracts.",
+          "Integrate wallets and real-time event monitoring.",
+          "Ensure high performance and metadata security.",
+          "Manage CI/CD pipelines for fast updates."
+        ],
+        "requirements": [
+          "8+ years software engineering including 2 in NFT projects.",
+          "Familiar with ERC-721, IPFS, and cross-chain transfer.",
+          "Experienced with Kubernetes-based scaling.",
+          "Able to lead deployments and write reusable modules."
+        ],
+        "skills": [
+          "ERC-721", "IPFS", "docker", "Kubernetes", "CI/CD",
+          "HTML", "CSS", "ajax", "bootstrap", "Postman", "OOP",
+          "google app script", "Auth0", "tailwind", "RESTful API",
+          "javascript", "MVC", "responsive websites"
+        ]
+      },
+      {
+        "title": "Blockchain DevOps Engineer – CI/CD for DeFi Protocols",
+        "location": "Sydney, Australia",
+        "postedDate": "2025-07-08",
+        "salary": "$3,920/Month",
+        "softwareHouse": "Synthetix Systems",
+        "description": "Focus on infrastructure automation for decentralized finance projects. Enhance CI/CD workflows and maintain resilient microservices architecture for global users.",
+        "responsibilities": [
+          "Manage DevOps pipelines and testing environments.",
+          "Deploy and monitor blockchain node containers.",
+          "Optimize RPC/API latency and scalability.",
+          "Implement secure workflows using vault-based secrets."
+        ],
+        "requirements": [
+          "8+ years in DevOps, 3+ years in blockchain deployment.",
+          "Expert with Helm, Kubernetes, Docker, GitHub Actions.",
+          "Strong understanding of DeFi and Layer-2 infrastructure.",
+          "Proficient in smart contract and infra integration."
+        ],
+        "skills": [
+          "Kubernetes", "docker", "CI/CD", "RESTful API", "tailwind",
+          "data structures", "OOP", "Postman", "HTML", "CSS", "MVC",
+          "google app script", "bootstrap", "Auth0", "ajax", "tensorflow.js",
+          "responsive websites", "socket.io"
+        ]
+      },
+      {
+        "title": "Full Stack Blockchain Developer – DAO Tools & Governance",
+        "location": "Cape Town, South Africa",
+        "postedDate": "2025-07-08",
+        "salary": "$3,990/Month",
+        "softwareHouse": "Aragon Africa",
+        "description": "Develop tooling and governance layers for decentralized autonomous organizations (DAOs). Implement secure vote protocols and DAO treasury management systems.",
+        "responsibilities": [
+          "Create smart contracts for DAO governance and proposals.",
+          "Develop backend services for voting and fund tracking.",
+          "Integrate frontend dashboards with wallet auth.",
+          "Ensure continuous deployment of DAO tools globally."
+        ],
+        "requirements": [
+          "8+ years software dev, 2+ in DAO/DeGov platforms.",
+          "Expert in vote delegation and quorum-based logic.",
+          "DevOps savvy: Docker, Kubernetes, CI/CD.",
+          "Fluent with token management and time-lock contracts."
+        ],
+        "skills": [
+          "Solidity", "docker", "Kubernetes", "OOP", "CI/CD",
+          "HTML", "CSS", "tailwind", "Postman", "RESTful API",
+          "ajax", "Auth0", "data structures", "responsive websites",
+          "google app script", "MVC", "bootstrap", "socket.io"
+        ]
+      }
+     ],
     };
 
     return {
-     title: `Blockchain Developer in ${platform}`,
-     data: [
-      {
-       shortDescription: platformData[platform].shortDescription,
-       heading: 'About Blockchain Developer ',
-       image1: platformData[platform].imagePath1, // Moved image links here
-       image2: platformData[platform].imagePath2, // Moved image links here
-      },
-     ],
+     title: `Blockchain Developer Jobs in ${country}`,
+     data: countryData[country],
     };
    },
   },
@@ -7197,37 +8828,666 @@ export default function TechStackJobsMarket() {
     'GLASSDOOR.com',
     'INDEED.com',
    ],
-   content: (platform) => {
-    // platform-specific data
-    const platformData = {
-     'ROZEE.pk': {
-      imagePath1: '/assets/image/jobs/dataScientist-rozee-1.png',
-      imagePath2: '/assets/image/jobs/dataScientist-rozee-2.png',
-     },
-     'CAREERJET.com': {
-      imagePath1: '/assets/image/jobs/dataScientist-career-1.png',
-     },
-     'SIMPLYHIRED.com': {
-      imagePath1: '/assets/image/jobs/dataScientist-simplyHired-1.png',
-     },
-     'GLASSDOOR.com': {
-      imagePath1: '/assets/image/jobs/dataScientist-glassdoor-1.png',
-     },
-     'INDEED.com': {
-      imagePath1: '/assets/image/jobs/dataScientist-indeed-1.png',
-     },
+   content: (country) => {
+    const countryData = {
+     'ROZEE.pk': [
+      {
+        "title": "Senior Data Scientist – Predictive Analytics & ML Engineering",
+        "location": "Lahore, Pakistan",
+        "postedDate": "2025-07-08",
+        "salary": "$4,250/Month",
+        "softwareHouse": "10Pearls",
+        "description": "Drive machine learning solutions that power predictive insights across large-scale enterprise datasets. Collaborate cross-functionally to productize models and pipelines.",
+        "responsibilities": [
+          "Build predictive models for real-time analytics.",
+          "Deploy scalable ML services via CI/CD workflows.",
+          "Conduct feature engineering and statistical analysis.",
+          "Collaborate with frontend/backend teams for integration."
+        ],
+        "requirements": [
+          "9+ years in software and data science.",
+          "Strong expertise in TensorFlow.js and data pipelines.",
+          "Proficiency with REST APIs and deployment via Docker.",
+          "Experience in microservice-based data platforms."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "data structures", "RESTful API",
+          "google app script", "OOP", "Postman", "CI/CD", "ajax",
+          "html", "css", "tailwind", "critical rendering", "MVC",
+          "responsive websites", "MUI", "Auth0", "javascript"
+        ]
+      },
+      {
+        "title": "Lead Data Scientist – Deep Learning & Full Stack Integration",
+        "location": "Islamabad, Pakistan",
+        "postedDate": "2025-07-08",
+        "salary": "$4,300/Month",
+        "softwareHouse": "Systems Limited",
+        "description": "Develop deep learning models and connect them to production-grade web applications. Lead experimentation and model validation with full stack ownership.",
+        "responsibilities": [
+          "Design and train neural network architectures.",
+          "Integrate ML pipelines with Node.js APIs.",
+          "Optimize model performance and inference latency.",
+          "Collaborate on frontend dashboards for insights."
+        ],
+        "requirements": [
+          "9+ years in full-stack and AI systems.",
+          "Expert in TensorFlow.js and deep neural networks.",
+          "Knowledge of MLOps tools including Docker, CI/CD.",
+          "Experience bridging backend and ML workflows."
+        ],
+        "skills": [
+          "tensorflow.js", "machine learning", "OOP", "RESTful API",
+          "node.js", "CI/CD", "tailwind", "ajax", "html",
+          "css", "MUI", "bootstrap", "google app script",
+          "Postman", "MVC", "critical rendering", "responsive websites"
+        ]
+      },
+      {
+        "title": "Full Stack Data Scientist – AI Solutions & Business Intelligence",
+        "location": "Karachi, Pakistan",
+        "postedDate": "2025-07-08",
+        "salary": "$4,180/Month",
+        "softwareHouse": "VentureDive",
+        "description": "Own the end-to-end lifecycle of AI-driven business intelligence tools. Work across backend pipelines and interactive dashboards to bring insights to life.",
+        "responsibilities": [
+          "Implement ETL pipelines and predictive models.",
+          "Create APIs that serve machine learning outputs.",
+          "Work closely with design for dashboard delivery.",
+          "Monitor performance and retrain models regularly."
+        ],
+        "requirements": [
+          "9+ years in data platforms and frontend analytics.",
+          "Hands-on with TensorFlow, Auth0, and serverless tools.",
+          "Skilled in rapid API development and dashboard design.",
+          "Strong understanding of OOP and scalable architecture."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "RESTful API", "google app script",
+          "MUI", "data structures", "OOP", "tailwind", "html",
+          "css", "Postman", "CI/CD", "responsive websites", "ajax",
+          "MVC", "critical rendering", "bootstrap", "Auth0"
+        ]
+      },
+      {
+        "title": "Principal Data Scientist – Applied AI & Visual Recognition",
+        "location": "Faisalabad, Pakistan",
+        "postedDate": "2025-07-08",
+        "salary": "$4,100/Month",
+        "softwareHouse": "Techlogix",
+        "description": "Lead development of AI products for image recognition and computer vision. Collaborate with DevOps and frontend teams for deployment across platforms.",
+        "responsibilities": [
+          "Train and fine-tune image classification models.",
+          "Design scalable inference APIs.",
+          "Manage deployment with containerized workflows.",
+          "Work on frontend integration and live analytics."
+        ],
+        "requirements": [
+          "9+ years in AI, 4+ in computer vision projects.",
+          "Skilled with TensorFlow.js and backend API design.",
+          "Familiar with Kubernetes and deployment patterns.",
+          "Excellent understanding of cross-platform delivery."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "RESTful API", "Postman",
+          "google app script", "html", "css", "OOP", "responsive websites",
+          "tailwind", "MUI", "bootstrap", "data structures", "MVC",
+          "ajax", "critical rendering", "socket.io", "Auth0"
+        ]
+      },
+      {
+        "title": "Data Scientist – NLP Systems & Conversational AI",
+        "location": "Multan, Pakistan",
+        "postedDate": "2025-07-08",
+        "salary": "$4,260/Month",
+        "softwareHouse": "Tkxel",
+        "description": "Design NLP pipelines and chat-based AI systems using modern JS frameworks and ML libraries. Build smart applications that learn from user interactions.",
+        "responsibilities": [
+          "Develop NLP models for text classification and generation.",
+          "Deploy models into web-based systems.",
+          "Create secure APIs for text interaction.",
+          "Collaborate with UI developers for user-facing logic."
+        ],
+        "requirements": [
+          "9+ years in data and 2+ in NLP.",
+          "Experience with transformers and TensorFlow.js.",
+          "Strong integration skills using REST APIs.",
+          "Proficient with full-stack JavaScript and frontend ML."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "RESTful API", "google app script",
+          "Postman", "MUI", "tailwind", "html", "css", "OOP",
+          "bootstrap", "ajax", "MVC", "critical rendering", "responsive websites",
+          "Auth0", "data structures", "socket.io"
+        ]
+      }
+     ],
+     'CAREERJET.com': [
+      {
+        "title": "Lead Data Scientist – AI Models for Behavioral Analytics",
+        "location": "San Francisco, CA",
+        "postedDate": "2025-07-08",
+        "salary": "$4,300/Month",
+        "softwareHouse": "Palantir Technologies",
+        "description": "Work at the intersection of behavior modeling and AI-driven systems. Your data models will empower risk management, user prediction, and dynamic scoring algorithms.",
+        "responsibilities": [
+          "Engineer machine learning pipelines for real-time scoring.",
+          "Integrate model outputs with dashboards and APIs.",
+          "Collaborate with analysts to validate predictive accuracy.",
+          "Deploy CI/CD-enabled AI workflows in production."
+        ],
+        "requirements": [
+          "9+ years in AI, with 3+ focused on behavioral prediction.",
+          "Hands-on with TensorFlow.js, Node.js, and REST APIs.",
+          "Experience working with security and risk analytics.",
+          "Strong DevOps understanding of container-based ML apps."
+        ],
+        "skills": [
+          "tensorflow.js", "machine learning", "data structures", "RESTful API",
+          "Postman", "html", "css", "tailwind", "OOP", "bootstrap",
+          "ajax", "MVC", "google app script", "responsive websites",
+          "CI/CD", "critical rendering", "MUI", "Auth0"
+        ]
+      },
+      {
+        "title": "Senior Data Scientist – AI Personalization & Recommendation Systems",
+        "location": "Austin, TX",
+        "postedDate": "2025-07-08",
+        "salary": "$4,200/Month",
+        "softwareHouse": "Indeed Inc.",
+        "description": "Build large-scale recommendation engines to serve millions of users. Drive product personalization using NLP, matrix factorization, and real-time data streams.",
+        "responsibilities": [
+          "Design algorithms for smart content recommendation.",
+          "Integrate ML models with backend services.",
+          "Evaluate performance metrics and iterate models.",
+          "Collaborate with frontend engineers to deliver AI UX."
+        ],
+        "requirements": [
+          "9+ years total with 2+ in personalization systems.",
+          "Fluency in TensorFlow.js, collaborative filtering methods.",
+          "Strong grasp of responsive design for AI output display.",
+          "Hands-on with microservices and frontend integration."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "RESTful API", "OOP",
+          "data structures", "tailwind", "javascript", "Postman",
+          "html", "css", "bootstrap", "google app script", "ajax",
+          "MUI", "CI/CD", "responsive websites", "Auth0", "MVC"
+        ]
+      },
+      {
+        "title": "Principal Data Scientist – Generative AI & NLP",
+        "location": "Boston, MA",
+        "postedDate": "2025-07-08",
+        "salary": "$4,250/Month",
+        "softwareHouse": "OpenAI Enterprise",
+        "description": "Lead R&D in generative AI, focusing on NLP, chatbots, and LLM-driven applications. Build full-stack AI prototypes and deploy intelligent agents.",
+        "responsibilities": [
+          "Fine-tune transformer-based models for various tasks.",
+          "Design APIs for LLM output integration in applications.",
+          "Optimize performance across multiple frontends.",
+          "Oversee A/B testing and feedback loops."
+        ],
+        "requirements": [
+          "9+ years in software and data, 2+ in GenAI.",
+          "Experience with LLMs, prompt engineering, TensorFlow.js.",
+          "Proficient with Postman, RESTful API, CI/CD.",
+          "Worked in cross-functional agile teams with ML Ops."
+        ],
+        "skills": [
+          "tensorflow.js", "machine learning", "RESTful API", "Auth0",
+          "data structures", "javascript", "Postman", "tailwind",
+          "html", "css", "OOP", "ajax", "bootstrap", "MVC",
+          "google app script", "responsive websites", "CI/CD", "MUI"
+        ]
+      },
+      {
+        "title": "Full Stack Data Scientist – Enterprise AI & Visualization",
+        "location": "New York, NY",
+        "postedDate": "2025-07-08",
+        "salary": "$4,100/Month",
+        "softwareHouse": "Databricks",
+        "description": "Deliver ML-driven enterprise dashboards that fuse backend AI with sleek UI/UX. Help decision-makers visualize deep insights through intuitive tools.",
+        "responsibilities": [
+          "Design full-stack AI dashboards with live model outputs.",
+          "Build scalable APIs for internal enterprise consumption.",
+          "Work with product and design for optimal user journeys.",
+          "Maintain secure data processing and compliance pipelines."
+        ],
+        "requirements": [
+          "9+ years in data-driven software solutions.",
+          "Fluent in model serving, dashboard UX, and CI/CD.",
+          "Hands-on with cloud-based MLOps pipelines.",
+          "Experience building responsive, real-time interfaces."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "responsive websites",
+          "tailwind", "Postman", "RESTful API", "google app script",
+          "html", "css", "OOP", "ajax", "bootstrap", "MVC", "data structures",
+          "MUI", "CI/CD", "critical rendering", "Auth0"
+        ]
+      },
+      {
+        "title": "Data Science Consultant – Real-Time Insights & Automation",
+        "location": "Seattle, WA",
+        "postedDate": "2025-07-08",
+        "salary": "$4,280/Month",
+        "softwareHouse": "Amazon Web Services (AWS)",
+        "description": "Architect predictive systems that automate decision-making across logistics and cloud operations. Design models, APIs, and dashboards for real-time insights.",
+        "responsibilities": [
+          "Develop predictive and classification models.",
+          "Collaborate with DevOps to automate model pipelines.",
+          "Integrate AI into distributed systems.",
+          "Use A/B testing and telemetry for continuous improvement."
+        ],
+        "requirements": [
+          "9+ years in software/data science, 2+ in cloud ML.",
+          "Skilled in REST APIs, TensorFlow.js, and CI pipelines.",
+          "Experience with scalable microservices and monitoring.",
+          "Fluent in frontend/backend communication."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "OOP", "CI/CD",
+          "responsive websites", "google app script", "Postman",
+          "RESTful API", "tailwind", "html", "css", "bootstrap",
+          "MVC", "ajax", "data structures", "Auth0", "MUI", "socket.io"
+        ]
+      }
+     ],
+     'SIMPLYHIRED.com': [
+      {
+        "title": "Principal Data Scientist – Cloud AI & Predictive Modeling",
+        "location": "Berlin, Germany",
+        "postedDate": "2025-07-08",
+        "salary": "$4,200/Month",
+        "softwareHouse": "SAP SE",
+        "description": "Architect AI systems integrated into cloud-native infrastructure. Enable scalable machine learning solutions used by enterprise clients globally.",
+        "responsibilities": [
+          "Build predictive engines using TensorFlow.js.",
+          "Deploy ML APIs with CI/CD workflows.",
+          "Coordinate with DevOps for cloud deployment.",
+          "Deliver insights via data visualization tools."
+        ],
+        "requirements": [
+          "9+ years in enterprise software and data platforms.",
+          "Strong hands-on with MLOps pipelines and security.",
+          "Experience building scalable model APIs.",
+          "Familiarity with RESTful interfaces and Auth0."
+        ],
+        "skills": [
+          "tensorflow.js", "machine learning", "data structures", "RESTful API",
+          "google app script", "ajax", "tailwind", "Postman",
+          "html", "css", "OOP", "bootstrap", "MVC",
+          "responsive websites", "CI/CD", "MUI", "Auth0"
+        ]
+      },
+      {
+        "title": "AI Data Scientist – Recommender Systems & User Analytics",
+        "location": "Paris, France",
+        "postedDate": "2025-07-08",
+        "salary": "$4,300/Month",
+        "softwareHouse": "BlaBlaCar",
+        "description": "Design smart recommender systems that personalize user journeys. Combine collaborative filtering with neural nets for deeper insights.",
+        "responsibilities": [
+          "Build recommendation engines with TensorFlow.js.",
+          "Integrate AI into web platforms with React.",
+          "Conduct A/B testing and model evaluations.",
+          "Support DevOps for real-time delivery."
+        ],
+        "requirements": [
+          "9+ years in machine learning and analytics.",
+          "Strong statistical modeling and frontend skills.",
+          "Experience with streaming data pipelines.",
+          "Skilled in secure and scalable deployments."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "responsive websites", "RESTful API",
+          "tailwind", "bootstrap", "html", "css", "OOP",
+          "google app script", "Postman", "Auth0", "ajax",
+          "MVC", "MUI", "critical rendering", "data structures"
+        ]
+      },
+      {
+        "title": "Senior Data Scientist – NLP & Text Intelligence",
+        "location": "Barcelona, Spain",
+        "postedDate": "2025-07-08",
+        "salary": "$4,150/Month",
+        "softwareHouse": "Typeform",
+        "description": "Create NLP solutions that help customers analyze user sentiment and automate form responses. Apply transformer models in production.",
+        "responsibilities": [
+          "Train transformer-based text classification models.",
+          "Deploy NLP models with REST APIs.",
+          "Collaborate with backend team for ML integration.",
+          "Optimize inference speed and accuracy."
+        ],
+        "requirements": [
+          "9+ years in software and data science.",
+          "2+ years in production NLP with JavaScript stacks.",
+          "Skilled in TensorFlow.js and sentiment modeling.",
+          "Solid CI/CD and frontend deployment experience."
+        ],
+        "skills": [
+          "tensorflow.js", "machine learning", "RESTful API", "CI/CD",
+          "data structures", "google app script", "tailwind", "OOP",
+          "html", "css", "ajax", "Postman", "responsive websites",
+          "MUI", "MVC", "Auth0", "bootstrap"
+        ]
+      },
+      {
+        "title": "Data Scientist – Deep Learning & Visual AI",
+        "location": "Toronto, Canada",
+        "postedDate": "2025-07-08",
+        "salary": "$4,100/Month",
+        "softwareHouse": "Shopify",
+        "description": "Engineer image-based ML systems that enhance e-commerce product discovery. Apply CNNs and vision transformers for intelligent automation.",
+        "responsibilities": [
+          "Create image classifiers using TensorFlow.js.",
+          "Build visual search interfaces.",
+          "Integrate visual AI with React dashboards.",
+          "Work with product and marketing on use cases."
+        ],
+        "requirements": [
+          "9+ years in AI/ML, 3+ in computer vision.",
+          "Proficiency in CNNs, DNNs, frontend ML integration.",
+          "Experience deploying containerized models.",
+          "Skilled in RESTful API and cross-platform data flows."
+        ],
+        "skills": [
+          "tensorflow.js", "machine learning", "data structures", "RESTful API",
+          "tailwind", "html", "css", "bootstrap", "OOP",
+          "google app script", "responsive websites", "Postman", "CI/CD",
+          "Auth0", "ajax", "MVC", "MUI"
+        ]
+      },
+      {
+        "title": "AI Consultant – Enterprise Analytics & Automation",
+        "location": "Dubai, UAE",
+        "postedDate": "2025-07-08",
+        "salary": "$4,300/Month",
+        "softwareHouse": "Emirates NBD Digital",
+        "description": "Provide data science consulting across financial automation platforms. Use AI to streamline operations, fraud detection, and customer segmentation.",
+        "responsibilities": [
+          "Build classification and anomaly detection models.",
+          "Integrate AI outputs into BI dashboards.",
+          "Manage CI/CD deployment on financial cloud systems.",
+          "Train junior analysts and data engineers."
+        ],
+        "requirements": [
+          "9+ years in data platforms and consulting.",
+          "Expert in ML workflows, dashboards, and APIs.",
+          "Experience with finance and risk analytics.",
+          "Comfortable managing large-scale datasets."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "RESTful API", "html",
+          "css", "bootstrap", "Postman", "google app script", "data structures",
+          "tailwind", "MUI", "OOP", "responsive websites", "CI/CD",
+          "ajax", "MVC", "Auth0", "critical rendering"
+        ]
+      }
+     ],
+     'GLASSDOOR.com': [
+      {
+        "title": "Full Stack Data Scientist – Decision Intelligence & UI",
+        "location": "Amsterdam, Netherlands",
+        "postedDate": "2025-07-08",
+        "salary": "$4,250/Month",
+        "softwareHouse": "Booking.com",
+        "description": "Bridge data science with interactive user dashboards. Build end-to-end solutions from predictive modeling to frontend presentation.",
+        "responsibilities": [
+          "Engineer AI models using JS-based tools.",
+          "Develop React-based analytics dashboards.",
+          "Support A/B testing infrastructure.",
+          "Integrate secure APIs for enterprise analytics."
+        ],
+        "requirements": [
+          "9+ years across AI and frontend development.",
+          "Proficient in TensorFlow.js and CI pipelines.",
+          "Experience with scalable architecture and Auth0.",
+          "Worked with product managers on BI tools."
+        ],
+        "skills": [
+          "tensorflow.js", "machine learning", "RESTful API", "tailwind",
+          "Postman", "html", "css", "OOP", "bootstrap",
+          "google app script", "responsive websites", "data structures",
+          "ajax", "MVC", "CI/CD", "Auth0", "critical rendering", "MUI"
+        ]
+      },
+      {
+        "title": "AI Systems Engineer – Predictive Maintenance & IoT",
+        "location": "Stockholm, Sweden",
+        "postedDate": "2025-07-08",
+        "salary": "$4,300/Month",
+        "softwareHouse": "Ericsson",
+        "description": "Design AI systems for predictive maintenance in telecom. Integrate IoT signals with ML for proactive risk management.",
+        "responsibilities": [
+          "Develop predictive models using sensor data.",
+          "Collaborate with IoT engineers and backend team.",
+          "Automate alerts via RESTful APIs.",
+          "Support cloud deployment and testing."
+        ],
+        "requirements": [
+          "9+ years in AI and IoT integration.",
+          "Strong with real-time data systems and APIs.",
+          "Experience building ML pipelines for hardware data.",
+          "Familiar with React dashboards and Postman testing."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "RESTful API", "tailwind",
+          "html", "css", "Postman", "OOP", "google app script",
+          "bootstrap", "ajax", "MVC", "MUI", "responsive websites",
+          "data structures", "Auth0", "CI/CD", "critical rendering"
+        ]
+      },
+      {
+        "title": "Senior Data Scientist – AI & Risk Analytics",
+        "location": "Zurich, Switzerland",
+        "postedDate": "2025-07-08",
+        "salary": "$4,200/Month",
+        "softwareHouse": "Credit Suisse Digital",
+        "description": "Drive predictive intelligence for risk-based systems in the banking sector. Develop scalable AI models and deploy them across digital channels.",
+        "responsibilities": [
+          "Model financial risk using deep learning frameworks.",
+          "Integrate insights into RESTful services.",
+          "Optimize model latency and performance.",
+          "Ensure compliance with financial AI standards."
+        ],
+        "requirements": [
+          "9+ years in enterprise AI and banking systems.",
+          "Experienced in financial fraud and anomaly detection.",
+          "Hands-on with CI/CD and microservices architecture.",
+          "Proficient in frontend reporting of ML data."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "RESTful API", "CI/CD", "html",
+          "css", "tailwind", "OOP", "bootstrap", "google app script", "Postman",
+          "Auth0", "MVC", "ajax", "responsive websites", "data structures", "MUI"
+        ]
+      },
+      {
+        "title": "AI Data Engineer – Real-time Intelligence & Model Ops",
+        "location": "Singapore",
+        "postedDate": "2025-07-08",
+        "salary": "$4,100/Month",
+        "softwareHouse": "GrabTech Labs",
+        "description": "Build intelligent infrastructure for live monitoring, fraud prevention, and personalized user experiences. Manage ML pipelines from training to deployment.",
+        "responsibilities": [
+          "Build real-time ML scoring systems.",
+          "Deploy containerized models with CI pipelines.",
+          "Design APIs that serve predictive analytics.",
+          "Visualize key data trends for operations teams."
+        ],
+        "requirements": [
+          "9+ years in software + 3+ in MLOps or DataOps.",
+          "Experience with container orchestration for ML.",
+          "Deep knowledge of Postman, React dashboards.",
+          "Solid understanding of data versioning and ETL flows."
+        ],
+        "skills": [
+          "tensorflow.js", "machine learning", "OOP", "RESTful API", "CI/CD",
+          "google app script", "tailwind", "html", "css", "ajax", "bootstrap",
+          "Postman", "MVC", "MUI", "critical rendering", "responsive websites", "Auth0"
+        ]
+      },
+      {
+        "title": "AI Research Scientist – Reinforcement Learning Systems",
+        "location": "Seoul, South Korea",
+        "postedDate": "2025-07-08",
+        "salary": "$4,300/Month",
+        "softwareHouse": "Samsung R&D Institute",
+        "description": "Lead the development of cutting-edge reinforcement learning algorithms for industrial applications. Work with robotics, IoT, and real-world environments.",
+        "responsibilities": [
+          "Train RL agents in simulated and live systems.",
+          "Optimize policy performance and reward shaping.",
+          "Develop a scalable backend for RL serving.",
+          "Integrate model insights into dashboards."
+        ],
+        "requirements": [
+          "9+ years in AI with 2+ in reinforcement learning.",
+          "Experience with TensorFlow.js and web-based AI deployment.",
+          "Strong visualization and frontend interfacing skills.",
+          "Skilled in backend API and secure model routing."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "RESTful API", "CI/CD", "OOP",
+          "tailwind", "html", "css", "Postman", "google app script",
+          "bootstrap", "MVC", "ajax", "MUI", "data structures",
+          "responsive websites", "Auth0"
+        ]
+      }
+     ],
+      'INDEED.com' :[
+        {
+          "title": "Data Scientist – Healthcare AI & Medical Imaging",
+          "location": "Sydney, Australia",
+          "postedDate": "2025-07-08",
+          "salary": "$4,250/Month",
+          "softwareHouse": "ResMed Digital Health",
+          "description": "Leverage AI to improve patient outcomes through medical imaging and diagnostic tools. Build explainable AI pipelines for healthcare providers.",
+          "responsibilities": [
+            "Develop AI classifiers for chest x-rays and scans.",
+            "Integrate models into EHR and clinic systems.",
+            "Build dashboards for prediction confidence.",
+            "Ensure HIPAA and medical data compliance."
+          ],
+          "requirements": [
+            "9+ years in AI, 2+ in medical image classification.",
+            "Familiar with TensorFlow.js and model interpretability.",
+            "Experience in frontend + backend data flow.",
+            "Proven work in production-grade healthcare ML."
+          ],
+          "skills": [
+            "tensorflow.js", "machine learning", "RESTful API", "Postman", "MUI",
+            "html", "css", "tailwind", "OOP", "google app script", "bootstrap",
+            "ajax", "MVC", "CI/CD", "critical rendering", "responsive websites", "Auth0"
+          ]
+        },
+        {
+          "title": "Consulting Data Scientist – AI Audit & Compliance Systems",
+          "location": "Oslo, Norway",
+          "postedDate": "2025-07-08",
+          "salary": "$4,150/Month",
+          "softwareHouse": "Visma AI Systems",
+          "description": "Consult organizations to implement auditable and transparent AI systems. Design ML solutions with complete explainability and legal compliance.",
+          "responsibilities": [
+            "Design AI audit logs and reporting tools.",
+            "Develop dashboards showcasing model behavior.",
+            "Collaborate on legal alignment of data pipelines.",
+            "Run workshops on fair AI usage."
+          ],
+          "requirements": [
+            "9+ years in ML systems and compliance management.",
+            "Experience with transparent models and explainable AI.",
+            "Strong presentation of predictions via UI.",
+            "Experience with CI/CD and REST integrations."
+          ],
+          "skills": [
+            "tensorflow.js", "machine learning", "data structures", "google app script",
+            "RESTful API", "CI/CD", "tailwind", "html", "css", "bootstrap", "Postman",
+            "Auth0", "ajax", "MVC", "MUI", "responsive websites", "OOP"
+          ]
+        },
+        {
+          "title": "Data Scientist – LLM-Driven Workflow Automation",
+          "location": "Helsinki, Finland",
+          "postedDate": "2025-07-08",
+          "salary": "$4,300/Month",
+          "softwareHouse": "Supermetrics",
+          "description": "Build AI tools that use large language models (LLMs) to automate internal workflows, data migration, and document analysis.",
+          "responsibilities": [
+            "Train and deploy LLMs via RESTful services.",
+            "Integrate models into browser and desktop flows.",
+            "Visualize AI metrics and logs.",
+            "Secure APIs with modern authentication layers."
+          ],
+          "requirements": [
+            "9+ years in full stack AI/ML, 2+ in LLM fine-tuning.",
+            "Strong JavaScript, TensorFlow.js, and dashboard skills.",
+            "Hands-on with token handling, API limits.",
+            "Comfortable working across DevOps teams."
+          ],
+          "skills": [
+            "machine learning", "tensorflow.js", "google app script", "Postman",
+            "RESTful API", "CI/CD", "tailwind", "html", "css", "OOP",
+            "bootstrap", "ajax", "MVC", "MUI", "responsive websites", "critical rendering", "Auth0"
+          ]
+        },
+        {
+          "title": "AI Developer – ML Visualizations & User Interaction",
+          "location": "Copenhagen, Denmark",
+          "postedDate": "2025-07-08",
+          "salary": "$4,200/Month",
+          "softwareHouse": "Unity Technologies",
+          "description": "Create high-performance, frontend-integrated visualizations of AI model behavior and training data. Improve user trust and transparency.",
+          "responsibilities": [
+            "Build visual feedback systems for AI predictions.",
+            "Collaborate with product teams on visual explanations.",
+            "Deploy real-time charts integrated with RESTful APIs.",
+            "Enable mobile-friendly visual dashboards."
+          ],
+          "requirements": [
+            "9+ years in AI with strong UI/UX orientation.",
+            "Fluent in frontend libraries and data viz.",
+            "Experience deploying TensorFlow.js dashboards.",
+            "Proven work in ethical AI or model trust."
+          ],
+          "skills": [
+            "tensorflow.js", "machine learning", "html", "css", "tailwind",
+            "RESTful API", "Postman", "google app script", "bootstrap", "OOP",
+            "responsive websites", "CI/CD", "Auth0", "MUI", "ajax", "MVC", "data structures"
+          ]
+        },
+        {
+          "title": "AI Lead – Semantic Search & Vector Embeddings",
+          "location": "Kuala Lumpur, Malaysia",
+          "postedDate": "2025-07-08",
+          "salary": "$4,300/Month",
+          "softwareHouse": "AirAsia Digital",
+          "description": "Design high-performance search systems using semantic embeddings and NLP. Enhance relevance and accuracy of search results across platforms.",
+          "responsibilities": [
+            "Build semantic search algorithms with TensorFlow.js.",
+            "Optimize ranking via user feedback.",
+            "Deliver search APIs with secure token auth.",
+            "Visualize accuracy and recall metrics."
+          ],
+          "requirements": [
+            "9+ years in data + NLP search systems.",
+            "Hands-on with model ranking, scoring, and tuning.",
+            "Strong grasp of UI/UX for AI results.",
+            "Skilled in API security and data structures."
+          ],
+          "skills": [
+            "machine learning", "tensorflow.js", "RESTful API", "Postman",
+            "tailwind", "html", "css", "OOP", "bootstrap", "ajax",
+            "google app script", "responsive websites", "MVC", "MUI", "Auth0", "critical rendering"
+          ]
+        } 
+     ],
     };
 
     return {
-     title: `Data Scientist in ${platform}`,
-     data: [
-      {
-       shortDescription: platformData[platform].shortDescription,
-       heading: 'About Data Scientist ',
-       image1: platformData[platform].imagePath1, // Moved image links here
-       image2: platformData[platform].imagePath2, // Moved image links here
-      },
-     ],
+     title: `Data Scientist Jobs in ${country}`,
+     data: countryData[country],
     };
    },
   },
@@ -7241,37 +9501,673 @@ export default function TechStackJobsMarket() {
     'GLASSDOOR.com',
     'INDEED.com',
    ],
-   content: (platform) => {
-    // platform-specific data
-    const platformData = {
-     'ROZEE.pk': {
-      imagePath1: '/assets/image/jobs/ml-rozee-1.png',
-      imagePath2: '/assets/image/jobs/ml-rozee-2.png',
-     },
-     'CAREERJET.com': {
-      imagePath1: '/assets/image/jobs/ml-career-1.png',
-     },
-     'SIMPLYHIRED.com': {
-      imagePath1: '/assets/image/jobs/ml-simplyHired-1.png',
-     },
-     'GLASSDOOR.com': {
-      imagePath1: '/assets/image/jobs/ml-glassdoor-1.png',
-     },
-     'INDEED.com': {
-      imagePath1: '/assets/image/jobs/ml-indeed-1.png',
-     },
+   content: (country) => {
+    const countryData = {
+     'ROZEE.pk' :[
+        {
+          "title": "Senior Machine Learning Engineer – Predictive Model Deployment",
+          "location": "Karachi, Pakistan",
+          "postedDate": "2025-07-08",
+          "salary": "$4,250/Month",
+          "softwareHouse": "10Pearls",
+          "description": "We’re seeking an ML engineer to design and deploy predictive systems for large-scale enterprise solutions. Ideal candidates blend AI mastery with full stack knowledge to bring smart apps to life.",
+          "responsibilities": [
+            "Train and deploy models using TensorFlow.js and REST APIs.",
+            "Build secure CI/CD pipelines for AI product deployment.",
+            "Integrate backend insights with responsive frontend components.",
+            "Collaborate with teams to productionize NLP and classification models."
+          ],
+          "requirements": [
+            "10+ years in software and machine learning engineering.",
+            "Hands-on experience with AI pipelines and model versioning.",
+            "Strong grasp of full stack dev and secure API workflows.",
+            "Experience integrating AI models in browser and mobile apps."
+          ],
+          "skills": [
+            "machine learning", "tensorflow.js", "javascript", "RESTful API", "CI/CD",
+            "Postman", "Auth0", "tailwind", "MVC", "responsive websites",
+            "OOP", "google app script", "ajax", "data structures", "MUI",
+            "critical rendering", "bootstrap", "socket.io"
+          ]
+        },
+        {
+          "title": "Lead Machine Learning Engineer – AI in E-Commerce Systems",
+          "location": "Lahore, Pakistan",
+          "postedDate": "2025-07-08",
+          "salary": "$4,300/Month",
+          "softwareHouse": "Systems Limited",
+          "description": "Join our AI team to build intelligent recommendation engines and customer behavior modeling. Bring cutting-edge machine learning into high-conversion e-commerce experiences.",
+          "responsibilities": [
+            "Design scalable ML pipelines for personalization engines.",
+            "Automate training and testing through DevOps best practices.",
+            "Implement responsive dashboards with integrated AI stats.",
+            "Securely expose ML insights through REST APIs."
+          ],
+          "requirements": [
+            "10+ years in software engineering, including AI for commerce.",
+            "Experience in customer data modeling and segmentation.",
+            "Expertise in end-to-end ML lifecycle from research to production.",
+            "Proficiency with CI/CD tools, frontend frameworks, and data ops."
+          ],
+          "skills": [
+            "tensorflow.js", "machine learning", "RESTful API", "tailwind", "OOP",
+            "bootstrap", "Postman", "Auth0", "html", "css",
+            "MVC", "ajax", "google app script", "critical rendering", "MUI",
+            "responsive websites", "data structures", "socket.io"
+          ]
+        },
+        {
+          "title": "Machine Learning Engineer – Language Models & Conversational AI",
+          "location": "Islamabad, Pakistan",
+          "postedDate": "2025-07-08",
+          "salary": "$4,400/Month",
+          "softwareHouse": "Techlogix",
+          "description": "Work on cutting-edge LLM integration and build conversational AI platforms using ML and full stack tools. Help design chatbot frameworks and AI-based Q&A pipelines.",
+          "responsibilities": [
+            "Develop transformer-based LLM pipelines with performance tuning.",
+            "Deploy ML models via RESTful APIs integrated in frontend.",
+            "Build dashboards for training performance visualization.",
+            "Design secure deployment flows using container-based CI/CD."
+          ],
+          "requirements": [
+            "10+ years of software development, including 3+ in LLM and NLP.",
+            "Fluent with React, Tailwind, TensorFlow.js and Express APIs.",
+            "Proven work in secure LLM token routing and context management.",
+            "Able to write clean, testable code for model wrappers and UI."
+          ],
+          "skills": [
+            "machine learning", "tensorflow.js", "javascript", "CI/CD", "google app script",
+            "RESTful API", "Postman", "MUI", "responsive websites", "tailwind",
+            "ajax", "data structures", "OOP", "Auth0", "MVC",
+            "prototype", "bootstrap", "socket.io"
+          ]
+        },
+        {
+          "title": "Applied Machine Learning Engineer – Smart Automation & IoT",
+          "location": "Rawalpindi, Pakistan",
+          "postedDate": "2025-07-08",
+          "salary": "$4,200/Month",
+          "softwareHouse": "Mindstorm Studios",
+          "description": "Join our AI automation lab to develop ML-driven IoT solutions. Apply full stack expertise to streamline smart device behavior, logging, and user insights.",
+          "responsibilities": [
+            "Train ML models that trigger smart hardware behavior.",
+            "Build APIs to expose automation states to dashboards.",
+            "Optimize TensorFlow.js models for edge deployments.",
+            "Integrate AI data into React interfaces and analytics tools."
+          ],
+          "requirements": [
+            "10+ years of experience in embedded AI and ML automation.",
+            "Fluent in RESTful microservices, UI dashboards, and signal data.",
+            "Experience with MUI, Tailwind, and visualization of AI triggers.",
+            "Skilled in web security, OOP, and deployment to edge networks."
+          ],
+          "skills": [
+            "machine learning", "tensorflow.js", "html", "css", "tailwind",
+            "javascript", "google app script", "CI/CD", "bootstrap", "ajax",
+            "Postman", "MVC", "OOP", "responsive websites", "Auth0",
+            "data structures", "MUI", "socket.io"
+          ]
+        },
+        {
+          "title": "Principal ML Engineer – Visual Recognition & AI Pipelines",
+          "location": "Multan, Pakistan",
+          "postedDate": "2025-07-08",
+          "salary": "$4,350/Month",
+          "softwareHouse": "Arbisoft",
+          "description": "Develop AI vision pipelines for real-time image and video classification. Lead design of scalable, secure systems for computer vision solutions.",
+          "responsibilities": [
+            "Build and train CNN and object detection models.",
+            "Integrate models into web apps with REST APIs.",
+            "Deploy AI services via Kubernetes pipelines.",
+            "Coordinate ML dev team and product teams on delivery cycles."
+          ],
+          "requirements": [
+            "10+ years in ML with focus on vision-based solutions.",
+            "Proven deployment using TensorFlow.js and React UIs.",
+            "Experience in Postman, containerization, and MUI dashboards.",
+            "Ability to drive product-oriented ML development with secure APIs."
+          ],
+          "skills": [
+            "tensorflow.js", "machine learning", "javascript", "RESTful API", "CI/CD",
+            "Postman", "Auth0", "tailwind", "responsive websites", "google app script",
+            "bootstrap", "ajax", "MVC", "OOP", "data structures",
+            "MUI", "prototype", "socket.io"
+          ]
+        }
+     ],
+     'CAREERJET.com':[
+      {
+        "title": "Principal Machine Learning Engineer – AI Infrastructure & Vision",
+        "location": "Austin, TX",
+        "postedDate": "2025-07-08",
+        "salary": "$4,300/Month",
+        "softwareHouse": "Cognizant Technology Solutions",
+        "description": "Work on robust machine learning systems focused on image classification and intelligent detection. Help scale the infrastructure that powers smart retail and surveillance solutions.",
+        "responsibilities": [
+          "Develop pipelines for image recognition and video intelligence.",
+          "Optimize ML models for edge deployment and cloud scaling.",
+          "Build frontend AI dashboards using Tailwind and React.",
+          "Integrate DevOps into ML model testing and delivery."
+        ],
+        "requirements": [
+          "10+ years of software and machine learning experience.",
+          "Expertise in deep learning, TensorFlow.js, and model deployment.",
+          "Strong frontend and DevOps integration skills.",
+          "Experience with scalable RESTful services for AI output."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "javascript", "RESTful API", "tailwind",
+          "CI/CD", "Postman", "google app script", "data structures", "OOP",
+          "MUI", "responsive websites", "MVC", "Auth0", "ajax",
+          "bootstrap", "socket.io", "critical rendering"
+        ]
+      },
+      {
+        "title": "Lead ML Engineer – Conversational AI & NLP",
+        "location": "San Francisco, CA",
+        "postedDate": "2025-07-08",
+        "salary": "$4,400/Month",
+        "softwareHouse": "OpenAI",
+        "description": "Build and optimize state-of-the-art conversational models. Join a dynamic team working at the frontier of NLP, integrating real-time AI into user-facing applications.",
+        "responsibilities": [
+          "Train large language models with multi-turn dialogue data.",
+          "Deploy and monitor AI chatbots using scalable backend systems.",
+          "Build interfaces in React for testing conversation flows.",
+          "Work with DevOps to streamline ML experiment deployment."
+        ],
+        "requirements": [
+          "10+ years in ML, 3+ years in LLMs or NLP systems.",
+          "Strong knowledge of transformer models and data pipelines.",
+          "Experience in A/B testing conversational engines.",
+          "Frontend integration skills with responsive frameworks."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "node.js", "RESTful API", "react",
+          "CI/CD", "Postman", "tailwind", "data structures", "MUI",
+          "html", "css", "socket.io", "prototype", "MVC",
+          "Auth0", "google app script", "responsive websites"
+        ]
+      },
+      {
+        "title": "Senior Machine Learning Engineer – AI Automation Systems",
+        "location": "Seattle, WA",
+        "postedDate": "2025-07-08",
+        "salary": "$4,250/Month",
+        "softwareHouse": "Amazon AWS AI Labs",
+        "description": "Lead initiatives on smart automation, real-time prediction, and workflow optimization using machine learning. Architect data-driven products that improve enterprise efficiency.",
+        "responsibilities": [
+          "Design and deploy scalable ML models in AWS environment.",
+          "Develop intelligent triggers using REST APIs and socket events.",
+          "Collaborate with DevOps and frontend teams for seamless UI/UX.",
+          "Secure ML pipelines using Postman, Auth0, and CI/CD tools."
+        ],
+        "requirements": [
+          "10+ years of applied ML experience in enterprise systems.",
+          "Hands-on with model orchestration and distributed systems.",
+          "Experience with frontend ML integrations and socket events.",
+          "Proficient in DevOps-based testing of ML components."
+        ],
+        "skills": [
+          "machine learning", "javascript", "node.js", "CI/CD", "Auth0",
+          "tailwind", "google app script", "MVC", "bootstrap", "ajax",
+          "responsive websites", "data structures", "Postman", "OOP",
+          "RESTful API", "critical rendering", "MUI", "socket.io"
+        ]
+      },
+      {
+        "title": "AI Systems Engineer – Full Stack ML Implementation",
+        "location": "New York, NY",
+        "postedDate": "2025-07-08",
+        "salary": "$4,200/Month",
+        "softwareHouse": "Palantir Technologies",
+        "description": "Deliver enterprise-grade AI tools that provide predictive insights and automate decision-making. Implement full stack integration for complex ML systems and dashboards.",
+        "responsibilities": [
+          "Work on full stack integration of AI models with frontend UIs.",
+          "Build and deploy APIs for ML scoring engines.",
+          "Visualize data insights using React, Tailwind, and MUI.",
+          "Secure model access through Auth0 and test with Postman."
+        ],
+        "requirements": [
+          "10+ years of ML engineering and full stack development.",
+          "Fluent in REST API design, DevOps, and smart UI design.",
+          "Track record in implementing AI analytics tools.",
+          "Knowledge of real-time monitoring and ML observability."
+        ],
+        "skills": [
+          "machine learning", "javascript", "RESTful API", "CI/CD", "google app script",
+          "responsive websites", "tailwind", "html", "css", "bootstrap",
+          "Postman", "Auth0", "OOP", "MVC", "socket.io",
+          "ajax", "data structures", "tensorflow.js"
+        ]
+      },
+      {
+        "title": "Staff ML Engineer – Multimodal AI Systems",
+        "location": "Boston, MA",
+        "postedDate": "2025-07-08",
+        "salary": "$4,350/Month",
+        "softwareHouse": "DataRobot",
+        "description": "Architect and optimize multimodal ML systems that combine audio, video, and text. Create seamless pipelines for ingestion, training, and visualization in dynamic environments.",
+        "responsibilities": [
+          "Design systems combining NLP, computer vision, and audio ML models.",
+          "Integrate data streams from web, mobile, and external APIs.",
+          "Visualize predictions in real-time dashboards using React.",
+          "Collaborate with data scientists and DevOps for model tuning."
+        ],
+        "requirements": [
+          "10+ years in advanced ML and system engineering roles.",
+          "Expertise in TensorFlow.js, multi-source data ingestion.",
+          "Experience with real-time frontend and backend integration.",
+          "Strong skills in DevOps for AI workflow optimization."
+        ],
+        "skills": [
+          "tensorflow.js", "machine learning", "javascript", "node.js", "RESTful API",
+          "tailwind", "Postman", "Auth0", "MVC", "responsive websites",
+          "ajax", "bootstrap", "google app script", "OOP", "socket.io",
+          "data structures", "MUI", "critical rendering"
+        ]
+      }
+    ],
+     'SIMPLYHIRED.com' :[
+      {
+        "title": "Global ML Engineer – Scalable Intelligence in SaaS Environments",
+        "location": "Remote – Worldwide",
+        "postedDate": "2025-07-08",
+        "salary": "$4,250/Month",
+        "softwareHouse": "InData Labs",
+        "description": "Design large-scale machine learning systems powering SaaS analytics platforms. This role demands strong model automation, frontend integration, and DevOps thinking.",
+        "responsibilities": [
+          "Architect and deploy predictive analytics pipelines.",
+          "Integrate models into web dashboards using REST APIs.",
+          "Support CI/CD and A/B testing of ML workflows.",
+          "Collaborate across teams for scalable intelligence."
+        ],
+        "requirements": [
+          "10+ years in AI/ML engineering including commercial SaaS use.",
+          "Strong JavaScript & Tailwind experience with backend REST.",
+          "Exposure to Postman, Auth0, and full stack DevOps.",
+          "Able to scale ML models and integrate with visualization tools."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "RESTful API", "tailwind", "CI/CD",
+          "Postman", "MUI", "google app script", "javascript", "OOP",
+          "responsive websites", "Auth0", "ajax", "bootstrap", "MVC",
+          "data structures", "socket.io"
+        ]
+      },
+      {
+        "title": "Remote ML Specialist – Real-Time AI Deployment",
+        "location": "Hybrid – Berlin, Germany / Remote",
+        "postedDate": "2025-07-08",
+        "salary": "$4,300/Month",
+        "softwareHouse": "Zalando Tech Labs",
+        "description": "We seek a seasoned ML engineer to optimize AI for real-time decisions in commerce and logistics. If you're passionate about fast inference and secure deployment, join us.",
+        "responsibilities": [
+          "Implement live ML inference for real-time scoring.",
+          "Build APIs and integrations with React-based interfaces.",
+          "Establish monitoring pipelines with Google scripts.",
+          "Secure user inputs and ML endpoints using Auth0."
+        ],
+        "requirements": [
+          "10+ years in ML and high-speed backend APIs.",
+          "Frontend integration using Tailwind and MUI.",
+          "Comfortable with data modeling and smart UIs.",
+          "Strong experience with CI/CD and testing."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "javascript", "tailwind", "google app script",
+          "OOP", "responsive websites", "Postman", "RESTful API", "bootstrap",
+          "MVC", "Auth0", "ajax", "data structures", "MUI",
+          "socket.io", "critical rendering"
+        ]
+      },
+      {
+        "title": "ML Infrastructure Engineer – Vision AI Platform",
+        "location": "Singapore – Global Team",
+        "postedDate": "2025-07-08",
+        "salary": "$4,400/Month",
+        "softwareHouse": "Shopee AI",
+        "description": "Help scale our intelligent vision platform for millions of global users. Work across frontend/backend stacks to deliver responsive, smart ML experiences.",
+        "responsibilities": [
+          "Optimize image models for both cloud and edge devices.",
+          "Create APIs for real-time detection dashboards.",
+          "Streamline DevOps ML pipelines with container tools.",
+          "Manage continuous delivery for vision models."
+        ],
+        "requirements": [
+          "10+ years in ML, with focus on visual systems.",
+          "Fluent in RESTful services and UI/UX for vision output.",
+          "Able to secure endpoints and build CI/CD flows.",
+          "Strong use of React, Tailwind, and Postman in AI ops."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "RESTful API", "CI/CD", "Postman",
+          "tailwind", "html", "css", "bootstrap", "ajax",
+          "OOP", "MVC", "responsive websites", "google app script", "javascript",
+          "MUI", "Auth0", "socket.io"
+        ]
+      },
+      {
+        "title": "Senior ML Engineer – FinTech Intelligence & Fraud Detection",
+        "location": "Remote – UK or Global",
+        "postedDate": "2025-07-08",
+        "salary": "$4,300/Month",
+        "softwareHouse": "Revolut AI Labs",
+        "description": "Combat financial fraud with advanced ML intelligence. Engineer AI pipelines capable of adaptive learning and secure integrations in our FinTech platform.",
+        "responsibilities": [
+          "Design fraud detection algorithms for financial workflows.",
+          "Deploy ML with real-time alert mechanisms and webhooks.",
+          "Collaborate with frontend for secure transaction UI.",
+          "Ensure model versioning and testing through DevOps."
+        ],
+        "requirements": [
+          "10+ years in ML with exposure to FinTech or banking data.",
+          "Full stack knowledge with React and Tailwind.",
+          "Experience using Postman and Auth0 for authentication APIs.",
+          "Secure CI/CD pipelines and scalable model deployment."
+        ],
+        "skills": [
+          "machine learning", "RESTful API", "javascript", "CI/CD", "tailwind",
+          "Postman", "google app script", "OOP", "data structures", "bootstrap",
+          "socket.io", "responsive websites", "MUI", "tensorflow.js", "Auth0",
+          "html", "ajax"
+        ]
+      },
+      {
+        "title": "ML Ops Engineer – Continuous AI Deployment & Monitoring",
+        "location": "Global Remote",
+        "postedDate": "2025-07-08",
+        "salary": "$4,250/Month",
+        "softwareHouse": "OctoML",
+        "description": "Join us to deliver the fastest deployment workflows for AI models worldwide. As an ML Ops Engineer, you’ll own DevOps practices for high-frequency training and monitoring systems.",
+        "responsibilities": [
+          "Develop ML pipelines with real-time feedback and retraining.",
+          "Maintain secure containerized delivery using CI/CD.",
+          "Integrate REST APIs for dashboard visualizations.",
+          "Collaborate with ML researchers for inference optimization."
+        ],
+        "requirements": [
+          "10+ years in software and DevOps for ML systems.",
+          "Strong API management and frontend integration.",
+          "Experience with TensorFlow.js and Postman.",
+          "Hands-on with modern stack tools like Tailwind, Auth0."
+        ],
+        "skills": [
+          "machine learning", "CI/CD", "RESTful API", "tailwind", "javascript",
+          "responsive websites", "MUI", "google app script", "bootstrap", "OOP",
+          "ajax", "Auth0", "MVC", "socket.io", "data structures",
+          "Postman", "tensorflow.js"
+        ]
+      }
+    ],
+     'GLASSDOOR.com' :[
+      {
+        "title": "ML Solutions Architect – Predictive Data Systems",
+        "location": "Remote – Global",
+        "postedDate": "2025-07-08",
+        "salary": "$4,300/Month",
+        "softwareHouse": "Turing",
+        "description": "Shape predictive data workflows across global platforms. This role involves building pipelines, testing inference models, and deploying secure analytics.",
+        "responsibilities": [
+          "Architect secure pipelines using CI/CD and REST APIs.",
+          "Develop learning models for real-time decision making.",
+          "Automate data ingestion and visualization.",
+          "Lead ML deployment strategies across regions."
+        ],
+        "requirements": [
+          "10+ years in ML and scalable data platforms.",
+          "Hands-on with frontend stack using Tailwind, React.",
+          "Experienced in TensorFlow.js & model ops.",
+          "Able to handle secure API design and Auth integrations."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "RESTful API", "tailwind", "google app script",
+          "Postman", "OOP", "responsive websites", "ajax", "bootstrap",
+          "MVC", "Auth0", "html", "css", "javascript", "MUI",
+          "data structures", "socket.io"
+        ]
+      },
+      {
+        "title": "AI Research Engineer – Global NLP Systems",
+        "location": "Remote – Global",
+        "postedDate": "2025-07-08",
+        "salary": "$4,400/Month",
+        "softwareHouse": "DeepMind",
+        "description": "Join the forefront of NLP and AI integration. As a research engineer, you'll fine-tune and scale language models while ensuring optimized delivery through modern DevOps.",
+        "responsibilities": [
+          "Design and optimize transformer-based models.",
+          "Create REST endpoints for model interaction.",
+          "Support research with scalable infrastructure.",
+          "Monitor model usage through dashboards and tools."
+        ],
+        "requirements": [
+          "10+ years in ML/NLP and deep learning architecture.",
+          "Strong RESTful API and Postman background.",
+          "Experience with containerization and Tailwind frontend.",
+          "Ability to write secure production-ready ML code."
+        ],
+        "skills": [
+          "machine learning", "RESTful API", "tailwind", "bootstrap", "javascript",
+          "tensorflow.js", "responsive websites", "ajax", "OOP", "MVC",
+          "Auth0", "google app script", "html", "css", "data structures",
+          "Postman", "MUI", "socket.io"
+        ]
+      },
+      {
+        "title": "Senior ML Engineer – Retail Forecasting Systems",
+        "location": "Remote – Global",
+        "postedDate": "2025-07-08",
+        "salary": "$4,250/Month",
+        "softwareHouse": "Shopify AI",
+        "description": "Leverage your ML expertise to build retail sales forecasting pipelines. You'll integrate backend logic with intelligent UIs and manage scalable model deployments.",
+        "responsibilities": [
+          "Train and deploy ML models for real-time retail trends.",
+          "Integrate UIs with model APIs using React & Tailwind.",
+          "Optimize inference performance on web and mobile.",
+          "Use CI/CD for automated ML releases."
+        ],
+        "requirements": [
+          "10+ years in data science and ML forecasting.",
+          "Strong DevOps skills with CI/CD and containerization.",
+          "Frontend fluency using Tailwind and REST APIs.",
+          "ML API design and versioning experience."
+        ],
+        "skills": [
+          "machine learning", "RESTful API", "tailwind", "bootstrap", "javascript",
+          "tensorflow.js", "Postman", "responsive websites", "OOP", "ajax",
+          "MVC", "html", "css", "google app script", "Auth0",
+          "data structures", "MUI"
+        ]
+      },
+      {
+        "title": "Remote ML Systems Engineer – Healthcare Intelligence",
+        "location": "Remote – Global",
+        "postedDate": "2025-07-08",
+        "salary": "$4,350/Month",
+        "softwareHouse": "Butterfly Network",
+        "description": "Revolutionize medical imaging and diagnostics using intelligent ML pipelines. Deliver end-to-end systems from UI to data to secure deployment.",
+        "responsibilities": [
+          "Deploy secure ML systems for diagnostic image processing.",
+          "Develop containerized tools with CI/CD & Docker.",
+          "Integrate real-time insights into physician dashboards.",
+          "Maintain data privacy across global ML APIs."
+        ],
+        "requirements": [
+          "10+ years in ML with healthcare or image processing.",
+          "Able to integrate tailwind UIs and ML pipelines.",
+          "Experience with API token systems and monitoring.",
+          "Model explainability & performance benchmarking knowledge."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "tailwind", "RESTful API", "Postman",
+          "javascript", "responsive websites", "bootstrap", "google app script",
+          "Auth0", "OOP", "ajax", "MVC", "html", "css",
+          "socket.io", "MUI", "data structures"
+        ]
+      },
+      {
+        "title": "AI & ML Engineer – Automation and Behavioral Analytics",
+        "location": "Remote – Global",
+        "postedDate": "2025-07-08",
+        "salary": "$4,200/Month",
+        "softwareHouse": "CognitiveScale",
+        "description": "Create intelligent systems for behavioral tracking and business automation. This position spans across model training, API integration, and secure web platforms.",
+        "responsibilities": [
+          "Build behavioral models and integrate via REST APIs.",
+          "Deliver intelligent dashboards with automated insights.",
+          "Work with CI/CD pipelines for scalable AI systems.",
+          "Secure platforms with Auth0 and monitor usage patterns."
+        ],
+        "requirements": [
+          "10+ years in ML/AI deployment and behavioral data.",
+          "Strong frontend understanding (Tailwind, React).",
+          "Experienced in ML toolchains and cloud DevOps.",
+          "Proficient with API security and testing tools."
+        ],
+        "skills": [
+          "machine learning", "CI/CD", "RESTful API", "tailwind", "responsive websites",
+          "google app script", "Postman", "javascript", "bootstrap", "ajax",
+          "tensorflow.js", "OOP", "socket.io", "MVC", "html",
+          "css", "Auth0", "data structures"
+        ]
+      }
+    ],
+      'INDEED.com'  :[
+        {
+          "title": "Global Machine Learning Engineer – AI-Driven Personalization",
+          "location": "Remote – Global",
+          "postedDate": "2025-07-08",
+          "salary": "$4,200/Month",
+          "softwareHouse": "C3.ai",
+          "description": "Design real-time personalization engines with adaptive ML algorithms. Build scalable infrastructure and responsive interfaces for global users.",
+          "responsibilities": [
+            "Create adaptive recommendation algorithms.",
+            "Integrate ML with real-time UI feedback loops.",
+            "Manage and deploy secure APIs for personalization.",
+            "Ensure global scalability using CI/CD workflows."
+          ],
+          "requirements": [
+            "10+ years in AI/ML solutions delivery.",
+            "Experience in Tailwind/React-driven ML dashboards.",
+            "Strong understanding of model versioning and testing.",
+            "Knowledge of API authentication and deployment."
+          ],
+          "skills": [
+            "machine learning", "tensorflow.js", "RESTful API", "Postman", "OOP",
+            "google app script", "responsive websites", "tailwind", "bootstrap", "javascript",
+            "MVC", "html", "css", "ajax", "Auth0",
+            "data structures", "MUI", "socket.io"
+          ]
+        },
+        {
+          "title": "Remote ML Infrastructure Specialist – Predictive Systems",
+          "location": "Worldwide Remote",
+          "postedDate": "2025-07-08",
+          "salary": "$4,300/Month",
+          "softwareHouse": "DataRobot",
+          "description": "Develop predictive platforms for operational forecasting. Manage backend automation, ML pipelines, and full-stack delivery for cross-functional teams.",
+          "responsibilities": [
+            "Design model pipelines for predictive tasks.",
+            "Use CI/CD to automate model training and deployment.",
+            "Integrate real-time model responses into web UIs.",
+            "Optimize system latency and response accuracy."
+          ],
+          "requirements": [
+            "10+ years in ML infrastructure and DevOps.",
+            "Experience with API management and secure endpoints.",
+            "Expertise in frontend integrations with Tailwind.",
+            "Track record of maintaining ML production systems."
+          ],
+          "skills": [
+            "machine learning", "CI/CD", "RESTful API", "Postman", "tailwind",
+            "javascript", "responsive websites", "ajax", "google app script", "OOP",
+            "bootstrap", "html", "css", "MVC", "tensorflow.js",
+            "MUI", "socket.io", "Auth0"
+          ]
+        },
+        {
+          "title": "Senior Machine Learning Specialist – Smart Cities AI",
+          "location": "Remote – Global",
+          "postedDate": "2025-07-08",
+          "salary": "$4,400/Month",
+          "softwareHouse": "NVIDIA",
+          "description": "Apply ML to urban data and smart infrastructure. Build intelligent traffic and utility forecasting models and deploy them to web dashboards globally.",
+          "responsibilities": [
+            "Create and refine city-scale ML models.",
+            "Develop scalable APIs for city sensor data.",
+            "Implement dashboards using Tailwind and React.",
+            "Apply CI/CD tools to deploy ML microservices."
+          ],
+          "requirements": [
+            "10+ years in ML and sensor data processing.",
+            "Deep experience with model training on real-time data.",
+            "Proficient in frontend/backend integration.",
+            "Skilled in privacy and security protocols for data."
+          ],
+          "skills": [
+            "machine learning", "responsive websites", "RESTful API", "Postman", "MVC",
+            "tensorflow.js", "tailwind", "OOP", "bootstrap", "google app script",
+            "html", "css", "javascript", "MUI", "data structures",
+            "ajax", "Auth0", "socket.io"
+          ]
+        },
+        {
+          "title": "AI Data Scientist – Scalable Behavioral Engines",
+          "location": "Remote – Global",
+          "postedDate": "2025-07-08",
+          "salary": "$4,250/Month",
+          "softwareHouse": "H2O.ai",
+          "description": "Lead behavioral pattern recognition using deep ML networks. Design real-time APIs and contribute to modular AI-first products across global markets.",
+          "responsibilities": [
+            "Develop ML models for user behavior prediction.",
+            "Build scalable APIs using RESTful endpoints.",
+            "Collaborate on UI/UX features that visualize behavior.",
+            "Automate data collection using secure pipelines."
+          ],
+          "requirements": [
+            "10+ years in ML and user behavior modeling.",
+            "Familiarity with Tailwind, MUI, and CI/CD workflows.",
+            "Strong background in inference performance tuning.",
+            "Ability to implement monitoring for data pipelines."
+          ],
+          "skills": [
+            "machine learning", "RESTful API", "tailwind", "ajax", "google app script",
+            "bootstrap", "MVC", "Postman", "OOP", "tensorflow.js",
+            "responsive websites", "css", "html", "javascript", "Auth0",
+            "socket.io", "MUI", "data structures"
+          ]
+        },
+        {
+          "title": "Full-Stack ML Engineer – Real-Time Recommendation Engines",
+          "location": "Remote – Global",
+          "postedDate": "2025-07-08",
+          "salary": "$4,300/Month",
+          "softwareHouse": "Zyte AI",
+          "description": "Engineer full-stack ML-powered recommender systems from scratch. You will work with data, APIs, and intelligent UIs to deliver contextual insights in real time.",
+          "responsibilities": [
+            "Build personalized recommendation ML models.",
+            "Expose APIs and secure access with Auth0.",
+            "Integrate backend logic into responsive UIs.",
+            "Automate A/B testing pipelines via CI/CD."
+          ],
+          "requirements": [
+            "10+ years in machine learning, frontend/backend systems.",
+            "Deep familiarity with recommender algorithms.",
+            "Proficient in DevOps practices for ML ops.",
+            "Strong grasp of user experience in data products."
+          ],
+          "skills": [
+            "machine learning", "responsive websites", "RESTful API", "Postman", "OOP",
+            "bootstrap", "google app script", "tailwind", "css", "html",
+            "ajax", "javascript", "MVC", "tensorflow.js", "MUI",
+            "Auth0", "socket.io", "data structures"
+          ]
+        }
+      ]
     };
 
     return {
-     title: `Machine Learning Engineer in ${platform}`,
-     data: [
-      {
-       shortDescription: platformData[platform].shortDescription,
-       heading: 'About Machine Learning Engineer ',
-       image1: platformData[platform].imagePath1, // Moved image links here
-       image2: platformData[platform].imagePath2, // Moved image links here
-      },
-     ],
+     title: `Machine Learning Engineer Jobs in ${country}`,
+     data: countryData[country],
     };
    },
   },
@@ -7285,37 +10181,673 @@ export default function TechStackJobsMarket() {
     'GLASSDOOR.com',
     'INDEED.com',
    ],
-   content: (platform) => {
-    // platform-specific data
-    const platformData = {
-     'ROZEE.pk': {
-      imagePath1: '/assets/image/jobs/ai-rozee-1.png',
-      imagePath2: '/assets/image/jobs/ai-rozee-2.png',
-     },
-     'CAREERJET.com': {
-      imagePath1: '/assets/image/jobs/ai-career-1.png',
-     },
-     'SIMPLYHIRED.com': {
-      imagePath1: '/assets/image/jobs/ai-simplyHired-1.png',
-     },
-     'GLASSDOOR.com': {
-      imagePath1: '/assets/image/jobs/ai-glassdoor-1.png',
-     },
-     'INDEED.com': {
-      imagePath1: '/assets/image/jobs/ai-indeed-1.png',
-     },
+   content: (country) => {
+    const countryData = {
+     'ROZEE.pk' :[
+      {
+        "title": "Senior AI Engineer – Deep Learning System Architect",
+        "location": "Lahore, Pakistan",
+        "postedDate": "2025-07-08",
+        "salary": "$4,500/Month",
+        "softwareHouse": "10Pearls",
+        "description": "Design deep learning systems from pipeline to deployment. Architect scalable backend services with full stack support for AI-driven applications.",
+        "responsibilities": [
+          "Create and manage deep learning pipelines for computer vision.",
+          "Develop scalable APIs for inference systems.",
+          "Implement data security across AI layers.",
+          "Collaborate with full stack teams for real-time feedback integration."
+        ],
+        "requirements": [
+          "10+ years in AI/ML systems and model deployment.",
+          "Expert in integrating TensorFlow models with CI/CD flows.",
+          "Proficient in RESTful API and Postman testing.",
+          "Ability to lead full-stack development in intelligent systems."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "RESTful API", "Postman", "tailwind",
+          "responsive websites", "OOP", "google app script", "javascript", "bootstrap",
+          "html", "css", "ajax", "MVC", "MUI",
+          "data structures", "Auth0", "socket.io"
+        ]
+      },
+      {
+        "title": "AI Platform Engineer – Automated Reasoning Systems",
+        "location": "Karachi, Pakistan",
+        "postedDate": "2025-07-08",
+        "salary": "$4,300/Month",
+        "softwareHouse": "Contour Software",
+        "description": "Engineer intelligent backends using rule-based AI and hybrid ML workflows. Support global AI pipelines with scalable infrastructure and rapid testing.",
+        "responsibilities": [
+          "Deploy and manage containerized ML services.",
+          "Design APIs to serve real-time decision logic.",
+          "Automate feedback loops in AI recommendations.",
+          "Apply OOP and DevOps techniques to ensure performance."
+        ],
+        "requirements": [
+          "10+ years in AI, DevOps, and service-oriented architecture.",
+          "Experience building scalable reasoning engines.",
+          "Ability to use Tailwind, RESTful APIs, and MVC patterns.",
+          "Proven track record with secure deployment systems."
+        ],
+        "skills": [
+          "machine learning", "CI/CD", "RESTful API", "OOP", "google app script",
+          "bootstrap", "tailwind", "html", "css", "javascript",
+          "tensorflow.js", "Postman", "responsive websites", "ajax", "MVC",
+          "Auth0", "MUI", "data structures"
+        ]
+      },
+      {
+        "title": "AI Application Engineer – Language & Chatbot Architect",
+        "location": "Islamabad, Pakistan",
+        "postedDate": "2025-07-08",
+        "salary": "$4,350/Month",
+        "softwareHouse": "Systems Limited",
+        "description": "Architect LLM-based chatbot systems using NLP tools and AI frameworks. Create secure AI apps with interactive UIs and live inference results.",
+        "responsibilities": [
+          "Train and fine-tune language models for dynamic user input.",
+          "Integrate frontend logic with backend ML services.",
+          "Secure chatbot APIs using token-based authentication.",
+          "Deploy feedback-driven improvements with automation."
+        ],
+        "requirements": [
+          "10+ years in NLP and AI product engineering.",
+          "Experienced in Google App Script and full stack AI app design.",
+          "Able to develop using Tailwind and responsive UI libraries.",
+          "Familiar with CI/CD-based AI deployment cycles."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "responsive websites", "RESTful API", "Postman",
+          "tailwind", "javascript", "google app script", "ajax", "bootstrap",
+          "html", "css", "OOP", "MVC", "Auth0",
+          "socket.io", "MUI", "data structures"
+        ]
+      },
+      {
+        "title": "AI Integration Specialist – Hybrid Neural & Rule Engines",
+        "location": "Faisalabad, Pakistan",
+        "postedDate": "2025-07-08",
+        "salary": "$4,400/Month",
+        "softwareHouse": "VentureDive",
+        "description": "Engineer AI systems that combine neural networks with rule-based reasoning. Create scalable APIs and visual interfaces using modern stacks.",
+        "responsibilities": [
+          "Develop intelligent engines to blend ML and symbolic reasoning.",
+          "Deploy backend logic with real-time API exposure.",
+          "Implement full-stack features using Tailwind + MVC.",
+          "Ensure compliance and performance through CI/CD."
+        ],
+        "requirements": [
+          "10+ years in AI integration and backend systems.",
+          "Hands-on with AI decision flows and real-time pipelines.",
+          "Frontend development using MUI, Tailwind, and socket APIs.",
+          "Cloud deployment with automated model rollbacks."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "RESTful API", "google app script", "OOP",
+          "Postman", "tailwind", "javascript", "responsive websites", "bootstrap",
+          "css", "html", "MVC", "ajax", "MUI",
+          "data structures", "Auth0", "socket.io"
+        ]
+      },
+      {
+        "title": "Lead AI Systems Engineer – Enterprise Intelligence Stack",
+        "location": "Multan, Pakistan",
+        "postedDate": "2025-07-08",
+        "salary": "$4,450/Month",
+        "softwareHouse": "Arbisoft",
+        "description": "Lead enterprise-level AI solutions from model design to deployment. Create full-stack intelligent interfaces backed by DevOps-first ML pipelines.",
+        "responsibilities": [
+          "Develop enterprise ML apps for process automation.",
+          "Automate data workflows with CI/CD pipelines.",
+          "Optimize APIs for frontend responsiveness.",
+          "Secure AI inference systems using modern auth protocols."
+        ],
+        "requirements": [
+          "10+ years in ML/AI design and enterprise infrastructure.",
+          "Strong experience with Postman, OOP, and CI pipelines.",
+          "Fluency in HTML/CSS and frontend component libraries.",
+          "Proficient in AI model tuning for performance and scale."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "CI/CD", "RESTful API", "responsive websites",
+          "tailwind", "bootstrap", "javascript", "ajax", "google app script",
+          "Postman", "html", "css", "MVC", "MUI",
+          "OOP", "Auth0", "data structures"
+        ]
+      }
+    ],
+     'CAREERJET.com':[
+      {
+        "title": "Principal AI Engineer – Predictive Intelligence Systems",
+        "location": "San Francisco, CA",
+        "postedDate": "2025-07-08",
+        "salary": "$4,500/Month",
+        "softwareHouse": "C3.ai",
+        "description": "Design predictive systems with real-time AI decisions. Develop intelligent APIs and integrate ML flows into production-grade platforms.",
+        "responsibilities": [
+          "Architect AI workflows for demand prediction and optimization.",
+          "Build and secure REST APIs with ML output delivery.",
+          "Collaborate with DevOps to optimize CI/CD cycles for AI.",
+          "Lead code reviews for ML pipeline reliability."
+        ],
+        "requirements": [
+          "10+ years in AI-based predictive modeling and API design.",
+          "Strong grasp of OOP and full-stack AI systems.",
+          "Hands-on experience in data structures and API orchestration.",
+          "Fluent in integrating ML pipelines with frontends."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "google app script", "Postman", "OOP",
+          "RESTful API", "html", "css", "javascript", "responsive websites",
+          "tailwind", "critical rendering", "MUI", "ajax", "MVC",
+          "Auth0", "bootstrap", "socket.io"
+        ]
+      },
+      {
+        "title": "Lead AI Infrastructure Engineer – Enterprise ML DevOps",
+        "location": "Austin, TX",
+        "postedDate": "2025-07-08",
+        "salary": "$4,400/Month",
+        "softwareHouse": "DataRobot",
+        "description": "Lead AI infrastructure projects, deploy intelligent systems at scale, and optimize DevOps pipelines for AI lifecycle automation.",
+        "responsibilities": [
+          "Develop deployment pipelines for ML workflows using CI/CD.",
+          "Automate AI training feedback loops and data flow.",
+          "Optimize latency for real-time inference APIs.",
+          "Apply microservice architecture patterns to AI systems."
+        ],
+        "requirements": [
+          "10+ years of DevOps and machine learning engineering.",
+          "Proven experience in RESTful API development and auth integration.",
+          "Skilled with responsive architecture and frontend-tailored AI.",
+          "Strong team leadership in model deployment pipelines."
+        ],
+        "skills": [
+          "tensorflow.js", "CI/CD", "RESTful API", "tailwind", "responsive websites",
+          "javascript", "html", "css", "ajax", "google app script",
+          "Postman", "MVC", "OOP", "Auth0", "bootstrap",
+          "data structures", "MUI", "socket.io"
+        ]
+      },
+      {
+        "title": "AI System Architect – Multimodal ML Stack",
+        "location": "Boston, MA",
+        "postedDate": "2025-07-08",
+        "salary": "$4,300/Month",
+        "softwareHouse": "IBM Watson",
+        "description": "Design and deploy AI systems that integrate text, image, and structured data. Create ML pipelines optimized for multimodal model performance.",
+        "responsibilities": [
+          "Develop AI applications using hybrid data formats.",
+          "Integrate TensorFlow models into scalable APIs.",
+          "Work on frontend dashboards showing AI outputs live.",
+          "Ensure security and scalability in AI delivery."
+        ],
+        "requirements": [
+          "10+ years in AI architecture with multimodal dataset handling.",
+          "Familiarity with AI-focused backend and frontend stacks.",
+          "Experience working with Google App Script and MUI-based UIs.",
+          "Knowledge of secure DevOps integration for ML models."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "RESTful API", "responsive websites", "html",
+          "css", "javascript", "tailwind", "ajax", "MVC",
+          "MUI", "bootstrap", "OOP", "Auth0", "google app script",
+          "Postman", "critical rendering", "data structures"
+        ]
+      },
+      {
+        "title": "Senior AI Software Engineer – Vision & Recommendation Engines",
+        "location": "Chicago, IL",
+        "postedDate": "2025-07-08",
+        "salary": "$4,450/Month",
+        "softwareHouse": "NVIDIA AI Labs",
+        "description": "Build recommendation engines and vision-based tools using state-of-the-art AI frameworks. Design secure full-stack delivery for inference systems.",
+        "responsibilities": [
+          "Train and optimize deep learning models for recommendation engines.",
+          "Design robust frontend integration with ML APIs.",
+          "Create security-focused deployment workflows using Auth0.",
+          "Document full-stack intelligent application flow."
+        ],
+        "requirements": [
+          "10+ years in computer vision and recommendation systems.",
+          "Deep experience with JavaScript and ML model integration.",
+          "Proficient in component-based UI frameworks and REST APIs.",
+          "Ability to guide junior engineers in scalable AI development."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "Postman", "RESTful API", "tailwind",
+          "responsive websites", "html", "css", "ajax", "OOP",
+          "MUI", "google app script", "MVC", "Auth0", "data structures",
+          "critical rendering", "javascript", "socket.io"
+        ]
+      },
+      {
+        "title": "AI & ML Full Stack Engineer – NLP and Behavioral Models",
+        "location": "Seattle, WA",
+        "postedDate": "2025-07-08",
+        "salary": "$4,350/Month",
+        "softwareHouse": "Amazon AWS AI",
+        "description": "Develop language processing and behavior detection tools using scalable AI systems. Build real-time APIs and microservices for global-scale use.",
+        "responsibilities": [
+          "Engineer NLP-based AI modules with real-time feedback.",
+          "Build frontend dashboards for prediction accuracy insights.",
+          "Use RESTful API, Tailwind, and MVC for intelligent flows.",
+          "Secure endpoints with scalable Auth and DevOps strategies."
+        ],
+        "requirements": [
+          "10+ years in AI with focus on NLP and ML ops.",
+          "Strong API development and model training experience.",
+          "Expert in JS-based frontends and socket-based feedback.",
+          "Built scalable AI services using Postman and CI tools."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "tailwind", "RESTful API", "Auth0",
+          "javascript", "html", "css", "ajax", "Postman",
+          "bootstrap", "responsive websites", "google app script", "OOP", "MVC",
+          "critical rendering", "socket.io", "data structures"
+        ]
+      }
+    ],
+     'SIMPLYHIRED.com' :[
+      {
+        "title": "Global Lead AI Systems Engineer – ModelOps & Security",
+        "location": "Berlin, Germany",
+        "postedDate": "2025-07-08",
+        "salary": "$4,500/Month",
+        "softwareHouse": "SAP AI Labs",
+        "description": "Architect secure, scalable AI models and optimize ModelOps pipelines across multiple data centers. Automate secure inference and integrate with real-time frontends.",
+        "responsibilities": [
+          "Automate lifecycle management of AI models.",
+          "Build ModelOps pipelines using CI/CD and DevSecOps principles.",
+          "Optimize frontend dashboards integrated with AI pipelines.",
+          "Manage AI versioning, rollback, and monitoring systems."
+        ],
+        "requirements": [
+          "10+ years in AI DevOps and intelligent infrastructure.",
+          "Advanced skills in AI inference, RESTful APIs, and Postman.",
+          "Worked with OOP, Tailwind, and socket communication.",
+          "Experience in multilingual/global user AI application delivery."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "CI/CD", "OOP", "tailwind",
+          "Postman", "html", "css", "javascript", "ajax",
+          "google app script", "MVC", "Auth0", "MUI", "data structures",
+          "responsive websites", "critical rendering", "socket.io"
+        ]
+      },
+      {
+        "title": "AI/ML Solutions Architect – Generative AI Pipelines",
+        "location": "Toronto, Canada",
+        "postedDate": "2025-07-08",
+        "salary": "$4,400/Month",
+        "softwareHouse": "Shopify AI Division",
+        "description": "Lead full-stack deployment of generative AI applications. Train foundation models and build secure APIs to serve real-time generated content at scale.",
+        "responsibilities": [
+          "Deploy scalable GenAI models using TensorFlow and secure CI flows.",
+          "Integrate AI with real-time frontend editors and generators.",
+          "Establish auditing, rollback, and version control for AI outputs.",
+          "Work closely with UX teams for seamless human-AI interaction."
+        ],
+        "requirements": [
+          "10+ years in AI development including LLM or generative pipelines.",
+          "Experience integrating with RESTful APIs, Auth0, and sockets.",
+          "Expert in MUI, Tailwind, and API performance tuning.",
+          "Able to lead end-to-end AI lifecycle design."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "tailwind", "javascript", "html",
+          "css", "OOP", "MVC", "Postman", "responsive websites",
+          "google app script", "ajax", "Auth0", "critical rendering", "MUI",
+          "socket.io", "data structures"
+        ]
+      },
+      {
+        "title": "AI Software Lead – Recommender Systems & Insights",
+        "location": "Dubai, UAE",
+        "postedDate": "2025-07-08",
+        "salary": "$4,350/Month",
+        "softwareHouse": "Careem AI Division",
+        "description": "Engineer AI recommender systems for e-commerce and logistics. Develop full-stack integration of personalized recommendations using secure APIs.",
+        "responsibilities": [
+          "Train ML models on large-scale behavioral data.",
+          "Integrate inference APIs with frontend UIs using Tailwind & React.",
+          "Develop backend architecture with socket-based feedback loops.",
+          "Optimize user response through tailored recommendation logic."
+        ],
+        "requirements": [
+          "10+ years in ML-based personalization systems.",
+          "Experienced with Google App Script and full-stack AI UIs.",
+          "Comfortable deploying ML APIs and debugging UI workflows.",
+          "Good grasp on containerization and CI/CD operations."
+        ],
+        "skills": [
+          "machine learning", "RESTful API", "Postman", "tailwind", "html",
+          "css", "javascript", "google app script", "MVC", "ajax",
+          "OOP", "socket.io", "tensorflow.js", "data structures", "MUI",
+          "responsive websites", "critical rendering", "bootstrap"
+        ]
+      },
+      {
+        "title": "Senior AI Engineer – Voice & Language AI",
+        "location": "Sydney, Australia",
+        "postedDate": "2025-07-08",
+        "salary": "$4,300/Month",
+        "softwareHouse": "Atlassian AI Systems",
+        "description": "Lead NLP and voice-based AI projects with LLM support. Engineer secure APIs for transcription, summarization, and conversation prediction tasks.",
+        "responsibilities": [
+          "Train NLP models and optimize latency for speech processing.",
+          "Deploy real-time transcription pipelines with secure APIs.",
+          "Collaborate with UI/UX for AI interaction design.",
+          "Maintain versioned AI inference models for enterprise use."
+        ],
+        "requirements": [
+          "10+ years in voice/NLP AI and system integration.",
+          "Knowledge in MUI, Postman, Tailwind, and RESTful flows.",
+          "Strong in data modeling, Google Scripts, and feedback pipelines.",
+          "Able to train and deploy speech-to-text ML models."
+        ],
+        "skills": [
+          "tensorflow.js", "machine learning", "RESTful API", "html", "css",
+          "javascript", "OOP", "MVC", "Postman", "responsive websites",
+          "ajax", "tailwind", "MUI", "Auth0", "google app script",
+          "critical rendering", "data structures", "socket.io"
+        ]
+      },
+      {
+        "title": "AI Strategy Lead – Computer Vision & Surveillance Analytics",
+        "location": "Singapore",
+        "postedDate": "2025-07-08",
+        "salary": "$4,450/Month",
+        "softwareHouse": "Grab AI & Innovation Labs",
+        "description": "Architect AI-based vision systems for anomaly detection and smart analytics. Oversee real-time model execution with responsive dashboards and full stack delivery.",
+        "responsibilities": [
+          "Build real-time detection models and tracking logic.",
+          "Deploy containerized vision systems via CI/CD.",
+          "Develop secure frontend integration using sockets and Auth0.",
+          "Manage surveillance AI data feedback for analytics."
+        ],
+        "requirements": [
+          "10+ years in AI with computer vision deployments.",
+          "Worked with tailwind UI, secure APIs, and monitoring dashboards.",
+          "Expert in TensorFlow pipelines and DevOps patterns.",
+          "Fluency in scalable ML workflows with real-time triggers."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "tailwind", "responsive websites", "javascript",
+          "html", "css", "Postman", "RESTful API", "google app script",
+          "OOP", "MVC", "Auth0", "data structures", "ajax",
+          "MUI", "socket.io", "bootstrap"
+        ]
+      }
+    ],
+     'GLASSDOOR.com': [
+      {
+        "title": "Principal AI Infrastructure Engineer – Real-Time Inference",
+        "location": "Oslo, Norway",
+        "postedDate": "2025-07-08",
+        "salary": "$4,400/Month",
+        "softwareHouse": "Telenor Digital",
+        "description": "Design low-latency AI inference pipelines supporting digital operations across telecom products. Combine ML with DevOps and frontend orchestration tools.",
+        "responsibilities": [
+          "Deploy inference engines across global cloud regions.",
+          "Integrate socket-based notifications for edge processing.",
+          "Maintain intelligent caching and rollback systems.",
+          "Build containerized vision and data workflows."
+        ],
+        "requirements": [
+          "10+ years in AI operations and model optimization.",
+          "Hands-on with TensorFlow.js, Docker, and CI/CD pipelines.",
+          "Advanced HTML/CSS/JavaScript integration for visual tools.",
+          "Skilled in critical rendering and component-based UI design."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "CI/CD", "docker", "tailwind",
+          "responsive websites", "javascript", "html", "css", "Postman",
+          "Auth0", "google app script", "ajax", "MUI", "socket.io",
+          "OOP", "MVC", "data structures"
+        ]
+      },
+      {
+        "title": "AI Lead – Intelligent Automation & Applied NLP",
+        "location": "Zurich, Switzerland",
+        "postedDate": "2025-07-08",
+        "salary": "$4,500/Month",
+        "softwareHouse": "ABB Global AI Solutions",
+        "description": "Lead NLP and automation models to enhance enterprise workflows. Integrate AI-driven suggestions into responsive dashboards and multilingual interfaces.",
+        "responsibilities": [
+          "Build models that automate business text interpretation.",
+          "Implement translation and summarization AI pipelines.",
+          "Work with DevOps to scale containerized deployments.",
+          "Lead cross-team collaboration across Europe and APAC."
+        ],
+        "requirements": [
+          "10+ years in NLP and backend-integrated AI solutions.",
+          "Fluency with tailwind, socket.io, and Google scripting tools.",
+          "Strong foundation in MUI, Postman, and responsive prototyping.",
+          "Previously led deployment of multilingual NLP stacks."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "html", "css", "javascript",
+          "tailwind", "Postman", "google app script", "ajax", "data structures",
+          "Auth0", "responsive websites", "MUI", "MVC", "OOP",
+          "critical rendering", "socket.io", "RESTful API"
+        ]
+      },
+      {
+        "title": "Senior AI Applications Architect – Cloud & Computer Vision",
+        "location": "Barcelona, Spain",
+        "postedDate": "2025-07-08",
+        "salary": "$4,350/Month",
+        "softwareHouse": "Glovo AI Labs",
+        "description": "Architect computer vision pipelines for logistics and customer analytics. Use scalable model serving practices and automate real-time UI integrations.",
+        "responsibilities": [
+          "Develop image detection pipelines with fallback APIs.",
+          "Design frontend feedback mechanisms for smart vision triggers.",
+          "Secure sockets and API endpoints for performance logging.",
+          "Mentor ML developers and DevOps engineers."
+        ],
+        "requirements": [
+          "10+ years in ML including 5+ in computer vision.",
+          "Expertise in MVC-based deployment and rendering control.",
+          "Comfortable working with Tailwind, Auth0, and TensorFlow.js.",
+          "Built multiple user-focused AI feedback loops in production."
+        ],
+        "skills": [
+          "tensorflow.js", "machine learning", "html", "css", "tailwind",
+          "javascript", "Postman", "OOP", "MVC", "google app script",
+          "responsive websites", "bootstrap", "ajax", "socket.io",
+          "critical rendering", "Auth0", "data structures", "MUI"
+        ]
+      },
+      {
+        "title": "AI Research Engineer – Predictive Intelligence & LLMs",
+        "location": "Seoul, South Korea",
+        "postedDate": "2025-07-08",
+        "salary": "$4,300/Month",
+        "softwareHouse": "Naver Cloud AI",
+        "description": "Work on predictive AI engines powered by large language models. Collaborate across the stack to enable insight-based automation in enterprise apps.",
+        "responsibilities": [
+          "Train and test LLM-based forecasting engines.",
+          "Build token-aware API endpoints and socket listeners.",
+          "Handle secure AI integration into business dashboards.",
+          "Test multitenancy and feedback controls for user sessions."
+        ],
+        "requirements": [
+          "10+ years in AI systems with a focus on LLM integrations.",
+          "Experience using TensorFlow.js and Auth0 in complex apps.",
+          "Developed multilingual frontend integrations with AI inference.",
+          "Built serverless pipelines using Google Scripts and Postman."
+        ],
+        "skills": [
+          "machine learning", "tensorflow.js", "tailwind", "html", "css",
+          "javascript", "google app script", "Auth0", "Postman", "OOP",
+          "responsive websites", "MVC", "data structures", "ajax", "MUI",
+          "socket.io", "RESTful API", "critical rendering"
+        ]
+      },
+      {
+        "title": "AI Infrastructure Lead – Edge ML & IoT Intelligence",
+        "location": "Tallinn, Estonia",
+        "postedDate": "2025-07-08",
+        "salary": "$4,450/Month",
+        "softwareHouse": "Bolt AI Systems",
+        "description": "Drive AI-powered intelligence on edge devices and mobile apps. Build and deploy models with minimal latency and seamless UI responses.",
+        "responsibilities": [
+          "Design edge-optimized ML inference pipelines.",
+          "Use containerized environments with automated scaling.",
+          "Integrate responsive user flows and alerting via sockets.",
+          "Oversee ML lifecycle from training to production feedback."
+        ],
+        "requirements": [
+          "10+ years in AI and IoT interface development.",
+          "Strong background in socket.io, Tailwind, and ML inference.",
+          "Familiar with automated Postman test pipelines.",
+          "Built real-time dashboards tied to edge data predictions."
+        ],
+        "skills": [
+          "tensorflow.js", "machine learning", "tailwind", "html", "css",
+          "javascript", "ajax", "data structures", "Postman", "OOP",
+          "google app script", "MVC", "critical rendering", "Auth0",
+          "socket.io", "MUI", "responsive websites", "RESTful API"
+        ]
+      }
+    ],
+      'INDEED.com': [
+        {
+          "title": "Senior AI Engineer – LLM-Powered Automation Solutions",
+          "location": "Amsterdam, Netherlands",
+          "postedDate": "2025-07-08",
+          "salary": "$4,400/Month",
+          "softwareHouse": "Booking.com AI Lab",
+          "description": "Drive automation systems by integrating large language models into real-time booking flows and user support engines. Build scalable APIs and model monitoring tools.",
+          "responsibilities": [
+            "Deploy custom LLMs for smart query response systems.",
+            "Automate testing pipelines using CI/CD and versioned containers.",
+            "Collaborate with frontend developers for insight-driven UIs.",
+            "Ensure multilingual NLP capabilities across deployments."
+          ],
+          "requirements": [
+            "10+ years in AI and natural language systems.",
+            "Hands-on experience with Tailwind, OOP, and Auth0 for secured apps.",
+            "Expertise in model serving, Postman APIs, and cloud scripting.",
+            "Previously deployed LLMs in customer-facing applications."
+          ],
+          "skills": [
+            "tensorflow.js", "machine learning", "RESTful API", "Postman", "javascript",
+            "html", "css", "tailwind", "ajax", "MVC",
+            "Auth0", "google app script", "OOP", "data structures",
+            "responsive websites", "MUI", "socket.io", "critical rendering"
+          ]
+        },
+        {
+          "title": "AI Researcher – Edge Inference & Computer Vision",
+          "location": "Auckland, New Zealand",
+          "postedDate": "2025-07-08",
+          "salary": "$4,300/Month",
+          "softwareHouse": "Fisher & Paykel Digital AI",
+          "description": "Develop computer vision algorithms optimized for edge devices. Focus on low-latency model execution, container orchestration, and secure frontend data interactions.",
+          "responsibilities": [
+            "Deploy edge-based detection pipelines for smart appliances.",
+            "Integrate vision insights into mobile-friendly dashboards.",
+            "Maintain AI version control and inference testing protocols.",
+            "Contribute to research publications and production rollouts."
+          ],
+          "requirements": [
+            "10+ years in ML and CV, with recent focus on edge deployments.",
+            "Skilled in Docker, TensorFlow.js, and responsive UI frameworks.",
+            "Experience building visual alert systems via socket.io.",
+            "Strong grasp on structured data ingestion pipelines."
+          ],
+          "skills": [
+            "machine learning", "tensorflow.js", "docker", "CI/CD", "javascript",
+            "html", "css", "Postman", "tailwind", "responsive websites",
+            "data structures", "google app script", "ajax", "MVC",
+            "Auth0", "OOP", "MUI", "critical rendering"
+          ]
+        },
+        {
+          "title": "AI Platform Engineer – Smart Retail & Forecasting Models",
+          "location": "Sao Paulo, Brazil",
+          "postedDate": "2025-07-08",
+          "salary": "$4,350/Month",
+          "softwareHouse": "Nubank AI Core",
+          "description": "Engineer AI forecasting pipelines for smart retail applications. Collaborate across design, backend, and DevOps teams to deliver intelligent purchase automation tools.",
+          "responsibilities": [
+            "Create ML forecasting engines with multilingual dataset ingestion.",
+            "Integrate smart predictions into mobile-first frontend panels.",
+            "Monitor performance with socket-based alerts and dashboards.",
+            "Lead AI model versioning, rollback, and audit trails."
+          ],
+          "requirements": [
+            "10+ years of AI and predictive modeling experience.",
+            "Familiarity with CI/CD, Tailwind UIs, and REST APIs.",
+            "Advanced scripting with Google App Script and Postman.",
+            "Solid frontend collaboration and responsive layout skills."
+          ],
+          "skills": [
+            "tensorflow.js", "machine learning", "html", "css", "javascript",
+            "tailwind", "Postman", "RESTful API", "OOP", "ajax",
+            "google app script", "MVC", "Auth0", "responsive websites",
+            "data structures", "socket.io", "critical rendering", "MUI"
+          ]
+        },
+        {
+          "title": "Applied AI Architect – Cognitive Interfaces & UX",
+          "location": "Vienna, Austria",
+          "postedDate": "2025-07-08",
+          "salary": "$4,450/Month",
+          "softwareHouse": "Dynatrace AI Studio",
+          "description": "Lead development of intelligent UX systems integrating AI/ML pipelines with visual storytelling, speech-to-text and interactive dashboards.",
+          "responsibilities": [
+            "Design real-time cognitive UIs for enterprise dashboards.",
+            "Integrate speech recognition with NLP response engines.",
+            "Manage data flows using REST APIs and automated feedback.",
+            "Monitor behavior patterns through AI-driven interactions."
+          ],
+          "requirements": [
+            "10+ years in AI/UX integrations and intelligent interaction systems.",
+            "Strong frontend and backend integration experience.",
+            "Familiarity with critical rendering flows and dynamic model training.",
+            "Experience with prototyping and Postman automation flows."
+          ],
+          "skills": [
+            "machine learning", "tensorflow.js", "html", "css", "javascript",
+            "tailwind", "MUI", "google app script", "Auth0", "Postman",
+            "ajax", "MVC", "responsive websites", "data structures",
+            "socket.io", "OOP", "RESTful API", "critical rendering"
+          ]
+        },
+        {
+          "title": "Senior AI Developer – Multilingual Document Intelligence",
+          "location": "Lisbon, Portugal",
+          "postedDate": "2025-07-08",
+          "salary": "$4,300/Month",
+          "softwareHouse": "OutSystems AI Unit",
+          "description": "Build smart document processing systems supporting OCR, translation, summarization and structured extraction using AI-powered APIs.",
+          "responsibilities": [
+            "Develop multilingual NLP pipelines and integrate with dashboards.",
+            "Secure frontends using Auth0, Postman, and CI/CD pipelines.",
+            "Maintain LLM-based document summarizers with real-time inference.",
+            "Test layout adaptability with responsive rendering engines."
+          ],
+          "requirements": [
+            "10+ years of NLP, document analysis, and AI dashboard development.",
+            "Proficient in integrating AI with frontend frameworks.",
+            "Experience with TensorFlow.js, MUI, and Google App Scripts.",
+            "Comfortable in agile environments and model deployment cycles."
+          ],
+          "skills": [
+            "tensorflow.js", "machine learning", "javascript", "html", "css",
+            "tailwind", "MUI", "Postman", "RESTful API", "MVC",
+            "ajax", "google app script", "socket.io", "Auth0",
+            "responsive websites", "data structures", "OOP", "critical rendering"
+          ]
+        }
+      ]
     };
 
     return {
-     title: `AI Engineer in ${platform}`,
-     data: [
-      {
-       shortDescription: platformData[platform].shortDescription,
-       heading: 'About AI Engineer ',
-       image1: platformData[platform].imagePath1, // Moved image links here
-       image2: platformData[platform].imagePath2, // Moved image links here
-      },
-     ],
+     title: `AI Engineer Jobs in ${country}`,
+     data: countryData[country],
     };
    },
   },
@@ -7329,36 +10861,614 @@ export default function TechStackJobsMarket() {
     'GLASSDOOR.com',
     'INDEED.com',
    ],
-   content: (platform) => {
-    // platform-specific data
-    const platformData = {
-     'ROZEE.pk': {
-      imagePath1: '/assets/image/jobs/ceh-rozee-1.png',
-      imagePath2: '/assets/image/jobs/ceh-rozee-2.png',
-     },
-     'CAREERJET.com': {
-      imagePath1: '/assets/image/jobs/ceh-career-1.png',
-     },
-     'SIMPLYHIRED.com': {
-      imagePath1: '/assets/image/jobs/ceh-simplyHired-1.png',
-     },
-     'GLASSDOOR.com': {
-      imagePath1: '/assets/image/jobs/ceh-glassdoor-1.png',
-     },
-     'INDEED.com': {
-      imagePath1: '/assets/image/jobs/ceh-indeed-1.png',
-     },
-    };
-    return {
-     title: `Certified Ethical Hacker (CEH v13) in ${platform}`,
-     data: [
-      {
-       shortDescription: platformData[platform].shortDescription,
-       heading: 'About Certified Ethical Hacker (CEH v13) ',
-       image1: platformData[platform].imagePath1,
-       image2: platformData[platform].imagePath2,
-      },
+   content: (country) => {
+    const countryData = {
+      'ROZEE.pk': [
+        {
+          "title": "Cyber Security Expert – Network Intrusion & Threat Response",
+          "location": "Lahore, Pakistan",
+          "postedDate": "2025-07-08",
+          "salary": "$10,200/Month",
+          "softwareHouse": "Systems Limited",
+          "description": "Strengthen core security architecture and defend enterprise networks from evolving threats. Collaborate with DevOps and engineering teams to implement robust security controls.",
+          "responsibilities": [
+            "Deploy threat intelligence solutions to monitor anomalies.",
+            "Implement zero trust network segmentation.",
+            "Manage incident response and forensics reporting.",
+            "Automate security monitoring into CI/CD pipelines."
+          ],
+          "requirements": [
+            "10+ years experience in cybersecurity strategy and implementation.",
+            "Strong knowledge of OWASP Top 10, encryption standards, and SOC compliance.",
+            "Expertise in network monitoring, identity management, and penetration testing.",
+            "Experience in multi-cloud security best practices."
+          ],
+          "skills": [
+            "Vulnerability Management", "Threat Intelligence", "Penetration Testing", "SIEM Tools", "Zero Trust Architecture", "Identity & Access Management", "Security Compliance", "IDS/IPS", "Secure Code Review", "Network Security",
+            "javascript", "RESTful API", "CI/CD", "data structures", "tailwind", "Postman", "machine learning", "Auth0"
+          ]
+        },
+        {
+          "title": "Cyber Security Expert – Enterprise Infrastructure & IAM Enforcement",
+          "location": "Islamabad, Pakistan",
+          "postedDate": "2025-07-08",
+          "salary": "$11,000/Month",
+          "softwareHouse": "10Pearls",
+          "description": "Lead efforts in securing enterprise-wide applications, implementing scalable IAM policies, and driving risk mitigation strategies within fast-paced DevSecOps pipelines.",
+          "responsibilities": [
+            "Design scalable IAM models integrated with OAuth2 and SSO.",
+            "Harden internal infrastructure against L7 and L3 attacks.",
+            "Conduct periodic penetration tests and vulnerability scans.",
+            "Align all services with ISO and NIST compliance standards."
+          ],
+          "requirements": [
+            "12+ years experience in security engineering and identity systems.",
+            "Hands-on with SIEM solutions and automated log correlation.",
+            "Strong grasp on secure development lifecycle and token security.",
+            "Working knowledge of Kubernetes and container security."
+          ],
+          "skills": [
+            "Security Compliance", "IAM", "Zero Trust Architecture", "Penetration Testing", "IDS/IPS", "Threat Intelligence", "SIEM Tools", "Vulnerability Management", "Network Security", "Secure Code Review",
+            "tailwind", "javascript", "html", "OOP", "google app script", "socket.io", "ajax", "MVC"
+          ]
+        },
+        {
+          "title": "Cybersecurity Architect – Red Teaming & Cloud Defense",
+          "location": "Karachi, Pakistan",
+          "postedDate": "2025-07-08",
+          "salary": "$9,700/Month",
+          "softwareHouse": "Ovex Technologies",
+          "description": "Architect modern cybersecurity solutions for multi-cloud environments. Plan red team exercises and enforce DevSecOps protocols throughout development pipelines.",
+          "responsibilities": [
+            "Design and simulate red team attack frameworks.",
+            "Develop AI-based tools to detect and mitigate threats.",
+            "Apply DAST/SAST in CI workflows.",
+            "Lead audits and security code reviews across teams."
+          ],
+          "requirements": [
+            "11+ years in secure app engineering, pentesting, and compliance.",
+            "Deep experience with log management and event correlation.",
+            "Hands-on with OWASP and SANS mitigations.",
+            "Proficiency in Kubernetes, Docker, and GitOps."
+          ],
+          "skills": [
+            "Red Teaming", "SIEM Tools", "Vulnerability Management", "Threat Intelligence", "Secure Code Review", "Security Compliance", "Penetration Testing", "IDS/IPS", "IAM", "Network Security",
+            "Postman", "javascript", "machine learning", "css", "bootstrap", "MVC", "responsive websites", "critical rendering"
+          ]
+        },
+        {
+          "title": "Cyber Security Engineer – Secure SDLC & Compliance",
+          "location": "Rawalpindi, Pakistan",
+          "postedDate": "2025-07-08",
+          "salary": "$9,000/Month",
+          "softwareHouse": "Techlogix",
+          "description": "Join our team to implement secure coding standards and drive compliance across internal and third-party apps. Integrate cybersecurity checks in all CI/CD workflows.",
+          "responsibilities": [
+            "Audit SDLC practices and inject secure design checkpoints.",
+            "Enhance JWT and session security with frequent token rotation.",
+            "Lead company-wide compliance with GDPR and HIPAA standards.",
+            "Deploy IAM-based authentication using Auth0 and SAML."
+          ],
+          "requirements": [
+            "10+ years in application security and governance.",
+            "Understanding of container-based workloads and cloud IAM.",
+            "Well-versed in static/dynamic code analysis tools.",
+            "Good grip on DevSecOps concepts and tooling."
+          ],
+          "skills": [
+            "Security Compliance", "Penetration Testing", "IAM", "SIEM Tools", "IDS/IPS", "Zero Trust Architecture", "Threat Intelligence", "Vulnerability Management", "Secure Code Review", "Network Security",
+            "google app script", "html", "css", "tailwind", "javascript", "CI/CD", "OOP", "responsive websites"
+          ]
+        }
      ],
+      'CAREERJET.com':[
+        {
+          "title": "Cybersecurity Lead – Cloud Threat Analytics & Network Protection",
+          "location": "San Francisco, CA, USA",
+          "postedDate": "2025-07-08",
+          "salary": "$10,500/Month",
+          "softwareHouse": "Palo Alto Networks",
+          "description": "Take charge of cloud-native threat analytics, secure hybrid architectures, and integrate AI-powered threat monitoring for enterprise-level applications.",
+          "responsibilities": [
+            "Implement security automation across multi-cloud platforms.",
+            "Design real-time threat detection algorithms using AI.",
+            "Guide teams on compliance and secure development practices.",
+            "Drive DevSecOps initiatives in collaboration with engineering."
+          ],
+          "requirements": [
+            "12+ years in cybersecurity engineering and threat intelligence.",
+            "In-depth knowledge of IAM, SIEM tools, and zero trust models.",
+            "Experience with automated vulnerability scanning and cloud security.",
+            "Proficient in secure CI/CD and infrastructure as code."
+          ],
+          "skills": [
+            "Threat Intelligence", "Network Security", "IAM", "Security Compliance", "Zero Trust Architecture", "SIEM Tools", "Penetration Testing", "IDS/IPS", "Secure Code Review", "Vulnerability Management",
+            "javascript", "CI/CD", "Postman", "machine learning", "tailwind", "html", "google app script", "OOP"
+          ]
+        },
+        {
+          "title": "Cyber Security Expert – Enterprise SOC & Incident Response",
+          "location": "Austin, TX, USA",
+          "postedDate": "2025-07-08",
+          "salary": "$9,800/Month",
+          "softwareHouse": "CrowdStrike",
+          "description": "Work with security teams to manage enterprise-grade SOC operations. Oversee incident response workflows and design alert correlation strategies for enhanced threat detection.",
+          "responsibilities": [
+            "Manage SOC teams and ensure 24/7 threat detection.",
+            "Develop dashboards for real-time monitoring and response.",
+            "Automate security rule generation and alert prioritization.",
+            "Collaborate with DevOps for CI/CD security compliance."
+          ],
+          "requirements": [
+            "10+ years experience in SOC operations and network defense.",
+            "Proficiency in scripting, data enrichment, and log analysis.",
+            "Skilled in threat modeling and remediation planning.",
+            "Hands-on with endpoint detection and incident tracking systems."
+          ],
+          "skills": [
+            "SIEM Tools", "Penetration Testing", "Security Compliance", "IAM", "Zero Trust Architecture", "Vulnerability Management", "IDS/IPS", "Network Security", "Secure Code Review", "Threat Intelligence",
+            "ajax", "tailwind", "MVC", "OOP", "html", "RESTful API", "google app script", "tensorflow.js"
+          ]
+        },
+        {
+          "title": "Cyber Security Specialist – Penetration Testing & Secure CI/CD",
+          "location": "Seattle, WA, USA",
+          "postedDate": "2025-07-08",
+          "salary": "$9,200/Month",
+          "softwareHouse": "Fortinet",
+          "description": "Focus on proactive threat hunting, secure DevOps pipelines, and regular penetration testing for mission-critical services and applications.",
+          "responsibilities": [
+            "Run red team simulations and internal pen tests.",
+            "Implement security as code in CI/CD pipelines.",
+            "Create internal training material on secure development.",
+            "Integrate dynamic and static code analysis tools."
+          ],
+          "requirements": [
+            "10+ years in offensive and defensive cybersecurity roles.",
+            "Expertise in exploit development and remediation planning.",
+            "Experience with GitOps, Jenkins, and container security.",
+            "Comfortable using vulnerability scanners and fuzzing tools."
+          ],
+          "skills": [
+            "Penetration Testing", "Red Teaming", "SIEM Tools", "IDS/IPS", "Secure Code Review", "Threat Intelligence", "Security Compliance", "IAM", "Zero Trust Architecture", "Vulnerability Management",
+            "CSS", "javascript", "google app script", "CI/CD", "responsive websites", "tailwind", "OOP", "Postman"
+          ]
+        },
+        {
+          "title": "Senior Cybersecurity Analyst – Threat Detection & SIEM Engineering",
+          "location": "New York, NY, USA",
+          "postedDate": "2025-07-08",
+          "salary": "$11,000/Month",
+          "softwareHouse": "FireEye (Trellix)",
+          "description": "Engineer SIEM systems and detection rules to monitor large-scale infrastructures. Integrate ML models for proactive anomaly recognition and behavior analytics.",
+          "responsibilities": [
+            "Configure and optimize Splunk, QRadar, and Sentinel.",
+            "Incorporate ML threat models for predictive security.",
+            "Deploy SOAR integrations to automate alerts and triage.",
+            "Train internal teams on compliance and forensic handling."
+          ],
+          "requirements": [
+            "12+ years in threat detection and SIEM customization.",
+            "Advanced knowledge in behavioral analytics and ML security.",
+            "Experienced with API security and event-driven architectures.",
+            "Strong familiarity with OWASP and MITRE ATT&CK framework."
+          ],
+          "skills": [
+            "SIEM Tools", "Threat Intelligence", "Secure Code Review", "Penetration Testing", "IDS/IPS", "Network Security", "IAM", "Zero Trust Architecture", "Vulnerability Management", "Security Compliance",
+            "javascript", "MUI", "html", "Postman", "data structures", "tailwind", "google app script", "machine learning"
+          ]
+        },
+        {
+          "title": "Cybersecurity Expert – Identity Management & Compliance",
+          "location": "Chicago, IL, USA",
+          "postedDate": "2025-07-08",
+          "salary": "$10,800/Month",
+          "softwareHouse": "IBM Security",
+          "description": "Design enterprise-wide identity systems and manage authentication protocols across distributed microservices. Conduct audits and ensure compliance with security frameworks.",
+          "responsibilities": [
+            "Implement IAM and RBAC across services and applications.",
+            "Lead internal audits and enforce compliance policies.",
+            "Deploy SSO and MFA using Okta/Auth0 integrations.",
+            "Manage secrets, token lifecycle, and credential hygiene."
+          ],
+          "requirements": [
+            "12+ years in IAM engineering, security audits, and access control.",
+            "Deep experience in cloud IAM systems and compliance monitoring.",
+            "Ability to secure hybrid environments across AWS, GCP, and Azure.",
+            "Strong command of TLS, OAuth2, SAML, and OpenID Connect."
+          ],
+          "skills": [
+            "IAM", "Security Compliance", "Threat Intelligence", "Vulnerability Management", "Penetration Testing", "Zero Trust Architecture", "IDS/IPS", "Secure Code Review", "SIEM Tools", "Network Security",
+            "node.js", "tailwind", "ajax", "OOP", "MVC", "bootstrap", "RESTful API", "tensorflow.js"
+          ]
+        }
+     ],
+      'SIMPLYHIRED.com': [
+        {
+          "title": "Cyber Security Analyst – Global Infrastructure & SOC Oversight",
+          "location": "Zurich, Switzerland",
+          "postedDate": "2025-07-08",
+          "salary": "$9,600/month",
+          "softwareHouse": "Temenos",
+          "description": "Join Temenos' global cybersecurity division to strengthen perimeter defenses and security incident operations. Lead SOC metrics, refine automation, and neutralize internal and external threats.",
+          "responsibilities": [
+            "Monitor and respond to advanced persistent threats via SOC.",
+            "Create dashboards for real-time threat visibility.",
+            "Conduct root cause analysis and remediation post-incidents.",
+            "Liaise with compliance teams to meet security regulations."
+          ],
+          "requirements": [
+            "10+ years in cybersecurity with SOC/IR background.",
+            "Mastery of SIEM platforms and forensic tools.",
+            "Strong grasp of TCP/IP, firewalls, and endpoint security.",
+            "Experience leading threat detection strategies."
+          ],
+          "skills": [
+            "Threat Intelligence", "SIEM Tools", "Vulnerability Management", "IDS/IPS", "Secure Code Review",
+            "IAM", "Penetration Testing", "Red Teaming", "Security Compliance", "Network Security",
+            "javascript", "RESTful API", "google app script", "CI/CD", "bootstrap", "OOP"
+          ]
+        },
+        {
+          "title": "Principal Cyber Security Expert – AI Threat Modeling",
+          "location": "Helsinki, Finland",
+          "postedDate": "2025-07-08",
+          "salary": "$10,400/month",
+          "softwareHouse": "Nokia Solutions",
+          "description": "Lead Nokia's AI-driven cybersecurity threat modeling practice. Implement predictive defense systems across 5G infrastructure and enterprise networks while automating risk detection pipelines.",
+          "responsibilities": [
+            "Develop AI/ML threat scoring models for real-time attacks.",
+            "Guide DevSecOps teams on embedded threat controls.",
+            "Ensure regulatory compliance across critical systems.",
+            "Engage with R&D to secure next-gen comms systems."
+          ],
+          "requirements": [
+            "12+ years in cyber defense and AI-based security models.",
+            "Experience integrating ML tools into threat pipelines.",
+            "Familiarity with telecom-specific cybersecurity challenges.",
+            "Strong background in zero-trust architecture."
+          ],
+          "skills": [
+            "Security Compliance", "Threat Intelligence", "Zero Trust Architecture", "Secure Code Review",
+            "SIEM Tools", "Red Teaming", "Penetration Testing", "Vulnerability Management", "IAM", "Network Security",
+            "html", "ajax", "MVC", "tailwind", "socket.io", "tensorflow.js"
+          ]
+        },
+        {
+          "title": "Cyber Security Advisor – Cloud & Multi-Tenant Protection",
+          "location": "Dubai, UAE",
+          "postedDate": "2025-07-08",
+          "salary": "$9,800/month",
+          "softwareHouse": "Careem Networks",
+          "description": "Help Careem protect its multi-tenant infrastructure by establishing advanced IAM policies and zero-trust frameworks. Provide security insights into cloud-native applications and threat simulations.",
+          "responsibilities": [
+            "Implement zero-trust policies across microservices.",
+            "Deploy identity-aware proxies and threat gatekeeping systems.",
+            "Advise development teams on secure deployment pipelines.",
+            "Lead red team simulations and audit recoveries."
+          ],
+          "requirements": [
+            "11+ years in cloud and application security.",
+            "Experience with AWS IAM, Azure Defender, and GCP Shield.",
+            "Expert in multi-cloud threat detection and policy design.",
+            "Strong understanding of OWASP Top 10 and CSPM tools."
+          ],
+          "skills": [
+            "IAM", "Threat Intelligence", "Zero Trust Architecture", "Security Compliance", "Penetration Testing",
+            "SIEM Tools", "Vulnerability Management", "Network Security", "Red Teaming", "Secure Code Review",
+            "tailwind", "javascript", "Auth0", "google app script", "data structures", "Postman"
+          ]
+        },
+        {
+          "title": "Cyber Security Strategist – Risk Intelligence & Ransomware Defense",
+          "location": "Barcelona, Spain",
+          "postedDate": "2025-07-08",
+          "salary": "$10,800/month",
+          "softwareHouse": "Typeform Inc.",
+          "description": "Typeform seeks a Cyber Security Strategist to lead global ransomware defense, risk modeling, and compliance enforcement across digital products and internal infrastructure.",
+          "responsibilities": [
+            "Run quarterly ransomware response drills and table-top exercises.",
+            "Model internal risks using SOC data and attack simulations.",
+            "Implement DevSecOps in CI/CD pipelines with compliance checks.",
+            "Create playbooks for breach handling and evidence preservation."
+          ],
+          "requirements": [
+            "10+ years in security architecture, GRC, and digital forensics.",
+            "Experience with GDPR, SOC2, and ISO 27001 frameworks.",
+            "Strong expertise in behavioral analytics and attack signatures.",
+            "Able to bridge communication between C-suite and technical teams."
+          ],
+          "skills": [
+            "Security Compliance", "SIEM Tools", "Penetration Testing", "Threat Intelligence", "Vulnerability Management",
+            "IDS/IPS", "Secure Code Review", "Red Teaming", "IAM", "Zero Trust Architecture",
+            "html", "CSS", "CI/CD", "bootstrap", "tensorflow.js", "responsive websites"
+          ]
+        },
+        {
+          "title": "Global Cyber Security Lead – Banking APIs & FinTech Protection",
+          "location": "Singapore",
+          "postedDate": "2025-07-08",
+          "salary": "$11,000/month",
+          "softwareHouse": "DBS Bank",
+          "description": "Join DBS Bank to lead protection efforts for their open banking APIs. You'll enforce end-to-end security for payment gateways, identity verification systems, and digital banking infrastructure.",
+          "responsibilities": [
+            "Secure open APIs used in high-volume financial transactions.",
+            "Design anomaly detection models for fraud prevention.",
+            "Work with DevOps and finance tech teams to patch exposures.",
+            "Establish continuous security validation for regulatory audits."
+          ],
+          "requirements": [
+            "12+ years in fintech security or banking cybersecurity.",
+            "Deep expertise in OAuth, JWT, and biometric auth systems.",
+            "Strong foundation in SIEM, risk modeling, and transaction integrity.",
+            "Familiar with PSD2, PCI-DSS, and banking-grade compliance."
+          ],
+          "skills": [
+            "Threat Intelligence", "SIEM Tools", "IAM", "Security Compliance", "Zero Trust Architecture",
+            "Penetration Testing", "Network Security", "Secure Code Review", "Vulnerability Management", "IDS/IPS",
+            "javascript", "ajax", "tailwind", "OOP", "google app script", "RESTful API"
+          ]
+        }
+      ],
+     'GLASSDOOR.com' :[
+      {
+        "title": "Cyber Security Expert – SaaS Ecosystem & Platform Defense",
+        "location": "Toronto, Canada",
+        "postedDate": "2025-07-08",
+        "salary": "$9,200/month",
+        "softwareHouse": "Shopify Inc.",
+        "description": "Join Shopify's security division to lead the protection of e-commerce platforms. Tackle infrastructure threats, secure APIs, and elevate cloud-native security.",
+        "responsibilities": [
+          "Audit and fortify API gateways and internal tooling.",
+          "Lead incident response across microservices and multi-cloud.",
+          "Deploy advanced logging and behavioral threat detection.",
+          "Support SOC with security automation and playbook creation."
+        ],
+        "requirements": [
+          "Minimum 11 years of infosec experience in SaaS environments.",
+          "Expert in OWASP Top 10, containerization, and encryption.",
+          "Knowledge of hybrid cloud security and API security policies.",
+          "Track record of leading security operations and remediation."
+        ],
+        "skills": [
+          "Threat Intelligence", "SIEM Tools", "IAM", "Penetration Testing", "Secure Code Review",
+          "Red Teaming", "Network Security", "IDS/IPS", "Security Compliance", "Zero Trust Architecture",
+          "javascript", "tailwind", "Postman", "CI/CD", "MVC", "OOP"
+        ]
+      },
+      {
+        "title": "Lead Cyber Security Specialist – AI-Powered Infrastructure",
+        "location": "Berlin, Germany",
+        "postedDate": "2025-07-08",
+        "salary": "$10,500/month",
+        "softwareHouse": "SAP SE",
+        "description": "Secure SAP's AI-driven enterprise systems and cloud infrastructures. Build secure pipelines, deploy automated countermeasures, and lead cyber audits.",
+        "responsibilities": [
+          "Develop AI-integrated risk assessment models.",
+          "Embed cybersecurity into software development pipelines.",
+          "Respond to APTs using ML-based detection systems.",
+          "Conduct security code reviews across SAP modules."
+        ],
+        "requirements": [
+          "12+ years of cyber defense and enterprise security.",
+          "Strong understanding of SAP architecture and DevSecOps.",
+          "Experience with threat hunting using AI models.",
+          "Proven ability to lead complex cross-border cyber operations."
+        ],
+        "skills": [
+          "Penetration Testing", "Threat Intelligence", "IAM", "Security Compliance", "Red Teaming",
+          "IDS/IPS", "Secure Code Review", "SIEM Tools", "Network Security", "Zero Trust Architecture",
+          "html", "ajax", "google app script", "tensorflow.js", "bootstrap", "responsive websites"
+        ]
+      },
+      {
+        "title": "Cyber Security Architect – Global Healthcare Systems",
+        "location": "Sydney, Australia",
+        "postedDate": "2025-07-08",
+        "salary": "$9,800/month",
+        "softwareHouse": "CSL Behring",
+        "description": "Secure patient data and medical infrastructure globally by implementing advanced security controls, encryption policies, and regulatory compliance across healthcare systems.",
+        "responsibilities": [
+          "Architect HIPAA-compliant network and access models.",
+          "Oversee multi-factor authentication and zero-trust policies.",
+          "Lead red teaming to expose vulnerabilities in patient systems.",
+          "Ensure encryption-at-rest and in-transit across endpoints."
+        ],
+        "requirements": [
+          "10+ years in cybersecurity within the healthcare domain.",
+          "Deep knowledge of HL7, HIPAA, and medical data compliance.",
+          "Experience designing secure cloud-first infrastructures.",
+          "Familiarity with biometric and token-based authentication."
+        ],
+        "skills": [
+          "SIEM Tools", "Vulnerability Management", "IAM", "Threat Intelligence", "Security Compliance",
+          "Penetration Testing", "Red Teaming", "Network Security", "Zero Trust Architecture", "Secure Code Review",
+          "css", "tailwind", "OOP", "google app script", "RESTful API", "CI/CD"
+        ]
+      },
+      {
+        "title": "Senior Cyber Security Advisor – Digital Banking & Blockchain Assets",
+        "location": "Amsterdam, Netherlands",
+        "postedDate": "2025-07-08",
+        "salary": "$10,200/month",
+        "softwareHouse": "ING Group",
+        "description": "Protect ING’s crypto-integrated financial platforms. Audit DLT integrations, secure digital wallets, and strengthen real-time fraud monitoring systems.",
+        "responsibilities": [
+          "Secure blockchain infrastructure for banking use cases.",
+          "Design anti-fraud systems for crypto transactions.",
+          "Collaborate with DevOps to automate compliance scans.",
+          "Conduct security evaluations of smart contract platforms."
+        ],
+        "requirements": [
+          "12+ years in fintech and blockchain security.",
+          "Knowledge of Ethereum, wallets, and cryptographic protocols.",
+          "Familiarity with PCI-DSS and AML regulations.",
+          "Experience with SIEM tools and smart contract audits."
+        ],
+        "skills": [
+          "Blockchain Security", "Penetration Testing", "SIEM Tools", "IAM", "Threat Intelligence",
+          "Network Security", "Vulnerability Management", "Secure Code Review", "Zero Trust Architecture", "Red Teaming",
+          "javascript", "tailwind", "google app script", "Auth0", "MVC", "Postman"
+        ]
+      },
+      {
+        "title": "Cyber Security Lead – Remote Workforce & Endpoint Defense",
+        "location": "Oslo, Norway",
+        "postedDate": "2025-07-08",
+        "salary": "$9,900/month",
+        "softwareHouse": "Telenor Group",
+        "description": "Manage cyber defenses for Telenor's global remote teams. Build device control protocols, endpoint encryption, and phishing-resistant authentication strategies.",
+        "responsibilities": [
+          "Implement endpoint monitoring and quarantine workflows.",
+          "Roll out phishing-resistant MFA systems.",
+          "Create alerting rules for anomalous login behavior.",
+          "Manage audits of BYOD policies and device control."
+        ],
+        "requirements": [
+          "11+ years in cyber operations and endpoint security.",
+          "Familiarity with CrowdStrike, Defender ATP, and Okta.",
+          "Strong scripting skills for automated response systems.",
+          "Understanding of phishing vectors and social engineering."
+        ],
+        "skills": [
+          "Endpoint Security", "SIEM Tools", "IAM", "Red Teaming", "Network Security",
+          "Threat Intelligence", "Secure Code Review", "Security Compliance", "Vulnerability Management", "Zero Trust Architecture",
+          "html", "tailwind", "tensorflow.js", "RESTful API", "Postman", "ajax"
+        ]
+      }
+    ],
+      'INDEED.com' :[
+        {
+          "title": "Cyber Security Strategist – Cloud-Native Systems & AI Threat Modeling",
+          "location": "Singapore",
+          "postedDate": "2025-07-08",
+          "salary": "$9,500/month",
+          "softwareHouse": "Grab Holdings",
+          "description": "Protect high-scale ride-sharing and digital payment platforms by building AI-powered threat response systems and securing multi-cloud deployments.",
+          "responsibilities": [
+            "Lead AI-driven threat detection across public cloud infrastructure.",
+            "Develop internal penetration testing frameworks and response drills.",
+            "Manage full stack security from web frontends to backend services.",
+            "Mentor junior analysts in modern DevSecOps strategies."
+          ],
+          "requirements": [
+            "12+ years in cloud-native cybersecurity with exposure to fintech apps.",
+            "Advanced experience with security automation and real-time alerting.",
+            "Strong background in CI/CD and Kubernetes security.",
+            "Experience auditing multi-region cloud configurations (AWS/GCP)."
+          ],
+          "skills": [
+            "Zero Trust Architecture", "Network Security", "Red Teaming", "SIEM Tools", "IAM",
+            "Threat Intelligence", "Penetration Testing", "Secure Code Review", "Security Compliance", "IDS/IPS",
+            "html", "ajax", "Postman", "tailwind", "MVC", "google app script"
+          ]
+        },
+        {
+          "title": "Principal Cyber Security Officer – Decentralized Data & Privacy Enforcement",
+          "location": "Zurich, Switzerland",
+          "postedDate": "2025-07-08",
+          "salary": "$10,800/month",
+          "softwareHouse": "Swisscom AG",
+          "description": "Architect and enforce end-to-end privacy frameworks across decentralized systems. Ensure GDPR compliance, data tokenization, and user consent integrity in telecom-grade infrastructures.",
+          "responsibilities": [
+            "Audit all data flows and secure decentralized endpoints.",
+            "Apply tokenization and differential privacy for personal data.",
+            "Develop privacy-by-design pipelines and observability metrics.",
+            "Guide GDPR audits and breach simulations."
+          ],
+          "requirements": [
+            "10+ years of cybersecurity and privacy enforcement experience.",
+            "Proven knowledge of European privacy laws and encryption standards.",
+            "Hands-on with DLT/Blockchain for identity management.",
+            "Familiar with open-source privacy tooling (Anonify, OpenMined)."
+          ],
+          "skills": [
+            "Security Compliance", "Threat Intelligence", "IAM", "SIEM Tools", "Penetration Testing",
+            "IDS/IPS", "Data Privacy", "Red Teaming", "Zero Trust Architecture", "Network Security",
+            "css", "tailwind", "bootstrap", "Auth0", "MVC", "OOP"
+          ]
+        },
+        {
+          "title": "Cyber Security Lead – Financial Market Infrastructure & Transaction Safety",
+          "location": "London, UK",
+          "postedDate": "2025-07-08",
+          "salary": "$10,300/month",
+          "softwareHouse": "London Stock Exchange Group (LSEG)",
+          "description": "Defend the core systems of real-time stock trading platforms from zero-day threats, fraud, and network manipulation while maintaining global compliance.",
+          "responsibilities": [
+            "Build SOC playbooks and high-frequency trade flow defenses.",
+            "Lead investigations into trade-based anomalies.",
+            "Secure FIX and SWIFT integrations with banking partners.",
+            "Implement anti-fraud systems at every transaction point."
+          ],
+          "requirements": [
+            "11+ years of cybersecurity experience in high-stakes financial environments.",
+            "Deep familiarity with high-frequency trade infrastructure security.",
+            "Experience with blockchain ledger verification is a plus.",
+            "Ability to handle real-time network packet inspection at scale."
+          ],
+          "skills": [
+            "Penetration Testing", "SIEM Tools", "IDS/IPS", "Red Teaming", "Threat Intelligence",
+            "Security Compliance", "Secure Code Review", "IAM", "Zero Trust Architecture", "Network Security",
+            "javascript", "MUI", "RESTful API", "ajax", "tensorflow.js", "CI/CD"
+          ]
+        },
+        {
+          "title": "Senior Security Engineer – Gaming Ecosystem & Anti-Cheat Architecture",
+          "location": "Seoul, South Korea",
+          "postedDate": "2025-07-08",
+          "salary": "$9,900/month",
+          "softwareHouse": "KRAFTON Inc.",
+          "description": "Fortify massive multiplayer gaming ecosystems against exploits and client-side vulnerabilities. Build fair-play enforcement systems and telemetry-based detection layers.",
+          "responsibilities": [
+            "Reverse engineer game exploits and cheating tools.",
+            "Monitor telemetry and implement behavior-based detection systems.",
+            "Design secure player authentication and data encryption protocols.",
+            "Collaborate with game engine teams to ensure cheat-proof APIs."
+          ],
+          "requirements": [
+            "10+ years of cybersecurity and reverse engineering in gaming.",
+            "Proficient with kernel-level anti-cheat implementations.",
+            "Understanding of gaming networks and peer-to-peer threats.",
+            "Strong scripting for automation in C++, Python, or JS."
+          ],
+          "skills": [
+            "Threat Intelligence", "Penetration Testing", "IDS/IPS", "Red Teaming", "IAM",
+            "Network Security", "Zero Trust Architecture", "Security Compliance", "Secure Code Review", "SIEM Tools",
+            "tailwind", "css", "responsive websites", "data structures", "google app script", "socket.io"
+          ]
+        },
+        {
+          "title": "Cyber Security Director – Space Systems & Satellite Communication Defense",
+          "location": "Canberra, Australia",
+          "postedDate": "2025-07-08",
+          "salary": "$11,000/month",
+          "softwareHouse": "Electro Optic Systems (EOS)",
+          "description": "Safeguard orbital and ground-based communication systems from nation-state actors and advanced persistent threats. Work closely with space and aerospace agencies to establish impenetrable systems.",
+          "responsibilities": [
+            "Secure satellite uplink/downlink data channels.",
+            "Prevent signal spoofing and telemetry attacks.",
+            "Lead audits of embedded firmware in avionics systems.",
+            "Work with ground control to isolate anomalies in telemetry."
+          ],
+          "requirements": [
+            "12+ years in cybersecurity with exposure to aerospace or space tech.",
+            "Expertise in firmware security and embedded systems.",
+            "Experience collaborating with national security agencies.",
+            "Understanding of RF threat vectors and quantum-safe encryption."
+          ],
+          "skills": [
+            "Red Teaming", "Secure Code Review", "IAM", "SIEM Tools", "Network Security",
+            "Threat Intelligence", "Security Compliance", "IDS/IPS", "Zero Trust Architecture", "Penetration Testing",
+            "javascript", "node.js", "google app script", "Postman", "ajax", "MVC"
+          ]
+        }
+      ]
+    };
+
+    return {
+     title: `Certified Ethical Hacker (CEH v13) Jobs in ${country}`,
+     data: countryData[country],
     };
    },
   },
@@ -7416,7 +11526,10 @@ export default function TechStackJobsMarket() {
 
     {/* Main Content Column - Bootstrap Grid */}
     <div className="col-md-9">
-     <Paper elevation={1} className="p-0 h-100">
+     <Paper
+      elevation={1}
+      // className="p-0 h-100"
+     >
       {/* Tabs */}
       <Box sx={{borderBottom: 1, borderColor: 'divider'}} className="mb-3">
        <Tabs
@@ -7459,6 +11572,7 @@ export default function TechStackJobsMarket() {
        role="tabpanel"
        id={`tabpanel-${activeTab}`}
        aria-labelledby={`tab-${activeTab}`}
+       
       >
        <Typography
         variant="h4"
@@ -7473,8 +11587,8 @@ export default function TechStackJobsMarket() {
        </Typography>
 
        <TableContainer component={Paper} elevation={2}>
-        <Table aria-label="job listings">
-         <Box className="p-4">
+        <Table aria-label="job listings" sx={{height: '100vh', overflow: 'hidden'}}>
+         <Box className="p-4" sx={{height: '100%', overflowY: 'auto'}} >  {/*add*/}
           {sidebarItems[activeSidebarItem]
            .content(sidebarItems[activeSidebarItem].tabs[activeTab])
            .data.map((job, index) => (

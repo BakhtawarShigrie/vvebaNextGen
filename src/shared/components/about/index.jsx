@@ -258,6 +258,33 @@ export const About = () => {
      </div>
     </div>
    </div>
+   <center>
+    <div class="fw-bold fs-4 pb-40 pt-60 ">
+     <h2>Team Vveba</h2>
+    </div>
+   </center>
+   {/* data */}
+   <div className="container py-5">
+    <div className="row">
+     {teamMembers.map((member, index) => (
+      <div key={index} className="col-md-4 col-lg-3 mb-70">
+       <div className=" text-center align-items-center">
+        <Image
+         src={member.img}
+         alt={member.name}
+         width={200}
+         height={200}
+         className="rounded mx-auto d-block"
+        />
+        <div className="card-body">
+         <h5 className="card-title">{member.name}</h5>
+         <p className="card-text">{member.role}</p>
+        </div>
+       </div>
+      </div>
+     ))}
+    </div>
+   </div>
   </section>
  );
 };

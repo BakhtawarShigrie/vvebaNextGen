@@ -39,19 +39,4 @@ export const teamMembers = [
     role: 'Full Stack Developer',
     img: '/assets/img/about/home-4-img-1.png',
   },
-  {
-    name: 'Usman',
-    role: 'SQA Engineer',
-    img: '/assets/img/about/home-4-img-1.png',
-  },
-  {
-    name: 'Shanzaib',
-    role: 'SEO Consultant',
-    img: '/assets/img/about/home-4-img-1.png',
-  },
-  {
-    name: 'Sadia',
-    role: 'Graphic Designer',
-    img: '/assets/img/about/home-4-img-1.png',
-  },
 ];
