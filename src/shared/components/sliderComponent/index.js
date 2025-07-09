@@ -20,7 +20,6 @@ import CloseIcon from '@mui/icons-material/Close';
 
 const Carousel = () => {
  const router = useRouter();
-//  const [items] = useState([
 //   {
 //    id: 0,
 //    thumbIcon: '/assets/slider_cart-1.jpg',
@@ -345,8 +344,8 @@ const Carousel = () => {
 const [items] = useState([
  {
   id: 0,
-  thumbIcon: '/assets/slider_cart-1.jpg',
-  image: '/assets/image/01.jpg',
+    thumbIcon: 'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-cart-1.jpg',
+  image: 'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-bg-01.jpg',
   details: `Stage 01 is the ideal starting point for passionate beginners looking to become professional frontend developers. It   spans three structured levels. 
     
       Level 01: Students undergo 6 months of intensive, paid training (12 hours/day, 5 days/week), where they learn the complete fundamentals of frontend development. This includes HTML, CSS, JavaScript, SASS, Bootstrap, Tailwind CSS, responsive design, DOM manipulation, AJAX, HTML local storage, JSON, webforms and also the best part is data structures to build logic. After completing this core phase, they are provided 2 months of free profile-building support, during which they work on real-world projects to strengthen their portfolio. Upon successful completion of the full 8-month journey—including training and profile projects—students are guaranteed a job at our company with a starting salary of $200/month.
@@ -365,7 +364,7 @@ const [items] = useState([
       This final phase includes three critical checkpoints: the DSA evaluation, a comprehensive JavaScript proficiency test, and the creation of a customized final project—showcasing the student’s skill set, creativity, and readiness for development roles.
       
       Stage 01 concludes with a fully developed skillset, followed by a guaranteed $200/month salary.`,
-  avatar: '/assets/Avatar-1.jpg',
+    avatar: 'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-avatar-01.jpg',
   title: 'Junior Frontend Developer',
   topic: '$200/month Guaranteed',
   description: [
@@ -377,8 +376,8 @@ const [items] = useState([
  },
  {
   id: 1,
-  thumbIcon: '/assets/slider_cart-2.jpg',
-  image: '/assets/image/02.jpg',
+  thumbIcon: 'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-cart-2.jpg',
+  image: 'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-bg-02.jpg',
   details: `
  To qualify for Stage 02, students must complete all three levels of Stage 01, which provides the essential foundation for modern frontend development:
  
@@ -397,7 +396,7 @@ const [items] = useState([
  Level 06: Next.js Specialist – Specialize in professional-grade web development with a focus on performance, routing, rendering, and real-world deployment using Next.js.
  
  Every student completing Stage 02 earns a guaranteed job in our company with a $500/month salary, unlocking career-ready expertise and access to Stage 03 and beyond.`,
-  avatar: '/assets/Avatar-2.jpg',
+  avatar: 'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-avatar-02.jpg',
   title: 'Full Stack Developer',
   topic: '$500/month Guaranteed',
   description: [
@@ -409,8 +408,8 @@ const [items] = useState([
  },
  {
   id: 2,
-  thumbIcon: '/assets/slider_cart-3.jpg',
-  image: '/assets/image/03.jpg',
+  thumbIcon: 'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-cart-3.jpg',
+  image: 'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-bg-03.jpg',
   details: `To become a Next.js Specialist in Stage 03, students must first complete all levels of Stage 01 and Stage 02, which together provide the essential groundwork for advanced frontend and full-stack development.
  
  Level 01: 6 months of paid training in HTML, CSS, JavaScript, SASS, Bootstrap, Tailwind CSS, responsive design, DOM manipulation, AJAX, HTML local storage, JSON, webforms and data structures, followed by 2 months of free profile project work.
@@ -432,7 +431,7 @@ const [items] = useState([
  Level 07: Next.js Specialist, a dedicated 6-month free training (4 hours/day) designed to sharpen expertise in building production-grade, high-performance web applications using Next.js. This stage focuses on real-world development scenarios, working in collaborative environments, and preparing for roles in modern web product teams.
  
  Upon successful completion, every graduate is guaranteed a job at our company with a $1000/month salary, proving their capability to deliver fast, scalable, and professional web applications with industry-ready confidence.`,
-  avatar: '/assets/Avatar-3.jpg',
+  avatar: 'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-avatar-03.jpg',
   title: 'Next.js Specialist',
   topic: '$1,000/month Guaranteed',
   description: [
@@ -444,8 +443,8 @@ const [items] = useState([
  },
  {
   id: 3,
-  thumbIcon: '/assets/slider_cart-4.jpg',
-  image: '/assets/image/04.jpg',
+  thumbIcon: 'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-cart-4.jpg',
+  image: 'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-bg-04.jpg',
   details: `Before entering Stage 04, students must successfully complete all levels of Stage 01, Stage 02, and Stage 03. These foundational stages are essential to prepare learners with the practical development mindset, coding discipline, and real-world project experience required for advanced infrastructure and deployment roles.
  
  Level 01: 6 months of paid training in HTML, CSS, JavaScript, SASS, Bootstrap, Tailwind CSS, responsive design, DOM manipulation, AJAX, HTML local storage, JSON, webforms and data structures, followed by 2 months of free profile projects.
@@ -472,7 +471,7 @@ const [items] = useState([
  This stage is structured to develop a DevOps mindset—where students move beyond just writing code and into building the systems that support it. Real-time collaboration, performance monitoring, CI/CD practices, and environment handling are all approached through real-world simulations.
  
  Upon successful completion, every student is guaranteed a job at our company with a $1500/month salary, officially stepping into their role as a DevOps Engineer equipped to support global tech ecosystems.`,
-  avatar: '/assets/Avatar-4.jpg',
+  avatar: 'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-avatar-04.jpg',
   title: 'DevOps Engineer',
   topic: '$1,500/month Guaranteed',
   description: [
@@ -484,8 +483,8 @@ const [items] = useState([
  },
  {
   id: 4,
-  thumbIcon: '/assets/slider_cart-5.jpg',
-  image: '/assets/image/05.jpg',
+  thumbIcon: 'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-cart-5.jpg',
+  image: 'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-bg-05.jpg',
   details: `
  To enroll in <b>Stage 5: Microservices Architect,</b> students must complete all levels of Stage 01, Stage 02, Stage 03, and Stage 04. These foundational and professional levels ensure learners have mastered full-stack development, system deployment, and production-grade engineering before moving into scalable backend architecture.
  
@@ -513,7 +512,7 @@ const [items] = useState([
  Students who complete this stage will also receive a globally recognized certification in Spring Boot Java Microservices, proving their backend and architecture expertise to international employers.
  
  Upon completion, every student is guaranteed a $3000/month job in our company, launching them into elite backend engineering roles where they build, scale, and manage high-demand systems.`,
-  avatar: '/assets/Avatar-5.jpg',
+  avatar: 'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-avatar-05.jpg',
   title: 'Microservices Architect',
   topic: '$3000/month Guaranteed',
   description: [
@@ -525,8 +524,8 @@ const [items] = useState([
  },
  {
   id: 5,
-  thumbIcon: '/assets/slider_cart-6.jpg',
-  image: '/assets/image/06.jpg',
+  thumbIcon: 'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-cart-6.jpg',
+  image: 'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-bg-06.jpg',
   details: `Before entering Stage 06, students must successfully complete all levels of Stage 01, Stage 02, Stage 03, Stage 04, and Stage 05. These prior stages are essential for shaping a well-rounded tech expert skilled in frontend development, backend architecture, system deployment, and operational engineering.
  
  Level 01: 6 months of paid foundational training in HTML, CSS, JavaScript, SASS, Bootstrap, Tailwind CSS, responsive design, DOM manipulation, AJAX, HTML local storage, JSON, webforms and data structures, followed by 2 months of free portfolio project building
@@ -556,7 +555,7 @@ const [items] = useState([
  By the end of Stage 06, students will not only gain in-depth hands-on experience with real blockchain projects, but also earn all 4 official blockchain certifications from EC-Council.
  
  Upon successful completion of all levels and certifications, every student is guaranteed a $4000/month job in our company, marking their entry into the global blockchain economy as a certified, job-ready, and trusted developer.`,
-  avatar: '/assets/Avatar-6.jpg',
+  avatar: 'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-avatar-06.jpg',
   title: 'Blockchain Developer',
   topic: '$4,000/month Guaranteed',
   description: [
@@ -568,8 +567,8 @@ const [items] = useState([
  },
  {
   id: 6,
-  thumbIcon: '/assets/slider_cart-7.jpg',
-  image: '/assets/image/07.jpg',
+  thumbIcon: 'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-cart-7.jpg',
+  image: 'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-bg-07.jpg',
   details: `
  To qualify for Stage 07: AI Engineer, students must complete all levels of Stage 01 through Stage 06. These stages build the full journey—from frontend foundations to backend mastery, system deployment, microservices, and secure blockchain development—equipping learners with the technical depth and real-world experience needed to move into the high-demand field of Artificial Intelligence.
  
@@ -600,7 +599,7 @@ const [items] = useState([
  Level 11: AI Engineer, a specialized 6-month free training (4 hours/day) designed for those who are ready to build, optimize, and deploy intelligent systems in real production environments.
  This stage is structured to simulate the workflows of modern AI teams, where engineers are expected to think beyond code—analyzing data, solving abstract problems, and deploying smart, scalable solutions. You’ll face project-level challenges that prepare you for roles in global tech companies working on automation, intelligent products, and decision-making engines.
  Upon completion of Stage 07, every graduate is guaranteed a job at our company with a $6000/month salary, launching them into one of the most respected, high-paying roles in the global software industry.`,
-  avatar: '/assets/Avatar-7.jpg',
+  avatar: 'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-avatar-07.jpg',
   title: 'AI Engineer',
   topic: '$6,000/month Guaranteed',
   description: [
@@ -612,8 +611,8 @@ const [items] = useState([
  },
  {
   id: 7,
-  thumbIcon: '/assets/slider_cart-8.jpg',
-  image: '/assets/image/08.png',
+  thumbIcon: 'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-cart-8.jpg',
+  image: 'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-bg-08.png',
   details: `
  Stage 08 represents one of the most critical, high-responsibility roles in today’s digital world—Cybersecurity Expert. To be eligible for this elite training, students must complete all previous stages (Stage 01 through Stage 07), which collectively equip them with the deep technical foundation, system understanding, and secure development practices required to defend against cyber threats in modern enterprises.
  
@@ -649,7 +648,7 @@ const [items] = useState([
  As part of this elite track, students earn the globally recognized CEH v13 (Certified Ethical Hacker) certification from EC-Council, validating their ability to think like a hacker to defend like a professional. Learners are immersed in real-world simulation labs, team-based security operations, and challenge-based scenarios to sharpen their precision and response skills.
  
  Upon successful completion of Stage 08, every student is guaranteed a $10,000/month job at our company, entering the global cybersecurity space as a certified, trusted, and battle-tested expert.`,
-  avatar: '/assets/Avatar-8.jpg',
+  avatar: 'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-avatar-08.jpg',
   title: ' Cybersecurity Expert',
   topic: '$10,000/month Guaranteed',
   description: [
