@@ -29,8 +29,8 @@ export const HomeAreaService = () => {
     'CEH v13 teaches how to detect and fix cyber threats using real-world tools, labs, and updated modules.',
    description:
     'Certified Ethical Hacker (CEH) v13 is the latest version of the globally recognized cybersecurity certification offered by EC-Council. It equips individuals with advanced knowledge and tools to identify vulnerabilities and secure systems against malicious hackers. CEH v13 includes updated modules on malware analysis, cloud security, IoT threats, and ransomware defense. With a strong focus on hands-on labs and real-world scenarios, it ensures practical skill development. The certification is ideal for cybersecurity professionals, network defenders, and ethical hackers aiming to enhance their career. CEH v13 meets industry standards and helps organizations protect critical data and infrastructures from emerging cyber threats.',
-   image: '/assets/image/certifications/01.jpg',
-   icon: '/assets/image/certifications/icon-4.jpg',
+   image: 'https://vveba.s3.eu-north-1.amazonaws.com/certifications/01.jpg',
+   icon: 'https://vveba.s3.eu-north-1.amazonaws.com/certifications/icon-4.jpg',
   },
   {
    id: 2,
@@ -40,8 +40,8 @@ export const HomeAreaService = () => {
     'Spring EDU‑1202 certifies skills in Spring Boot, covering REST, JDBC, security, and real-world configs.',
    description:
     'The VMware Spring Professional exam (EDU‑1202) validates in‑depth expertise with the Spring Framework and Spring Boot. It covers core areas such as configuration, component scanning, Aspect‑Oriented Programming, database access using JDBC/JPA and transaction management, REST API development, security, auto‑configuration, observability with the Actuator, and testing. The exam consists of approximately 50 multiple-choice questions to be completed in 90 minutes, with a passing score typically around 76%. Originally launched for Spring 5, it is known as one of the most challenging Java certifications, intended for developers with hands-on Spring Boot experience',
-   image: '/assets/image/certifications/02.jpg',
-   icon: '/assets/image/certifications/icon-3.jpg',
+   image: 'https://vveba.s3.eu-north-1.amazonaws.com/certifications/02.jpg',
+   icon: 'https://vveba.s3.eu-north-1.amazonaws.com/certifications/icon-3.jpg',
   },
   {
    id: 3,
@@ -51,8 +51,8 @@ export const HomeAreaService = () => {
     'Validates Salesforce admin skills in automation, security, reports, and deployment for career growth.',
    description:
     'The Salesforce Certified Advanced Administrator exam is designed for experienced professionals seeking to validate a deeper understanding of advanced features in Salesforce, including complex security models, automation, custom objects, advanced reporting, and service cloud applications. The exam includes 60 multiple-choice questions to be completed in 105 minutes, with a passing score of 65%. Key focus areas include process automation, data management, analytics, and deployment strategies. It is ideal for administrators with over a year of hands-on experience looking to enhance their skills and career prospects by demonstrating expertise in managing and optimizing Salesforce environments.',
-   image: '/assets/image/certifications/03.jpg',
-   icon: '/assets/image/certifications/icon-2.jpg',
+   image: 'https://vveba.s3.eu-north-1.amazonaws.com/certifications/03.jpg',
+   icon: 'https://vveba.s3.eu-north-1.amazonaws.com/certifications/icon-2.jpg',
   },
   {
    id: 4,
@@ -62,8 +62,8 @@ export const HomeAreaService = () => {
     'AWS DevOps cert tests skills in CI/CD, automation, security, and cloud ops for expert-level engineers.',
    description:
     'The AWS Certified DevOps Engineer – Professional exam is a challenging, scenario-based certification designed for IT professionals with advanced AWS and DevOps experience. It consists of 75 multiple-choice and multiple-answer questions to be completed in 180 minutes, with a passing score of 750 out of 1,000. The exam covers six key domains: SDLC automation, infrastructure as code, resilient cloud solutions, monitoring and logging, incident response, and security and compliance. Candidates should have at least two years of hands-on experience with AWS, scripting skills, and knowledge of tools like CI/CD pipelines, CloudFormation, IAM, and auto-scaling. This certification validates expert-level AWS DevOps proficiency.',
-   image: '/assets/image/certifications/04.jpg',
-   icon: '/assets/image/certifications/icon-1.jpg',
+   image: 'https://vveba.s3.eu-north-1.amazonaws.com/certifications/04.jpg',
+   icon: 'https://vveba.s3.eu-north-1.amazonaws.com/certifications/icon-1.jpg',
   },
  ];
 
