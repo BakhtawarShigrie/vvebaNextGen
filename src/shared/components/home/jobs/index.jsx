@@ -38,21 +38,23 @@ export default function TechStackJobs() {
     // platform-specific data
     const platformData = {
      'ROZEE.pk': {
-      imagePath1: '/assets/image/jobs/web-rozee-1.png',
-      imagePath2: '/assets/image/jobs/web-rozee-2.png',
-      jobNum : "9,208"
+      imagePath1:
+       'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/web-rozee-1.png',
+      imagePath2:
+       'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/web-rozee-2.png',
+      jobNum: '9,208',
      },
      'CAREERJET.com': {
-      imagePath1: '/assets/image/jobs/web-career-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/web-career-1.png',
      },
      'SIMPLYHIRED.com': {
-      imagePath1: '/assets/image/jobs/web-simplyHired-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/web-simplyHired-1.png',
      },
      'GLASSDOOR.com': {
-      imagePath1: '/assets/image/jobs/web-glassdoor-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/web-glassdoor-1.png',
      },
      'INDEED.com': {
-      imagePath1: '/assets/image/jobs/web-indeed-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/web-indeed-1.png',
      },
     };
 
@@ -84,21 +86,21 @@ export default function TechStackJobs() {
     // platform-specific data
     const platformData = {
      'ROZEE.pk': {
-      imagePath1: '/assets/image/jobs/js-rozee-1.png',
-      imagePath2: '/assets/image/jobs/js-rozee-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/js-rozee-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/js-rozee-2.png',
       jobNum: '7,112',
      },
      'CAREERJET.com': {
-      imagePath1: '/assets/image/jobs/js-career-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/js-career-1.png',
      },
      'SIMPLYHIRED.com': {
-      imagePath1: '/assets/image/jobs/js-simplyHired-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/js-simplyHired-1.png',
      },
      'GLASSDOOR.com': {
-      imagePath1: '/assets/image/jobs/js-glassdoor-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/js-glassdoor-1.png',
      },
      'INDEED.com': {
-      imagePath1: '/assets/image/jobs/js-indeed-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/js-indeed-1.png',
      },
     };
 
@@ -130,21 +132,21 @@ export default function TechStackJobs() {
     // platform-specific data
     const platformData = {
      'ROZEE.pk': {
-      imagePath1: '/assets/image/jobs/frontend-rozee-1.png',
-      imagePath2: '/assets/image/jobs/frontend-rozee-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/frontend-rozee-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/frontend-rozee-2.png',
       jobNum: '3,346',
      },
      'CAREERJET.com': {
-      imagePath1: '/assets/image/jobs/frontend-career-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/frontend-career-1.png',
      },
      'SIMPLYHIRED.com': {
-      imagePath1: '/assets/image/jobs/frontend-simplyHired-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/frontend-simplyHired-1.png',
      },
      'GLASSDOOR.com': {
-      imagePath1: '/assets/image/jobs/frontend-glassdoor-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/frontend-glassdoor-1.png',
      },
      'INDEED.com': {
-      imagePath1: '/assets/image/jobs/frontend-indeed-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/frontend-indeed-1.png',
      },
     };
 
@@ -176,21 +178,21 @@ export default function TechStackJobs() {
     // platform-specific data
     const platformData = {
      'ROZEE.pk': {
-      imagePath1: '/assets/image/jobs/jamStack-rozee-1.png',
-      imagePath2: '/assets/image/jobs/jamStack-rozee-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/jamStack-rozee-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/jamStack-rozee-2.png',
       jobNum: '117',
      },
      'CAREERJET.com': {
-      imagePath1: '/assets/image/jobs/jamStack-career-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/jamStack-career-1.png',
      },
      'SIMPLYHIRED.com': {
-      imagePath1: '/assets/image/jobs/jamStack-simplyHired-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/jamStack-simplyHired-1.png',
      },
      'GLASSDOOR.com': {
-      imagePath1: '/assets/image/jobs/jamStack-glassdoor-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/jamStack-glassdoor-1.png',
      },
      'INDEED.com': {
-      imagePath1: '/assets/image/jobs/jamStack-indeed-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/jamStack-indeed-1.png',
      },
     };
 
@@ -222,21 +224,21 @@ export default function TechStackJobs() {
     // platform-specific data
     const platformData = {
      'ROZEE.pk': {
-      imagePath1: '/assets/image/jobs/mern-rozee-1.png',
-      imagePath2: '/assets/image/jobs/mern-rozee-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/mern-rozee-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/mern-rozee-2.png',
       jobNum: '673'
      },
      'CAREERJET.com': {
-      imagePath1: '/assets/image/jobs/mern-career-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/mern-career-1.png',
      },
      'SIMPLYHIRED.com': {
-      imagePath1: '/assets/image/jobs/mern-simplyHired-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/mern-simplyHired-1.png',
      },
      'GLASSDOOR.com': {
-      imagePath1: '/assets/image/jobs/mern-glassdoor-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/mern-glassdoor-1.png',
      },
      'INDEED.com': {
-      imagePath1: '/assets/image/jobs/mern-indeed-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/mern-indeed-1.png',
      },
     };
 
@@ -268,21 +270,21 @@ export default function TechStackJobs() {
     // platform-specific data
     const platformData = {
      'ROZEE.pk': {
-      imagePath1: '/assets/image/jobs/next-rozee-1.png',
-      imagePath2: '/assets/image/jobs/next-rozee-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/next-rozee-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/next-rozee-2.png',
       jobNum: '1,336',
      },
      'CAREERJET.com': {
-      imagePath1: '/assets/image/jobs/next-career-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/next-career-1.png',
      },
      'SIMPLYHIRED.com': {
-      imagePath1: '/assets/image/jobs/next-simplyHired-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/next-simplyHired-1.png',
      },
      'GLASSDOOR.com': {
-      imagePath1: '/assets/image/jobs/next-glassdoor-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/next-glassdoor-1.png',
      },
      'INDEED.com': {
-      imagePath1: '/assets/image/jobs/next-indeed-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/next-indeed-1.png',
      },
     };
 
@@ -314,21 +316,21 @@ export default function TechStackJobs() {
     // platform-specific data
     const platformData = {
      'ROZEE.pk': {
-      imagePath1: '/assets/image/jobs/reactN-rozee-1.png',
-      imagePath2: '/assets/image/jobs/reactN-rozee-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/reactN-rozee-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/reactN-rozee-2.png',
       jobNum: '1,709',
      },
      'CAREERJET.com': {
-      imagePath1: '/assets/image/jobs/reactN-career-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/reactN-career-1.png',
      },
      'SIMPLYHIRED.com': {
-      imagePath1: '/assets/image/jobs/reactN-simplyHired-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/reactN-simplyHired-1.png',
      },
      'GLASSDOOR.com': {
-      imagePath1: '/assets/image/jobs/reactN-glassdoor-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/reactN-glassdoor-1.png',
      },
      'INDEED.com': {
-      imagePath1: '/assets/image/jobs/reactN-indeed-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/reactN-indeed-1.png',
      },
     };
 
@@ -360,21 +362,21 @@ export default function TechStackJobs() {
     // platform-specific data
     const platformData = {
      'ROZEE.pk': {
-      imagePath1: '/assets/image/jobs/devOps-rozee-1.png',
-      imagePath2: '/assets/image/jobs/devOps-rozee-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/devOps-rozee-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/devOps-rozee-2.png',
       jobNum: '2,278',
      },
      'CAREERJET.com': {
-      imagePath1: '/assets/image/jobs/devOps-career-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/devOps-career-1.png',
      },
      'SIMPLYHIRED.com': {
-      imagePath1: '/assets/image/jobs/devOps-simplyHired-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/devOps-simplyHired-1.png',
      },
      'GLASSDOOR.com': {
-      imagePath1: '/assets/image/jobs/devOps-glassdoor-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/devOps-glassdoor-1.png',
      },
      'INDEED.com': {
-      imagePath1: '/assets/image/jobs/devOps-indeed-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/devOps-indeed-1.png',
      },
     };
 
@@ -406,21 +408,21 @@ export default function TechStackJobs() {
     // platform-specific data
     const platformData = {
      'ROZEE.pk': {
-      imagePath1: '/assets/image/jobs/salesforce-rozee-1.png',
-      imagePath2: '/assets/image/jobs/salesforce-rozee-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/salesforce-rozee-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/salesforce-rozee-2.png',
       jobNum: '894',
      },
      'CAREERJET.com': {
-      imagePath1: '/assets/image/jobs/salesforce-career-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/salesforce-career-1.png',
      },
      'SIMPLYHIRED.com': {
-      imagePath1: '/assets/image/jobs/salesforce-simplyHired-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/salesforce-simplyHired-1.png',
      },
      'GLASSDOOR.com': {
-      imagePath1: '/assets/image/jobs/salesforce-glassdoor-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/salesforce-glassdoor-1.png',
      },
      'INDEED.com': {
-      imagePath1: '/assets/image/jobs/salesforce-indeed-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/salesforce-indeed-1.png',
      },
     };
 
@@ -452,21 +454,21 @@ export default function TechStackJobs() {
     // platform-specific data
     const platformData = {
      'ROZEE.pk': {
-      imagePath1: '/assets/image/jobs/microservices-rozee-1.png',
-      imagePath2: '/assets/image/jobs/microservices-rozee-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/microservices-rozee-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/microservices-rozee-2.png',
       jobNum: '781',
      },
      'CAREERJET.com': {
-      imagePath1: '/assets/image/jobs/microservices-career-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/microservices-career-1.png',
      },
      'SIMPLYHIRED.com': {
-      imagePath1: '/assets/image/jobs/microservices-simplyHired-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/microservices-simplyHired-1.png',
      },
      'GLASSDOOR.com': {
-      imagePath1: '/assets/image/jobs/microservices-glassdoor-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/microservices-glassdoor-1.png',
      },
      'INDEED.com': {
-      imagePath1: '/assets/image/jobs/microservices-indeed-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/microservices-indeed-1.png',
      },
     };
 
@@ -498,21 +500,21 @@ export default function TechStackJobs() {
     // platform-specific data
     const platformData = {
      'ROZEE.pk': {
-      imagePath1: '/assets/image/jobs/blockchain-rozee-1.png',
-      imagePath2: '/assets/image/jobs/blockchain-rozee-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/blockchain-rozee-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/blockchain-rozee-2.png',
       jobNum: '643',
      },
      'CAREERJET.com': {
-      imagePath1: '/assets/image/jobs/blockchain-career-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/blockchain-career-1.png',
      },
      'SIMPLYHIRED.com': {
-      imagePath1: '/assets/image/jobs/blockchain-simplyHired-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/blockchain-simplyHired-1.png',
      },
      'GLASSDOOR.com': {
-      imagePath1: '/assets/image/jobs/blockchain-glassdoor-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/blockchain-glassdoor-1.png',
      },
      'INDEED.com': {
-      imagePath1: '/assets/image/jobs/blockchain-indeed-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/blockchain-indeed-1.png',
      },
     };
 
@@ -544,21 +546,21 @@ export default function TechStackJobs() {
     // platform-specific data
     const platformData = {
      'ROZEE.pk': {
-      imagePath1: '/assets/image/jobs/dataScientist-rozee-1.png',
-      imagePath2: '/assets/image/jobs/dataScientist-rozee-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/dataScientist-rozee-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/dataScientist-rozee-2.png',
       jobNum: '784',
      },
      'CAREERJET.com': {
-      imagePath1: '/assets/image/jobs/dataScientist-career-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/dataScientist-career-1.png',
      },
      'SIMPLYHIRED.com': {
-      imagePath1: '/assets/image/jobs/dataScientist-simplyHired-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/dataScientist-simplyHired-1.png',
      },
      'GLASSDOOR.com': {
-      imagePath1: '/assets/image/jobs/dataScientist-glassdoor-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/dataScientist-glassdoor-1.png',
      },
      'INDEED.com': {
-      imagePath1: '/assets/image/jobs/dataScientist-indeed-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/dataScientist-indeed-1.png',
      },
     };
 
@@ -590,21 +592,21 @@ export default function TechStackJobs() {
     // platform-specific data
     const platformData = {
      'ROZEE.pk': {
-      imagePath1: '/assets/image/jobs/ml-rozee-1.png',
-      imagePath2: '/assets/image/jobs/ml-rozee-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/ml-rozee-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/ml-rozee-2.png',
       jobNum: '957',
      },
      'CAREERJET.com': {
-      imagePath1: '/assets/image/jobs/ml-career-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/ml-career-1.png',
      },
      'SIMPLYHIRED.com': {
-      imagePath1: '/assets/image/jobs/ml-simplyHired-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/ml-simplyHired-1.png',
      },
      'GLASSDOOR.com': {
-      imagePath1: '/assets/image/jobs/ml-glassdoor-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/ml-glassdoor-1.png',
      },
      'INDEED.com': {
-      imagePath1: '/assets/image/jobs/ml-indeed-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/ml-indeed-1.png',
      },
     };
 
@@ -636,21 +638,21 @@ export default function TechStackJobs() {
     // platform-specific data
     const platformData = {
      'ROZEE.pk': {
-      imagePath1: '/assets/image/jobs/ai-rozee-1.png',
-      imagePath2: '/assets/image/jobs/ai-rozee-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/ai-rozee-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/ai-rozee-2.png',
       jobNum: '412',
      },
      'CAREERJET.com': {
-      imagePath1: '/assets/image/jobs/ai-career-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/ai-career-1.png',
      },
      'SIMPLYHIRED.com': {
-      imagePath1: '/assets/image/jobs/ai-simplyHired-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/ai-simplyHired-1.png',
      },
      'GLASSDOOR.com': {
-      imagePath1: '/assets/image/jobs/ai-glassdoor-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/ai-glassdoor-1.png',
      },
      'INDEED.com': {
-      imagePath1: '/assets/image/jobs/ai-indeed-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/ai-indeed-1.png',
      },
     };
 
@@ -682,21 +684,21 @@ export default function TechStackJobs() {
     // platform-specific data
     const platformData = {
      'ROZEE.pk': {
-      imagePath1: '/assets/image/jobs/ceh-rozee-1.png',
-      imagePath2: '/assets/image/jobs/ceh-rozee-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/ceh-rozee-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/ceh-rozee-2.png',
       jobNum: '946',
      },
      'CAREERJET.com': {
-      imagePath1: '/assets/image/jobs/ceh-career-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/ceh-career-1.png',
      },
      'SIMPLYHIRED.com': {
-      imagePath1: '/assets/image/jobs/ceh-simplyHired-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/ceh-simplyHired-1.png',
      },
      'GLASSDOOR.com': {
-      imagePath1: '/assets/image/jobs/ceh-glassdoor-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/ceh-glassdoor-1.png',
      },
      'INDEED.com': {
-      imagePath1: '/assets/image/jobs/ceh-indeed-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/jobs-platforms/ceh-indeed-1.png',
      },
     };
     return {
