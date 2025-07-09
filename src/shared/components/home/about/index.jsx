@@ -5,7 +5,8 @@ export const HomeAreaAbout = () => {
    <section
     className="tp-about-parallax"
     style={{
-     backgroundImage: "url('/assets/img/hero/home-2/hero-2.jpg')",
+     backgroundImage:
+      "url('https://vveba.s3.eu-north-1.amazonaws.com/about/hero-2.jpg')",
      backgroundAttachment: 'fixed',
      backgroundPosition: 'center',
      backgroundRepeat: 'no-repeat',
