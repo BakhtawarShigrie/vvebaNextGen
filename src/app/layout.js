@@ -13,7 +13,6 @@ import Script from 'next/script';
 import {Header} from '@/shared/components/layout/header';
 import {Footer} from '@/shared/components/layout/footer';
 import {AuthProvider} from './context/AuthContext';
-import GoogleAnalytics from '@/shared/components/GoogleAnalytics';
 import ChatlingWidget from '@/shared/components/ChatlingWidget';
 import GTM from '@/shared/components/GTM';
 
@@ -35,7 +34,6 @@ export default function RootLayout({children}) {
      {children}
      <Footer />
     </AuthProvider>
-    {/* <GoogleAnalytics /> */}
     <ChatlingWidget />
    </body>
    <Script async defer src="/assets/js/vendor/jquery.js" />

@@ -1,6 +1,6 @@
 'use client';
-import { useEffect, useState } from 'react';
-import { Box, Button, Menu, MenuItem, Typography, Paper , useTheme,  useMediaQuery, Grid, Card, CardMedia, CardContent } from '@mui/material';
+import { useState } from 'react';
+import { Box, Button, Menu, MenuItem, Typography, Paper , useTheme,  useMediaQuery, Grid, Card, CardMedia } from '@mui/material';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { CoursesData as data } from '@/shared/constants/webDevelopemt';
 import Link from 'next/link';

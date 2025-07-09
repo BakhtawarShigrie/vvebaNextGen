@@ -4,7 +4,6 @@ import {
  DialogContent,
  DialogContentText,
  DialogActions,
- Button,
  Avatar,
  Typography,
  Stack,
@@ -17,7 +16,6 @@ import {
  RiInstagramLine,
  RiTwitterXLine,
 } from 'react-icons/ri';
-import { color } from 'framer-motion';
 
 export const HomeAreaService = () => {
  const cards = [
