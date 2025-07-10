@@ -372,40 +372,55 @@ const Carousel = () => {
  Level 12: Students take on one of the most sensitive and respected roles in tech: defending systems, networks, and organizations from cyber threats. This 05-years free program (4 hours/day) prepares learners to operate in high-risk, high-stakes environments where ethical hacking, penetration testing, and threat response are core responsibilities.
   
  Stage 08, marks the highest achievement in our cybersecurity engineering pathway. This level transforms students into elite cybersecurity experts—equipped to protect digital infrastructures at enterprise and government levels. Upon reaching this stage, students will enter intensive training, live simulations, and red/blue/purple team operations to prepare for a suite of globally recognized certifications issued by EC-Council.
- 
-   CSC – Certified Secure Computer User
-   Fundamental digital safety awareness for end-users.
- 
-   CND – Certified Network Defender
-   In-depth skills for protecting, detecting, and responding to network threats.
- 
-   CEH v13 – Certified Ethical Hacker
-   The world’s most respected ethical hacking certification.
- 
-   CEH Practical – Certified Ethical Hacker (Practical)
-   A performance-based extension of CEH that validates hands-on skills.
- 
-   ECIH – EC-Council Certified Incident Handler
-   Skills to respond to and manage security incidents in real time.
- 
-   CHFI – Computer Hacking Forensic Investigator
-   Digital forensics and investigation training for law enforcement, enterprises, and analysts.
- 
-   CPENT – Certified Penetration Testing Professional
-   Advanced penetration testing certification with live exploit challenges.
- 
-   LPT – Licensed Penetration Tester
-   One of EC-Council’s most elite red team certifications, reserved for proven professionals.
- 
-   CCISO – Certified Chief Information Security Officer
-   Strategic leadership certification focused on governance, risk, and enterprise security.
- 
-   E|CDE – EC-Council Certified DevSecOps Engineer
-   Security automation and DevSecOps specialization across CI/CD pipelines.
- 
-   CSA (AI Labs) – Certified SOC Analyst
-   Focused on real-time security operations, monitoring, threat hunting, and incident analysis using advanced tools and AI-based SOC 	platforms.
-  
+ <br /> <br />
+<ul style="margin-left: 20px;">
+  <li>
+    <strong>CSC – Certified Secure Computer User</strong>
+    <p>Fundamental digital safety awareness for end-users.</p>
+  </li>
+  <li>
+    <strong>CND – Certified Network Defender</strong>
+    <p>In-depth skills for protecting, detecting, and responding to network threats.</p>
+  </li>
+  <li>
+    <strong>CEH v13 – Certified Ethical Hacker</strong>
+    <p>The world’s most respected ethical hacking certification.</p>
+  </li>
+  <li>
+    <strong>CEH Practical – Certified Ethical Hacker (Practical)</strong>
+    <p>A performance-based extension of CEH that validates hands-on skills.</p>
+  </li>
+  <li>
+    <strong>ECIH – EC-Council Certified Incident Handler</strong>
+    <p>Skills to respond to and manage security incidents in real time.</p>
+  </li>
+  <li>
+    <strong>CHFI – Computer Hacking Forensic Investigator</strong>
+    <p>Digital forensics and investigation training for law enforcement, enterprises, and analysts.</p>
+  </li>
+  <li>
+    <strong>CPENT – Certified Penetration Testing Professional</strong>
+    <p>Advanced penetration testing certification with live exploit challenges.</p>
+  </li>
+  <li>
+    <strong>LPT – Licensed Penetration Tester</strong>
+    <p>One of EC-Council’s most elite red team certifications, reserved for proven professionals.</p>
+  </li>
+  <li>
+    <strong>CCISO – Certified Chief Information Security Officer</strong>
+    <p>Strategic leadership certification focused on governance, risk, and enterprise security.</p>
+  </li>
+  <li>
+    <strong>E|CDE – EC-Council Certified DevSecOps Engineer</strong>
+    <p>Security automation and DevSecOps specialization across CI/CD pipelines.</p>
+  </li>
+  <li>
+    <strong>CSA (AI Labs) – Certified SOC Analyst</strong>
+    <p>Focused on real-time security operations, monitoring, threat hunting, and incident analysis using advanced tools and AI-based SOC platforms.</p>
+  </li>
+</ul>
+
+<br/>
  Upon successful completion of Stage 08, every student is guaranteed a $10,000/month job at our company, entering the global cybersecurity space as a certified, trusted, and battle-tested expert.`,
    avatar:
     'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-avatar-08.jpg',
@@ -419,6 +434,11 @@ const Carousel = () => {
    ],
   },
  ]);
+
+ /*
+
+
+*/
  const [isNext, setIsNext] = useState(false);
  const [isPrev, setIsPrev] = useState(false);
  const carouselRef = useRef(null);
@@ -675,7 +695,7 @@ const Carousel = () => {
           .replace(/Stage 06/g, '<strong>Stage 06</strong>')
           .replace(/Stage 06/g, '<strong>Stage 06</strong>')
           .replace(/Stage 07/g, '<strong>Stage 07</strong>')
-          .replace(/Stage 08/g, '<strong>Stage 08</strong>')
+          .replace(/Stage 08/g, '<strong>Stage 08</strong>'),
         }}
        />
       </>
