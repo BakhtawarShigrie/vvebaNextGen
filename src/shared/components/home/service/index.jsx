@@ -12,9 +12,6 @@ import {
 import CloseIcon from '@mui/icons-material/Close';
 import {
  RiMenu4Line,
- RiFacebookCircleLine,
- RiInstagramLine,
- RiTwitterXLine,
 } from 'react-icons/ri';
 
 export const HomeAreaService = () => {
@@ -82,10 +79,10 @@ export const HomeAreaService = () => {
   <>
    <div className="card">
     <div className="tp-home-4-service-title text-center mt-100">
-    <span className="tp-section-v_2-title-pre" style={{color:" #ffffff"}}>Latest Insights</span>
-     <h3 className="tp-section-title mb-0">
-      Top Tier Certifications
-     </h3>
+     <span className="tp-section-v_2-title-pre" style={{color: ' #ffffff'}}>
+      Latest Insights
+     </span>
+     <h3 className="tp-section-title mb-0">Top Tier Certifications</h3>
     </div>
 
     <div
@@ -108,7 +105,8 @@ export const HomeAreaService = () => {
        </div>
 
        <div className="card__clip">
-        <RiMenu4Line />
+        {/* <RiMenu4Line /> */}
+        <i class="fa-solid fa-bars"></i>
        </div>
 
        <div className="info">
@@ -129,7 +127,7 @@ export const HomeAreaService = () => {
           rel="noopener noreferrer"
           className="info__link"
          >
-          <RiFacebookCircleLine />
+          <i className="fab fa-facebook-f"></i>
          </a>
          <a
           href="https://www.instagram.com/"
@@ -137,7 +135,7 @@ export const HomeAreaService = () => {
           rel="noopener noreferrer"
           className="info__link"
          >
-          <RiInstagramLine />
+          <i className="fa-brands fa-instagram"></i>
          </a>
          <a
           href="https://twitter.com/"
@@ -145,7 +143,7 @@ export const HomeAreaService = () => {
           rel="noopener noreferrer"
           className="info__link"
          >
-          <RiTwitterXLine />
+          <i className="fab fa-twitter"></i>
          </a>
         </div>
        </div>
