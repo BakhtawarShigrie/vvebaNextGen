@@ -2,12 +2,9 @@
 import Link from 'next/link';
 import {
  Grid,
- Card,
- CardContent,
  Container,
  Typography,
  Button,
- Divider,
  Box,
 } from '@mui/material';
 import {blogListing} from '@/shared/constants/blogData';
@@ -67,7 +64,8 @@ export default function BlogCard() {
         alt="Blog image"
         width={200}
         height={100}
-        style={{marginBottom: '16px'}}
+        style={{ marginBottom: '16px' }}
+        loading='lazy'
        />
 
        <Typography
@@ -87,11 +85,11 @@ export default function BlogCard() {
        <Button
         variant="contained"
         sx={{
-         backgroundColor: '#363f46', // default background
-         color: 'white', // default text
+         backgroundColor: '#363f46', 
+         color: 'white', 
          '&:hover': {
-          backgroundColor: '#e92e3e', // hover background
-          color: '#ffffff', // hover text
+          backgroundColor: '#e92e3e',
+          color: '#ffffff',
          },
         }}
         component={Link}

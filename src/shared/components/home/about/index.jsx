@@ -3,7 +3,7 @@ import { useMemo } from 'react';
 
 export const HomeAreaAbout = () => {
   const backgroundStyles = useMemo(() => ({
-    backgroundImage: "url('/assets/img/hero/home-2/hero-2.jpg')",
+    backgroundImage: "url('https://vveba.s3.eu-north-1.amazonaws.com/about/hero-2.jpg')",
     backgroundAttachment: 'fixed',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',

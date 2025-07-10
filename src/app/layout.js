@@ -13,7 +13,6 @@ import Script from 'next/script';
 import {Header} from '@/shared/components/layout/header';
 import {Footer} from '@/shared/components/layout/footer';
 import {AuthProvider} from './context/AuthContext';
-import GoogleAnalytics from '@/shared/components/GoogleAnalytics';
 import ChatlingWidget from '@/shared/components/ChatlingWidget';
 import GTM from '@/shared/components/GTM';
 
@@ -35,25 +34,18 @@ export default function RootLayout({children}) {
      {children}
      <Footer />
     </AuthProvider>
-    {/* <GoogleAnalytics /> */}
     <ChatlingWidget />
    </body>
    <Script async defer src="/assets/js/vendor/jquery.js" />
-   <Script async defer src="/assets/js/vendor/waypoints.js" />
-   <Script async defer src="/assets/js/bootstrap-bundle.js" />
-   <Script async defer src="/assets/js/meanmenu.js" />
    <Script async defer src="/assets/js/swiper-bundle.js" />
    <Script async defer src="/assets/js/slick.js" />
-   <Script async defer src="/assets/js/range-slider.js" />
+    <Script async defer src="/assets/js/bootstrap-bundle.js" />
    <Script async defer src="/assets/js/magnific-popup.js" />
    <Script async defer src="/assets/js/nice-select.js" />
-   <Script async defer src="/assets/js/purecounter.js" />
-   <Script async defer src="/assets/js/countdown.js" />
    <Script async defer src="/assets/js/wow.js" />
-   <Script async defer src="/assets/js/isotope-pkgd.js" />
    <Script async defer src="/assets/js/imagesloaded-pkgd.js" />
-   <Script async defer src="/assets/js/ajax-form.js" />
    <Script async defer src="/assets/js/main.js" />
+
   </html>
  );
 }

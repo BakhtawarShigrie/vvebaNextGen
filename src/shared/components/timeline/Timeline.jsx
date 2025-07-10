@@ -79,15 +79,6 @@ export default function Timeline() {
         <h3>{event.heading}</h3>
         <small>{event.date}</small>
         <p>{event.description}</p>
-        {/* <button
-         className="close"
-         onClick={(e) => {
-          e.stopPropagation();
-          toggleEvent(index);
-         }}
-        >
-         Click To Close
-        </button> */}
        </div>
       </li>
      ))}

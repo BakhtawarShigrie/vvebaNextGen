@@ -116,22 +116,22 @@ export const HomeProcessArea = () => {
         <div className="tp-home-4-process-thumb p-relative">
          <img
           className="process-man"
-          src="/assets/img/process/home-4/process-man.png"
+          src="https://vveba.s3.eu-north-1.amazonaws.com/process/process-man.png"
           alt=""
          />
          <img
           className="process-dotted-shape"
-          src="/assets/img/process/home-4/process-dots.png"
+          src="https://vveba.s3.eu-north-1.amazonaws.com/process/process-dots.png"
           alt=""
          />
          <img
           className="process-search-shape"
-          src="/assets/img/process/home-4/process-search.png"
+          src="https://vveba.s3.eu-north-1.amazonaws.com/process/process-search.png"
           alt=""
          />
          <img
           className="process-chart-shape"
-          src="/assets/img/process/home-4/process-chart.png"
+          src="https://vveba.s3.eu-north-1.amazonaws.com/process/process-chart.png"
           alt=""
          />
         </div>

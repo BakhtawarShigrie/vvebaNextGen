@@ -31,9 +31,9 @@ export default function BootcampsStacks() {
     // platform-specific data
     const platformData = {
      'AI Engineer': {
-      imagePath1: '/assets/image/bootcamps/ai-actualize-1.png',
-      imagePath2: '/assets/image/bootcamps/ai-actualize-2.png',
-      imagePath3: '/assets/image/bootcamps/ai-actualize-3.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/ai-actualize-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/ai-actualize-2.png',
+      imagePath3: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/ai-actualize-3.png',
      },
     };
 
@@ -58,13 +58,13 @@ export default function BootcampsStacks() {
    content: (platform) => {
     // platform-specific data
     const platformData = {
-     'AI Engineer': {
-      imagePath1: '/assets/image/bootcamps/ai-appAcademy-1.png',
-      imagePath2: '/assets/image/bootcamps/ai-appAcademy-2.png',
+      'AI Engineer': {
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/ai-appAcademy-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/ai-appAcademy-2.png',
      },
      'Full Stack': {
-      imagePath1: '/assets/image/bootcamps/fullStack-appAcademy-1.png',
-      imagePath2: '/assets/image/bootcamps/fullStack-appAcademy-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/fullStack-appAcademy-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/fullStack-appAcademy-2.png',
      },
     };
 
@@ -94,16 +94,16 @@ export default function BootcampsStacks() {
     // platform-specific data
     const platformData = {
      'Data Analytics': {
-      imagePath1: '/assets/image/bootcamps/dataAnalytics-careerKarma-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/dataAnalytics-careerKarma-1.png',
      },
      'Front-End Development': {
-      imagePath1: '/assets/image/bootcamps/frontend-careerKarma-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/frontend-careerKarma-1.png',
      },
      'Full-Stack Development': {
-      imagePath1: '/assets/image/bootcamps/fullStackDev-careerKarma-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/fullStackDev-careerKarma-1.png',
      },
      'Full-Stack Software Engineer': {
-      imagePath1: '/assets/image/bootcamps/fullStackSoft-careerKarma-1.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/fullStackSoft-careerKarma-1.png',
      },
     };
 
@@ -132,20 +132,20 @@ export default function BootcampsStacks() {
     // platform-specific data
     const platformData = {
      'Cybersecurity Engineer': {
-      imagePath1: '/assets/image/bootcamps/cybersecurity-codeFellows-1.png',
-      imagePath2: '/assets/image/bootcamps/cybersecurity-codeFellows-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/cybersecurity-codeFellows-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/cybersecurity-codeFellows-2.png',
      },
      'Software Development in Python': {
-      imagePath1: '/assets/image/bootcamps/soft-dev-py-codeFellows-1.png',
-      imagePath2: '/assets/image/bootcamps/soft-dev-py-codeFellows-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/soft-dev-py-codeFellows-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/soft-dev-py-codeFellows-2.png',
      },
      'Software Development in ASP.net': {
-      imagePath1: '/assets/image/bootcamps/soft-dev-asp.Net-codeFellows-1.png',
-      imagePath2: '/assets/image/bootcamps/soft-dev-asp.Net-codeFellows-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/soft-dev-asp.Net-codeFellows-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/soft-dev-asp.Net-codeFellows-2.png',
      },
      Networking: {
-      imagePath1: '/assets/image/bootcamps/networking-codeFellows-1.png',
-      imagePath2: '/assets/image/bootcamps/networking-codeFellows-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/networking-codeFellows-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/networking-codeFellows-2.png',
      },
     };
 
@@ -170,12 +170,12 @@ export default function BootcampsStacks() {
     // platform-specific data
     const platformData = {
      'Dev Ops Engineer': {
-      imagePath1: '/assets/image/bootcamps/devOps-codePlatoon-1.png',
-      imagePath2: '/assets/image/bootcamps/devOps-codePlatoon-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/devOps-codePlatoon-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/devOps-codePlatoon-2.png',
      },
      'Full-Stack Software Engineer': {
-      imagePath1: '/assets/image/bootcamps/fullStack-codePlatoon-1.png',
-      imagePath2: '/assets/image/bootcamps/fullStack-codePlatoon-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/fullStack-codePlatoon-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/fullStack-codePlatoon-2.png',
      },
     };
 
@@ -203,12 +203,12 @@ export default function BootcampsStacks() {
     // platform-specific data
     const platformData = {
      'AI & ML Technical': {
-      imagePath1: '/assets/image/bootcamps/ai-ml-codeSmith-1.png',
-      imagePath2: '/assets/image/bootcamps/ai-ml-codeSmith-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/ai-ml-codeSmith-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/ai-ml-codeSmith-2.png',
      },
      'Software Engineer + AI/ML': {
-      imagePath1: '/assets/image/bootcamps/soft-ai-ml-codeSmith-1.png',
-      imagePath2: '/assets/image/bootcamps/soft-ai-ml-codeSmith-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/soft-ai-ml-codeSmith-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/soft-ai-ml-codeSmith-2.png',
      },
     };
 
@@ -233,20 +233,20 @@ export default function BootcampsStacks() {
     // platform-specific data
     const platformData = {
      'AI & Machine Learning': {
-      imagePath1: '/assets/image/bootcamps/ai-ml-fullStackAcademy-1.png',
-      imagePath2: '/assets/image/bootcamps/ai-ml-fullStackAcademy-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/ai-ml-fullStackAcademy-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/ai-ml-fullStackAcademy-2.png',
      },
      'Cybersecurity Analytics': {
       imagePath1:
-       '/assets/image/bootcamps/cybersecurity-fullStackAcademy-1.png',
+       'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/cybersecurity-fullStackAcademy-1.png',
       imagePath2:
-       '/assets/image/bootcamps/cybersecurity-fullStackAcademy-2.png',
+       'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/cybersecurity-fullStackAcademy-2.png',
      },
      'Data Analytics': {
       imagePath1:
-       '/assets/image/bootcamps/dataAnalytics-fullStackAcademy-1.png',
+       'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/dataAnalytics-fullStackAcademy-1.png',
       imagePath2:
-       '/assets/image/bootcamps/dataAnalytics-fullStackAcademy-2.png',
+       'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/dataAnalytics-fullStackAcademy-2.png',
      },
     };
 
@@ -277,24 +277,24 @@ export default function BootcampsStacks() {
     // platform-specific data
     const platformData = {
      'Data Analytics': {
-      imagePath1: '/assets/image/bootcamps/dataAnalytics-generalAssembly-1.png',
-      imagePath2: '/assets/image/bootcamps/dataAnalytics-generalAssembly-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/dataAnalytics-generalAssembly-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/dataAnalytics-generalAssembly-2.png',
      },
      'Data Science': {
-      imagePath1: '/assets/image/bootcamps/dataScience-generalAssembly-1.png',
-      imagePath2: '/assets/image/bootcamps/dataScience-generalAssembly-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/dataScience-generalAssembly-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/dataScience-generalAssembly-2.png',
      },
      'Information Technology': {
-      imagePath1: '/assets/image/bootcamps/it-generalAssembly-1.png',
-      imagePath2: '/assets/image/bootcamps/it-generalAssembly-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/it-generalAssembly-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/it-generalAssembly-2.png',
      },
      'Software Engineer': {
-      imagePath1: '/assets/image/bootcamps/softEng-generalAssembly-1.png',
-      imagePath2: '/assets/image/bootcamps/softEng-generalAssembly-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/softEng-generalAssembly-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/softEng-generalAssembly-2.png',
      },
      'UX Design': {
-      imagePath1: '/assets/image/bootcamps/ux-generalAssembly-1.png',
-      imagePath2: '/assets/image/bootcamps/ux-generalAssembly-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/ux-generalAssembly-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/ux-generalAssembly-2.png',
      },
     };
 
@@ -319,20 +319,20 @@ export default function BootcampsStacks() {
     // platform-specific data
     const platformData = {
      'AI Engineer': {
-      imagePath1: '/assets/image/bootcamps/ai-ironHack-1.png',
-      imagePath2: '/assets/image/bootcamps/ai-ironHack-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/ai-ironHack-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/ai-ironHack-2.png',
      },
      'Data Science & ML': {
-      imagePath1: '/assets/image/bootcamps/dataScience-ml-ironHack-1.png',
-      imagePath2: '/assets/image/bootcamps/dataScience-ml-ironHack-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/dataScience-ml-ironHack-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/dataScience-ml-ironHack-2.png',
      },
      'Dev Ops': {
-      imagePath1: '/assets/image/bootcamps/devOps-ironHack-1.png',
-      imagePath2: '/assets/image/bootcamps/devOps-ironHack-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/devOps-ironHack-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/devOps-ironHack-2.png',
      },
      'Web Development': {
-      imagePath1: '/assets/image/bootcamps/webDev-ironHack-1.png',
-      imagePath2: '/assets/image/bootcamps/webDev-ironHack-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/webDev-ironHack-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/webDev-ironHack-2.png',
      },
     };
 
@@ -356,8 +356,8 @@ export default function BootcampsStacks() {
     // platform-specific data
     const platformData = {
      'Web Development': {
-      imagePath1: '/assets/image/bootcamps/webDev-junoCollege-1.png',
-      imagePath2: '/assets/image/bootcamps/webDev-junoCollege-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/webDev-junoCollege-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/webDev-junoCollege-2.png',
      },
     };
 
@@ -389,28 +389,28 @@ export default function BootcampsStacks() {
     // platform-specific data
     const platformData = {
      'Data Science': {
-      imagePath1: '/assets/image/bootcamps/dataScience-ai-nobleDesktop-1.png',
-      imagePath2: '/assets/image/bootcamps/dataScience-ai-nobleDesktop-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/dataScience-ai-nobleDesktop-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/dataScience-ai-nobleDesktop-2.png',
      },
      'Front-End Development': {
-      imagePath1: '/assets/image/bootcamps/frontend-nobleDesktop-1.png',
-      imagePath2: '/assets/image/bootcamps/frontend-nobleDesktop-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/frontend-nobleDesktop-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/frontend-nobleDesktop-2.png',
      },
      'Full-Stack Development': {
-      imagePath1: '/assets/image/bootcamps/fullStack-nobleDesktop-1.png',
-      imagePath2: '/assets/image/bootcamps/fullStack-nobleDesktop-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/fullStack-nobleDesktop-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/fullStack-nobleDesktop-2.png',
      },
      'Jam-Stack Development': {
-      imagePath1: '/assets/image/bootcamps/jamStack-nobleDesktop-1.png',
-      imagePath2: '/assets/image/bootcamps/jamStack-nobleDesktop-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/jamStack-nobleDesktop-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/jamStack-nobleDesktop-2.png',
      },
      'Software Engineering': {
-      imagePath1: '/assets/image/bootcamps/softEng-nobleDesktop-1.png',
-      imagePath2: '/assets/image/bootcamps/softEng-nobleDesktop-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/softEng-nobleDesktop-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/softEng-nobleDesktop-2.png',
      },
      'Python Development': {
-      imagePath1: '/assets/image/bootcamps/py-nobleDesktop-1.png',
-      imagePath2: '/assets/image/bootcamps/py-nobleDesktop-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/py-nobleDesktop-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/py-nobleDesktop-2.png',
      },
     };
 
@@ -435,16 +435,16 @@ export default function BootcampsStacks() {
     // platform-specific data
     const platformData = {
      'AI & ML Engineer': {
-      imagePath1: '/assets/image/bootcamps/ai-digitalCrafts-1.png',
-      imagePath2: '/assets/image/bootcamps/ai-digitalCrafts-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/ai-digitalCrafts-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/ai-digitalCrafts-2.png',
      },
      Cybersecurity: {
-      imagePath1: '/assets/image/bootcamps/cybersecurity-digitalCrafts-1.png',
-      imagePath2: '/assets/image/bootcamps/cybersecurity-digitalCrafts-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/cybersecurity-digitalCrafts-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/cybersecurity-digitalCrafts-2.png',
      },
      'Software Development': {
-      imagePath1: '/assets/image/bootcamps/softDev-digitalCrafts-1.png',
-      imagePath2: '/assets/image/bootcamps/softDev-digitalCrafts-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/softDev-digitalCrafts-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/softDev-digitalCrafts-2.png',
      },
     };
 
@@ -469,8 +469,8 @@ export default function BootcampsStacks() {
     // platform-specific data
     const platformData = {
      'Web Development': {
-      imagePath1: '/assets/image/bootcamps/webDev-rithmSchool-1.png',
-      imagePath2: '/assets/image/bootcamps/webDev-rithmSchool-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/webDev-rithmSchool-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/webDev-rithmSchool-2.png',
      },
     };
 
@@ -495,12 +495,12 @@ export default function BootcampsStacks() {
     // platform-specific data
     const platformData = {
      'Java Software Engineer': {
-      imagePath1: '/assets/image/bootcamps/java-theSoftwareGuild-1.png',
-      imagePath2: '/assets/image/bootcamps/java-theSoftwareGuild-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/java-theSoftwareGuild-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/java-theSoftwareGuild-2.png',
      },
      '.Net/C# Software Engineer': {
-      imagePath1: '/assets/image/bootcamps/dotNet-theSoftwareGuild-1.png',
-      imagePath2: '/assets/image/bootcamps/dotNet-theSoftwareGuild-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/dotNet-theSoftwareGuild-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/dotNet-theSoftwareGuild-2.png',
      },
     };
 
@@ -530,20 +530,20 @@ export default function BootcampsStacks() {
     // platform-specific data
     const platformData = {
      'Data Analytics': {
-      imagePath1: '/assets/image/bootcamps/dataAnalytics-thinkfull-1.png',
-      imagePath2: '/assets/image/bootcamps/course-common-thinkfull-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/dataAnalytics-thinkfull-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/course-common-thinkfull-2.png',
      },
      'Data Science': {
-      imagePath1: '/assets/image/bootcamps/dataScience-thinkfull-1.png',
-      imagePath2: '/assets/image/bootcamps/course-common-thinkfull-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/dataScience-thinkfull-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/course-common-thinkfull-2.png',
      },
      'Software Engineering': {
-      imagePath1: '/assets/image/bootcamps/softEng-thinkfull-1.png',
-      imagePath2: '/assets/image/bootcamps/course-common-thinkfull-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/softEng-thinkfull-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/course-common-thinkfull-2.png',
      },
      'UI/UX Design': {
-      imagePath1: '/assets/image/bootcamps/ui-thinkfull-1.png',
-      imagePath2: '/assets/image/bootcamps/course-common-thinkfull-2.png',
+      imagePath1: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/ui-thinkfull-1.png',
+      imagePath2: 'https://vveba.s3.eu-north-1.amazonaws.com/bootcamps/course-common-thinkfull-2.png',
      },
     };
     return {

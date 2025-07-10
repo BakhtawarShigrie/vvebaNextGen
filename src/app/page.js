@@ -3,22 +3,14 @@ import BlogCard from '@/shared/components/blogCard';
 import CourseSelector from '@/shared/components/courses';
 import {HomeAreaAbout} from '@/shared/components/home/about';
 import BootcampsStacks from '@/shared/components/home/bootcamps';
-import {HomeFeatureArea} from '@/shared/components/home/features';
 import FreelancePlatform from '@/shared/components/home/freelancing';
-import {HeroSection} from '@/shared/components/home/hero';
 import TechStackJobs from '@/shared/components/home/jobs';
 import PayScale from '@/shared/components/home/payscale';
 import TechStackJobsMarket from '@/shared/components/home/marketJobs';
 import {HomeProcessArea} from '@/shared/components/home/process';
 import {HomeAreaService} from '@/shared/components/home/service';
-import {HomeAreaTestimonial} from '@/shared/components/home/testimonial';
-import SeminarBookingForm from '@/shared/components/seminarBookingForm/SeminarBooking';
-import Slider from '@/shared/components/slider';
 import Carousel from '@/shared/components/sliderComponent';
-import Education from '@/shared/components/timeline/Education/Education';
 import Timeline from '@/shared/components/timeline/Timeline';
-import {sliderData} from '@/shared/constants/slidesData';
-import {Box} from '@mui/material';
 import {useEffect} from 'react';
 
 export default function Home() {
@@ -35,47 +27,16 @@ export default function Home() {
  }, []);
  return (
   <main>
-   {/* <Slider slides={sliderData} /> */}
    <Carousel />
-   {/* <Box
-    id="courses-section"
-    sx={{
-     display: 'flex',
-     flexDirection: 'column',
-     marginBottom: '150px',
-     padding: {
-      xs: 0, // No padding on mobile
-      md: '60px', // 60px padding on desktop (md breakpoint and up)
-     },
-    }}
-   >
-    <div className="tp-hero-4-title-wrapper ">
-     <h2 className="tp-hero-title ">Course Details</h2>
-    </div>
-   </Box> */}
-    <CourseSelector />
+   <CourseSelector />
    <HomeAreaAbout />
    <PayScale />
    <FreelancePlatform />
    <TechStackJobs />
    <HomeAreaService />
-   {/* <HomeFeatureArea /> */}
-   {/* <HomeAreaTestimonial /> */}
    <HomeProcessArea />
-   {/* <Box
-    className="tp-home-4-service-area"
-    sx={{
-     padding: {
-      xs: 0, // No padding on mobile
-      md: '60px', // 60px padding on desktop (md breakpoint and up)
-     },
-    }}
-   >
-   </Box> */}
-    <BlogCard />
-   {/* <Education /> */}
+   <BlogCard />
    <Timeline />
-   {/* <SeminarBookingForm /> */}
    <BootcampsStacks />
    <TechStackJobsMarket />
   </main>

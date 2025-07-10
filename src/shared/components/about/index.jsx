@@ -58,32 +58,6 @@ export const About = () => {
        </p>
       </div>
      </div>
-
-     {/* <div class="col-12 col-md-6 d-flex justify-content-center">
-         <Image
-          src="/assets/img/service/service-details/img-1.jpg"
-          alt="Profile Image"
-          width={600}
-          height={500}
-          className=" p-3"
-         />
-        </div>
-        <div class="col-12 col-md-6">
-         <h2>Syed Abdullah</h2>
-         <p>
-          Sarah Ahmad, a renowned Pakistani young entrepreneur – founder at
-          Desol Int. and many other sister companies, currently running a
-          software company in Lahore, Pakistan. Sarah was awarded as “Hero
-          Microsoft Student Partner” in June 2016. She was one of the two people
-          to receive this award in the Middle East & Africa region and the first
-          ever girl from Pakistan to receive the honor. She was also entitled
-          with Techjuice 25 under 25 emerging talent in 2017. Recently she was
-          awarded the Laurels of Honors award by the Lahore Women Chamber of
-          Commerce. Sarah is involved in many other ventures; she is a tech
-          trainer and has made her presence as a Guest speaker in many
-          organizations.
-         </p>
-        </div> */}
     </div>
    </div>
 
@@ -105,46 +79,18 @@ export const About = () => {
    <div class="container text-center shadow p-3   mb-100 bg-white rounded-4">
     <div class="row">
      <div class="col-sm-12 col-md-3 col-lg-3 about-icons-boder">
-      {/* <img
-       src="/assets/svg/stacks-tech-01.svg"
-       className="mx-auto d-block mb-5"
-       alt="Mission Icon"
-       width="50"
-       height="50"
-      />{' '} */}
       <div class="fw-bold fs-3 pb-5">14</div>
       <div className="about-pb">Tech Stacks</div>
      </div>
      <div class="col-sm-12 col-md-3 col-lg-3 about-icons-boder">
-      {/* <img
-       src="/assets/svg/certificates-cropped.svg"
-       className="mx-auto d-block mb-5"
-       alt="Mission Icon"
-       width="50"
-       height="50"
-      />{' '} */}
       <div class="fw-bold fs-3 pb-5">4</div>
       <div className="about-pb">Certifications</div>
      </div>
      <div class="col-sm-12 col-md-3 col-lg-3 about-icons-boder">
-      {/* <img
-       src="/assets/svg/hours-01.svg"
-       className="mx-auto d-block mb-5"
-       alt="Mission Icon"
-       width="50"
-       height="50"
-      />{' '} */}
       <div class="fw-bold fs-3 pb-5">10,000</div>
       <div className="about-pb">Hours</div>
      </div>
      <div class="col-sm-12 col-md-3 col-lg-3">
-      {/* <img
-       src="/assets/svg/years-01.svg"
-       className="mx-auto d-block mb-5"
-       alt="Mission Icon"
-       width="50"
-       height="50"
-      />{' '} */}
       <div class="fw-bold fs-3 pb-5">7</div>
       <div className="about-pb">Years</div>
      </div>
@@ -158,7 +104,7 @@ export const About = () => {
       <div className=" mr-40 sm-mr">
        <div style={{clipPath: 'polygon(0 0, 100% 0%, 100% 100%, 0 77%)'}}>
         <Image
-         src="/assets/Muhammad_Sharif.jpg"
+         src="https://vveba.s3.eu-north-1.amazonaws.com/about/muhammad-sharif.jpg"
          alt="Muhammad Sharif"
          width={500}
          height={350}
@@ -179,7 +125,7 @@ export const About = () => {
       <div className="ml-40 sm-ml">
        <div style={{clipPath: 'polygon(0 0, 100% 0%, 100% 100%, 0 77%)'}}>
         <Image
-         src="/assets/Shahid_Khalid3.jpg"
+         src="https://vveba.s3.eu-north-1.amazonaws.com/about/shahid-khalid.jpg"
          alt="Shahid Khalid"
          width={500}
          height={350}
@@ -274,7 +220,8 @@ export const About = () => {
          alt={member.name}
          width={200}
          height={200}
-         className="rounded mx-auto d-block"
+                     className="rounded mx-auto d-block"
+                     loading='lazy'
         />
         <div className="card-body">
          <h5 className="card-title">{member.name}</h5>
