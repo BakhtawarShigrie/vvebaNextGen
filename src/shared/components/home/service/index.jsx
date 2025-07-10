@@ -10,9 +10,6 @@ import {
  IconButton,
 } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
-import {
- RiMenu4Line,
-} from 'react-icons/ri';
 
 export const HomeAreaService = () => {
  const cards = [
@@ -105,7 +102,6 @@ export const HomeAreaService = () => {
        </div>
 
        <div className="card__clip">
-        {/* <RiMenu4Line /> */}
         <i class="fa-solid fa-bars"></i>
        </div>
 
