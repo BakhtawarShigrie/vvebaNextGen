@@ -30,17 +30,15 @@ const Carousel = () => {
        Level 01: Students undergo 6 months of intensive, paid training (12 hours/day, 5 days/week), where they learn the complete fundamentals of frontend development. This includes HTML, CSS, JavaScript, SASS, Bootstrap, Tailwind CSS, responsive design, DOM manipulation, AJAX, HTML local storage, JSON, webforms and also the best part is data structures to build logic. After completing this core phase, they are provided 2 months of free profile-building support, during which they work on real-world projects to strengthen their portfolio. Upon successful completion of the full 8-month journey—including training and profile projects—students are guaranteed a job at our company with a starting salary of $200/month.
   
        By the 4th month, students must successfully clear a rigorous Data Structures & Algorithms (DSA) assessment, achieving at least 80% marks to demonstrate logic-building and problem-solving abilities.
+       In the 5th month, Students must also pass a comprehensive JavaScript test, designed to assess their mastery of core concepts, coding standards, and problem-solving using modern JavaScript.
+       In the 6th month, learners move on to develop a customized final project, applying all previously learned technologies with a core emphasis on React.js.
+  
+       This final phase includes three critical checkpoints: the DSA evaluation, a comprehensive JavaScript proficiency test, and the creation of a customized final project—showcasing the student’s skill set, creativity, and readiness for development roles.
   
        
        Level 02: Students embark on a 6-month deep dive into advanced JavaScript through free training sessions held 4 hours per day. It takes learners from absolute basics to advanced real-world problem solving. It begins with understanding variables (let, const), data types, operators, conditionals, loops, and functions, followed by the concepts of scope, hoisting, and strict mode. Students then progress to working with arrays, objects, destructuring, spread/rest operators, and mastering ES6+ features like arrow functions and classes. Core topics like closures, higher-order functions, and the this keyword build deeper logic-building abilities. DOM manipulation, event handling, form validation, and browser APIs are introduced next to prepare students for frontend interactivity. On the advanced side, the bootcamp covers asynchronous JavaScript with callbacks, promises, and async/await, along with APIs, JSON, local storage, and error handling. Learners dive into the event loop, memory management, modules, data structures, and functional programming. Optional mastery includes topics like debouncing, design patterns, web workers, and introduction to TypeScript, preparing students for any modern JavaScript role with confidence.
-  
-       Students must also pass a comprehensive JavaScript test, designed to assess their mastery of core concepts, coding standards, and problem-solving using modern JavaScript.
        
        Level 03: In our comprehensive React.js bootcamp, students begin by understanding the fundamentals of React, including JSX syntax, functional components, props, and state management using useState. They learn to handle events, render lists, and manage forms through controlled components. As they advance, they explore useEffect for side effects, conditional rendering, routing with React Router, and global state sharing through the Context API. The course also introduces styling techniques using CSS modules, Tailwind, and styled-components, along with custom hooks and error boundaries.
-  
-       In the 5th month, learners move on to develop a customized final project, applying all previously learned technologies with a core emphasis on React.js.
-  
-       This final phase includes three critical checkpoints: the DSA evaluation, a comprehensive JavaScript proficiency test, and the creation of a customized final project—showcasing the student’s skill set, creativity, and readiness for development roles.
        
        Stage 01 concludes with a fully developed skillset, followed by a guaranteed $200/month salary.`,
    avatar:
@@ -435,10 +433,6 @@ const Carousel = () => {
   },
  ]);
 
- /*
-
-
-*/
  const [isNext, setIsNext] = useState(false);
  const [isPrev, setIsPrev] = useState(false);
  const carouselRef = useRef(null);
