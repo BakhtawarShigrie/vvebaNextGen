@@ -18,7 +18,6 @@ export default function Home() {
   if (window.location.hash === '#courses-section') {
    const element = document.getElementById('courses-section');
    if (element) {
-    // Small timeout to ensure page is loaded
     setTimeout(() => {
      element.scrollIntoView({behavior: 'smooth'});
     }, 100);
