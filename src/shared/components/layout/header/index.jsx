@@ -128,8 +128,8 @@ export const Header = () => {
          width: {xs: 100, sm: 120},
          height: {xs: 50, sm: 70},
          width: '150px',
-                 height: '100px',
-         left: "10%"
+         height: '100px',
+         left: '10%',
         }}
        >
         <Image
@@ -140,10 +140,15 @@ export const Header = () => {
         />
        </Box>
       </Link>
-     </Box>
-
+</Box>
+                                 
+                                 
      <Box
-      sx={{display: {xs: 'none', md: 'flex'}, alignItems: 'center', gap: 3}}
+      sx={{
+       display: {xs: 'none', sm: 'none', md: 'none', lg: 'flex'},
+       alignItems: 'center',
+       gap: 3,
+      }}
      >
       {menuItems.map((item, index) => (
        <Button
@@ -228,8 +233,7 @@ export const Header = () => {
        </Button>
       )}
      </Box>
-
-     <Box sx={{display: {xs: 'flex', md: 'none'}}}>
+     <Box sx={{display: {xs: 'flex', sm: 'block', lg: 'none'}}}>
       <IconButton onClick={() => setMobileMenuOpen(true)}>
        <MenuIcon />
       </IconButton>
