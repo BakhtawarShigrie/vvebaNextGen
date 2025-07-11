@@ -13,14 +13,14 @@ import Image from 'next/image';
 export default function BlogCard() {
  return (
   <Container maxWidth="xl" id="blogPost">
-   <div className="tp-home-4-service-title text-center mb-60">
+   <div className="tp-home-4-service-title text-center">
     <span className="tp-section-v_2-title-pre">Latest Insights</span>
     <h3 className="tp-section-title">
      Our Recent Blog Posts <br />
      and Articles
     </h3>
    </div>
-   <Box sx={{py: 8, px: 2}}>
+   <Box sx={{py: 3, px: 2}}>
     <Grid container spacing={2} justifyContent="center">
      {blogListing.courses?.slice(0, 4).map((blog) => (
       <Box

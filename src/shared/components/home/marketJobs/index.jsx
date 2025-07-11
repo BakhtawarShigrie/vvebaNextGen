@@ -11484,8 +11484,8 @@ export default function TechStackJobsMarket() {
  };
 
  return (
-  <div className="container-fluid p-4 mb-80 sm:mb-60">
-   <div className="tp-home-4-service-title text-center mt-60">
+  <div className="container-fluid p-4 mt-50 mb-20">
+   <div className="tp-home-4-service-title text-center">
     <span className="tp-section-v_2-title-pre">Latest Insights</span>
     <h3 className="tp-section-title">Jobs Posting platforms</h3>
    </div>

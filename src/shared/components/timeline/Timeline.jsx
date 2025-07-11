@@ -62,8 +62,8 @@ export default function Timeline() {
  };
 
  return (
-  <section className="timeline-section">
-   <div className="tp-home-4-service-title text-center mt-60">
+  <section className="timeline-section mt-50">
+   <div className="tp-home-4-service-title text-center">
     <span className="tp-section-v_2-title-pre">My Learning Journey</span>
     <h3 className="tp-section-title">Key milestones and Timeline </h3>
    </div>
