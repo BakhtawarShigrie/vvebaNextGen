@@ -204,7 +204,7 @@ const Carousel = () => {
           
           Now Entering Stage 5: Microservices Architect
           
-          With a powerful full-stack and DevOps foundation, students are now eligible for Stage 5:
+          With a powerful full-stack and DevOps foundation, students are now eligible for Stage 5.
           
           Level 09: Microservices Architect a specialized 01-year training (free, 4 hours/day) designed to prepare developers for scalable backend system design and cloud-native architecture. In this stage, students operate in simulated enterprise environments where service-based thinking, team collaboration, and distributed application design are key. This is where coders become system architects.
           Students who complete this stage will also receive a globally recognized certification in Spring Boot Java Microservices, proving their backend and architecture expertise to international employers.

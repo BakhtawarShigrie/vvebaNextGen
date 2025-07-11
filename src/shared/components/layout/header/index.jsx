@@ -67,9 +67,10 @@ export const Header = () => {
  const menuItems = [
   {label: '$10,000 Confirmed', action: () => router.push('/')},
   {label: 'Global Recognition', action: scrollToCourses},
-  {label: 'BootCamp Curriculum', action: () => router.push('/contact')},
-  {label: 'Course Details', action: () => router.push('/contact')},
+  {label: 'BootCamp Curriculum', action: () => router.push('#')},
+  {label: 'Course Details', action: () => router.push('#')},
   {label: 'About Us', action: () => router.push('/about')},
+  {label: 'Contact Us', action: () => router.push('/contact')}, // tempraray adddd
  ];
 
  const exploreCategories = {
@@ -154,12 +155,12 @@ export const Header = () => {
        </Button>
       ))}
 
-      <Button
+      {/* <Button
        onClick={handleExploreClick}
        sx={{color: '#353e45', textTransform: 'none', fontWeight: 'bold'}}
       >
        Explore More
-      </Button>
+      </Button> */}
 
       <Popover
        open={openExplore}
