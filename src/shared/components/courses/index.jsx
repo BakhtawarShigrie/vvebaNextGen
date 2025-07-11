@@ -570,99 +570,111 @@ const CourseSelector = () => {
         <h3 className="tp-section-title">Course Details</h3>
       </div>
       <Box
+  sx={{
+    width: '100%',
+    bgcolor: 'rgba(54, 63, 70, 0.1)',
+    borderRadius: 0,
+    padding: '7px 5px',
+    display: 'flex',
+    flexDirection: { xs: 'column', md: 'row' },
+    alignItems: { xs: 'flex-start', md: 'center' },
+    gap: { md: 6, xs: 1 },
+  }}
+>
+  <Box
+    sx={{
+      flexShrink: 0,
+      mb: { xs: 1, md: 0 },
+      display: 'flex',
+      justifyContent: { xs: 'flex-start', md: 'center' },
+    }}
+  >
+    <Button
+      onClick={handleClick}
+      sx={buttonStyles}
+    >
+      <Box
+        component="span"
         sx={{
-          width: '100%',
-          bgcolor: 'rgba(54, 63, 70, 0.1)',
-          borderRadius: 0,
-          padding: '7px 5px',
           overflow: 'hidden',
-          display: 'flex',
-          gap: { sm: 6, xs: 0 },
-          flexDirection: { xs: 'column', sm: 'row' },
-          alignItems: { xs: 'stretch', sm: 'center' },
+          textOverflow: 'ellipsis',
+          maxWidth: 'calc(100% - 32px)',
+          display: 'inline-block',
+          paddingLeft: "8px"
         }}
       >
-        <Box
-          sx={{
-            width: { xs: '100%', sm: 'auto' },
-            mb: { xs: 1, sm: 0 },
-            display: 'flex',
-            justifyContent: 'center',
-          }}
-        >
-          <Button
-            onClick={handleClick}
-            sx={buttonStyles}
-          >
-            <Box
-              component="span"
-              sx={{
-                overflow: 'hidden',
-                textOverflow: 'ellipsis',
-                maxWidth: 'calc(100% - 32px)',
-                display: 'inline-block',
-                paddingLeft: "8px"
-              }}
-            >
-              {selectedCourse.title}
-            </Box>
-            <ArrowDropDownIcon
-              sx={{
-                width: '24px',
-                flexShrink: 0,
-              }}
-            />
-          </Button>
-          <Menu
-            anchorEl={anchorEl}
-            open={open}
-            onClose={handleClose}
-            PaperProps={{
-              style: {
-                width: '20ch',
-              },
-            }}
-          >
-            {data.courses.map((course) => (
-              <MenuItem
-                key={course.id}
-                onClick={() => handleCourseSelect(course)}
-                selected={course.id === selectedCourse.id}
-                sx={{ justifyContent: 'center' }}
-              >
-                {course.title}
-              </MenuItem>
-            ))}
-          </Menu>
-        </Box>
-
-        <Box
-          sx={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            flexGrow: 1,
-            '& > button': {
-              flex: { xs: '1 0 100%', sm: 1 },
-              minWidth: { xs: '100%', sm: 'auto' },
-            },
-          }}
-        >
-          {selectedCourse.navigation.map((nav) => (
-            <Button
-              key={nav.id}
-              onClick={() => handleNavSelect(nav.id)}
-              sx={{
-                ...navButtonStyles,
-                color: selectedNav === nav.id ? 'primary.contrastText' : 'black',
-                background: selectedNav === nav.id ? selectedColor : 'transparent',
-                borderColor: selectedNav === nav.id ? 'primary.dark' : 'transparent',
-              }}
-            >
-              {nav.title}
-            </Button>
-          ))}
-        </Box>
+        {selectedCourse.title}
       </Box>
+      <ArrowDropDownIcon
+        sx={{
+          width: '24px',
+          flexShrink: 0,
+        }}
+      />
+    </Button>
+    <Menu
+      anchorEl={anchorEl}
+      open={open}
+      onClose={handleClose}
+      PaperProps={{
+        style: {
+          width: '20ch',
+        },
+      }}
+    >
+      {data.courses.map((course) => (
+        <MenuItem
+          key={course.id}
+          onClick={() => handleCourseSelect(course)}
+          selected={course.id === selectedCourse.id}
+          sx={{ justifyContent: 'center' }}
+        >
+          {course.title}
+        </MenuItem>
+      ))}
+    </Menu>
+  </Box>
+
+  <Box
+    sx={{
+      display: 'flex',
+      width: { xs: '100%', md: 'auto' },
+      overflowX: { xs: 'auto', md: 'visible' },
+      overflowY: 'hidden',
+      whiteSpace: 'nowrap',
+      scrollbarWidth: { xs: 'thin', md: 'auto' },
+      py: 1,
+      '&::-webkit-scrollbar': {
+        height: '4px',
+      },
+      '&::-webkit-scrollbar-thumb': {
+        backgroundColor: 'rgba(0,0,0,0.2)',
+        borderRadius: '2px',
+      },
+      '& > button': {
+        flexShrink: 0,
+        px: 2,
+        mx: 0.5,
+        minWidth: 'max-content',
+      },
+    }}
+  >
+    {selectedCourse.navigation.map((nav) => (
+      <Button
+        key={nav.id}
+        onClick={() => handleNavSelect(nav.id)}
+        sx={{
+          ...navButtonStyles,
+          color: selectedNav === nav.id ? 'primary.contrastText' : 'black',
+          background: selectedNav === nav.id ? selectedColor : 'transparent',
+          borderColor: selectedNav === nav.id ? 'primary.dark' : 'transparent',
+        }}
+      >
+        {nav.title}
+      </Button>
+    ))}
+  </Box>
+</Box>
 
       <Paper
         elevation={3}

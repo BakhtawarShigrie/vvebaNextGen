@@ -753,7 +753,7 @@ export default function TechStackDashboard() {
                 {currentContent.title}
               </Typography>
 
-              <TableContainer component={Paper} elevation={2}>
+              <TableContainer className='shadow-none' component={Paper} elevation={2}>
                 <Table aria-label="tech stack metrics">
                   <Box className="p-4">
                     {currentContent.data.map((row, index) => (

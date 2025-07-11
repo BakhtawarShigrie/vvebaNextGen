@@ -1827,6 +1827,10 @@ progress {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+  .fs-sm-1-custom {
+    font-size: 0.8rem !important;
+    line-height: 22px;
+  }
 }
 @media (max-width: 767.98px) {
   .table-responsive-md {
@@ -1845,6 +1849,9 @@ progress {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+  .mt-xl-5-custom {
+        margin-top: 3rem !important;
+    }
 }
 @media (max-width: 1399.98px) {
   .table-responsive-xxl {
@@ -6774,6 +6781,12 @@ fieldset:disabled .btn {
     position: sticky;
     bottom: 0;
     z-index: 1020;
+  }
+  .pt-xl-9 {
+    padding-top: 9rem !important;
+  }
+  .m-xl-custom {
+    margin: '50px 25px 100px 25px';
   }
 }
 @media (min-width: 1400px) {

@@ -74,8 +74,8 @@ export const HomeAreaService = () => {
 
  return (
   <>
-   <div className="card">
-    <div className="tp-home-4-service-title text-center mt-100">
+   <div className="card pt-xl-9">
+    <div className="tp-home-4-service-title text-center mt-xl-5-custom">
      <span className="tp-section-v_2-title-pre" style={{color: ' #ffffff'}}>
       Latest Insights
      </span>
@@ -83,8 +83,7 @@ export const HomeAreaService = () => {
     </div>
 
     <div
-     className="card__container containerCard"
-     style={{margin: '100px 25px'}}
+     className="card__container containerCard m-xl-custom"
     >
      {cards.map((card) => (
       <article
