@@ -117,7 +117,7 @@ export const Header = () => {
       display: 'flex',
       justifyContent: 'space-between',
       alignItems: 'center',
-      padding: {xs: '10px', sm: '20px 90px 0 90px'},
+      padding: {xs: '10px', lg: '20px 40px 0 40px'},
      }}
     >
      <Box sx={{display: 'flex', alignItems: 'center'}}>
