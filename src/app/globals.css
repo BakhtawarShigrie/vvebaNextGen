@@ -507,7 +507,7 @@ html, body {
 /* arrows */
 .arrows{
   position: absolute;
-  top: 90%;
+  top: 85%;
   right: 52%;
   z-index: 100;
   width: 300px;
@@ -702,12 +702,39 @@ html, body {
 }
 
 @media screen and (max-width: 1024px) { 
-  .carousel .list .item .content .topic{
-    font-size: 3em;
-}
-.carousel .list .item .content .title{
-  font-size: 3em;
-}
+      .carousel .list .item .content .topic{
+        font-size: 3em;
+    }
+    .carousel .list .item .content .title{
+      font-size: 3em;
+    }
+ }
+@media screen and (max-width: 426px) { 
+      .carousel .list .item .content .topic{
+        font-size: 25px;
+      }
+      .carousel .list .item .content .title{
+        font-size: 25px;
+      }
+      .carousel .list .item .content .des{
+        font-size: 12px;
+        line-height: normal;
+      }
+
+
+      .carousel .list .item .buttons{
+        display: grid;
+        grid-template-columns: repeat(1, 150px);
+        gap: 5px;
+      }
+      .carousel .list .item .buttons button{
+        height: 30px;
+        font-size: 12px;
+        width: 130px;
+      }
+      .arrows{
+        right: 60%;
+      }
  }
 
 

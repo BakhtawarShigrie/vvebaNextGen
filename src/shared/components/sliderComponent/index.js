@@ -3,7 +3,6 @@ import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react'
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import {
-   Box,
    Dialog,
    DialogContent,
    IconButton,
@@ -213,7 +212,7 @@ const Carousel = () => {
       avatar:
        'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-avatar-05.jpg',
       title: 'Microservices Architect',
-      topic: '$3000/month Guaranteed',
+      topic: '$3,000/month Guaranteed',
       description: [
        'We train you and ensure a job placement at VVEBA Pvt. Ltd.',
        'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
