@@ -17,8 +17,7 @@ export const HomeProcessArea = () => {
           <div className="tp-home-4-process-title">
            <span className="tp-section-v_2-title-pre">How it works</span>
            <h3 className="tp-section-title">
-            We have Some Basic <br />
-            Steps to Process
+            We have Some Basic Steps to Process
            </h3>
           </div>
          </div>
@@ -44,11 +43,10 @@ export const HomeProcessArea = () => {
             </div>
 
             <div className="tp-process-text-area">
-             <h2>Send us message</h2>
-             <p>
-              {' '}
-              We are wildly passionate about purpose and <br />
-              business research need{' '}
+             <h3 className="fs-4">Send us message</h3>
+             <p className="fs-sm-1-custom">
+              We are wildly passionate about purpose and
+              business research need
              </p>
             </div>
            </div>
@@ -70,9 +68,9 @@ export const HomeProcessArea = () => {
              />
             </div>
             <div className="tp-process-text-area">
-             <h2>Discuss with us</h2>
-             <p>
-              When we receive your message support team <br /> will check the
+             <h3 className="fs-4">Discuss with us</h3>
+             <p className="fs-sm-1-custom">
+              When we receive your message support team will check the
               document
              </p>
             </div>
@@ -95,10 +93,9 @@ export const HomeProcessArea = () => {
              />
             </div>
             <div className="tp-process-text-area">
-             <h2>Make a payment</h2>
-             <p>
-              Payment has never been so easy. We use reliable <br /> and secure
-              payment methods
+             <h3 className="fs-4">Make a payment</h3>
+             <p className="fs-sm-1-custom">
+              Payment has never been so easy. We use reliable and secure payment methods
              </p>
             </div>
            </div>

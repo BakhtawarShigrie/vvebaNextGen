@@ -11586,7 +11586,7 @@ export default function TechStackJobsMarket() {
         }
        </Typography>
 
-       <TableContainer component={Paper} elevation={2}>
+       <TableContainer className='shadow-none' component={Paper} elevation={2}>
         <Table aria-label="job listings" sx={{height: '100vh', overflow: 'hidden'}}>
          <Box className="p-4" sx={{height: '100%', overflowY: 'auto'}} >  {/*add*/}
           {sidebarItems[activeSidebarItem]

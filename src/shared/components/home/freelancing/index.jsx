@@ -1110,7 +1110,7 @@ export default function TechStackDashboard() {
         }
        </Typography>
 
-       <TableContainer component={Paper} elevation={2}>
+       <TableContainer className='shadow-none' component={Paper} elevation={2}>
         <Table aria-label="tech stack metrics">
          <Box className="p-4">
           {sidebarItems[activeSidebarItem]

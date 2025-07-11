@@ -10,7 +10,6 @@ export const HomeAreaAbout = () => {
     backgroundSize: 'cover',
     position: 'relative',
     zIndex: 1,
-    padding: '100px 0',
     height: '100%',
   }), []);
 
@@ -42,7 +41,7 @@ export const HomeAreaAbout = () => {
 
   return (
     <section
-      className="tp-about-parallax"
+      className="tp-about-parallax pt-xl-5 pb-xl-5"
       style={backgroundStyles}
     >
       {/* Overlay for better text readability */}

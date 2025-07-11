@@ -825,7 +825,7 @@ export default function TechStackJobs() {
         }
        </Typography>
 
-       <TableContainer component={Paper} elevation={2}>
+       <TableContainer className='shadow-none' component={Paper} elevation={2}>
         <Table aria-label="tech stack metrics">
          <Box className="p-4">
           {sidebarItems[activeSidebarItem]
@@ -878,8 +878,7 @@ export default function TechStackJobs() {
                <Pagination
                 count={7} // total pages
                 page={1} // current page
-                variant="text"
-                shape="text"
+                disabled
                 renderItem={(item) => (
                  <PaginationItem
                   {...item}
