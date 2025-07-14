@@ -76,9 +76,9 @@ export const HomeAreaService = () => {
   <>
    <div className="card pt-xl-9">
     <div className="tp-home-4-service-title text-center mt-xl-5-custom">
-     <span className="tp-section-v_2-title-pre" style={{color: ' #ffffff'}}>
+     {/* <span className="tp-section-v_2-title-pre" style={{color: ' #ffffff'}}>
       Latest Insights
-     </span>
+     </span> */}
      <h3 className="tp-section-title mb-0">Top Tier Certifications</h3>
     </div>
 

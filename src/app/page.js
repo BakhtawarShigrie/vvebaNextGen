@@ -27,7 +27,7 @@ export default function Home() {
  return (
   <main>
    <Carousel />
-   <CourseSelector />
+   {/* <CourseSelector /> */}
    <HomeAreaAbout />
    <PayScale />
    <FreelancePlatform />
@@ -35,7 +35,7 @@ export default function Home() {
    <HomeAreaService />
    <HomeProcessArea />
    <BlogCard />
-   <Timeline />
+   {/* <Timeline /> */}
    <BootcampsStacks />
    <TechStackJobsMarket />
   </main>

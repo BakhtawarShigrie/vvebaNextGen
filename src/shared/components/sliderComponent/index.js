@@ -73,7 +73,7 @@ const Carousel = () => {
           
           Level 05: MERN Stack Developer – Dive into full-stack development using MongoDB, Express.js, React, and Node.js to build scalable applications.
           
-          Level 06: Next.js Specialist – Specialize in professional-grade web development with a focus on performance, routing, rendering, and real-world deployment using Next.js.
+          Level 06: Next.js (Basic) – Specialize in professional-grade web development with a focus on performance, routing, rendering, and real-world deployment using Next.js.
           
           Every student completing Stage 02 earns a guaranteed job in our company with a $500/month salary, unlocking career-ready expertise and access to Stage 03 and beyond.`,
       avatar:
@@ -105,7 +105,7 @@ const Carousel = () => {
           
           Level 05: MERN Stack Developer – Create full-stack web apps using MongoDB, Express.js, React, and Node.js.
           
-          Level 06: Next.js Specialist (Basic) – Initial exposure to professional-grade routing, rendering, and performance optimizations using Next.js.
+          Level 06: Next.js (Basic) – Initial exposure to professional-grade routing, rendering, and performance optimizations using Next.js.
           
           <br/ > <br/ ><b>Now Entering Stage 03: Next.js Specialist</b>
           
@@ -143,7 +143,7 @@ const Carousel = () => {
           
           Level 05: MERN Stack Developer – Build full-stack applications using MongoDB, Express, React, and Node.js.
           
-          Level 06: Next.js Specialist (Basic) – Advance your skills in professional-level routing, performance, and full-stack rendering using Next.js.
+          Level 06: Next.js (Basic) – Advance your skills in professional-level routing, performance, and full-stack rendering using Next.js.
           
           Level 07: A 6-month specialist-level training focused entirely on mastering high-performance, production-grade applications with Next.js. Students work on real business-grade systems in collaborative environments, readying them for enterprise roles with full deployment capability.
           
@@ -192,7 +192,7 @@ const Carousel = () => {
           
           Level 05: MERN Stack Developer – Build full-stack applications using MongoDB, Express.js, React, and Node.js.
           
-          Level 06: Next.js Specialist (Basic) – Learn advanced routing, rendering, and optimization techniques in Next.js.
+          Level 06: Next.js (Basic) – Learn advanced routing, rendering, and optimization techniques in Next.js.
           
           Level 07: 6-month professional training focused on building real-world, enterprise-level applications using Next.js, along with real deployment practices, teamwork, and performance tuning.
           
@@ -238,7 +238,7 @@ const Carousel = () => {
           
           Level 05: MERN Stack Developer – Build full-stack apps using MongoDB, Express, React, and Node.js
           
-          Level 06: Next.js Specialist (Basic) – Dive deeper into routing, server-side rendering, and optimization using Next.js
+          Level 06: Next.js (Basic) – Dive deeper into routing, server-side rendering, and optimization using Next.js
           
           Level 07: An expert-level 6-month track focused on full product delivery using Next.js, performance tuning, and live deployment strategies
           
@@ -357,7 +357,7 @@ const Carousel = () => {
           
           Level 05: MERN Stack Developer – dynamic full-stack apps
           
-          Level 06: Next.js – hybrid rendering and scalability
+          Level 06: Next.js (Basic) – hybrid rendering and scalability
           
           Level 07: Product-grade application building with real-world teamwork using Next.js as a Next.js Specialist
           

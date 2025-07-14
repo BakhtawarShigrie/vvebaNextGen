@@ -729,7 +729,7 @@ export default function TechStackJobs() {
  return (
   <div className="container-fluid p-4 mb-30 mt-50">
    <div className="tp-home-4-service-title text-center">
-    <span className="tp-section-v_2-title-pre">Latest Insights</span>
+    {/* <span className="tp-section-v_2-title-pre">Latest Insights</span> */}
     <h3 className="tp-section-title">Top Jobs market platforms</h3>
    </div>
 
