@@ -38,7 +38,3 @@ app.prepare().then(() => {
       console.log(`> Ready on http://${hostname}:${port}`);
     });
 });
-
-
-
-// "start": "set NODE_ENV=production && node server.js"

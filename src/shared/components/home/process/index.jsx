@@ -15,9 +15,9 @@ export const HomeProcessArea = () => {
         >
          <div className="col-xl-12">
           <div className="tp-home-4-process-title">
-           <span className="tp-section-v_2-title-pre">How it works</span>
+           <span className="tp-section-v_2-title-pre">Our Goals</span>
            <h3 className="tp-section-title">
-            We have Some Basic Steps to Process
+            Our process begins with a few essential steps
            </h3>
           </div>
          </div>
@@ -43,10 +43,10 @@ export const HomeProcessArea = () => {
             </div>
 
             <div className="tp-process-text-area">
-             <h3 className="fs-4">Send us message</h3>
+             <h3 className="fs-4">Bootcamp</h3>
              <p className="fs-sm-1-custom">
-              We are wildly passionate about purpose and
-              business research need
+              VVEBA Bootcamp: 6-month training plus 2-month profile projects to
+              prepare you for high-paying tech jobs.
              </p>
             </div>
            </div>
@@ -68,10 +68,10 @@ export const HomeProcessArea = () => {
              />
             </div>
             <div className="tp-process-text-area">
-             <h3 className="fs-4">Discuss with us</h3>
+             <h3 className="fs-4">Software House </h3>
              <p className="fs-sm-1-custom">
-              When we receive your message support team will check the
-              document
+              We launched our own software house with expert teams you'll work
+              under on real industry projects.
              </p>
             </div>
            </div>
@@ -93,9 +93,10 @@ export const HomeProcessArea = () => {
              />
             </div>
             <div className="tp-process-text-area">
-             <h3 className="fs-4">Make a payment</h3>
+             <h3 className="fs-4">Product Development</h3>
              <p className="fs-sm-1-custom">
-              Payment has never been so easy. We use reliable and secure payment methods
+              We launched our own blockchain product that will make waves across
+              the world and shake the industry!
              </p>
             </div>
            </div>
