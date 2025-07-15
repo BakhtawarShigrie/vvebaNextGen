@@ -12,7 +12,7 @@ import Image from 'next/image';
 
 export default function BlogCard() {
  return (
-  <Container maxWidth="xl" id="blogPost">
+  <Container style={{paddingTop:"50px" , paddingBottom: "50px" , marginTop:"50px"}} maxWidth="xl" id="blogPost">
    <div className="tp-home-4-service-title text-center">
     {/* <span className="tp-section-v_2-title-pre">Latest Insights</span> */}
     <h3 className="tp-section-title">

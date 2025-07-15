@@ -29,12 +29,12 @@ export default function Home() {
    <Carousel />
    {/* <CourseSelector /> */}
    <HomeProcessArea />
+   <HomeAreaService />
+   <BlogCard />
    <HomeAreaAbout />
    <PayScale />
    <FreelancePlatform />
    <TechStackJobs />
-   <HomeAreaService />
-   <BlogCard />
    {/* <Timeline /> */}
    <BootcampsStacks />
    <TechStackJobsMarket />
