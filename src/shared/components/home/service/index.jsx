@@ -74,7 +74,7 @@ export const HomeAreaService = () => {
 
  return (
   <>
-   <div className="card pt-xl-9">
+   <div className="card pt-5">
     <div className="tp-home-4-service-title text-center mt-xl-5-custom">
      {/* <span className="tp-section-v_2-title-pre" style={{color: ' #ffffff'}}>
       Latest Insights
@@ -82,9 +82,7 @@ export const HomeAreaService = () => {
      <h3 className="tp-section-title mb-0">Top Tier Certifications</h3>
     </div>
 
-    <div
-     className="card__container containerCard m-xl-custom"
-    >
+    <div className="card__container containerCard m-xl-custom">
      {cards.map((card) => (
       <article
        key={card.id}
